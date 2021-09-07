@@ -21,6 +21,6 @@ jobs:
         run: |
           git config --global user.name 'Github actions bot'
           git config --global user.email ''
-          git add index.html
+          git add oceangliders_oxygen_sop_v0.pdf
           git commit -m "automated pandoc build"
           git push
