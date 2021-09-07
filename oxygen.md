@@ -1,5 +1,5 @@
 ---
-title: "OceanGliders standard operating procedure"
+title: "OceanGliders Standard Operating Procedure (SOP)"
 subtitle: "Oxygen"
 version: 0.2
 ---
