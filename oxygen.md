@@ -24,4 +24,12 @@ version: 0.2
 
 ## Pre-deployment calibration
 
+# Missions execution
+
+# Real time data processing & Quality Control
+
+# Post-recovery operations and calibrations
+
+# Delayed Mode Quality Control (DMQC)
+
 # References
