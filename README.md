@@ -1,4 +1,4 @@
-![oceangliders](images\logo-ocean-gliders.png)
+![oceangliders](images/logo-ocean-gliders.png)
 
 # Oxygen SOP Readme
 
