@@ -24,8 +24,3 @@ A PDF version can be found under [releases](https://github.com/OceanGliders/Oxyg
 Hosting this document on Github allows easy editing by contributors, no need to pull the repository to your local machine.
 However, [Github flavoured markdown](https://github.github.com/gfm/) is missing some features which are nice to have in the final version of the document, most notably citations.
 To add these features we use [Pandoc](https://pandoc.org/) and use Github actions to author a HTML and PDF version of the SOP.
-
-```
-pandoc oxygen.md -o index.pdf --bibliography oxygen.bib -V geometry="margin=2cm"
-```
-
