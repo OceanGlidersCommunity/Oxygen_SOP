@@ -6,7 +6,7 @@ This Github repository is for the [Oceangliders](https://www.oceangliders.org) O
 
 To read the SOP online simply follow the link [here](index.html).
 
-A PDF version can be found under [releases](https://github.com/OceanGliders/Oxygen_SOP/releases).
+A PDF version can be found under [releases](https://github.com/OceanGlidersCommunity/Oxygen_SOP/releases) once we've made one.
 
 ## How to contribute
 
