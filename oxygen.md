@@ -173,7 +173,7 @@ NOTE: A multipoint DO calibration is necessary to obtain new foil coefficients a
 The Winkler method is used to determine the concentration of dissolved oxygen in discrete water samples which is a highly accurate method for determination of dissolved oxygen (± 0.15 mumol kg-1). We recommend to follow the GO-SHIP protocol described by (@Langdon, 2010) and a well trained technician to do the sampling and analysis.
 
 Issues with Winkler method at low oxygen concentrations (below 1 muM, some researchers consider that values below 20 muM shouldn't be use for the sensor calibration): 
-- There are various issues with Winkler at low oxygen concentrations as Winkler always biases towards too high oxygen: the detection limit of the method is around 1 uM (ref), the oxygen absorbed in the plastic of the Niskin bottles might be transferred to  the water sampled (@ref needed).
+- There are various issues with Winkler at low oxygen concentrations as Winkler always biases towards too high oxygen: the detection limit of the method is around 1 uM (ref), the oxygen absorbed in the plastic of the Niskin bottles might be transferred to  the water sampled (reference needed).
 - Within the core of the Peruvian oxygen minimum zones oxygen concentrations at nmol levels are present
 other approaches for 0 % in-situ calibration (Revsbech et al. 2009) and (Thomsen et al. 2016).
 - STOX sensor, new lox-oxygen sensing foils (0-10% saturation) from Aanderaa.
@@ -183,7 +183,7 @@ other approaches for 0 % in-situ calibration (Revsbech et al. 2009) and (Thomsen
 This method is necessary to check drift over time as the foil wears out. It’s recommended to do it before the deployment and after recovery. NOTE: Sensor foil must be wet during all processes.   
 Some information to read before we proceed with the calibration:
 1. For a 100 % bubbled bath, connect an aquarium pump  to a tube which has been fitted with a porous stone (bubble dispenser) at the end. This will create small air bubbles that are sufficient to equilibrate the water rapidly. 
-NOTE: It is important that the aquarium pump takes in air from an open atmosphere outside, not from inside the room/laboratory where O2 levels will be affected by the on-going activities and/or the ventilation. To verify that optodes are in saturated water you can take them up from the water and hold them just above the surface for a few minutes. There should then be no change in the saturation readings (@Aanderaa Best Practices for Maintaining High Data Quality).
+NOTE: It is important that the aquarium pump takes in air from an open atmosphere outside, not from inside the room/laboratory where O2 levels will be affected by the on-going activities and/or the ventilation. To verify that optodes are in saturated water you can take them up from the water and hold them just above the surface for a few minutes. There should then be no change in the saturation readings (Aanderaa Best Practices for Maintaining High Data Quality).
 2. For 0 % saturation solution, add 20 g sodium sulphite to approx. 1 L. Sodium sulphite rapidly removes the oxygen and, as long as crystals of the compound can be seen, the oxygen level in the water will stay at 0. Sodium sulphite also has the advantage of being inexpensive and the level of toxicity is low. This solution is considered irritating and wearing appropriate PPE (gloves, goggles and lab coat) is recommended.
 There is also an option of removing the oxygen from the water bubbling nitrogen all time. In this case you have to be sure all oxygen is removed from the solution, this will happen after 3-5 minutes bubbling (maximum volume of 100 mL approx., for bigger volume you will have to increase the time). You have to keep injecting N2 during all time of the zero calibration.
 3. If any residue of the  sodium sulphite solution remains on the sensing surface, the 100 % measurement will be inaccurate. Therefore, 100 % DO saturation calibration should be performed first. To avoid contamination, always rinse well with distilled water.
@@ -266,7 +266,7 @@ Value of oxygen saturation should be 100 % or higher.
 12. Type Get All command for saving the final sensor configuration for reference.
 
 ### In situ intercomparison in the tank during ballasting
-This is an extra in situ intercomparison to carry out if  access to the tank while ballasting the glider is possible and the ballasting is close in time to the deployment (no more than 1-2 days before) (@refPLOCAN).
+This is an extra in situ intercomparison to carry out if  access to the tank while ballasting the glider is possible and the ballasting is close in time to the deployment (no more than 1-2 days before) (reference PLOCAN).
 Materials: Silicon tube for sampling, multiparameter sonde, BOD bottles, Winkler reagents, pipettes and tips (or a bottle-top dispenser for reagent bottles), titration material (buretes or titrator).
 1. The sensor should stay overnight submerged  in water to make the membrane wet. If the sensor is already mounted in the glider, use a wet sponge. NOTE: Keep the sensor in the dark all time.
 2. Once the glider is in the ballasting tanks, place the silicon tube for sampling near the sensor.
