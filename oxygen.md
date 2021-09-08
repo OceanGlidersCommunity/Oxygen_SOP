@@ -79,12 +79,12 @@ Consult your optode calibration sheet and confirm which terms are being used.
 There are three different calibration equations used to convert the measured phase to oxygen equations:
 The “Mk1” equation used by the older 3835 optodes uses a 5x4 matrix of coefficients. 
 The “Mk2” equation is used by non-multipoint calibrated 4330(F) and 4835 optodes, and uses a 2x14 matrix (FoilCoefA and FoilCoefB) together with a 2x27 matrix for the polynomial degree, this second matrix is the same across all of these type optodes. 
-Newer multipoint calibrated optodes use the Stern-Volmer (SVU) equation proposed by (Uchida et al., 2008) which has 6 terms.
+Newer multipoint calibrated optodes use the Stern-Volmer (SVU) equation proposed by [@Uchida2008] which has 6 terms.
 Non-multipoint foil calibrations are based on a common characterisation of a production batch. 
 Multipoint calibrations consist of 40 calibration points across a range of concentrations and temperatures and offer improved accuracy and should be preferred when purchasing these sensors.
 Consult your optode foil calibration document to verify which version your optode is using. 
 Understanding these differences in how the calculations are performed is important when recalculating oxygen from the phase readings, such as when compensating for lag.
-Regardless of the optode version, oxygen can be recalculated from calphase using the approach of Uchida et al., (2008).
+Regardless of the optode version, oxygen can be recalculated from calphase using the approach of [@Uchida2008].
 
 During the initial months of storage/use a Foil maturation process occurs resulting in lower readings by several %. 
 The maximum observed maturation induced drift on more than 1000 sensor has been 8 % for sensors with non-factory pre-matured WTW foils (model: 4835, 4531 and 5730 Steinsvik) and 6 % for sensors with factory pre-matured PSt3 foils (model: 4330, 4831, 5331 hadal). 
