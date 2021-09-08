@@ -39,8 +39,19 @@ First community and  user feedback was provided during the workshop by attendees
 # Introduction
 
 ## Aanderaa Optodes
+Aanderaa optodes are the most widely used oxygen sensor on gliders and a large body of work has now been dedicated to their characterisation (e.g. [@Bittig2018]).
+These sensors are based on the oxygen luminescence quenching of a platinum porphyrin complex (fluorescent indicator) that is immobilized in a sensing foil. These offer low power consumption, good long-term stability, low fouling sensitivity while not being sensitive to H2S or freezing.
+Aanderaa optodes have seen several important developments since they were introduced in 2002, with various hardware and firmware revisions which we outline below.
 
-[@Bittig2018]
+### Hardware design: blue or black
+While mostly cosmetic, the colour of the optode is a useful short-hand for the two main optode designs.
+The 3835 and 4835 optodes both feature a black housing with the temperature sensor integrated into the base of the sensor near the connector. 
+This results in a large thermal mass and increases the response time of the temperature sensor significantly. 
+The blue 4330 and 4831 sensors move the thermistor next to the sensing foil which results in much improved performance of the temperature sensor.
+All optodes other than the 4831 use a 10 pin Lemo connector, these connectors can’t be connected when wet and are prone to crevice corrosion. 
+The 4831 is therefore recommended with it’s Subconn wet-pluggable connector.
+Older optode versions (3830) have a titanium housing in the same form factor as the 3835. 
+Some early Slocum gliders were  delivered with optodes of type 5013, these are identical to the 3830.
 
 ## RBR coda T.ODO
 
