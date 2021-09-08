@@ -14,6 +14,7 @@ Version: 0.2
 Additional authors joined: Bastien Y. Queste, Gerd Krahmann, Charlotte Williams, Mun Woo, Charitha Pattiaratchi, Laurent Coppola, Tania Morales, Virginie Racape, Claire Gourcuff, John Allen, Eva Alou, Nikolas D. Zarokanellos 
 First community and  user feedback was provided during the workshop by attendees. 
 
+3) SOP was moved online by: Patricia López-García, Tom Hull, Sören Thomsen in September 2021.
 
 
 # Contributors
