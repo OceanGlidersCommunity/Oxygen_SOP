@@ -7,9 +7,9 @@ Version: 0.3
 ![](images/logo-ocean-gliders.png)
 
 # Authors
-1) Patricia López-García, Ocean Technology and Engineering Group, National Oceanography Centre, Southampton, UK
-2) Tom Hull, Centre for Environment Fisheries and Aquaculture Science, Lowestoft, UK
-3) Soeren Thomsen, LOCEAN, ISPL, Sorbonne University, Paris, France
+1) [Patricia López-García](https://github.com/patricialg), Ocean Technology and Engineering Group, National Oceanography Centre, Southampton, UK
+2) [Tom Hull](https://github.com/tomhull), Centre for Environment Fisheries and Aquaculture Science, Lowestoft, UK
+3) [Soeren Thomsen](https://github.com/soerenthomsen), LOCEAN, ISPL, Sorbonne University, Paris, France
 4) Johannes Hahn, Federal Maritime and Hydrographic Agency (BSH), Hamburg, Germany
 5) Bastien Y. Queste, Department of Marine Science, University of Gothenburg, Gothenburg, Sweden
 6) Gerd Krahmann, GEOMAR Helmholtz Centre for Ocean Research Kiel, Germany 
