@@ -62,7 +62,36 @@ Newer 4330F and 4831F optodes (Since July 8th 2018) use an improved formulation 
 It is recommended that older F-type instruments (with the pink foils) are upgraded with these improved foils. Otherwise foils should typically not be replaced unless mechanically damaged (light intrusion) as older foils perform better, with less drift than new ones.
 
 ### Calibration equation and firmware versions
+The way optode foils are initially calibrated by Aanderaa, and how the measured values are processed by the optode varies between different optode versions.
+The optode illuminates the sensing foil with both a red and blue LED. 
+Since the red light does not produce fluorescence in the foil the phase measurements are obtained from the difference between the blue (P1) and the red (P2) excitation.
 
+P_T = A(T) + (P1 - P2) · B(T)
+
+Where P_T is the temperature compensated phase (known as ‘TCphase‘). 
+A and B are temperature dependent coefficients which allow for temperature compensation of the phase measurement. 
+However for most 4330, 4831 and 4835 optodes these are not used, such that A(T) = 0 and B(T) = 1. 
+This can be confirmed by communicating with an optode and inspecting the ‘PTC0Coef‘ and ‘PTC1Coef‘ properties. 
+For older optodes (4330 serial numbers < 1000) the temperature compensated phase is then used to calculate ‘calphase‘ (P_c). 
+For newer optodes P_T = P_c. Similarly older optodes have their calibration (and recalibration) applied though the modification of the ‘PhaseCoef‘ coefficients. 
+On later optodes the calibration is not applied in phase space, but on the oxygen concentration though the use of the ‘ConcCoef0‘ and ‘ConcCoef1‘ coefficents (‘PhaseCoef0‘ and ‘PhaseCoef1‘ are set to zero and 1 respectively). 
+Consult your optode calibration sheet and confirm which terms are being used.
+There are three different calibration equations used to convert the measured phase to oxygen equations:
+The “Mk1” equation used by the older 3835 optodes uses a 5x4 matrix of coefficients. 
+The “Mk2” equation is used by non-multipoint calibrated 4330(F) and 4835 optodes, and uses a 2x14 matrix (FoilCoefA and FoilCoefB) together with a 2x27 matrix for the polynomial degree, this second matrix is the same across all of these type optodes. 
+Newer multipoint calibrated optodes use the Stern-Volmer (SVU) equation proposed by (Uchida et al., 2008) which has 6 terms.
+Non-multipoint foil calibrations are based on a common characterisation of a production batch. 
+Multipoint calibrations consist of 40 calibration points across a range of concentrations and temperatures and offer improved accuracy and should be preferred when purchasing these sensors.
+Consult your optode foil calibration document to verify which version your optode is using. 
+Understanding these differences in how the calculations are performed is important when recalculating oxygen from the phase readings, such as when compensating for lag.
+Regardless of the optode version, oxygen can be recalculated from calphase using the approach of Uchida et al., (2008).
+
+During the initial months of storage/use a Foil maturation process occurs resulting in lower readings by several %. 
+The maximum observed maturation induced drift on more than 1000 sensor has been 8 % for sensors with non-factory pre-matured WTW foils (model: 4835, 4531 and 5730 Steinsvik) and 6 % for sensors with factory pre-matured PSt3 foils (model: 4330, 4831, 5331 hadal). 
+During/between field deployments there are possibilities for end users to post-adjust the sensors either by a one-point air-saturation adjustment or by taking reference samples (e.g. water samples and Winkler titration) and/or using a well-calibrated sensor in parallel. 
+If done correctly such an adjustment should result in an absolute accuracy of around 1 % for multipoint calibrated sensors (model: 4330, 4831, 5331 and 5730) and 3 % for two-point calibrated (model: 4835, 4531), see below for more information about factory calibrations. 
+The drift will decrease over time so that during the second year it is not likely to be more than 1-2 %. 
+After this it should be less than 0.5 % per year, unless the foil is mechanically damaged (Aanderaa Best Practices for Maintaining High Data Quality). 
 
 ## RBR coda T.ODO
 
