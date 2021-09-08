@@ -61,6 +61,9 @@ However, removal of the protective layer makes the foil more susceptible to UV r
 Newer 4330F and 4831F optodes (Since July 8th 2018) use an improved formulation of the Presens fast foil which are less sunlight sensitive and have much lower noise levels. These can be identified by their white appearance. 
 It is recommended that older F-type instruments (with the pink foils) are upgraded with these improved foils. Otherwise foils should typically not be replaced unless mechanically damaged (light intrusion) as older foils perform better, with less drift than new ones.
 
+### Calibration equation and firmware versions
+
+
 ## RBR coda T.ODO
 
 ## JFE Advantech RINKO
