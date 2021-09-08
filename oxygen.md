@@ -108,7 +108,7 @@ In this procedure, the DO reference standards are produced by saturing the prima
 
 The DO concentration is calculated from the Uchida et al. (2010) equation with 9 calibration coefficients. 
 A second equation is used to take into account the pressure effect (linear equation with one calibration coefficient). 
-Finally, the salinity-compensated DO concentration is calculated by multiplying the factor of the effect of salt on the oxygen solubility (Benson and Krause 1984, Garcia and Gordon 1992). 
+Finally, the salinity-compensated DO concentration is calculated by multiplying the factor of the effect of salt on the oxygen solubility [@BensonKrause1984], Garcia and Gordon 1992). 
 This is similar to procedures used on other optodes.
 
 Recent deployments of a SeaExplorer glider equipped with an AROD-FT sensor have shown long-term stability (low drift over time) but with a significant offset observed during sections in the Ligurian Sea (on average 10-15 µmol/kg). 
