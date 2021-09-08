@@ -1,7 +1,7 @@
 ---
 Title: "OceanGliders Standard Operating Procedure (SOP)"
 Subtitle: "Oxygen"
-Version: 0.2
+Version: 0.3
 ---
 
 ![](images/logo-ocean-gliders.png)
