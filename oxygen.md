@@ -223,6 +223,7 @@ Type Get All command for saving the initial sensor configuration to be able to r
             
            Do CollectCalDataSat
 The Save command is automatically performed.
+
 4. Set the CalDataAPress property to the actual air pressure in hPa at the site:
            
            Set Passkey(1000)
@@ -232,7 +233,8 @@ The Save command is automatically performed.
            Save
 5. Take 2 samples for Winkler measurement.
 
-6. Dry the sensor carefully (make sure that the sensing foil is free from air bubbles) and immerse it in 0 % bath (0 % almost always reads correctly and is part of the calibration process). Wait until both the temperature and the phase measurements have stabilized (approx. 3 min).
+6. Dry the sensor carefully (make sure that the sensing foil is free from air bubbles) and immerse it in 0 % bath (0 % almost always reads correctly and is part of the calibration process). 
+Wait until both the temperature and the phase measurements have stabilized (approx. 3 min).
 
 7. To store calibration values for 0 %:
            
@@ -240,6 +242,7 @@ The Save command is automatically performed.
            
            Do CollectCalDataZero
 The Save command is automatically performed.
+
 8. To accept the new calibration and store the new coefficients in the sensor:
           
            Set Passkey(1000)
@@ -247,8 +250,12 @@ The Save command is automatically performed.
            Do Calibrate
 The  Save command is automatically performed.
 
-9. Rinse well with distilled water and dry the sensor foil carefully and check how it works at air. Save the data to check the sensor performance through time (a barometer is needed). Value of oxygen saturation should be 100 % or higher.
+9. Rinse well with distilled water and dry the sensor foil carefully and check how it works at air. 
+Save the data to check the sensor performance through time (a barometer is needed). 
+Value of oxygen saturation should be 100 % or higher.
+
 10. Put the sensor back into the 0 % water, the reading should drop to zero.
+
 11. Set back the Interval property to 1 second (or the desired sampling frequency).
             
             Set Passkey(1000)
