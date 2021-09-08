@@ -16,7 +16,7 @@ First community and  user feedback was provided during the workshop by attendees
 
 3) SOP moved to this repository by: Patricia López-García, Tom Hull, Sören Thomsen in September 2021.
 
-4) Next steps: Several months of community review on GitHub starting in October 2021.
+4) Next step: Several months of community review on GitHub starting in October 2021.
 
 # Contributors
 
