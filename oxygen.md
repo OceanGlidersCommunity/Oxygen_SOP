@@ -73,6 +73,8 @@ Some early Slocum gliders were  delivered with optodes of type 5013, these are i
 
 # Delayed Mode Quality Control (DMQC)
 
+# Data delivery to public open access archives
+
 # References
 
 # Acknowledgement 
