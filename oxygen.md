@@ -29,12 +29,13 @@ Version: 0.3
 1) Initial SOP was drafted by Patricia López-García, Tom Hull, Sören Thomsen and Johannes Hahn.
 
 2) Two expert sessions during OceanGliders Best Practice Workshop, May 11 - 25 2021. 
-Additional authors joined: Bastien Y. Queste, Gerd Krahmann, Charlotte Williams, Mun Woo, Charitha Pattiaratchi, Laurent Coppola, Tania Morales, Virginie Racape, Claire Gourcuff, John Allen, Eva Alou, Nikolas D. Zarokanellos 
-First community and  user feedback was provided during the workshop by attendees. 
+Additional authors joined: Bastien Y. Queste, Gerd Krahmann, Charlotte Williams, Mun Woo, Charitha Pattiaratchi, Laurent Coppola, Tania Morales, Virginie Racape, Claire Gourcuff, John Allen, Eva Alou, Nikolas D. Zarokanellos
 
-3) SOP moved to this repository by: Patricia López-García, Tom Hull, Sören Thomsen in September 2021.
+3) First community and  user feedback was provided during the workshop by attendees. 
 
-4) Next step: Several months of community review on GitHub starting in October 2021.
+4) SOP moved to this repository by: Patricia López-García, Tom Hull, Sören Thomsen in September 2021.
+
+5) Next step: Several months of community review on GitHub starting in October 2021.
 
 # Introduction
 This standard operating procedure (SOP) document for dissolved oxygen (DO) aims to guide the user through the steps necessary for collection of good quality dissolved oxygen using gliders for both real time and post deployment data streams.
