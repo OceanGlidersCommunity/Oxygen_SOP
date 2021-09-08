@@ -210,9 +210,9 @@ Materials: Distilled water, aquarium pump, 1L and small volume beakers, stirrer 
 Type Get All command for saving the initial sensor configuration to be able to restore old values in case something goes wrong.
 1. With the sensor submerged in  the 100% water, connect to it and start measuring.  Set the Interval property to 30 seconds. (This interval is recommended during the calibration to reduce the risk of self heating in the small container).
              
-             Set Passkey(1000)
+            Set Passkey(1000)
             
-             Set Interval(30)
+            Set Interval(30)
             
             Save
 2. Wait until both the temperature and the phase measurements are stabilized.
