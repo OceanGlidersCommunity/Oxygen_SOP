@@ -37,6 +37,7 @@ First community and  user feedback was provided during the workshop by attendees
 4) Next step: Several months of community review on GitHub starting in October 2021.
 
 # Introduction
+This standard operating procedure (SOP) document for dissolved oxygen (DO) aims to guide the user through the steps necessary for collection of good quality dissolved oxygen using gliders for both real time and post deployment data streams.
 
 ## Aanderaa Optodes
 Aanderaa optodes are the most widely used oxygen sensor on gliders and a large body of work has now been dedicated to their characterisation (e.g. [@Bittig2018]).
