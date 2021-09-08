@@ -118,7 +118,7 @@ Deployments in the Bornholm Basin have shown good agreement across a wide range 
 # Pre-deployment operations
 
 ## Storage and cleaning
-Optode foils typically drift more while in storage than while in use, the reasons for this are thought to be due to exposure to UV radiation and dry air [@Bittig2018] and (@Aanderaa). We recommend that all optodes should be stored away from the light (especially fluorescent lights), keep the foil humid and use the plastic caps provided with the sensor. Two-point calibration prior to deployment is always recommended.
+Optode foils typically drift more while in storage than while in use, the reasons for this are thought to be due to exposure to UV radiation and dry air [@Bittig2018] and (Aanderaa). We recommend that all optodes should be stored away from the light (especially fluorescent lights), keep the foil humid and use the plastic caps provided with the sensor. Two-point calibration prior to deployment is always recommended.
 Sensors should be cleaned before storage and stored with black caps on including some tap water, or with a piece of wet cotton taped against the foil. If sensors are stored dry the foil will dry out which could lead to 1-2 % lower readings. The sensor then needs to be placed in water to hydrate at least 24 h prior to starting field measurements again.
 After recovery the sensor and to remove any biofouling, this is the protocol recommended by the manufacturer: 
 1. If the sensor has been for too long exposed to the air, leave it overnight in a vinegar solution.
@@ -216,6 +216,7 @@ Type Get All command for saving the initial sensor configuration to be able to r
             
             Save
 2. Wait until both the temperature and the phase measurements are stabilized.
+
 3. Store calibration values by typing:
            
            Set Passkey(1000)
@@ -230,7 +231,9 @@ The Save command is automatically performed.
           
            Save
 5. Take 2 samples for Winkler measurement.
+
 6. Dry the sensor carefully (make sure that the sensing foil is free from air bubbles) and immerse it in 0 % bath (0 % almost always reads correctly and is part of the calibration process). Wait until both the temperature and the phase measurements have stabilized (approx. 3 min).
+
 7. To store calibration values for 0 %:
            
            Set Passkey(1000)
@@ -243,6 +246,7 @@ The Save command is automatically performed.
            
            Do Calibrate
 The  Save command is automatically performed.
+
 9. Rinse well with distilled water and dry the sensor foil carefully and check how it works at air. Save the data to check the sensor performance through time (a barometer is needed). Value of oxygen saturation should be 100 % or higher.
 10. Put the sensor back into the 0 % water, the reading should drop to zero.
 11. Set back the Interval property to 1 second (or the desired sampling frequency).
