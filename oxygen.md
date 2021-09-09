@@ -277,9 +277,6 @@ Materials: Silicon tube for sampling, multiparameter sonde, BOD bottles, Winkler
 # Missions execution
 This section covers the activities of those deploying and recovering the gliders in the field in addition to best practices for glider pilots.
 
-## Send OceanGliders metadata and set up real time data flow 
-- to add where do users find this information
-
 ## Deployment
 While keeping the oxygen sensor protected from sunlight and kept moist any lens cover must be removed prior to deployment, use of highly visible material, such as a red flag, can aid in ensuring it’s removal in addition to the pre-deployment checklist.
 
@@ -344,8 +341,12 @@ Thus calibration points below the mixed layer are often not suitable. Look for r
 
 3) Park the glider for a few hours in the OMZ core at different temperatures to get an in-situ zero calibration points.
 
+## Piloting
 
 # Real time data processing & Quality Control
+
+## Send OceanGliders metadata and set up real time data flow 
+- to add where do users find this information
 
 # Post-recovery operations and calibrations
 
