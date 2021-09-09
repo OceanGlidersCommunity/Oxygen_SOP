@@ -361,6 +361,19 @@ In regions with known oxygen concentrations i.e. within the core of the Peruvian
 For this glider can be parked at this depth to get a 0 calibration at the beginning and at the end of the deployment. 
 This can also be done by adding different depth/temperature levels if the anoxic layer is thick enough to cover different temperatures. i.e. further offshore where the OMZ is several 100 m thick.
 
+#### In-air calibration
+In-air calibration can be carried out if optodes are attached in a way that they reach out of the water when the glider is surfacing (Nicholson and Feen 2017) as done also for long float deployments (Bittig et al. 2018). 
+This can be valuable in particular if no 0 / 100 % lab calibration or CTD intercomparison is available as well as for long deployments. 
+Contamination from splashing water and/or residual seawater on the sensor face have to be considered and corrected (Nisholson and Feen, 2017). 
+Few gliders currently have this capability.
+
+### Gather data for in-situ inter-comparisons
+Other oxygen monitoring platforms, such as moorings can be used as an inter-comparison reference if the quality of these data is better than those of the glider.
+The mission plan should aim to pass close to these platforms, ideally multiple times across the length of the mission.
+
+### Observe data for evidence of biofouling
+- to add text and figure to allow user separating real and “biofouling” diurnal cycling
+
 # Real time data processing & Quality Control
 
 ## Send OceanGliders metadata and set up real time data flow 
