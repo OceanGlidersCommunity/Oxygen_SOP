@@ -330,7 +330,7 @@ NOTE: Save all data from the profiles and calibrations before deploying the glid
 Always record Dphase (Coppola et al., 2013).
 
 ## Deploying gliders in Oxygen Minimum Zones (OMZ)
-Note that the classical Winkler titration method is not reliable at oxygen concentrations in OMZ core (Thomsen et al., 2016) since the method has a detection limit of around 1 uM (add ref). 
+Note that the classical Winkler titration method is not reliable at oxygen concentrations in OMZ core [@Thomsen2016] since the method has a detection limit of around 1 uM (add ref). 
 
 Steps recommended in these regions: 
 1) Do a 0/100 % calibration before and after deployment in the lab.
@@ -357,12 +357,12 @@ If bio-fouling is expected during the deployment it is better to collect up-down
 - 
 ### Gather data to correct for sensor drift
 #### Deep water masses or known anoxic waters
-In regions with known oxygen concentrations i.e. within the core of the Peruvian Oxygen Minimum Zone (OMZ) oxygen concentrations of close to zero or few nmol are typical (Revsbech et al. 2008, Kalvelage et al. XXXX, Thomsen et al, 2016) in-situ calibration points can be recorded. 
+In regions with known oxygen concentrations i.e. within the core of the Peruvian Oxygen Minimum Zone (OMZ) oxygen concentrations of close to zero or few nmol are typical [@Revsbech2009], [@Kalvelage2013], [@Thomsen2016] in-situ calibration points can be recorded. 
 For this glider can be parked at this depth to get a 0 calibration at the beginning and at the end of the deployment. 
 This can also be done by adding different depth/temperature levels if the anoxic layer is thick enough to cover different temperatures. i.e. further offshore where the OMZ is several 100 m thick.
 
 #### In-air calibration
-In-air calibration can be carried out if optodes are attached in a way that they reach out of the water when the glider is surfacing (Nicholson and Feen 2017) as done also for long float deployments (Bittig et al. 2018). 
+In-air calibration can be carried out if optodes are attached in a way that they reach out of the water when the glider is surfacing (Nicholson and Feen 2017) as done also for long float deployments [@Bittig2018] 
 This can be valuable in particular if no 0 / 100 % lab calibration or CTD intercomparison is available as well as for long deployments. 
 Contamination from splashing water and/or residual seawater on the sensor face have to be considered and corrected (Nisholson and Feen, 2017). 
 Few gliders currently have this capability.
