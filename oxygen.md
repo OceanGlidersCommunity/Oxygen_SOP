@@ -99,7 +99,7 @@ After this it should be less than 0.5 % per year, unless the foil is mechanicall
 
 ## RBR coda T.ODO
 The RBRcoda T.ODO uses the same foils and methods as the 4831 and 4831F so everything above specified for the 4831 will also apply to those instruments as well.
-RBR refers to the standard optode (~30 s tau) foil as “slow” and the fast (~8 s) as the standard.
+RBR refers to the standard optode (~30 s \tau) foil as “slow” and the fast (~8 s) as the standard.
 They also use further foil design (~1 s response) which they call fast. 
 The RBR sensor has a smaller form factor than the Aandera optodes, but is overall more similar to a 4831 with the temperature sensor very closely located to the sensing foil. 
 This sensor is still fairly recent on gliders and little is known for now.
