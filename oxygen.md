@@ -400,7 +400,7 @@ If appropriate, a time lag correction may be applied already in RT taking into a
 - to add
 
 ### Outlier and spike check
-Outliers and spikes are difficult to detect as optodes smooth out any spikes due to their slow response time.
+Outliers and spikes are difficult to detect as optodes typically smooth out spikes due to their slow response time.
 
 ### Drift check
 - to add
