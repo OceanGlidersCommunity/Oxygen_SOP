@@ -307,9 +307,27 @@ The sonde must be calibrated before and after the deployment/recovery (some sond
 If the glider is deployed/recovered from a research vessel equipped with a CTD and a calibrated O2 sensor, the glider optode can either be connected directly to the CTD profiler if able to receive the digital (RS232) output from the Optode (Ushida et al., 2010), or attached via a data logger. 
 Record down- and upcast data to allow hysteresis correction. The Optode data obtained during the bottle-firing stop for collection of water samples can be used for in situ calibration, since the difference between the downcast and upcast oxygen profiles is relatively small (1 uM approx., Ushida et al., 2008). 
 The error in the Optode can be reduced by allowing sufficient time for the sensor equilibration after the stop (minimum 2 min as recommended by Hahn et al., (2014)). 
-NOTE: For Oxygen Minimum Zone regions follow recommendations in section XXX.
+NOTE: For Oxygen Minimum Zone regions follow recommendations in the section below.
+
 To summarize, the steps we recommend to follow to calibrate oxygen sensors during regular CTD/O2 casts before deployment and after recovery, are:
 
+1) Attach the glider's O2 sensors (optodes) to the CTD rosette at the same depths where the CTD oxygen sensor pumps in the water.
+
+2) Record down- and upcast data. Timestamps of oxygen measurements are required. In case a logger is used, ensure before the calibration cast that the internal logger time is correct (i.e. in line with the CTD time).
+
+3) Collect calibration points against measurements with the CTD rosette oxygen sensor, which itself is calibrated against Winkler titrated water samples (Langdon, 2010). 
+
+4) Reference points for calibration are the same as the calibration stops. As for salinity, samples for Winkler titration will be collected during the upcast. When reached the selected depth, wait at least 2 min to ensure an equilibrated oxygen sensor (Hahn et al., 2014). Fire the bottles after this time. 
+
+5) Do 0% and 100% calibration after recovering the sensor at two different temperatures (warm and cold lab). If 100% is not possible, 0% should be done to ensure that the central temperature range at zero oxygen is covered within the calibration (Hahn et al., 2014). 
+
+The combined data collected following these (CTD and lab calibration) steps will be used to evaluate the calibration coefficients and it’s called hypercast calibration.
+
+NOTE: This calibration should be done before the deployment and after the recovery. 
+It’s important that the membrane is kept wet.
+
+NOTE: Save all data from the profiles and calibrations before deploying the glider. 
+Always record Dphase (Coppola et al., 2013).
 
 # Real time data processing & Quality Control
 
