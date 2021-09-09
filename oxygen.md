@@ -390,12 +390,16 @@ If appropriate, a time lag correction may be applied already in RT taking into a
 
 ## Real Time quality control (RTQC)
 
+### Global range check
+- to add
+
 ### Stuck value check
 - to add
 
 ### Frozen profile check
+- to add
 
-### Outlier/spike check
+### Outlier and spike check
 Outliers and spikes are difficult to detect as optodes smooth out any spikes due to their slow response time.
 
 ### Drift check
