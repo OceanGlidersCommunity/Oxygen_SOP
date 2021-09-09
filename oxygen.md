@@ -286,6 +286,10 @@ Materials: Silicon tube for sampling, multiparameter sonde, BOD bottles, Winkler
 4. A multiparameter sonde with a DO sensor whose precision is less than 0.1 % can be measured in the tank near the glider’s sensors (record at least values for Temperature, Conductivity and DO). NOTE: Some DO sensors consume oxygen so, in this case, it’s recommended to move the sonde often to renew the water so the DO value does not decrease.
 5. Check the outset of the sensor by comparing  values measured by the Optode sensor with winkler values after measuring the bottle samples in the lab.
 
+| ![WinklerBallasting](images/winkler-ballasting.png) |
+|:--:|
+| *Figure xx: Taking samples for Winkler analysis during ballasting in the glider tank at PLOCAN facilities. * |
+
 # Missions execution
 This section covers the activities of those deploying and recovering the gliders in the field in addition to best practices for glider pilots.
 
