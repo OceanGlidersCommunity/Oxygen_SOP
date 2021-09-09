@@ -159,13 +159,65 @@ Some information to read before we proceed with the calibration: 1. For a 100 % 
 <h4 id="deep-water-masses-or-known-anoxic-waters">Deep water masses or known anoxic waters</h4>
 In regions with known oxygen concentrations i.e. within the core of the Peruvian Oxygen Minimum Zone (OMZ) oxygen concentrations of close to zero or few nmol are typical (Revsbech et al. 2008, Kalvelage et al. XXXX, Thomsen et al, 2016) in-situ calibration points can be recorded. For this glider can be parked at this depth to get a 0 calibration at the beginning and at the end of the deployment. This can also be done by adding different depth/temperature levels if the anoxic layer is thick enough to cover different temperatures. i.e. further offshore where the OMZ is several 100 m thick.</li>
 </ul>
+<h4 id="in-air-calibration">In-air calibration</h4>
+<p>In-air calibration can be carried out if optodes are attached in a way that they reach out of the water when the glider is surfacing (Nicholson and Feen 2017) as done also for long float deployments (Bittig et al. 2018). This can be valuable in particular if no 0 / 100 % lab calibration or CTD intercomparison is available as well as for long deployments. Contamination from splashing water and/or residual seawater on the sensor face have to be considered and corrected (Nisholson and Feen, 2017). Few gliders currently have this capability.</p>
+<h3 id="gather-data-for-in-situ-inter-comparisons">Gather data for in-situ inter-comparisons</h3>
+<p>Other oxygen monitoring platforms, such as moorings can be used as an inter-comparison reference if the quality of these data is better than those of the glider. The mission plan should aim to pass close to these platforms, ideally multiple times across the length of the mission.</p>
+<h3 id="observe-data-for-evidence-of-biofouling">Observe data for evidence of biofouling</h3>
+<ul>
+<li>to add text and figure to allow user separating real and “biofouling” diurnal cycling</li>
+</ul>
 <h1 id="real-time-data-processing-quality-control">Real time data processing &amp; Quality Control</h1>
 <h2 id="send-oceangliders-metadata-and-set-up-real-time-data-flow">Send OceanGliders metadata and set up real time data flow</h2>
 <ul>
 <li>to add where do users find this information</li>
 </ul>
+<h2 id="real-time-data-processing">Real Time data processing</h2>
+<p>In order to get usable oxygen values in Real Time (RT), it is important to access the appropriate calibration coefficients associated with the oxygen sensor onboard the glider. Dissolved oxygen values computed inside the glider may not always be appropriate, and it is also important that the glider is configured so that intermediate parameters (phase measurements) are sent in RT, to allow dissolved oxygen computation using the best method associated with the sensor model, using both intermediate parameters and calibration coefficients (see http://dx.doi.org/10.13155/39795). In parallel, cross-check can be performed to ensure that the coefficient calibrations are appropriate by comparing dissolved oxygen internally computed and recomputed using the intermediate parameters. If appropriate, a time lag correction may be applied already in RT taking into account the sensor time response, using either the manufacturer value or any value defined from previous deployments with the specific sensor. A real time lag correction might improve the useability of the real time data significantly.</p>
+<ul>
+<li>to add “oxygen saturation + salinity compensation”</li>
+<li>to add examples of bad computation</li>
+</ul>
+<h2 id="real-time-quality-control-rtqc">Real Time quality control (RTQC)</h2>
+<h3 id="global-range-check">Global range check</h3>
+<ul>
+<li>to add</li>
+</ul>
+<h3 id="stuck-value-check">Stuck value check</h3>
+<ul>
+<li>to add</li>
+</ul>
+<h3 id="frozen-profile-check">Frozen profile check</h3>
+<ul>
+<li>to add</li>
+</ul>
+<h3 id="outlier-and-spike-check">Outlier and spike check</h3>
+<p>Outliers and spikes are difficult to detect as optodes typically smooth out spikes due to their slow response time.</p>
+<h3 id="drift-check">Drift check</h3>
+<ul>
+<li>to add</li>
+</ul>
+<h3 id="compare-with-climatologies-and-deep-waters">Compare with climatologies and deep waters</h3>
+<ul>
+<li>to add</li>
+<li><h3 id="neural-network-approaches">Neural-Network approaches</h3></li>
+<li>to add</li>
+</ul>
 <h1 id="post-recovery-operations-and-calibrations">Post-recovery operations and calibrations</h1>
+<p>At first users should report that their mission is over to support(at)oceanobs.org</p>
+<h2 id="biofouling-assessment">Biofouling assessment</h2>
+<p>Fotos should be taken for biofuiling assessment. - to add: examples of typical biofouling</p>
+<h2 id="sensor-storage">Sensor storage</h2>
+<p>Foil must be kept wet and protected from light after recovery until validation in the lab.</p>
+<h2 id="lab-calibration">Lab calibration</h2>
+<p>When the glider is recovered, a 0% and 100% calibration is recommended as outlined above at two different temperatures levels.</p>
+<h2 id="field-calibration">Field calibration</h2>
+<p>Follow protocol described in section ‘Calibration during deployment/recovery from a ship with a CTD rosette equipped with a calibrated oxygen sensor’.</p>
 <h1 id="delayed-mode-quality-control-dmqc">Delayed Mode Quality Control (DMQC)</h1>
+<h2 id="sensor-drift-correction">Sensor drift correction</h2>
+<p>Aanderaa describe the in-situ drift characteristics of the 4330 and 4831 series optodes as being &lt; 0.5 % per year and they make no distinction between the standard or fast (“F”-type) foils (Tengberg and Hovdenes, 2014). Optodes made after 2016 undergo a “burning-in period” during manufacture and therefore have substantially less drift (Tengberg &amp; Hovdenes, 2014). Drift is a function of UV exposure and sampling frequency. The foil becomes less sensitive (therefore drift is always towards lower oxygen concentrations). The drift is believed to be due to bleaching of the luminophore foil via ambient light; it is particularly sensitive to fluorescent lights. The bleaching effect is partly counteracted by a destabilising effect on the luminophore. Together this manifests as a positive factor on the oxygen concentration (slope &gt; 1) and a positive offset at zero oxygen.</p>
+<p>Queste (2018) recorded drifts of 0.0176 and 0.0109 umol/kg/day for two Seagliders using inflections in the oxygen profiles as the glider penetrated to Arabian Sea Oxygen Minimum Zone and the sodium sulphite method, but no Winklers. Bittig and Koertzinger (2015) report a 10 % drift over 3 years, but this is a combination of in-situ and ex-situ drift. Bittig et al. (2018) determined the drift to be typically 0.1-0.2 % per year in-situ. A drift of 0.0004 % d-1 has been calculated based on UEA seagliders against Baltic deep water oxygen climatology (Possenti et al., 2020). Tom Hull found values between 0.0004 and 0.0035 % d-1 across 16 vehicles in-situ (slocums and seagliders with 4330F (old foil formulation), 4835 and 4831 optodes (unpublished?).</p>
+<p>The drift correction should be applied to the oxygen concentration, not the measured phase (Bittig et al, 2018).</p>
 <h1 id="data-delivery-to-public-open-access-archives">Data delivery to public open access archives</h1>
 <h1 id="acknowledgement">Acknowledgement</h1>
 <p>The coordination of producing this document was supported by the European Commission via the EuroSea.eu project under H2020 funding (Grant agreement 862626) and GROOM || Horizon 2020 research and innovation programme (Grant agreement No 951842).</p>
