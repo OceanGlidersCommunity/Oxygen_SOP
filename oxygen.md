@@ -446,6 +446,13 @@ Tom Hull found values between 0.0004 and 0.0035 % d-1 across 16 vehicles in-situ
 
 The drift correction should be applied to the oxygen concentration, not the measured phase (Bittig et al, 2018).
 
+## Sensor time response correction
+In all but the most homogeneous waters it is essential to correct for the slow time response of optodes. This is particularly critical for optodes using the “standard” black foils.
+Correction requires the collection of optode phase and temperature and therefore the instruments and gliders should be configured to collect these variables and not just oxygen concentration or saturation. 
+Accurate time-stamps for these data are required to be able to perform this correction.
+
+- add rest after join discussion and convergence
+
 # Data delivery to public open access archives
 
 # Acknowledgement 
