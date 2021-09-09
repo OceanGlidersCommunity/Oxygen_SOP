@@ -277,7 +277,7 @@ Materials: Silicon tube for sampling, multiparameter sonde, BOD bottles, Winkler
 # Missions execution
 This section covers the activities of those deploying and recovering the gliders in the field in addition to best practices for glider pilots.
 
-## Send OceanGliders metadata and set up real time data flow: 
+## Send OceanGliders metadata and set up real time data flow 
 - to add where do users find this information
 
 ## Deployment
