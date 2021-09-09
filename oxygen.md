@@ -123,6 +123,11 @@ Deployments in the Bornholm Basin have shown good agreement across a wide range 
 ## Storage and cleaning
 Optode foils typically drift more while in storage than while in use, the reasons for this are thought to be due to exposure to UV radiation and dry air [@Bittig2018] and (Aanderaa). We recommend that all optodes should be stored away from the light (especially fluorescent lights), keep the foil humid and use the plastic caps provided with the sensor. Two-point calibration prior to deployment is always recommended.
 Sensors should be cleaned before storage and stored with black caps on including some tap water, or with a piece of wet cotton taped against the foil. If sensors are stored dry the foil will dry out which could lead to 1-2 % lower readings. The sensor then needs to be placed in water to hydrate at least 24 h prior to starting field measurements again.
+
+| ![storage](images/storage.jpg) |
+|:--:|
+| *Figure xx: Keeping sensor in small beakers before and during calibration process. Only the membrane will need to be submerged in distilled water. * |
+
 After recovery the sensor and to remove any biofouling, this is the protocol recommended by the manufacturer: 
 1. If the sensor has been for too long exposed to the air, leave it overnight in a vinegar solution.
 2. Next day, place the sensor in soapy water and use a brush gently if it is necessary to remove all material adhered to the surface.
