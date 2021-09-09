@@ -388,6 +388,25 @@ If appropriate, a time lag correction may be applied already in RT taking into a
 - to add "oxygen saturation + salinity compensation"
 - to add examples of bad computation
 
+## Real Time quality control (RTQC)
+
+### Stuck value check
+- to add
+
+### Frozen profile check
+
+### Outlier/spike check
+Outliers and spikes are difficult to detect as optodes smooth out any spikes due to their slow response time.
+
+### Drift check
+- to add
+
+### Compare with climatologies and deep waters  
+- to add
+- 
+### Neural-Network approaches
+- to add
+
 # Post-recovery operations and calibrations
 
 # Delayed Mode Quality Control (DMQC)
