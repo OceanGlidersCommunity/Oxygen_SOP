@@ -379,6 +379,15 @@ The mission plan should aim to pass close to these platforms, ideally multiple t
 ## Send OceanGliders metadata and set up real time data flow 
 - to add where do users find this information
 
+## Real Time data processing
+In order to get usable oxygen values in Real Time (RT), it is important to access the appropriate calibration coefficients associated with the oxygen sensor onboard the glider. 
+Dissolved oxygen values computed inside the glider may not always be appropriate, and it is also important that the glider is configured so that intermediate parameters (phase measurements) are sent in RT, to allow dissolved oxygen computation using the best method associated with the sensor model, using both intermediate parameters and calibration coefficients (see http://dx.doi.org/10.13155/39795). 
+In parallel, cross-check can be performed to ensure that the coefficient calibrations are appropriate by comparing dissolved oxygen internally computed and recomputed using the intermediate parameters. 
+If appropriate, a time lag correction may be applied already in RT taking into account the sensor time response, using either the manufacturer value or any value defined from previous deployments with the specific sensor. A real time lag correction might improve the useability of the real time data significantly.
+
+- to add "oxygen saturation + salinity compensation"
+- to add examples of bad computation
+
 # Post-recovery operations and calibrations
 
 # Delayed Mode Quality Control (DMQC)
