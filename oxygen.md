@@ -155,7 +155,7 @@ Mechanical wipers or UV radiation based approaches are generally unsuitable for 
 Regardless of whether efforts to prevent fouling are made, it is vital that post-recovery photographs are taken of the optode so that the impact of biofouling can be assessed during DMQC.
 
 ### Air saturation quality check
-Based on in-air calibrations on Argo floats and gliders (Bittig & Körtzinger, 2015), (Johnson et al., 2015), [@NicholsonFeen2017] and [@Bittig2018] a simpler method has been recommended by the manufacturer to do it before and after deployments (Aanderaa Best Practices for Maintaining High Data Quality). This could be used during campaigns. NOTE: This won’t be useful if sensor foil is not wet or the temperature of the foil is different from that measured with the temperature sensor. 
+Based on in-air calibrations on Argo floats and gliders [@BittigKoertzinger2015], (Johnson et al., 2015), [@NicholsonFeen2017] and [@Bittig2018] a simpler method has been recommended by the manufacturer to do it before and after deployments (Aanderaa Best Practices for Maintaining High Data Quality). This could be used during campaigns. NOTE: This won’t be useful if sensor foil is not wet or the temperature of the foil is different from that measured with the temperature sensor. 
 You will need to leave the sensor logging outside in the free air for several hours before and after deployment. Remember to save the air pressure. 
 NOTE: At sea level at standard air pressure (101.3 kPa = 1 Atm = 14.69 psi) the sensors should show 100 % if wet and 102 % if completely dry; at air pressure 100 kPa it should show (1.3/101.3)*100 = 1.3 % lower.
 NOTE: It is highly recommended to do this protocol at night when humidity is higher and the temperature is lower and more stable. 
@@ -439,7 +439,7 @@ The bleaching effect is partly counteracted by a destabilising effect on the lum
 Together this manifests as a positive factor on the oxygen concentration (slope > 1) and a positive offset at zero oxygen.
 
 [@Queste2018] recorded drifts of 0.0176 and 0.0109 umol/kg/day for two Seagliders using inflections in the oxygen profiles as the glider penetrated to Arabian Sea Oxygen Minimum Zone and the sodium sulphite method, but no Winklers. 
-Bittig and Koertzinger (2015) report a 10 % drift over 3 years, but this is a combination of in-situ and ex-situ drift. 
+[@BittigKoertzinger2015] report a 10 % drift over 3 years, but this is a combination of in-situ and ex-situ drift. 
 [@Bittig2018] determined the drift to be typically 0.1-0.2 % per year in-situ. 
 A drift of 0.0004 % d-1 has been calculated based on UEA seagliders against Baltic deep water oxygen climatology (Possenti et al., 2020).
 Tom Hull found values between 0.0004 and 0.0035 % d-1 across 16 vehicles in-situ (slocums and seagliders with 4330F (old foil formulation), 4835 and 4831 optodes (unpublished?). 
