@@ -295,6 +295,22 @@ It is very important that the sensor has been kept wet before the deployment and
 This can be done by placing a wet sponge in the sensor membrane at least 8 hours before the deployment (ensure that it doesn’t get dry). 
 NOTE: Remember to remove the sponge and any other material used to keep the sensor wet.
 
+Samples should be collected with the Niskin bottle(s) for Winkler analysis during the deployment (following Langdon 2010 protocol). 
+It’s recommended to take between 4-6 samples on the surface (approx. 5m) (ideally samples will be taken at different depths). 
+After adding the Winkler reagents, samples should be kept in a dark and try to avoid high temperatures. 
+It’s also recommended to use a calibrated  multiparameter sonde to do DO profiles at the deployment site while taking samples with the Niskin bottles. 
+This will also help to record the sampling depths. 
+When taking samples for the Winkler is not possible, values from the multiparameter sonde might be useful for in situ intercomparisons. 
+The sonde must be calibrated before and after the deployment/recovery (some sondes require to be calibrated the same day, please follow manufacturer recommendations).
+
+## Calibration during deployment/recovery from a ship with a CTD rosette equipped with a calibrated oxygen sensor 
+If the glider is deployed/recovered from a research vessel equipped with a CTD and a calibrated O2 sensor, the glider optode can either be connected directly to the CTD profiler if able to receive the digital (RS232) output from the Optode (Ushida et al., 2010), or attached via a data logger. 
+Record down- and upcast data to allow hysteresis correction. The Optode data obtained during the bottle-firing stop for collection of water samples can be used for in situ calibration, since the difference between the downcast and upcast oxygen profiles is relatively small (1 uM approx., Ushida et al., 2008). 
+The error in the Optode can be reduced by allowing sufficient time for the sensor equilibration after the stop (minimum 2 min as recommended by Hahn et al., (2014)). 
+NOTE: For Oxygen Minimum Zone regions follow recommendations in section XXX.
+To summarize, the steps we recommend to follow to calibrate oxygen sensors during regular CTD/O2 casts before deployment and after recovery, are:
+
+
 # Real time data processing & Quality Control
 
 # Post-recovery operations and calibrations
