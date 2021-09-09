@@ -342,6 +342,11 @@ Thus calibration points below the mixed layer are often not suitable. Look for r
 3) Park the glider for a few hours in the OMZ core at different temperatures to get an in-situ zero calibration points.
 
 ## Piloting
+In this section specific piloting requirements during the mission execution are mentioned which are needed to allow quality control.
+Towards the end of the mission power constraints often require the reduction in sampling frequency or even turning the oxygen sensor off. 
+It is however essential that at least one good quality up and down cast to the maximum deployment depth is performed immediately prior to the pre-recovery samples being taken. 
+Coordination between the recovery group and the pilots is essential.
+
 
 # Real time data processing & Quality Control
 
