@@ -86,13 +86,16 @@ Multipoint calibrations consist of 40 calibration points across a range of conce
 Consult your optode foil calibration document to verify which version your optode is using. 
 Understanding these differences in how the calculations are performed is important when recalculating oxygen from the phase readings, such as when compensating for lag.
 Regardless of the optode version, oxygen can be recalculated from calphase using the approach of [@Uchida2008].
-
 During the initial months of storage/use a Foil maturation process occurs resulting in lower readings by several %. 
 The maximum observed maturation induced drift on more than 1000 sensor has been 8 % for sensors with non-factory pre-matured WTW foils (model: 4835, 4531 and 5730 Steinsvik) and 6 % for sensors with factory pre-matured PSt3 foils (model: 4330, 4831, 5331 hadal). 
 During/between field deployments there are possibilities for end users to post-adjust the sensors either by a one-point air-saturation adjustment or by taking reference samples (e.g. water samples and Winkler titration) and/or using a well-calibrated sensor in parallel. 
 If done correctly such an adjustment should result in an absolute accuracy of around 1 % for multipoint calibrated sensors (model: 4330, 4831, 5331 and 5730) and 3 % for two-point calibrated (model: 4835, 4531), see below for more information about factory calibrations. 
 The drift will decrease over time so that during the second year it is not likely to be more than 1-2 %. 
 After this it should be less than 0.5 % per year, unless the foil is mechanically damaged (Aanderaa Best Practices for Maintaining High Data Quality). 
+
+| ![AanderaaSensors](images/AanderaSensors.png) |
+|:--:|
+| *Figure xx: Suit of smart optodes sensors. (Image was taken from the manufacturer webpage www.aanderaa.com) * |
 
 ## RBR coda T.ODO
 The RBRcoda T.ODO uses the same foils and methods as the 4831 and 4831F so everything above specified for the 4831 will also apply to those instruments as well.
