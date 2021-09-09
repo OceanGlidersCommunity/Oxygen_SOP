@@ -330,6 +330,17 @@ NOTE: Save all data from the profiles and calibrations before deploying the glid
 Always record Dphase (Coppola et al., 2013).
 
 ## Deploying gliders in Oxygen Minimum Zones (OMZ)
+Note that the classical Winkler titration method is not reliable at oxygen concentrations in OMZ core (Thomsen et al., 2016) since the method has a detection limit of around 1 uM (add ref). 
+
+Steps recommended in these regions: 
+1) Do a 0/100 % calibration before and after deployment in the lab.
+
+2) Measure Winkler in samples with concentration higher than 20 uM, typically in the mixed layer during the deployment and/or recovery. 
+The Winkler method is also a problem when there is a strong vertical gradient, typically found in OMZ regions. 
+Thus calibration points below the mixed layer are often not suitable. Look for regions with weak vertical gradients.
+
+3) Park the glider for a few hours in the OMZ core at different temperatures to get an in-situ zero calibration points.
+
 
 # Real time data processing & Quality Control
 
