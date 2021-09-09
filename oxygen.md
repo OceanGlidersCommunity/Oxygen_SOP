@@ -453,6 +453,11 @@ Accurate time-stamps for these data are required to be able to perform this corr
 
 - add rest after join discussion and convergence
 
+## Light intrusion
+Optodes can be sensitive to light intrusion if the foil is damaged. 
+These instruments will typically still provide good data in the absence of light. 
+A check should be made for increased sensor noise near the surface during daylight hours and contrast this with night-time observations.
+
 # Data delivery to public open access archives
 
 # Acknowledgement 
