@@ -277,6 +277,9 @@ Materials: Silicon tube for sampling, multiparameter sonde, BOD bottles, Winkler
 # Missions execution
 This section covers the activities of those deploying and recovering the gliders in the field in addition to best practices for glider pilots.
 
+## Send OceanGliders metadata and set up real time data flow: 
+- to add where do users find this information
+
 ## Deployment
 While keeping the oxygen sensor protected from sunlight and kept moist any lens cover must be removed prior to deployment, use of highly visible material, such as a red flag, can aid in ensuring it’s removal in addition to the pre-deployment checklist.
 
