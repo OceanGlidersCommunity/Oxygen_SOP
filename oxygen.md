@@ -282,6 +282,19 @@ While keeping the oxygen sensor protected from sunlight and kept moist any lens 
 
 In-air measurements prior to deployment can and should be carried out together with the in-situ air pressure and relative humidity measurements to provide an additional reference for calibration. Details of this procedure can be found in section XXX.
 
+## In-situ reference samples
+Even with good ballasting it can require several dives for a glider to fly correctly with an ideal dive profile. 
+In warm and dry conditions the optode foil can still partially dry out even if good care is taken. 
+Reference data should therefore only be performed after the glider is flying well, and ideally as close to the glider’s last known position as possible. 
+Ideally multiple sets of samples should be taken unless the horizontal variability of the deployment region is very well characterised. 
+This requires coordination between the deployment team and the glider pilot and should be part of the mission planning.
+
+## In situ intercomparison during deployment/recovery from a small boat.
+Materials: Silicon tube for sampling, Niskin bottles, multiparameter sonde, BOD bottles, Winkler reagents, pipettes and tips, cooling box.
+It is very important that the sensor has been kept wet before the deployment and after recovery. 
+This can be done by placing a wet sponge in the sensor membrane at least 8 hours before the deployment (ensure that it doesn’t get dry). 
+NOTE: Remember to remove the sponge and any other material used to keep the sensor wet.
+
 # Real time data processing & Quality Control
 
 # Post-recovery operations and calibrations
