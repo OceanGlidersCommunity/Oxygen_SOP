@@ -347,6 +347,19 @@ Towards the end of the mission power constraints often require the reduction in 
 It is however essential that at least one good quality up and down cast to the maximum deployment depth is performed immediately prior to the pre-recovery samples being taken. 
 Coordination between the recovery group and the pilots is essential.
 
+### Gather data to help correct for sensor response time
+Regular up- and down casts are needed to estimate and correct for the sensor response time. 
+Combined up- and downcasts should be carried out at least every week and particularly at the beginning and at the end of the deployment. 
+One to two days per week appear to be a reasonable compromise between energy saving and calibration quality. 
+If bio-fouling is expected during the deployment it is better to collect up-down pairs earlier rather than later.
+
+- add "Sampling rates"
+- 
+### Gather data to correct for sensor drift
+#### Deep water masses or known anoxic waters
+In regions with known oxygen concentrations i.e. within the core of the Peruvian Oxygen Minimum Zone (OMZ) oxygen concentrations of close to zero or few nmol are typical (Revsbech et al. 2008, Kalvelage et al. XXXX, Thomsen et al, 2016) in-situ calibration points can be recorded. 
+For this glider can be parked at this depth to get a 0 calibration at the beginning and at the end of the deployment. 
+This can also be done by adding different depth/temperature levels if the anoxic layer is thick enough to cover different temperatures. i.e. further offshore where the OMZ is several 100 m thick.
 
 # Real time data processing & Quality Control
 
