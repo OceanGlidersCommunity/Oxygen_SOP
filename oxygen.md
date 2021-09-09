@@ -440,11 +440,11 @@ Together this manifests as a positive factor on the oxygen concentration (slope 
 
 Queste (2018) recorded drifts of 0.0176 and 0.0109 umol/kg/day for two Seagliders using inflections in the oxygen profiles as the glider penetrated to Arabian Sea Oxygen Minimum Zone and the sodium sulphite method, but no Winklers. 
 Bittig and Koertzinger (2015) report a 10 % drift over 3 years, but this is a combination of in-situ and ex-situ drift. 
-Bittig et al. (2018) determined the drift to be typically 0.1-0.2 % per year in-situ. 
+[@Bittig2018] determined the drift to be typically 0.1-0.2 % per year in-situ. 
 A drift of 0.0004 % d-1 has been calculated based on UEA seagliders against Baltic deep water oxygen climatology (Possenti et al., 2020).
 Tom Hull found values between 0.0004 and 0.0035 % d-1 across 16 vehicles in-situ (slocums and seagliders with 4330F (old foil formulation), 4835 and 4831 optodes (unpublished?). 
 
-The drift correction should be applied to the oxygen concentration, not the measured phase (Bittig et al, 2018).
+The drift correction should be applied to the oxygen concentration, not the measured phase [@Bittig2018].
 
 ## Sensor time response correction
 In all but the most homogeneous waters it is essential to correct for the slow time response of optodes. This is particularly critical for optodes using the “standard” black foils.
