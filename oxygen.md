@@ -329,6 +329,8 @@ It’s important that the membrane is kept wet.
 NOTE: Save all data from the profiles and calibrations before deploying the glider. 
 Always record Dphase (Coppola et al., 2013).
 
+## Deploying gliders in Oxygen Minimum Zones (OMZ)
+
 # Real time data processing & Quality Control
 
 # Post-recovery operations and calibrations
