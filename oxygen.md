@@ -126,7 +126,7 @@ Sensors should be cleaned before storage and stored with black caps on including
 
 | ![storage](images/storage.jpg) |
 |:--:|
-| *Figure xx: Keeping sensor in small beakers before and during calibration process. Only the membrane will need to be submerged in distilled water. * |
+| *Figure xx: Keeping sensor in small beakers before and during calibration process. Only the membrane will need to be submerged in distilled water.* |
 
 After recovery the sensor and to remove any biofouling, this is the protocol recommended by the manufacturer: 
 1. If the sensor has been for too long exposed to the air, leave it overnight in a vinegar solution.
@@ -288,7 +288,7 @@ Materials: Silicon tube for sampling, multiparameter sonde, BOD bottles, Winkler
 
 | ![WinklerBallasting](images/winkler-ballasting.png) |
 |:--:|
-| *Figure xx: Taking samples for Winkler analysis during ballasting in the glider tank at PLOCAN facilities. * |
+| *Figure xx: Taking samples for Winkler analysis during ballasting in the glider tank at PLOCAN facilities.* |
 
 # Missions execution
 This section covers the activities of those deploying and recovering the gliders in the field in addition to best practices for glider pilots.
