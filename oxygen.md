@@ -40,6 +40,16 @@ Additional authors joined: Bastien Y. Queste, Gerd Krahmann, Charlotte Williams,
 # Introduction
 This standard operating procedure (SOP) document for dissolved oxygen (DO) aims to guide the user through the steps necessary for collection of good quality dissolved oxygen using gliders for both real time and post deployment data streams.
 
+| Sensor / Glider  |  Slocum |  Autosub/ ALR (NOC) |  Seaglider | Deepglider  |  SeaExplorer |  Spray |  Information |
+|---|---|---|---|---|---|---|---|
+| Aanderaa 3835, 4330, 4330F, 4831, 4831F and 5013 optodes  | X |   | X | X |   |   | Link |
+| RINKO-II  | X |   |   |   |   |  | Link |
+| RINKO- AROD FT  |   |   |   |   | X |   | Link |
+| SBE 43 and 43F  |   | X | X |   | X |   | Link |
+| SBE 63  |   |   |   |   |   | X | Link |
+|  RBRcoda T.ODO |   |   |   |   | X |   | Link |
+|  Contros Hydroflash (1) |   |   | X |   |   |   | Link |
+
 ## Aanderaa Optodes
 Aanderaa optodes are the most widely used oxygen sensor on gliders and a large body of work has now been dedicated to their characterisation (e.g. [@Bittig2018]).
 These sensors are based on the oxygen luminescence quenching of a platinum porphyrin complex (fluorescent indicator) that is immobilized in a sensing foil. These offer low power consumption, good long-term stability, low fouling sensitivity while not being sensitive to H2S or freezing.
