@@ -51,6 +51,8 @@ This standard operating procedure (SOP) document for dissolved oxygen (DO) aims 
 |  RBRcoda T.ODO |   |   |   |   | X |   | Link |
 |  Contros Hydroflash (1) |   |   | X |   |   |   | Link |
 
+(1)The advanced, optical sensor is based on the principle of fluorescence quenching. Contros are no longer in operation, the sensors cannot be calibrated so they are likely to become obsolete.
+
 ## Aanderaa Optodes
 Aanderaa optodes are the most widely used oxygen sensor on gliders and a large body of work has now been dedicated to their characterisation (e.g. [@Bittig2018]).
 These sensors are based on the oxygen luminescence quenching of a platinum porphyrin complex (fluorescent indicator) that is immobilized in a sensing foil. These offer low power consumption, good long-term stability, low fouling sensitivity while not being sensitive to H2S or freezing.
