@@ -43,7 +43,7 @@ This standard operating procedure (SOP) document for dissolved oxygen (DO) aims 
 *Table 1: List of the known sensor/glider combinations. We aim to cover all combinations in this document.*
 | Sensor / Glider  |  Slocum |  Autosub/ ALR (NOC) |  Seaglider | Deepglider  |  SeaExplorer |  Spray |  Information |
 |---|---|---|---|---|---|---|---|
-| Aanderaa 3835, 4330, 4330F, 4831, 4831F and 5013 optodes  | X |   | X | X |   |   | Link |
+| Aanderaa 3835, 4330, 4330F, 4831, 4831F and 5013 optodes  | X |   | X | X |   |   | [Link](https://www.aanderaa.com/productsdetail.php?Oxygen-Optodes-2) |
 | RINKO-II  | X |   |   |   |   |  | Link |
 | RINKO- AROD FT  |   |   |   |   | X |   | Link |
 | SBE 43 and 43F  |   | X | X |   | X |   | Link |
