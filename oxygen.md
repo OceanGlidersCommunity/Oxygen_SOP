@@ -190,7 +190,7 @@ Issues with Winkler method at low oxygen concentrations (below 1 muM, some resea
 other approaches for 0 % in-situ calibration [@Revsbech2009] and [@Thomsen2016].
 - STOX sensor, new lox-oxygen sensing foils (0-10% saturation) from Aanderaa.
 
-#### 0 / 100 % saturation protocol
+#### 100 / 0 % saturation protocol
 
 This method is necessary to check drift over time as the foil wears out. It’s recommended to do it before the deployment and after recovery. NOTE: Sensor foil must be wet during all processes.   
 Some information to read before we proceed with the calibration:
