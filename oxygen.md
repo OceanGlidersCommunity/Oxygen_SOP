@@ -35,7 +35,7 @@ Additional authors joined: Bastien Y. Queste, Gerd Krahmann, Charlotte Williams,
 
 4) SOP moved to this repository by: Patricia López-García, Tom Hull, Sören Thomsen in September 2021.
 
-5) Next step: Several months of community review on GitHub starting in October 2021.
+5) Next step: 4 months of community review on GitHub starting in October 2021.
 
 # Introduction
 This standard operating procedure (SOP) document for dissolved oxygen (DO) aims to guide the user through the steps necessary for collection of good quality dissolved oxygen using gliders for both real time and post deployment data streams.
