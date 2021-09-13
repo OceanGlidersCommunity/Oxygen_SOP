@@ -32,7 +32,7 @@ Version: 0.3
 2) Two expert sessions during OceanGliders Best Practice Workshop, May 11 - 25 2021. 
 Additional authors joined: [Bastien Y. Queste](https://github.com/bastienqueste), Gerd Krahmann, Charlotte Williams, Mun Woo, Charitha Pattiaratchi, Laurent Coppola, Tania Morales, Virginie Racape, Claire Gourcuff, John Allen, Eva Alou, Nikolas D. Zarokanellos
 
-3) First community and  user feedback was provided during the workshop by attendees. 
+3) First community and  user feedback was provided during the OceanGliders Best Practice Workshop, May 11 - 25 2021 by attendees. 
 
 4) SOP moved to this repository by: Patricia López-García, Tom Hull, Sören Thomsen in September 2021. additional authors joined: [Victor Turpin](https://github.com/vturpin)
 
