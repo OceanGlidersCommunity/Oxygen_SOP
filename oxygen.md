@@ -23,6 +23,7 @@ Version: 0.3
 *(14) John Allen, SOCIB, Palma de Mallorca, Spain*
 *(15) Eva Alou-Font, SOCIB, Palma de Mallorca, Spain*
 *(16) Nikolaos D. Zarokanellos, SOCIB, Palma de Mallorca, Spain*
+*(17) [Victor Turpin](https://github.com/vturpin), OceanOps, Brest, France*
 
 # SOP development process
 
