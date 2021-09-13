@@ -41,6 +41,7 @@ Additional authors joined: Bastien Y. Queste, Gerd Krahmann, Charlotte Williams,
 This standard operating procedure (SOP) document for dissolved oxygen (DO) aims to guide the user through the steps necessary for collection of good quality dissolved oxygen using gliders for both real time and post deployment data streams.
 
 *Table 1: List of the known sensor/glider combinations. We aim to cover all combinations in this document.*
+
 | Sensor / Glider  |  Slocum |  Autosub/ ALR (NOC) |  Seaglider | Deepglider  |  SeaExplorer |  Spray |  Information |
 |---|---|---|---|---|---|---|---|
 | Aanderaa 3835, 4330, 4330F, 4831, 4831F and 5013 optodes  | X |   | X | X |   |   | [Link](https://www.aanderaa.com/productsdetail.php?Oxygen-Optodes-2) |
