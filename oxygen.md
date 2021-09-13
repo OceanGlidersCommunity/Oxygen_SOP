@@ -410,8 +410,6 @@ The mission plan should aim to pass close to these platforms, ideally multiple t
 ## Send OceanGliders metadata and set up real time data flow 
 - to add where do users find this information
 
-This is a try from Victor
-
 ## Real Time data processing
 In order to get usable oxygen values in Real Time (RT), it is important to access the appropriate calibration coefficients associated with the oxygen sensor onboard the glider. 
 Dissolved oxygen values computed inside the glider may not always be appropriate, and it is also important that the glider is configured so that intermediate parameters (phase measurements) are sent in RT, to allow dissolved oxygen computation using the best method associated with the sensor model, using both intermediate parameters and calibration coefficients (see http://dx.doi.org/10.13155/39795). 
