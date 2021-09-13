@@ -18,6 +18,11 @@ A PDF version can be found under [releases](https://github.com/OceanGlidersCommu
 6. The SOP team will approve your changes and you're done!
 7. All contributers will be listed as co-authors on the next peer-reviewed publication.
 
+## Questions?
+Do you have any questions related to oxygen measurements on gliders?
+Or do you struggle to comment / edit the SOP document? 
+Just raise a question [here](https://github.com/OceanGlidersCommunity/Oxygen_SOP/discussions).
+
 ## Licence
 
 ## About Markdown and Pandoc
