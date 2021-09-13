@@ -106,7 +106,7 @@ The maximum observed maturation induced drift on more than 1000 sensor has been 
 During/between field deployments there are possibilities for end users to post-adjust the sensors either by a one-point air-saturation adjustment or by taking reference samples (e.g. water samples and Winkler titration) and/or using a well-calibrated sensor in parallel. 
 If done correctly such an adjustment should result in an absolute accuracy of around 1 % for multipoint calibrated sensors (model: 4330, 4831, 5331 and 5730) and 3 % for two-point calibrated (model: 4835, 4531), see below for more information about factory calibrations. 
 The drift will decrease over time so that during the second year it is not likely to be more than 1-2 %. 
-After this it should be less than 0.5 % per year, unless the foil is mechanically damaged (Aanderaa Best Practices for Maintaining High Data Quality). 
+After this it should be less than 0.5 % per year, unless the foil is mechanically damaged (Aanderaa). 
 
 | ![AanderaaSensors](images/AanderaSensors.png) |
 |:--:|
@@ -125,7 +125,7 @@ This sensor is based on the optical (phosphorescence) principle which is now wid
 This sensor used a multi-points calibration (16 points with 4 temperatures and 4 DO concentrations). 
 In this procedure, the DO reference standards are produced by saturing the primary mixtures with DO concentrations of approximately 4%, 10%, 17% and 25% respectively (certified by the National Metrology Institute of Japan). 
 
-The DO concentration is calculated from the Uchida et al. (2010) equation with 9 calibration coefficients. 
+The DO concentration is calculated from the [@Ushida2010] equation with 9 calibration coefficients. 
 A second equation is used to take into account the pressure effect (linear equation with one calibration coefficient). 
 Finally, the salinity-compensated DO concentration is calculated by multiplying the factor of the effect of salt on the oxygen solubility [@BensonKrause1984] and [@GarciaGordon1992].
 This is similar to procedures used on other optodes.
@@ -169,7 +169,7 @@ An alternative mounting of the Aanderaa optode in a more prominent location fore
 On SeaExplorer gliders, all existing oxygen sensor integrations are installed in the forward wet payload section (the nose cone). External mounting is also feasible using external puck mounts on the dry payload, located approximately 1/3 of the way back, but is rare and generally only used for instrument trials. The Rinko AROD-FT is generally installed on the forward starboard connector, with the sensing foil and temperature probe 15 centimeters back from the tip of the nose and lightly sheltered to avoid damage when making contact with the nose. Both the foil and temperature probe are well exposed to flow. The new RBR Coda integration is also planned to present the foil and probe slightly set back from the tip of the nose, while remaining exposed to unmodified flow. The SBE43 is found only when accompanied with a Seabird pumped CT sensor; both of these sensors are placed in the nose where the RBR Legato CT sensor can be seen in the figure below.
 
 ### Antifouling
-Materials immersed in water experience a series of biological and chemical processes, resulting in the formation of complex layers with attached organisms. This biofouling can be divided into microfouling and macrofouling (Delgado et al., 2021). 
+Materials immersed in water experience a series of biological and chemical processes, resulting in the formation of complex layers with attached organisms. This biofouling can be divided into microfouling and macrofouling [@Delgado2021]. 
 In optodes sensors, biofouling can be severe enough to block oxygen molecules from entering the sensing foil. Aanderaa has different solutions that have been successfully applied, some includes: 
 Copper tape (e.g. 3M 1181) or Copper/Nickel (last much longer) are easy antifouling solutions. When applying the tape, be sure that it is not in contact with any other metal parts otherwise, the tape will lose its antifouling properties.
 Paints / coatings - optical sensors, so these can only reduce growth nearby but not on the actual sensing foil
@@ -178,10 +178,10 @@ Mechanical wipers or UV radiation based approaches are generally unsuitable for 
 Regardless of whether efforts to prevent fouling are made, it is vital that post-recovery photographs are taken of the optode so that the impact of biofouling can be assessed during DMQC.
 
 ### Air saturation quality check
-Based on in-air calibrations on Argo floats and gliders [@BittigKoertzinger2015], (Johnson et al., 2015), [@NicholsonFeen2017] and [@Bittig2018] a simpler method has been recommended by the manufacturer to do it before and after deployments (Aanderaa Best Practices for Maintaining High Data Quality). This could be used during campaigns. NOTE: This won’t be useful if sensor foil is not wet or the temperature of the foil is different from that measured with the temperature sensor. 
+Based on in-air calibrations on Argo floats and gliders [@BittigKoertzinger2015], [@Johnson2015], [@NicholsonFeen2017] and [@Bittig2018] a simpler method has been recommended by the manufacturer to do it before and after deployments (Aanderaa Best Practices for Maintaining High Data Quality). This could be used during campaigns. NOTE: This won’t be useful if sensor foil is not wet or the temperature of the foil is different from that measured with the temperature sensor. 
 You will need to leave the sensor logging outside in the free air for several hours before and after deployment. Remember to save the air pressure. 
-NOTE: At sea level at standard air pressure (101.3 kPa = 1 Atm = 14.69 psi) the sensors should show 100 % if wet and 102 % if completely dry; at air pressure 100 kPa it should show (1.3/101.3)*100 = 1.3 % lower.
-NOTE: It is highly recommended to do this protocol at night when humidity is higher and the temperature is lower and more stable. 
+*NOTE: At sea level at standard air pressure (101.3 kPa = 1 Atm = 14.69 psi) the sensors should show 100 % if wet and 102 % if completely dry; at air pressure 100 kPa it should show (1.3/101.3)*100 = 1.3 % lower.
+NOTE: It is highly recommended to do this protocol at night when humidity is higher and the temperature is lower and more stable.* 
 
 ## Pre-deployment calibration
 Optodes and similar instruments gendriferally drift more while in storage than they do in-situ. It is therefore essential that these instruments are recalibrated prior to each deployment. This is generally true even if in-situ reference (Winkler) samples are going to be taken as reference samples often won’t cover the full range of oxygen concentrations seen during the mission. As the instrument drift manifests as an increasing offset from zero in addition to a reducing sensitivity, a two point calibration is required to rescale the optodes measuring range.
@@ -192,15 +192,15 @@ This protocol is recommended to do for at least two different temperatures, whic
 2. Doing the experiment in the lab and changing the temperature. This is possible if the lab has an AC that we can turn on/off or change the temperature easily. You need to leave all materials, reagents and sensors in the lab at least 8 hours (e.g. overnight) before starting the calibration.
 3. Doing the experiment using a thermostatic bath. You need to leave the 0 and 100% solutions in the bath at least overnight before starting the calibration. In this case, because we won’t be able to use a magnetic stirrer, we need to be sure we place the end of the bubble tube in the bottom of the bottle/beaker. 
 In situ intercomparisons will be required to find the outset of the sensor in different seawater conditions. Therefore, samples should be taken in the tank during the ballasting (if this is 1-2 days before deployment, no more) and at the deployment/recovery site (ideally at different depths).
-NOTE: A multipoint DO calibration is necessary to obtain new foil coefficients and that can be done at the manufacturer laboratories or in any fully equipped calibration lab. These values shouldn’t be changed otherwise.
-The Winkler method is used to determine the concentration of dissolved oxygen in discrete water samples which is a highly accurate method for determination of dissolved oxygen (± 0.15 mumol kg-1). We recommend to follow the GO-SHIP protocol described by (Langdon, 2010) and a well trained technician to do the sampling and analysis.
+*NOTE: A multipoint DO calibration is necessary to obtain new foil coefficients and that can be done at the manufacturer laboratories or in any fully equipped calibration lab. These values shouldn’t be changed otherwise.*
+The Winkler method is used to determine the concentration of dissolved oxygen in discrete water samples which is a highly accurate method for determination of dissolved oxygen (± 0.15 mumol kg-1). We recommend to follow the GO-SHIP protocol described by [@Langdon2010] and a well trained technician to do the sampling and analysis.
 
 | ![100-0-calibration](images/100-0-calibration.png) |
 |:--:|
 | *Figure X: During 100% and 0% calibration.* |
 
 Issues with Winkler method at low oxygen concentrations (below 1 muM, some researchers consider that values below 20 muM shouldn't be use for the sensor calibration): 
-- There are various issues with Winkler at low oxygen concentrations as Winkler always biases towards too high oxygen: the detection limit of the method is around 1 uM (ref), the oxygen absorbed in the plastic of the Niskin bottles might be transferred to  the water sampled (reference needed).
+- There are various issues with Winkler at low oxygen concentrations as Winkler always biases towards too high oxygen: the detection limit of the method is around 1 uM [@Langdon2010], the oxygen absorbed in the plastic of the Niskin bottles might be transferred to  the water sampled (reference needed).
 - Within the core of the Peruvian oxygen minimum zones oxygen concentrations at nmol levels are present
 other approaches for 0 % in-situ calibration [@Revsbech2009] and [@Thomsen2016].
 - STOX sensor, new lox-oxygen sensing foils (0-10% saturation) from Aanderaa.
@@ -210,12 +210,12 @@ other approaches for 0 % in-situ calibration [@Revsbech2009] and [@Thomsen2016].
 This method is necessary to check drift over time as the foil wears out. It’s recommended to do it before the deployment and after recovery. NOTE: Sensor foil must be wet during all processes.   
 Some information to read before we proceed with the calibration:
 1. For a 100 % bubbled bath, connect an aquarium pump  to a tube which has been fitted with a porous stone (bubble dispenser) at the end. This will create small air bubbles that are sufficient to equilibrate the water rapidly. 
-NOTE: It is important that the aquarium pump takes in air from an open atmosphere outside, not from inside the room/laboratory where O2 levels will be affected by the on-going activities and/or the ventilation. To verify that optodes are in saturated water you can take them up from the water and hold them just above the surface for a few minutes. There should then be no change in the saturation readings (Aanderaa Best Practices for Maintaining High Data Quality).
+NOTE: It is important that the aquarium pump takes in air from an open atmosphere outside, not from inside the room/laboratory where O2 levels will be affected by the on-going activities and/or the ventilation. To verify that optodes are in saturated water you can take them up from the water and hold them just above the surface for a few minutes. There should then be no change in the saturation readings (Aanderaa Best Practices).
 2. For 0 % saturation solution, add 20 g sodium sulphite to approx. 1 L. Sodium sulphite rapidly removes the oxygen and, as long as crystals of the compound can be seen, the oxygen level in the water will stay at 0. Sodium sulphite also has the advantage of being inexpensive and the level of toxicity is low. This solution is considered irritating and wearing appropriate PPE (gloves, goggles and lab coat) is recommended.
 There is also an option of removing the oxygen from the water bubbling nitrogen all time. In this case you have to be sure all oxygen is removed from the solution, this will happen after 3-5 minutes bubbling (maximum volume of 100 mL approx., for bigger volume you will have to increase the time). You have to keep injecting N2 during all time of the zero calibration.
 3. If any residue of the  sodium sulphite solution remains on the sensing surface, the 100 % measurement will be inaccurate. Therefore, 100 % DO saturation calibration should be performed first. To avoid contamination, always rinse well with distilled water.
 4. Immerse the sensor in the 100 % bath overnight. If this is not possible, having the sensor submerged in distilled water will be enough to keep the foil wet for the calibration.
-5. Always check saturation values: an outset of ± 5% is adequate, so a value between 95 to 105 % is correct.
+5. Always check saturation values: an outset of ± 5 % is adequate, so a value between 95 to 105 % is correct.
 6. While calibrating, measure air pressure and water temperature to calculate the DO saturation estimated at current pressure. When we are on board of a ship and would like to use the data from the ship weather station, we need to check where the calibration is taking place: lab air pressure will be influenced by air conditioning systems, location of the lab (at sea level or in decks below), size and occupancy of the lab,among others. These considerations should be taken into account when working in onshore labs also. Therefore,  having a portable weather station is highly recommended. For measuring temperature, a sonde with the same or better precision as the glider sensors must be used. 
 
 #### Communicating with the sensor using a terminal program and a cable
@@ -235,7 +235,7 @@ There is also a possibility of using a Data Logger while we are working with the
 #### Calibration procedure
 Materials: Distilled water, aquarium pump, 1L and small volume beakers, stirrer and magnetic stirrer, BOD bottles, Winkler reagents, sodium sulfite solution, pipettes and tips, barometer, termometer.
 Type Get All command for saving the initial sensor configuration to be able to restore old values in case something goes wrong.
-1. With the sensor submerged in  the 100% water, connect to it and start measuring.  Set the Interval property to 30 seconds. (This interval is recommended during the calibration to reduce the risk of self heating in the small container).
+1. With the sensor submerged in  the 100 % water, connect to it and start measuring.  Set the Interval property to 30 seconds. (This interval is recommended during the calibration to reduce the risk of self heating in the small container).
              
             Set Passkey(1000)
             
@@ -295,10 +295,10 @@ Value of oxygen saturation should be 100 % or higher.
 ### In situ intercomparison in the tank during ballasting
 This is an extra in situ intercomparison to carry out if  access to the tank while ballasting the glider is possible and the ballasting is close in time to the deployment (no more than 1-2 days before) (reference PLOCAN).
 Materials: Silicon tube for sampling, multiparameter sonde, BOD bottles, Winkler reagents, pipettes and tips (or a bottle-top dispenser for reagent bottles), titration material (buretes or titrator).
-1. The sensor should stay overnight submerged  in water to make the membrane wet. If the sensor is already mounted in the glider, use a wet sponge. NOTE: Keep the sensor in the dark all time.
+1. The sensor should stay overnight submerged  in water to make the membrane wet. If the sensor is already mounted in the glider, use a wet sponge. *NOTE: Keep the sensor in the dark all time.*
 2. Once the glider is in the ballasting tanks, place the silicon tube for sampling near the sensor.
-3. Once the sensor measurements are stable (variations in the measurements are not higher than the precision/resolution of the sensor), start sampling water for Winkler analysis.  Take samples every 5-10 minutes, in total 4-6 samples will be required. NOTE: Record the time we collect a sample for Winkler titration.
-4. A multiparameter sonde with a DO sensor whose precision is less than 0.1 % can be measured in the tank near the glider’s sensors (record at least values for Temperature, Conductivity and DO). NOTE: Some DO sensors consume oxygen so, in this case, it’s recommended to move the sonde often to renew the water so the DO value does not decrease.
+3. Once the sensor measurements are stable (variations in the measurements are not higher than the precision/resolution of the sensor), start sampling water for Winkler analysis.  Take samples every 5-10 minutes, in total 4-6 samples will be required. *NOTE: Record the time we collect a sample for Winkler titration.*
+4. A multiparameter sonde with a DO sensor whose precision is less than 0.1 % can be measured in the tank near the glider’s sensors (record at least values for Temperature, Conductivity and DO). *NOTE: Some DO sensors consume oxygen so, in this case, it’s recommended to move the sonde often to renew the water so the DO value does not decrease.*
 5. Check the outset of the sensor by comparing  values measured by the Optode sensor with winkler values after measuring the bottle samples in the lab.
 
 | ![WinklerBallasting](images/winkler-ballasting.png) |
@@ -324,9 +324,9 @@ This requires coordination between the deployment team and the glider pilot and 
 Materials: Silicon tube for sampling, Niskin bottles, multiparameter sonde, BOD bottles, Winkler reagents, pipettes and tips, cooling box.
 It is very important that the sensor has been kept wet before the deployment and after recovery. 
 This can be done by placing a wet sponge in the sensor membrane at least 8 hours before the deployment (ensure that it doesn’t get dry). 
-NOTE: Remember to remove the sponge and any other material used to keep the sensor wet.
+*NOTE: Remember to remove the sponge and any other material used to keep the sensor wet.*
 
-Samples should be collected with the Niskin bottle(s) for Winkler analysis during the deployment (following Langdon 2010 protocol). 
+Samples should be collected with the Niskin bottle(s) for Winkler analysis during the deployment (following [@Langdon2010] protocol). 
 It’s recommended to take between 4-6 samples on the surface (approx. 5m) (ideally samples will be taken at different depths). 
 After adding the Winkler reagents, samples should be kept in a dark and try to avoid high temperatures. 
 It’s also recommended to use a calibrated  multiparameter sonde to do DO profiles at the deployment site while taking samples with the Niskin bottles. 
@@ -335,10 +335,10 @@ When taking samples for the Winkler is not possible, values from the multiparame
 The sonde must be calibrated before and after the deployment/recovery (some sondes require to be calibrated the same day, please follow manufacturer recommendations).
 
 ## Calibration during deployment/recovery from a ship with a CTD rosette equipped with a calibrated oxygen sensor 
-If the glider is deployed/recovered from a research vessel equipped with a CTD and a calibrated O2 sensor, the glider optode can either be connected directly to the CTD profiler if able to receive the digital (RS232) output from the Optode (Ushida et al., 2010), or attached via a data logger. 
-Record down- and upcast data to allow hysteresis correction. The Optode data obtained during the bottle-firing stop for collection of water samples can be used for in situ calibration, since the difference between the downcast and upcast oxygen profiles is relatively small (1 uM approx., Ushida et al., 2008). 
+If the glider is deployed/recovered from a research vessel equipped with a CTD and a calibrated O2 sensor, the glider optode can either be connected directly to the CTD profiler if able to receive the digital (RS232) output from the Optode [@Ushida2010], or attached via a data logger. 
+Record down- and upcast data to allow hysteresis correction. The Optode data obtained during the bottle-firing stop for collection of water samples can be used for in situ calibration, since the difference between the downcast and upcast oxygen profiles is relatively small (1 uM approx., [@Ushida2008]). 
 The error in the Optode can be reduced by allowing sufficient time for the sensor equilibration after the stop (minimum 2 min as recommended by [@Hahn2014]. 
-NOTE: For Oxygen Minimum Zone regions follow recommendations in the section below.
+*NOTE: For Oxygen Minimum Zone regions follow recommendations in the section below.*
 
 To summarize, the steps we recommend to follow to calibrate oxygen sensors during regular CTD/O2 casts before deployment and after recovery, are:
 
@@ -346,22 +346,22 @@ To summarize, the steps we recommend to follow to calibrate oxygen sensors durin
  
 2) Record down- and upcast data. Timestamps of oxygen measurements are required. In case a logger is used, ensure before the calibration cast that the internal logger time is correct (i.e. in line with the CTD time).
 
-3) Collect calibration points against measurements with the CTD rosette oxygen sensor, which itself is calibrated against Winkler titrated water samples (Langdon, 2010). 
+3) Collect calibration points against measurements with the CTD rosette oxygen sensor, which itself is calibrated against Winkler titrated water samples [@Landon2010]. 
 
 4) Reference points for calibration are the same as the calibration stops. As for salinity, samples for Winkler titration will be collected during the upcast. When reached the selected depth, wait at least 2 min to ensure an equilibrated oxygen sensor [@Hahn2014]. Fire the bottles after this time. 
 
-5) Do 0% and 100% calibration after recovering the sensor at two different temperatures (warm and cold lab). If 100% is not possible, 0% should be done to ensure that the central temperature range at zero oxygen is covered within the calibration [@Hahn2014]. 
+5) Do 0 % and 100 % calibration after recovering the sensor at two different temperatures (warm and cold lab). If 100 % is not possible, 0 % should be done to ensure that the central temperature range at zero oxygen is covered within the calibration [@Hahn2014]. 
 
 The combined data collected following these (CTD and lab calibration) steps will be used to evaluate the calibration coefficients and it’s called hypercast calibration.
 
-NOTE: This calibration should be done before the deployment and after the recovery. 
-It’s important that the membrane is kept wet.
+*NOTE: This calibration should be done before the deployment and after the recovery. 
+It’s important that the membrane is kept wet.*
 
-NOTE: Save all data from the profiles and calibrations before deploying the glider. 
-Always record Dphase (Coppola et al., 2013).
+*NOTE: Save all data from the profiles and calibrations before deploying the glider. 
+Always record Dphase (Coppola et al., 2013).*
 
 ## Deploying gliders in Oxygen Minimum Zones (OMZ)
-Note that the classical Winkler titration method is not reliable at oxygen concentrations in OMZ core [@Thomsen2016] since the method has a detection limit of around 1 uM (add ref). 
+Note that the classical Winkler titration method is not reliable at oxygen concentrations in OMZ core [@Thomsen2016] since the method has a detection limit of around 1 uM [@Langdon2010]. 
 
 Steps recommended in these regions: 
 1) Do a 0/100 % calibration before and after deployment in the lab.
@@ -461,8 +461,8 @@ Follow protocol described in section ‘Calibration during deployment/recovery f
 # Delayed Mode Quality Control (DMQC)
 
 ## Sensor drift correction
-Aanderaa describe the in-situ drift characteristics of the 4330 and 4831 series optodes as being < 0.5 % per year and they make no distinction between the standard or fast (“F"-type) foils (Tengberg and Hovdenes, 2014).
-Optodes made after 2016 undergo a “burning-in period” during manufacture and therefore have substantially less drift (Tengberg & Hovdenes, 2014).
+Aanderaa describe the in-situ drift characteristics of the 4330 and 4831 series optodes as being < 0.5 % per year and they make no distinction between the standard or fast (“F"-type) foils [@TengbergHovdedenes2014].
+Optodes made after 2016 undergo a “burning-in period” during manufacture and therefore have substantially less drift [@TengbergHovdedenes2014].
 Drift is a function of UV exposure and sampling frequency. 
 The foil becomes less sensitive (therefore drift is always towards lower oxygen concentrations). 
 The drift is believed to be due to bleaching of the luminophore foil via ambient light; it is particularly sensitive to fluorescent lights. 
