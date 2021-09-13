@@ -342,7 +342,7 @@ NOTE: For Oxygen Minimum Zone regions follow recommendations in the section belo
 To summarize, the steps we recommend to follow to calibrate oxygen sensors during regular CTD/O2 casts before deployment and after recovery, are:
 
 1) Attach the glider's O2 sensors (optodes) to the CTD rosette at the same depths where the CTD oxygen sensor pumps in the water.
-
+ 
 2) Record down- and upcast data. Timestamps of oxygen measurements are required. In case a logger is used, ensure before the calibration cast that the internal logger time is correct (i.e. in line with the CTD time).
 
 3) Collect calibration points against measurements with the CTD rosette oxygen sensor, which itself is calibrated against Winkler titrated water samples (Langdon, 2010). 
@@ -408,6 +408,8 @@ The mission plan should aim to pass close to these platforms, ideally multiple t
 
 ## Send OceanGliders metadata and set up real time data flow 
 - to add where do users find this information
+
+This is a try from Victor
 
 ## Real Time data processing
 In order to get usable oxygen values in Real Time (RT), it is important to access the appropriate calibration coefficients associated with the oxygen sensor onboard the glider. 
