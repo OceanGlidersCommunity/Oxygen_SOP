@@ -24,6 +24,8 @@ Version: 0.3
 *(15) Eva Alou-Font, SOCIB, Palma de Mallorca, Spain*
 *(16) Nikolaos D. Zarokanellos, SOCIB, Palma de Mallorca, Spain*
 *(17) [Victor Turpin](https://github.com/vturpin), OceanOps, Brest, France*
+*(18) Catherine Schmechtig, ?Biogeochemical Argo?, Paris, France*
+
 
 # SOP development process
 
