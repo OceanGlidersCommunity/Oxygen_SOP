@@ -24,7 +24,7 @@ Version: 0.3
 *(15) Eva Alou-Font, SOCIB, Palma de Mallorca, Spain*
 *(16) Nikolaos D. Zarokanellos, SOCIB, Palma de Mallorca, Spain*
 *(17) [Victor Turpin](https://github.com/vturpin), OceanOps, Brest, France*
-*(18) [Catherine Schmechtig] (https://github.com/catsch), CNRS, Sorbonne Université, Osu Ecce Terra, Paris, France*
+*(18) [Catherine Schmechtig](https://github.com/catsch), CNRS, Sorbonne Université, Osu Ecce Terra, Paris, France*
 
 
 # SOP development process
