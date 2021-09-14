@@ -128,7 +128,7 @@ This sensor is based on the optical (phosphorescence) principle which is now wid
 This sensor used a multi-points calibration (16 points with 4 temperatures and 4 DO concentrations). 
 In this procedure, the DO reference standards are produced by saturing the primary mixtures with DO concentrations of approximately 4%, 10%, 17% and 25% respectively (certified by the National Metrology Institute of Japan). 
 
-The DO concentration is calculated from the [@Ushida2010] equation with 9 calibration coefficients. 
+The DO concentration is calculated from the [@Uchida2010] equation with 9 calibration coefficients. 
 A second equation is used to take into account the pressure effect (linear equation with one calibration coefficient). 
 Finally, the salinity-compensated DO concentration is calculated by multiplying the factor of the effect of salt on the oxygen solubility [@BensonKrause1984] and [@GarciaGordon1992].
 This is similar to procedures used on other optodes.
@@ -183,8 +183,8 @@ Regardless of whether efforts to prevent fouling are made, it is vital that post
 ### Air saturation quality check
 Based on in-air calibrations on Argo floats and gliders [@BittigKoertzinger2015], [@Johnson2015], [@NicholsonFeen2017] and [@Bittig2018] a simpler method has been recommended by the manufacturer to do it before and after deployments (Aanderaa Best Practices for Maintaining High Data Quality). This could be used during campaigns. NOTE: This won’t be useful if sensor foil is not wet or the temperature of the foil is different from that measured with the temperature sensor. 
 You will need to leave the sensor logging outside in the free air for several hours before and after deployment. Remember to save the air pressure. 
-*NOTE: At sea level at standard air pressure (101.3 kPa = 1 Atm = 14.69 psi) the sensors should show 100 % if wet and 102 % if completely dry; at air pressure 100 kPa it should show (1.3/101.3)*100 = 1.3 % lower.
-NOTE: It is highly recommended to do this protocol at night when humidity is higher and the temperature is lower and more stable.* 
+*NOTE: At sea level at standard air pressure (101.3 kPa = 1 Atm = 14.69 psi) the sensors should show 100 % if wet and 102 % if completely dry; at air pressure 100 kPa it should show (1.3/101.3)*100 = 1.3 % lower.*
+*NOTE: It is highly recommended to do this protocol at night when humidity is higher and the temperature is lower and more stable.* 
 
 ## Pre-deployment calibration
 Optodes and similar instruments gendriferally drift more while in storage than they do in-situ. It is therefore essential that these instruments are recalibrated prior to each deployment. This is generally true even if in-situ reference (Winkler) samples are going to be taken as reference samples often won’t cover the full range of oxygen concentrations seen during the mission. As the instrument drift manifests as an increasing offset from zero in addition to a reducing sensitivity, a two point calibration is required to rescale the optodes measuring range.
@@ -338,8 +338,8 @@ When taking samples for the Winkler is not possible, values from the multiparame
 The sonde must be calibrated before and after the deployment/recovery (some sondes require to be calibrated the same day, please follow manufacturer recommendations).
 
 ## Calibration during deployment/recovery from a ship with a CTD rosette equipped with a calibrated oxygen sensor 
-If the glider is deployed/recovered from a research vessel equipped with a CTD and a calibrated O2 sensor, the glider optode can either be connected directly to the CTD profiler if able to receive the digital (RS232) output from the Optode [@Ushida2010], or attached via a data logger. 
-Record down- and upcast data to allow hysteresis correction. The Optode data obtained during the bottle-firing stop for collection of water samples can be used for in situ calibration, since the difference between the downcast and upcast oxygen profiles is relatively small (1 uM approx., [@Ushida2008]). 
+If the glider is deployed/recovered from a research vessel equipped with a CTD and a calibrated O2 sensor, the glider optode can either be connected directly to the CTD profiler if able to receive the digital (RS232) output from the Optode [@Uchida2010], or attached via a data logger. 
+Record down- and upcast data to allow hysteresis correction. The Optode data obtained during the bottle-firing stop for collection of water samples can be used for in situ calibration, since the difference between the downcast and upcast oxygen profiles is relatively small (1 uM approx., [@Uchida2008]). 
 The error in the Optode can be reduced by allowing sufficient time for the sensor equilibration after the stop (minimum 2 min as recommended by [@Hahn2014]. 
 *NOTE: For Oxygen Minimum Zone regions follow recommendations in the section below.*
 
@@ -349,7 +349,7 @@ To summarize, the steps we recommend to follow to calibrate oxygen sensors durin
  
 2) Record down- and upcast data. Timestamps of oxygen measurements are required. In case a logger is used, ensure before the calibration cast that the internal logger time is correct (i.e. in line with the CTD time).
 
-3) Collect calibration points against measurements with the CTD rosette oxygen sensor, which itself is calibrated against Winkler titrated water samples [@Landon2010]. 
+3) Collect calibration points against measurements with the CTD rosette oxygen sensor, which itself is calibrated against Winkler titrated water samples [@Langdon2010]. 
 
 4) Reference points for calibration are the same as the calibration stops. As for salinity, samples for Winkler titration will be collected during the upcast. When reached the selected depth, wait at least 2 min to ensure an equilibrated oxygen sensor [@Hahn2014]. Fire the bottles after this time. 
 
@@ -357,11 +357,9 @@ To summarize, the steps we recommend to follow to calibrate oxygen sensors durin
 
 The combined data collected following these (CTD and lab calibration) steps will be used to evaluate the calibration coefficients and it’s called hypercast calibration.
 
-*NOTE: This calibration should be done before the deployment and after the recovery. 
-It’s important that the membrane is kept wet.*
+*NOTE: This calibration should be done before the deployment and after the recovery. It’s important that the membrane is kept wet.*
 
-*NOTE: Save all data from the profiles and calibrations before deploying the glider. 
-Always record Dphase (Coppola et al., 2013).*
+*NOTE: Save all data from the profiles and calibrations before deploying the glider. Always record Dphase [@Coppola2013].*
 
 ## Deploying gliders in Oxygen Minimum Zones (OMZ)
 Note that the classical Winkler titration method is not reliable at oxygen concentrations in OMZ core [@Thomsen2016] since the method has a detection limit of around 1 uM [@Langdon2010]. 
@@ -415,7 +413,7 @@ The mission plan should aim to pass close to these platforms, ideally multiple t
 
 ## Real Time data processing
 In order to get usable oxygen values in Real Time (RT), it is important to access the appropriate calibration coefficients associated with the oxygen sensor onboard the glider. 
-Dissolved oxygen values computed inside the glider may not always be appropriate, and it is also important that the glider is configured so that intermediate parameters (phase measurements) are sent in RT, to allow dissolved oxygen computation using the best method associated with the sensor model, using both intermediate parameters and calibration coefficients (see http://dx.doi.org/10.13155/39795). 
+Dissolved oxygen values computed inside the glider may not always be appropriate, and it is also important that the glider is configured so that intermediate parameters (phase measurements) are sent in RT, to allow dissolved oxygen computation using the best method associated with the sensor model, using both intermediate parameters and calibration coefficients (see [@Thierry2018]). 
 In parallel, cross-check can be performed to ensure that the coefficient calibrations are appropriate by comparing dissolved oxygen internally computed and recomputed using the intermediate parameters. 
 If appropriate, a time lag correction may be applied already in RT taking into account the sensor time response, using either the manufacturer value or any value defined from previous deployments with the specific sensor. A real time lag correction might improve the useability of the real time data significantly.
 
@@ -466,8 +464,8 @@ Follow protocol described in section ‘Calibration during deployment/recovery f
 # Delayed Mode Quality Control (DMQC)
 
 ## Sensor drift correction
-Aanderaa describe the in-situ drift characteristics of the 4330 and 4831 series optodes as being < 0.5 % per year and they make no distinction between the standard or fast (“F"-type) foils [@TengbergHovdedenes2014].
-Optodes made after 2016 undergo a “burning-in period” during manufacture and therefore have substantially less drift [@TengbergHovdedenes2014].
+Aanderaa describe the in-situ drift characteristics of the 4330 and 4831 series optodes as being < 0.5 % per year and they make no distinction between the standard or fast (“F"-type) foils [@TengbergHovdenes2014].
+Optodes made after 2016 undergo a “burning-in period” during manufacture and therefore have substantially less drift [@TengbergHovdenes2014].
 Drift is a function of UV exposure and sampling frequency. 
 The foil becomes less sensitive (therefore drift is always towards lower oxygen concentrations). 
 The drift is believed to be due to bleaching of the luminophore foil via ambient light; it is particularly sensitive to fluorescent lights. 
