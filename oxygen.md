@@ -438,6 +438,8 @@ Outliers and spikes are difficult to detect as optodes typically smooth out spik
 
 ### Compare with climatologies and deep waters  
 - to add
+
+## Regional range check
 - 
 ### Neural-Network approaches
 - to add
