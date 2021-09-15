@@ -446,7 +446,8 @@ Outliers and spikes are difficult to detect as optodes typically smooth out spik
 - to add
 
 ### Regional range check
-- 
+- to add
+
 ### Neural-Network approaches
 - to add
 
