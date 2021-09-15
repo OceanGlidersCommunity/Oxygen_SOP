@@ -60,7 +60,8 @@ This standard operating procedure (SOP) document for dissolved oxygen (DO) aims 
 
 ## Aanderaa Optodes
 Aanderaa optodes are the most widely used oxygen sensor on gliders and a large body of work has now been dedicated to their characterisation (e.g. [@Bittig2018]).
-These sensors are based on the oxygen luminescence quenching of a platinum porphyrin complex (fluorescent indicator) that is immobilized in a sensing foil. These offer low power consumption, good long-term stability, low fouling sensitivity while not being sensitive to H2S or freezing.
+These sensors are based on the oxygen luminescence quenching of a platinum porphyrin complex (fluorescent indicator) that is immobilized in a sensing foil. 
+These offer low power consumption, good long-term stability, low fouling sensitivity while not being sensitive to H2S or freezing.
 Aanderaa optodes have seen several important developments since they were introduced in 2002, with various hardware and firmware revisions which we outline below.
 
 ### Hardware design: blue or black
