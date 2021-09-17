@@ -19,7 +19,7 @@ Version: 0.3
 *(10) Laurent Coppola, Sorbonne Université, CNRS, Laboratoire d’Océanographie de Villefranche (LOV), 06230 Villefranche-sur-Mer, France*
 *(11) Tania Morales, Plataforma Oceánica de Canarias (PLOCAN), Canary Islands, Spain*
 *(12) [Virginie Racape](https://github.com/vracape), Institut Universitaire Européen de la mer CNRS-UMS 3113, IFREMER-coriolis, Plouzané France*
-*(13) Claire Gourcuff, Euro-Argo ERIC, Brest, France*
+*(13) [Claire Gourcuff](https://github.com/cgourcuf), Euro-Argo ERIC, Brest, France*
 *(14) John Allen, SOCIB, Palma de Mallorca, Spain*
 *(15) Eva Alou-Font, SOCIB, Palma de Mallorca, Spain*
 *(16) Nikolaos D. Zarokanellos, SOCIB, Palma de Mallorca, Spain*
