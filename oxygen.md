@@ -375,7 +375,8 @@ Steps recommended in these regions:
 
 2) Measure Winkler in samples with concentration higher than 20 uM, typically in the mixed layer during the deployment and/or recovery. 
 The Winkler method is also a problem when there is a strong vertical gradient, typically found in OMZ regions. 
-Thus calibration points below the mixed layer are often not suitable. Look for regions with weak vertical gradients.
+Thus calibration points below the mixed layer are often not suitable. 
+Look for regions with weak vertical gradients.
 
 3) Park the glider for a few hours in the OMZ core at different temperatures to get an in-situ zero calibration points.
 
