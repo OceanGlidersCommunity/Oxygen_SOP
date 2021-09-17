@@ -416,7 +416,9 @@ The mission plan should aim to pass close to these platforms, ideally multiple t
 # Real time data processing & Quality Control
 
 ## Send OceanGliders metadata and set up real time data flow 
-- to add where do users find this information
+- Similarly to other type of metadata, oxygen sensor metadata (i.e. sensor model, calibration coefficient, intermediate parameters) should be send ahead of the mission to the Data Assembly Center. There is no unique procedure fot his. Protocols, format and file naming convention should be discussed with DACs before deployment. 
+- After deployment, experience shows that is it unlikely PI and operators find time to provide this information while glider is at sea. Without this information, the oxygen data will not be usable in real time.
+- So far, the best documentation about Real Time Oxygen data management is available through ARGO data management documentation here : https://archimer.ifremer.fr/doc/00287/39795/
 
 ## Real Time data processing
 In order to get usable oxygen values in Real Time (RT), it is important to access the appropriate calibration coefficients associated with the oxygen sensor onboard the glider. 
