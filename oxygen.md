@@ -188,7 +188,9 @@ Regardless of whether efforts to prevent fouling are made, it is vital that post
 ### Air saturation quality check
 Based on in-air calibrations on Argo floats and gliders [@BittigKoertzinger2015], [@Johnson2015], [@NicholsonFeen2017] and [@Bittig2018] a simpler method has been recommended by the manufacturer to do it before and after deployments (Aanderaa Best Practices for Maintaining High Data Quality). This could be used during campaigns. NOTE: This won’t be useful if sensor foil is not wet or the temperature of the foil is different from that measured with the temperature sensor. 
 You will need to leave the sensor logging outside in the free air for several hours before and after deployment. Remember to save the air pressure. 
-*NOTE: At sea level at standard air pressure (101.3 kPa = 1 Atm = 14.69 psi) the sensors should show 100 % if wet and 102 % if completely dry; at air pressure 100 kPa it should show (1.3/101.3)*100 = 1.3 % lower.*
+
+*NOTE: At sea level at standard air pressure (101.3 kPa = 1 Atm = 14.69 psi) the sensors should show 100 % if wet and 102 % if completely dry; at air pressure 100 kPa it should show (1.3/101.3)100 = 1.3 % lower.*
+
 *NOTE: It is highly recommended to do this protocol at night when humidity is higher and the temperature is lower and more stable.* 
 
 ## Pre-deployment calibration
