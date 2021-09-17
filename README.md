@@ -17,7 +17,7 @@ A PDF version can be found under [releases](https://github.com/OceanGlidersCommu
 
 5. Edit the document using magical [markdown](https://guides.github.com/features/mastering-markdown/).
 6. Make a pull request, tell us briefly why you made changes, and submit.
-7. The SOP team will approve your changes and you're done!
+7. The SOP team will approve your changes and you're done.
 8. All contributers will be listed as co-authors on the next peer-reviewed publication.
 
 ## Questions?
