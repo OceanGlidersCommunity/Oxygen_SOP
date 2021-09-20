@@ -189,6 +189,10 @@ Accurate time-stamps, or offsets relative to CT measurements must be recorded fo
 #### Seaglider
 On Seagliders the oxygen sensor is normally mounted externally behind the CT sensor (see figure XXX). Given this exposed location it is important to mount the optode with the sensing foil facing away from incident light to avoid unnecessary UV exposure.
 
+| image file needed |
+|:--:|
+| *Figure xx: UEA OGIVE seaglider with 4330F optode, together with NOC LoC spectrophotometric pH, unpumped SBE CT and Fluidion potentiometric pH sensor.* |
+
 #### Slocum
 On slocum gliders the oxygen optode is typically installed aft close to the fin (insert Figure from IMOS DMQC report?). However this positioning is not ideal for oxygen measurements due to the optode being within a region of laminar flow (Moatxxxx), additionally the optode response time has been observed to be dependent on the sensor orientation relative to the direction of flow [@Bittig2014]. 
 An alternative mounting of the Aanderaa optode in a more prominent location fore of the glider fin has been demonstrated as being much more suitable for measuring oxygen on gliders (Fig. XX) [@NicholsonFeen2017]. This mounting location means that the sensor foil faces the flow directly and therefore the diffusive boundary layer thickness at the optode membrane is minimised, reducing the optode response time. Furthermore, this mounting location also means that in-situ in-air calibrations can be performed during deployment (similar to those done with Argo floats) which are beneficial when processing the DM oxygen data (see ‘in-air calibration’ section).
