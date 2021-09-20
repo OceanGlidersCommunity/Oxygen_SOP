@@ -394,7 +394,7 @@ This can be done by placing a wet sponge in the sensor membrane at least 8 hours
 
 *NOTE: Remember to remove the sponge and any other material used to keep the sensor wet.*
 
-| image file missing |
+| ![dryfoil](images/dryfoil.png) |
 |:--:|
 | *Figure x: Effect of dry foil, first dives show elevated oxygen concentrations and slow foil response times. taken from AlterEco AE2 Slocum “Stella” using a 4330 optode (standard foil).* |
 
@@ -406,11 +406,11 @@ This will also help to record the sampling depths.
 When taking samples for the Winkler is not possible, values from the multiparameter sonde might be useful for in situ intercomparisons. 
 The sonde must be calibrated before and after the deployment/recovery (some sondes require to be calibrated the same day, please follow manufacturer recommendations).
 
-| image file missing |
+| ![CoastalDeployment](images/CoastalDeployment.png|
 |:--:|
 | *Figure x: Coastal deployment of a Slocum glider from a small boat (photo taken during the Glider School at PLOCAN).* |
 
-| image file missing |
+| ![multiparametersonde](images/multiparametersonde.png) |
 |:--:|
 | *Figure x: Used of a multiparameter sonde for in-situ intercomparison  during deployments from small boats.* |
 
