@@ -22,7 +22,7 @@ Version: 0.3
 *(13) [Claire Gourcuff](https://github.com/cgourcuf), Euro-Argo ERIC, Brest, France*
 *(14) John Allen, SOCIB, Palma de Mallorca, Spain*
 *(15) Eva Alou-Font, SOCIB, Palma de Mallorca, Spain*
-*(16) Nikolaos D. Zarokanellos, SOCIB, Palma de Mallorca, Spain*
+*(16) [Nikolaos D. Zarokanellos](https://github.com/nizaroka), SOCIB, Palma de Mallorca, Spain*
 *(17) [Victor Turpin](https://github.com/vturpin), OceanOps, Brest, France*
 *(18) [Catherine Schmechtig](https://github.com/catsch), CNRS, Sorbonne Université, Osu Ecce Terra, Paris, France*
 *(19) [Pierre Testor](https://github.com/ptestor), LOCEAN, ISPL, Sorbonne University, Paris, France*
