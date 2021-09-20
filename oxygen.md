@@ -409,7 +409,7 @@ The sonde must be calibrated before and after the deployment/recovery (some sond
 
 | image file missing |
 |:--:|
-| *Figure x: Used of a  multiparameter sonde for in-situ intercomparison  during deployments from small boats.* |
+| *Figure x: Used of a multiparameter sonde for in-situ intercomparison  during deployments from small boats.* |
 
 ## Calibration during deployment/recovery from a ship with a CTD rosette equipped with a calibrated oxygen sensor 
 If the glider is deployed/recovered from a research vessel equipped with a CTD and a calibrated O2 sensor, the glider optode can either be connected directly to the CTD profiler if able to receive the digital (RS232) output from the Optode [@Uchida2010], or attached via a data logger. 
@@ -434,6 +434,10 @@ The combined data collected following these (CTD and lab calibration) steps will
 *NOTE: This calibration should be done before the deployment and after the recovery. It’s important that the membrane is kept wet.*
 
 *NOTE: Save all data from the profiles and calibrations before deploying the glider. Always record Dphase [@Coppola2013].*
+
+| image file missing |
+|:--:|
+| *Several GEOMAR oxygen data loggers (Aanderaa Optode mounted on data logger) attached to a CTD frame and prepared for in-situ calibration during a CTD cast. Panels in the upper row show fixation with straps and zip ties. Panel in the lower row shows fixation with scaffolding clamps and tape in the interior lower part of the CTD frame.* |
 
 ## Deploying gliders in Oxygen Minimum Zones (OMZ)
 Note that the classical Winkler titration method is not reliable at oxygen concentrations in OMZ core [@Thomsen2016] since the method has a detection limit of around 1 uM [@Langdon2010]. 
