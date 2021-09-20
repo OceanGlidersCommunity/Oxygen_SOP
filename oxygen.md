@@ -139,6 +139,10 @@ A second equation is used to take into account the pressure effect (linear equat
 Finally, the salinity-compensated DO concentration is calculated by multiplying the factor of the effect of salt on the oxygen solubility [@BensonKrause1984] and [@GarciaGordon1992].
 This is similar to procedures used on other optodes.
 
+| image file needed |
+|:--:|
+| *Figure X: Oxygen saturation from a Rinko AROD-FT on a SeaExplorer glider in the Bornholm Basin (Voice of the Ocean Foundation and University of Gothenburg).* |
+
 Recent deployments of a SeaExplorer glider equipped with an AROD-FT sensor have shown long-term stability (low drift over time) but with a significant offset observed during sections in the Ligurian Sea (on average 10-15 mumol/kg). 
 Deployments in the Bornholm Basin have shown good agreement across a wide range of oxygen concentrations with a nearby BOOS monitoring station; this sensor was a recent acquisition and had had little opportunity to drift in storage.
 
