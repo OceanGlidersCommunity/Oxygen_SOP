@@ -4,7 +4,7 @@ Subtitle: "Oxygen"
 Version: 0.3
 ---
 
-![](images/logo-ocean-gliders.png)
+![](images/logo_v02_1_contour.png)
 
 **Authors**
 *(1) [Patricia López-García](https://github.com/patricialg), Ocean Technology and Engineering Group, National Oceanography Centre, Southampton, UK*
