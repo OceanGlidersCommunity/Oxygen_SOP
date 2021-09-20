@@ -229,7 +229,7 @@ In optodes sensors, biofouling can be severe enough to block oxygen molecules fr
 1) Copper tape (e.g. 3M 1181) or Copper/Nickel (last much longer) are easy antifouling solutions. 
 When applying the tape, be sure that it is not in contact with any other metal parts otherwise, the tape will lose its antifouling properties.
 
-2) Paints / coatings - optical sensors, so these can only reduce growth nearby but not on the actual sensing foil
+2) Paints / coatings - optical sensors, so these can only reduce growth nearby but not on the actual sensing foil.
 
 4) Ongoing trials: Aanderaa is focusing on non-toxic methods like fiber/hair cloth and “shark skin” film.
 
