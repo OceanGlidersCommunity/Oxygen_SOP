@@ -25,7 +25,8 @@ Version: 0.3
 *(16) [Nikolaos D. Zarokanellos](https://github.com/nizaroka), SOCIB, Palma de Mallorca, Spain*
 *(17) [Victor Turpin](https://github.com/vturpin), OceanOps, Brest, France*
 *(18) [Catherine Schmechtig](https://github.com/catsch), CNRS, Sorbonne Université, Osu Ecce Terra, Paris, France*
-*(19) [Pierre Testor](https://github.com/ptestor), LOCEAN, ISPL, Sorbonne University, Paris, France*
+*(19) [Pierre Testor](https://github.com/ptestor), CNRS-Sorbonne Universités (UPMC Univ. Pierre et Marie Curie, Paris 06)-CNRS-IRD-MNHN, UMR 7159, Laboratoire
+d’Océanographie et de Climatologie (LOCEAN), Institut Pierre Simon Laplace (IPSL), Observatoire Ecce Terra, Paris, France*
 
 
 # SOP development process
