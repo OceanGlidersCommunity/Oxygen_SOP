@@ -25,7 +25,7 @@ Version: 0.3
 *(16) Nikolaos D. Zarokanellos, SOCIB, Palma de Mallorca, Spain*
 *(17) [Victor Turpin](https://github.com/vturpin), OceanOps, Brest, France*
 *(18) [Catherine Schmechtig](https://github.com/catsch), CNRS, Sorbonne Université, Osu Ecce Terra, Paris, France*
-*(19) Pierre Testor, LOCEAN, ISPL, Sorbonne University, Paris, France*
+*(19) [Pierre Testor](https://github.com/ptestor), LOCEAN, ISPL, Sorbonne University, Paris, France*
 
 
 # SOP development process
