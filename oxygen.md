@@ -184,7 +184,7 @@ Accurate time-stamps, or offsets relative to CT measurements must be recorded fo
 
 #### Spray
 
-| image file needed |
+| image file needed-we have only from an article |
 |:--:|
 | *Figure xx: Fig. 2 of Takeshita et al. 2021.* |
 
@@ -192,7 +192,7 @@ Accurate time-stamps, or offsets relative to CT measurements must be recorded fo
 #### Seaglider
 On Seagliders the oxygen sensor is normally mounted externally behind the CT sensor (see figure XXX). Given this exposed location it is important to mount the optode with the sensing foil facing away from incident light to avoid unnecessary UV exposure.
 
-| image file needed |
+| ![OGIVE](images/OGIVE.png) |
 |:--:|
 | *Figure xx: UEA OGIVE seaglider with 4330F optode, together with NOC LoC spectrophotometric pH, unpumped SBE CT and Fluidion potentiometric pH sensor.* |
 
@@ -205,7 +205,7 @@ On slocum gliders the oxygen optode is typically installed aft close to the fin.
 
 However this positioning is not ideal for oxygen measurements due to the optode being within a region of laminar flow (Moat XXXX), additionally the optode response time has been observed to be dependent on the sensor orientation relative to the direction of flow [@Bittig2014]. 
 
-| image file needed |
+| ![slocum](images/slocum.jpg) |
 |:--:|
 | *Figure X: Standard Aanderaa optode 4831 mounting under the fin of the Slocum G2.* |
 
@@ -213,14 +213,14 @@ An alternative mounting of the Aanderaa optode in a more prominent location fore
 This mounting location means that the sensor foil faces the flow directly and therefore the diffusive boundary layer thickness at the optode membrane is minimised, reducing the optode response time. 
 Furthermore, this mounting location also means that in-situ in-air calibrations can be performed during deployment (similar to those done with Argo floats) which are beneficial when processing the DM oxygen data (see ‘in-air calibration’ section).
 
-| image file needed |
+| image file needed-we have only from an article |
 |:--:|
 | *Figure X: Taken from Nicholson and Feen (2017); Slocum glider showing alternative mounting of an Aanderaa optode perpendicular to the fin.* |
 
 #### SeaExplorer
 On SeaExplorer gliders, all existing oxygen sensor integrations are installed in the forward wet payload section (the nose cone). External mounting is also feasible using external puck mounts on the dry payload, located approximately 1/3 of the way back, but is rare and generally only used for instrument trials. The Rinko AROD-FT is generally installed on the forward starboard connector, with the sensing foil and temperature probe 15 centimeters back from the tip of the nose and lightly sheltered to avoid damage when making contact with the nose. Both the foil and temperature probe are well exposed to flow. The new RBR Coda integration is also planned to present the foil and probe slightly set back from the tip of the nose, while remaining exposed to unmodified flow. The SBE43 is found only when accompanied with a Seabird pumped CT sensor; both of these sensors are placed in the nose where the RBR Legato CT sensor can be seen in the figure below.
 
-| image file needed |
+| ![Rinko](images/Rinko.png) |
 |:--:|
 | *Figure X: Rinko AROD-FT in the flooded nose cone payload bay of a SeaExplorer next to an RBR Legato sensor.* |
 
