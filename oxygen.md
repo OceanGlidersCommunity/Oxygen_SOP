@@ -406,7 +406,7 @@ This will also help to record the sampling depths.
 When taking samples for the Winkler is not possible, values from the multiparameter sonde might be useful for in situ intercomparisons. 
 The sonde must be calibrated before and after the deployment/recovery (some sondes require to be calibrated the same day, please follow manufacturer recommendations).
 
-| ![CoastalDeployment](images/CoastalDeployment.png|
+| ![CoastalDeployment](images/CoastalDeployment.png) |
 |:--:|
 | *Figure x: Coastal deployment of a Slocum glider from a small boat (photo taken during the Glider School at PLOCAN).* |
 
@@ -438,7 +438,7 @@ The combined data collected following these (CTD and lab calibration) steps will
 
 *NOTE: Save all data from the profiles and calibrations before deploying the glider. Always record Dphase [@Coppola2013].*
 
-| image file missing |
+| ![Datalogger](images/Datalogger.png) |
 |:--:|
 | *Several GEOMAR oxygen data loggers (Aanderaa Optode mounted on data logger) attached to a CTD frame and prepared for in-situ calibration during a CTD cast. Panels in the upper row show fixation with straps and zip ties. Panel in the lower row shows fixation with scaffolding clamps and tape in the interior lower part of the CTD frame.* |
 
