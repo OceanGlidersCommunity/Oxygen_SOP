@@ -116,7 +116,7 @@ If done correctly such an adjustment should result in an absolute accuracy of ar
 The drift will decrease over time so that during the second year it is not likely to be more than 1-2 %. 
 After this it should be less than 0.5 % per year, unless the foil is mechanically damaged (Aanderaa). 
 
-| ![AanderaaSensors](images/AanderaSensors.png) |
+| ![AanderaaSensors](images/AanderaSensors.png)|
 |:--:|
 | *Figure 1: Suit of smart optodes sensors. (Image was taken from the manufacturer webpage www.aanderaa.com)* |
 
@@ -133,7 +133,7 @@ This sensor is based on the optical (phosphorescence) principle which is now wid
 This sensor used a multi-points calibration (16 points with 4 temperatures and 4 DO concentrations). 
 In this procedure, the DO reference standards are produced by saturing the primary mixtures with DO concentrations of approximately 4%, 10%, 17% and 25% respectively (certified by the National Metrology Institute of Japan). 
 
-| image file needed |
+| ![ARODFTSensor](images/ARODFTSensor.jpg) |
 |:--:|
 | *Figure X: AROD-FT sensor mounted on a SeaExplorer glider (credit: ALSEAMAR)* |
 
@@ -142,7 +142,7 @@ A second equation is used to take into account the pressure effect (linear equat
 Finally, the salinity-compensated DO concentration is calculated by multiplying the factor of the effect of salt on the oxygen solubility [@BensonKrause1984] and [@GarciaGordon1992].
 This is similar to procedures used on other optodes.
 
-| image file needed |
+| ![SAMBA](images/SAMBA.png) |
 |:--:|
 | *Figure X: Oxygen saturation from a Rinko AROD-FT on a SeaExplorer glider in the Bornholm Basin (Voice of the Ocean Foundation and University of Gothenburg).* |
 
