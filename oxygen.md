@@ -142,7 +142,10 @@ This is similar to procedures used on other optodes.
 Recent deployments of a SeaExplorer glider equipped with an AROD-FT sensor have shown long-term stability (low drift over time) but with a significant offset observed during sections in the Ligurian Sea (on average 10-15 mumol/kg). 
 Deployments in the Bornholm Basin have shown good agreement across a wide range of oxygen concentrations with a nearby BOOS monitoring station; this sensor was a recent acquisition and had had little opportunity to drift in storage.
 
-# Pre-deployment operations
+## Clark electrode polarographic sensor (SBE43)
+- input from expert needed here
+
+# Pre-deployment operations and calibrations
 
 ## Storage and cleaning
 Optode foils typically drift more while in storage than while in use, the reasons for this are thought to be due to exposure to UV radiation and dry air [@Bittig2018] and (Aanderaa). 
