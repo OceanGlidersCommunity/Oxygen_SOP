@@ -39,7 +39,7 @@ Additional authors joined: [Bastien Y. Queste](https://github.com/bastienqueste)
 3) First community and  user feedback was provided during the OceanGliders Best Practice Workshop, May 11 - 25 2021 by attendees. 
 
 4) SOP moved to this repository by: [Patricia López-García](https://github.com/patricialg), [Tom Hull](https://github.com/tomhull), [Soeren Thomsen](https://github.com/soerenthomsen) in September 2021. 
-Additional authors joined: [Victor Turpin](https://github.com/vturpin), [Catherine Schmechtig](https://github.com/catsch), Pierre Testor
+Additional authors joined: [Victor Turpin](https://github.com/vturpin), [Catherine Schmechtig](https://github.com/catsch), [Pierre Testor](https://github.com/ptestor)
 
 5) Next step: 4 months of community review on GitHub starting in October 2021.
 
