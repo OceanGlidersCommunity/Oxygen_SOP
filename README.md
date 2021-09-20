@@ -27,6 +27,8 @@ Just raise a question [here](https://github.com/OceanGlidersCommunity/Oxygen_SOP
 
 ## Licence
 
+- likely one version of Creative Commons (https://creativecommons.org), to be discussed with Ocean Best Practice System and Frontiers
+
 ## About Markdown and Pandoc
 
 Hosting this document on Github allows easy editing by contributors, no need to pull the repository to your local machine.
