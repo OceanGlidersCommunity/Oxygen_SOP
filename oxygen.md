@@ -130,6 +130,10 @@ This sensor is based on the optical (phosphorescence) principle which is now wid
 This sensor used a multi-points calibration (16 points with 4 temperatures and 4 DO concentrations). 
 In this procedure, the DO reference standards are produced by saturing the primary mixtures with DO concentrations of approximately 4%, 10%, 17% and 25% respectively (certified by the National Metrology Institute of Japan). 
 
+| image file needed |
+|:--:|
+| *Figure X: AROD-FT sensor mounted on a SeaExplorer glider (credit: ALSEAMAR)* |
+
 The DO concentration is calculated from the [@Uchida2010] equation with 9 calibration coefficients. 
 A second equation is used to take into account the pressure effect (linear equation with one calibration coefficient). 
 Finally, the salinity-compensated DO concentration is calculated by multiplying the factor of the effect of salt on the oxygen solubility [@BensonKrause1984] and [@GarciaGordon1992].
