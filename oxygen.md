@@ -223,11 +223,18 @@ On SeaExplorer gliders, all existing oxygen sensor integrations are installed in
 
 ### Antifouling
 Materials immersed in water experience a series of biological and chemical processes, resulting in the formation of complex layers with attached organisms. This biofouling can be divided into microfouling and macrofouling [@Delgado2021]. 
+
 In optodes sensors, biofouling can be severe enough to block oxygen molecules from entering the sensing foil. Aanderaa has different solutions that have been successfully applied, some includes: 
-Copper tape (e.g. 3M 1181) or Copper/Nickel (last much longer) are easy antifouling solutions. When applying the tape, be sure that it is not in contact with any other metal parts otherwise, the tape will lose its antifouling properties.
-Paints / coatings - optical sensors, so these can only reduce growth nearby but not on the actual sensing foil
-Ongoing trials: Aanderaa is focusing on non-toxic methods like fiber/hair cloth and “shark skin” film.
+
+1) Copper tape (e.g. 3M 1181) or Copper/Nickel (last much longer) are easy antifouling solutions. 
+When applying the tape, be sure that it is not in contact with any other metal parts otherwise, the tape will lose its antifouling properties.
+
+2) Paints / coatings - optical sensors, so these can only reduce growth nearby but not on the actual sensing foil
+
+4) Ongoing trials: Aanderaa is focusing on non-toxic methods like fiber/hair cloth and “shark skin” film.
+
 Mechanical wipers or UV radiation based approaches are generally unsuitable for gliders due to their increased power requirements and drag.
+
 Regardless of whether efforts to prevent fouling are made, it is vital that post-recovery photographs are taken of the optode so that the impact of biofouling can be assessed during DMQC.
 
 ### Air saturation quality check
