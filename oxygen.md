@@ -301,6 +301,10 @@ To stop, type ‘Do Stop’.
 
 There is also a possibility of using a Data Logger while we are working with the sensors. 
 
+| image file missing |
+|:--:|
+| *Recording data using a terminal program (left image) and using a data logger (right image).* |
+
 #### Calibration procedure
 Materials: Distilled water, aquarium pump, 1L and small volume beakers, stirrer and magnetic stirrer, BOD bottles, Winkler reagents, sodium sulfite solution, pipettes and tips, barometer, termometer.
 Type Get All command for saving the initial sensor configuration to be able to restore old values in case something goes wrong.
