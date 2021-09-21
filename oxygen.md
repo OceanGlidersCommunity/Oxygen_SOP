@@ -298,6 +298,7 @@ Xon/Xoff Flow Control
 3. If using Tera Terminal Pro, after setting up the com port according to settings above please select “Terminal” in the “Set up” menu and click “Local echo” also select “CR+LF” for both “Receive” and “Transmit” under “New line”.
 To stop, type ‘Do Stop’.
 4. Once the sensor is measuring, continue with the procedure (see section Calibration Procedure).
+
 There is also a possibility of using a Data Logger while we are working with the sensors. 
 
 #### Calibration procedure
