@@ -307,7 +307,9 @@ There is also a possibility of using a Data Logger while we are working with the
 
 #### Calibration procedure
 Materials: Distilled water, aquarium pump, 1L and small volume beakers, stirrer and magnetic stirrer, BOD bottles, Winkler reagents, sodium sulfite solution, pipettes and tips, barometer, termometer.
-Type Get All command for saving the initial sensor configuration to be able to restore old values in case something goes wrong.
+
+Type *Get All* command for saving the initial sensor configuration to be able to restore old values in case something goes wrong.
+
 1. With the sensor submerged in  the 100 % water, connect to it and start measuring.  Set the Interval property to 30 seconds. (This interval is recommended during the calibration to reduce the risk of self heating in the small container).
              
             Set Passkey(1000)
