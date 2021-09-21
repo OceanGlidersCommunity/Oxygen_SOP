@@ -256,8 +256,11 @@ This protocol is recommended to do for at least two different temperatures, whic
 1. Doing the experiments in labs with different temperatures. You need to leave all materials, reagents and sensors in the lab/workshop/room at least 8 hours (e.g. overnight) before starting the calibration.
 2. Doing the experiment in the lab and changing the temperature. This is possible if the lab has an AC that we can turn on/off or change the temperature easily. You need to leave all materials, reagents and sensors in the lab at least 8 hours (e.g. overnight) before starting the calibration.
 3. Doing the experiment using a thermostatic bath. You need to leave the 0 and 100% solutions in the bath at least overnight before starting the calibration. In this case, because we won’t be able to use a magnetic stirrer, we need to be sure we place the end of the bubble tube in the bottom of the bottle/beaker. 
+
 In situ intercomparisons will be required to find the outset of the sensor in different seawater conditions. Therefore, samples should be taken in the tank during the ballasting (if this is 1-2 days before deployment, no more) and at the deployment/recovery site (ideally at different depths).
+
 *NOTE: A multipoint DO calibration is necessary to obtain new foil coefficients and that can be done at the manufacturer laboratories or in any fully equipped calibration lab. These values shouldn’t be changed otherwise.*
+
 The Winkler method is used to determine the concentration of dissolved oxygen in discrete water samples which is a highly accurate method for determination of dissolved oxygen (± 0.15 mumol kg-1). We recommend to follow the GO-SHIP protocol described by [@Langdon2010] and a well trained technician to do the sampling and analysis.
 
 | ![100-0-calibration](images/100-0-calibration.png) |
@@ -468,7 +471,7 @@ One to two days per week appear to be a reasonable compromise between energy sav
 If bio-fouling is expected during the deployment it is better to collect up-down pairs earlier rather than later.
 
 - add "Sampling rates"
-- 
+
 ### Gather data to correct for sensor drift
 #### Deep water masses or known anoxic waters
 In regions with known oxygen concentrations i.e. within the core of the Peruvian Oxygen Minimum Zone (OMZ) oxygen concentrations of close to zero or few nmol are typical [@Revsbech2009], [@Kalvelage2013], [@Thomsen2016] in-situ calibration points can be recorded. 
