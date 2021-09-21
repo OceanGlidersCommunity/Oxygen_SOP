@@ -410,7 +410,7 @@ This can be done by placing a wet sponge in the sensor membrane at least 8 hours
 
 Samples should be collected with the Niskin bottle(s) for Winkler analysis during the deployment (following [@Langdon2010] protocol). 
 It’s recommended to take between 4-6 samples on the surface (approx. 5m) (ideally samples will be taken at different depths). 
-After adding the Winkler reagents, samples should be kept in a dark and try to avoid high temperatures. 
+After adding the Winkler reagents, samples should be kept in the dark and try to avoid high temperatures. 
 It’s also recommended to use a calibrated  multiparameter sonde to do DO profiles at the deployment site while taking samples with the Niskin bottles. 
 This will also help to record the sampling depths. 
 When taking samples for the Winkler is not possible, values from the multiparameter sonde might be useful for in situ intercomparisons. 
