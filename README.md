@@ -27,7 +27,8 @@ Just raise a question [here](https://github.com/OceanGlidersCommunity/Oxygen_SOP
 
 ## Licence
 
-- likely one version of Creative Commons (https://creativecommons.org), to be discussed with Ocean Best Practice System and Frontiers, join issue here [#31](https://github.com/OceanGlidersCommunity/Oxygen_SOP/issues/31)
+- likely one version of Creative Commons (https://creativecommons.org), to be discussed with Ocean Best Practice System and Frontiers, 
+- join issue here [#31](https://github.com/OceanGlidersCommunity/Oxygen_SOP/issues/31)
 
 ## About Markdown and Pandoc
 
