@@ -16,7 +16,7 @@ include-before: |
   1. Charlotte Williams, *Marine Physics and Ocean Climate Group. National Oceanography Centre, Liverpool, UK*
   1. Mun Woo, *IMOS Ocean Gliders, UWA Oceans Institute and Oceans Graduate School, The University of Western Australia, Perth, Australia*
   1. Charitha Pattiaratchi, *IMOS Ocean Gliders, UWA Oceans Institute and Oceans Graduate School, The University of Western Australia, Perth, Australia*
-  1. Laurent Coppola, *Sorbonne Université, CNRS, Laboratoire d’Océanographie de Villefranche (LOV), 06230 Villefranche-sur-Mer, France*
+  1. [Laurent Coppola](https://github.com/laurcopp), *Sorbonne Université, CNRS, Laboratoire d’Océanographie de Villefranche (LOV), 06230 Villefranche-sur-Mer, France*
   1. Tania Morales, *Plataforma Oceánica de Canarias (PLOCAN), Canary Islands, Spain*
   1. [Virginie Racape](https://github.com/vracape), *Institut Universitaire Européen de la mer CNRS-UMS 3113, IFREMER-coriolis, Plouzané France*
   1. [Claire Gourcuff](https://github.com/cgourcuf), *Euro-Argo ERIC, Brest, France*
@@ -39,7 +39,7 @@ toc-depth: 2
 2) Two expert sessions during OceanGliders Best Practice Workshop, May 11 - 25 2021. 
 Additional authors joined: [Bastien Y. Queste](https://github.com/bastienqueste), Gerd Krahmann, Charlotte Williams, Mun Woo, Charitha Pattiaratchi, Laurent Coppola, Tania Morales, [Virginie Racape](https://github.com/vracape), [Claire Gourcuff](https://github.com/cgourcuf), John Allen, Eva Alou, [Nikolaos D. Zarokanellos](https://github.com/nizaroka)
 
-3) First community and  user feedback was provided during the OceanGliders Best Practice Workshop, May 11 - 25 2021 by attendees. 
+3) First community and user feedback was provided during the OceanGliders Best Practice Workshop, May 11 - 25 2021 by attendees. 
 
 4) SOP moved to this repository by: [Patricia López-García](https://github.com/patricialg), [Tom Hull](https://github.com/tomhull), [Soeren Thomsen](https://github.com/soerenthomsen) in September 2021. 
 
