@@ -1,33 +1,36 @@
 ---
-Title: "OceanGliders Standard Operating Procedure (SOP)"
-Subtitle: "Oxygen"
-Version: 0.3
+title: "OceanGliders Standard Operating Procedure (SOP)"
+subtitle: "Oxygen, version 0.3"
+include-before: |
+  \begin{center}
+  \includegraphics[height=6cm]{images/logo}
+  \end{center}
+
+  ### Authors
+  1. [Patricia López-García](https://github.com/patricialg), *Ocean Technology and Engineering Group, National Oceanography Centre, Southampton, UK*
+  1. [Tom Hull](https://github.com/tomhull), *Centre for Environment Fisheries and Aquaculture Science, Lowestoft, UK*
+  1. [Soeren Thomsen](https://github.com/soerenthomsen), *LOCEAN, ISPL, Sorbonne University, Paris, France*
+  1. [Johannes Hahn](https://github.com/hahn-johannes), *Federal Maritime and Hydrographic Agency (BSH), Hamburg, Germany*
+  1. [Bastien Y. Queste](https://github.com/bastienqueste), *Department of Marine Science, University of Gothenburg, Gothenburg, Sweden*
+  1. Gerd Krahmann, *GEOMAR Helmholtz Centre for Ocean Research Kiel, Germany* 
+  1. Charlotte Williams, *Marine Physics and Ocean Climate Group. National Oceanography Centre, Liverpool, UK*
+  1. Mun Woo, *IMOS Ocean Gliders, UWA Oceans Institute and Oceans Graduate School, The University of Western Australia, Perth, Australia*
+  1. Charitha Pattiaratchi, *IMOS Ocean Gliders, UWA Oceans Institute and Oceans Graduate School, The University of Western Australia, Perth, Australia*
+  1. Laurent Coppola, *Sorbonne Université, CNRS, Laboratoire d’Océanographie de Villefranche (LOV), 06230 Villefranche-sur-Mer, France*
+  1. Tania Morales, *Plataforma Oceánica de Canarias (PLOCAN), Canary Islands, Spain*
+  1. [Virginie Racape](https://github.com/vracape), *Institut Universitaire Européen de la mer CNRS-UMS 3113, IFREMER-coriolis, Plouzané France*
+  1. [Claire Gourcuff](https://github.com/cgourcuf), *Euro-Argo ERIC, Brest, France*
+  1. John Allen, *SOCIB, Palma de Mallorca, Spain*
+  1. Eva Alou-Font, *SOCIB, Palma de Mallorca, Spain*
+  1. [Nikolaos D. Zarokanellos](https://github.com/nizaroka),* SOCIB, Palma de Mallorca, Spain*
+  1. [Victor Turpin](https://github.com/vturpin), *OceanOps, Brest, France*
+  1. [Catherine Schmechtig](https://github.com/catsch), *CNRS, Sorbonne Université, Osu Ecce Terra, Paris, France*
+  1. [Pierre Testor](https://github.com/ptestor), *CNRS-Sorbonne Universités (UPMC Univ. Pierre et Marie Curie, Paris 06)-CNRS-IRD-MNHN, UMR 7159, Laboratoire d’Océanographie et de Climatologie (LOCEAN), Institut Pierre Simon Laplace (IPSL), Observatoire Ecce Terra, Paris, France*
+  \newpage
+toc: true
+toc-depth: 2
 ---
-
-![](images/logo_v02_1_contour.png)
-
-**Authors**
-*(1) [Patricia López-García](https://github.com/patricialg), Ocean Technology and Engineering Group, National Oceanography Centre, Southampton, UK*
-*(2) [Tom Hull](https://github.com/tomhull), Centre for Environment Fisheries and Aquaculture Science, Lowestoft, UK*
-*(3) [Soeren Thomsen](https://github.com/soerenthomsen), LOCEAN, ISPL, Sorbonne University, Paris, France*
-*(4) [Johannes Hahn](https://github.com/hahn-johannes), Federal Maritime and Hydrographic Agency (BSH), Hamburg, Germany*
-*(5) [Bastien Y. Queste](https://github.com/bastienqueste), Department of Marine Science, University of Gothenburg, Gothenburg, Sweden*
-*(6) Gerd Krahmann, GEOMAR Helmholtz Centre for Ocean Research Kiel, Germany* 
-*(7) Charlotte Williams, Marine Physics and Ocean Climate Group. National Oceanography Centre, Liverpool, UK*
-*(8) Mun Woo, IMOS Ocean Gliders, UWA Oceans Institute and Oceans Graduate School, The University of Western Australia, Perth, Australia*
-*(9) Charitha Pattiaratchi, IMOS Ocean Gliders, UWA Oceans Institute and Oceans Graduate School, The University of Western Australia, Perth, Australia*
-*(10) Laurent Coppola, Sorbonne Université, CNRS, Laboratoire d’Océanographie de Villefranche (LOV), 06230 Villefranche-sur-Mer, France*
-*(11) Tania Morales, Plataforma Oceánica de Canarias (PLOCAN), Canary Islands, Spain*
-*(12) [Virginie Racape](https://github.com/vracape), Institut Universitaire Européen de la mer CNRS-UMS 3113, IFREMER-coriolis, Plouzané France*
-*(13) [Claire Gourcuff](https://github.com/cgourcuf), Euro-Argo ERIC, Brest, France*
-*(14) John Allen, SOCIB, Palma de Mallorca, Spain*
-*(15) Eva Alou-Font, SOCIB, Palma de Mallorca, Spain*
-*(16) [Nikolaos D. Zarokanellos](https://github.com/nizaroka), SOCIB, Palma de Mallorca, Spain*
-*(17) [Victor Turpin](https://github.com/vturpin), OceanOps, Brest, France*
-*(18) [Catherine Schmechtig](https://github.com/catsch), CNRS, Sorbonne Université, Osu Ecce Terra, Paris, France*
-*(19) [Pierre Testor](https://github.com/ptestor), CNRS-Sorbonne Universités (UPMC Univ. Pierre et Marie Curie, Paris 06)-CNRS-IRD-MNHN, UMR 7159, Laboratoire
-d’Océanographie et de Climatologie (LOCEAN), Institut Pierre Simon Laplace (IPSL), Observatoire Ecce Terra, Paris, France*
-
+\newpage
 
 # SOP development process
 
@@ -65,7 +68,7 @@ This standard operating procedure (SOP) document for dissolved oxygen (DO) aims 
 Aanderaa optodes are the most widely used oxygen sensor on gliders and a large body of work has now been dedicated to their characterisation (e.g. [@Bittig2018]).
 These sensors are based on the oxygen luminescence quenching of a platinum porphyrin complex (fluorescent indicator) that is immobilized in a sensing foil. 
 These offer low power consumption, good long-term stability, low fouling sensitivity while not being sensitive to H2S or freezing.
-Aanderaa optodes have seen several important developments since they were introduced in 2002, with various hardware and firmware revisions which we outline below.
+Aanderaa optodes have seen several important developments since they were introduced in 2002, with various hardware and firmware revisions which we outline below (shown in figure \ref{fig:optodes}).
 
 ### Hardware design: blue or black
 While mostly cosmetic, the colour of the optode is a useful short-hand for the two main optode designs.
@@ -116,9 +119,7 @@ If done correctly such an adjustment should result in an absolute accuracy of ar
 The drift will decrease over time so that during the second year it is not likely to be more than 1-2 %. 
 After this it should be less than 0.5 % per year, unless the foil is mechanically damaged (Aanderaa). 
 
-| ![AanderaaSensors](images/AanderaSensors.png)|
-|:--:|
-| *Figure 1: Suit of smart optodes sensors. (Image was taken from the manufacturer webpage www.aanderaa.com)* |
+![Suit of smart optodes sensors. (Image was taken from the manufacturer webpage www.aanderaa.com) \label{fig:optodes}](images/AanderaSensors.png)
 
 ## RBR coda T.ODO
 The RBRcoda T.ODO uses the same foils and methods as the 4831 and 4831F so everything above specified for the 4831 will also apply to those instruments as well.
