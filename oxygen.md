@@ -203,7 +203,7 @@ On slocum gliders the oxygen optode is typically installed aft close to the fin.
 |:--:|
 | *Figure X: Insert Figure from IMOS DMQC report?* |
 
-However this positioning is not ideal for oxygen measurements due to the optode being within a region of laminar flow (Moat XXXX), additionally the optode response time has been observed to be dependent on the sensor orientation relative to the direction of flow [@Bittig2014]. 
+However this positioning is not ideal for oxygen measurements due to the optode being within a region of laminar flow [@Moat2016], additionally the optode response time has been observed to be dependent on the sensor orientation relative to the direction of flow [@Bittig2014]. 
 
 | ![slocum](images/slocum.jpg) |
 |:--:|
