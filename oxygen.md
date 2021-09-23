@@ -1,33 +1,36 @@
 ---
-Title: "OceanGliders Standard Operating Procedure (SOP)"
-Subtitle: "Oxygen"
-Version: 0.3
+title: "OceanGliders Standard Operating Procedure (SOP)"
+subtitle: "Oxygen, version 0.3"
+include-before: |
+  \begin{center}
+  \includegraphics[height=6cm]{images/logo}
+  \end{center}
+
+  ### Authors
+  1. [Patricia López-García](https://github.com/patricialg), *Ocean Technology and Engineering Group, National Oceanography Centre, Southampton, UK*
+  1. [Tom Hull](https://github.com/tomhull), *Centre for Environment Fisheries and Aquaculture Science, Lowestoft, UK*
+  1. [Soeren Thomsen](https://github.com/soerenthomsen), *LOCEAN, ISPL, Sorbonne University, Paris, France*
+  1. [Johannes Hahn](https://github.com/hahn-johannes), *Federal Maritime and Hydrographic Agency (BSH), Hamburg, Germany*
+  1. [Bastien Y. Queste](https://github.com/bastienqueste), *Department of Marine Science, University of Gothenburg, Gothenburg, Sweden*
+  1. Gerd Krahmann, *GEOMAR Helmholtz Centre for Ocean Research Kiel, Germany* 
+  1. Charlotte Williams, *Marine Physics and Ocean Climate Group. National Oceanography Centre, Liverpool, UK*
+  1. Mun Woo, *IMOS Ocean Gliders, UWA Oceans Institute and Oceans Graduate School, The University of Western Australia, Perth, Australia*
+  1. Charitha Pattiaratchi, *IMOS Ocean Gliders, UWA Oceans Institute and Oceans Graduate School, The University of Western Australia, Perth, Australia*
+  1. [Laurent Coppola](https://github.com/laurcopp), *Sorbonne Université, CNRS, Laboratoire d’Océanographie de Villefranche (LOV), 06230 Villefranche-sur-Mer, France*
+  1. Tania Morales, *Plataforma Oceánica de Canarias (PLOCAN), Canary Islands, Spain*
+  1. [Virginie Racape](https://github.com/vracape), *Institut Universitaire Européen de la mer CNRS-UMS 3113, IFREMER-coriolis, Plouzané France*
+  1. [Claire Gourcuff](https://github.com/cgourcuf), *Euro-Argo ERIC, Brest, France*
+  1. John Allen, *SOCIB, Palma de Mallorca, Spain*
+  1. Eva Alou-Font, *SOCIB, Palma de Mallorca, Spain*
+  1. [Nikolaos D. Zarokanellos](https://github.com/nizaroka),* SOCIB, Palma de Mallorca, Spain*
+  1. [Victor Turpin](https://github.com/vturpin), *OceanOps, Brest, France*
+  1. [Catherine Schmechtig](https://github.com/catsch), *CNRS, Sorbonne Université, Osu Ecce Terra, Paris, France*
+  1. [Pierre Testor](https://github.com/ptestor), *CNRS-Sorbonne Universités (UPMC Univ. Pierre et Marie Curie, Paris 06)-CNRS-IRD-MNHN, UMR 7159, Laboratoire d’Océanographie et de Climatologie (LOCEAN), Institut Pierre Simon Laplace (IPSL), Observatoire Ecce Terra, Paris, France*
+  \newpage
+toc: true
+toc-depth: 2
 ---
-
-![](images/logo_v02_1_contour.png)
-
-**Authors**
-*(1) [Patricia López-García](https://github.com/patricialg), Ocean Technology and Engineering Group, National Oceanography Centre, Southampton, UK*
-*(2) [Tom Hull](https://github.com/tomhull), Centre for Environment Fisheries and Aquaculture Science, Lowestoft, UK*
-*(3) [Soeren Thomsen](https://github.com/soerenthomsen), LOCEAN, ISPL, Sorbonne University, Paris, France*
-*(4) [Johannes Hahn](https://github.com/hahn-johannes), Federal Maritime and Hydrographic Agency (BSH), Hamburg, Germany*
-*(5) [Bastien Y. Queste](https://github.com/bastienqueste), Department of Marine Science, University of Gothenburg, Gothenburg, Sweden*
-*(6) Gerd Krahmann, GEOMAR Helmholtz Centre for Ocean Research Kiel, Germany* 
-*(7) Charlotte Williams, Marine Physics and Ocean Climate Group. National Oceanography Centre, Liverpool, UK*
-*(8) Mun Woo, IMOS Ocean Gliders, UWA Oceans Institute and Oceans Graduate School, The University of Western Australia, Perth, Australia*
-*(9) Charitha Pattiaratchi, IMOS Ocean Gliders, UWA Oceans Institute and Oceans Graduate School, The University of Western Australia, Perth, Australia*
-*(10) [Laurent Coppola](https://github.com/laurcopp), Sorbonne Université, CNRS, Laboratoire d’Océanographie de Villefranche (LOV), 06230 Villefranche-sur-Mer, France*
-*(11) Tania Morales, Plataforma Oceánica de Canarias (PLOCAN), Canary Islands, Spain*
-*(12) [Virginie Racape](https://github.com/vracape), Institut Universitaire Européen de la mer CNRS-UMS 3113, IFREMER-coriolis, Plouzané France*
-*(13) [Claire Gourcuff](https://github.com/cgourcuf), Euro-Argo ERIC, Brest, France*
-*(14) John Allen, SOCIB, Palma de Mallorca, Spain*
-*(15) Eva Alou-Font, SOCIB, Palma de Mallorca, Spain*
-*(16) [Nikolaos D. Zarokanellos](https://github.com/nizaroka), SOCIB, Palma de Mallorca, Spain*
-*(17) [Victor Turpin](https://github.com/vturpin), OceanOps, Brest, France*
-*(18) [Catherine Schmechtig](https://github.com/catsch), CNRS, Sorbonne Université, Osu Ecce Terra, Paris, France*
-*(19) [Pierre Testor](https://github.com/ptestor), CNRS-Sorbonne Universités (UPMC Univ. Pierre et Marie Curie, Paris 06)-CNRS-IRD-MNHN, UMR 7159, Laboratoire
-d’Océanographie et de Climatologie (LOCEAN), Institut Pierre Simon Laplace (IPSL), Observatoire Ecce Terra, Paris, France*
-
+\newpage
 
 # SOP development process
 
@@ -65,7 +68,7 @@ This standard operating procedure (SOP) document for dissolved oxygen (DO) aims 
 Aanderaa optodes are the most widely used oxygen sensor on gliders and a large body of work has now been dedicated to their characterisation (e.g. [@Bittig2018]).
 These sensors are based on the oxygen luminescence quenching of a platinum porphyrin complex (fluorescent indicator) that is immobilized in a sensing foil. 
 These offer low power consumption, good long-term stability, low fouling sensitivity while not being sensitive to H2S or freezing.
-Aanderaa optodes have seen several important developments since they were introduced in 2002, with various hardware and firmware revisions which we outline below.
+Aanderaa optodes have seen several important developments since they were introduced in 2002, with various hardware and firmware revisions which we outline below (shown in figure \ref{fig:optodes}).
 
 ### Hardware design: blue or black
 While mostly cosmetic, the colour of the optode is a useful short-hand for the two main optode designs.
@@ -116,9 +119,7 @@ If done correctly such an adjustment should result in an absolute accuracy of ar
 The drift will decrease over time so that during the second year it is not likely to be more than 1-2 %. 
 After this it should be less than 0.5 % per year, unless the foil is mechanically damaged (Aanderaa). 
 
-| ![AanderaaSensors](images/AanderaSensors.png)|
-|:--:|
-| *Figure 1: Suit of smart optodes sensors. (Image was taken from the manufacturer webpage www.aanderaa.com)* |
+![Suit of smart optodes sensors. (Image was taken from the manufacturer webpage www.aanderaa.com) \label{fig:optodes}](images/AanderaSensors.png)
 
 ## RBR coda T.ODO
 The RBRcoda T.ODO uses the same foils and methods as the 4831 and 4831F so everything above specified for the 4831 will also apply to those instruments as well.
@@ -133,18 +134,15 @@ This sensor is based on the optical (phosphorescence) principle which is now wid
 This sensor used a multi-points calibration (16 points with 4 temperatures and 4 DO concentrations). 
 In this procedure, the DO reference standards are produced by saturing the primary mixtures with DO concentrations of approximately 4%, 10%, 17% and 25% respectively (certified by the National Metrology Institute of Japan). 
 
-| ![ARODFTSensor](images/ARODFTSensor.jpg) |
-|:--:|
-| *Figure X: AROD-FT sensor mounted on a SeaExplorer glider (credit: ALSEAMAR)* |
+![AROD-FT sensor mounted on a SeaExplorer glider (credit: ALSEAMAR) \label{fig:ARODFT}](images/ARODFTSensor.jpg)
 
 The DO concentration is calculated from the [@Uchida2010] equation with 9 calibration coefficients. 
 A second equation is used to take into account the pressure effect (linear equation with one calibration coefficient). 
 Finally, the salinity-compensated DO concentration is calculated by multiplying the factor of the effect of salt on the oxygen solubility [@BensonKrause1984] and [@GarciaGordon1992].
 This is similar to procedures used on other optodes.
 
-| ![SAMBA](images/SAMBA.png) |
-|:--:|
-| *Figure X: Oxygen saturation from a Rinko AROD-FT on a SeaExplorer glider in the Bornholm Basin (Voice of the Ocean Foundation and University of Gothenburg).* |
+![Oxygen saturation from a Rinko AROD-FT on a SeaExplorer glider in the Bornholm Basin (credit: Voice of the Ocean Foundation and University of Gothenburg). \label{fig:samba}](images/SAMBA.png)
+
 
 Recent deployments of a SeaExplorer glider equipped with an AROD-FT sensor have shown long-term stability (low drift over time) but with a significant offset observed during sections in the Ligurian Sea (on average 10-15 mumol/kg). 
 Deployments in the Bornholm Basin have shown good agreement across a wide range of oxygen concentrations with a nearby BOOS monitoring station; this sensor was a recent acquisition and had had little opportunity to drift in storage.
@@ -161,9 +159,7 @@ Sensors should be cleaned before storage and stored with black caps on including
 If sensors are stored dry the foil will dry out which could lead to 1-2 % lower readings. 
 The sensor then needs to be placed in water to hydrate at least 24 h prior to starting field measurements again.
 
-| ![storage](images/storage.jpg) |
-|:--:|
-| *Figure xx: Keeping sensor in small beakers before and during calibration process. Only the membrane will need to be submerged in distilled water.* |
+![Keeping sensor in small beakers before and during calibration process. Only the membrane will need to be submerged in distilled water. \label{fig:storage}](images/storage.jpg)
 
 After recovery the sensor and to remove any biofouling, this is the protocol recommended by the manufacturer: 
 1. If the sensor has been for too long exposed to the air, leave it overnight in a vinegar solution.
@@ -192,37 +188,26 @@ Accurate time-stamps, or offsets relative to CT measurements must be recorded fo
 #### Seaglider
 On Seagliders the oxygen sensor is normally mounted externally behind the CT sensor (see figure XXX). Given this exposed location it is important to mount the optode with the sensing foil facing away from incident light to avoid unnecessary UV exposure.
 
-| ![OGIVE](images/OGIVE.png) |
-|:--:|
-| *Figure xx: UEA OGIVE seaglider with 4330F optode, together with NOC LoC spectrophotometric pH, unpumped SBE CT and Fluidion potentiometric pH sensor.* |
+![UEA OGIVE seaglider with 4330F optode, together with NOC LoC spectrophotometric pH, unpumped SBE CT and Fluidion potentiometric pH sensor.](images/OGIVE.png)
 
 #### Slocum
-On slocum gliders the oxygen optode is typically installed aft close to the fin.
+On slocum gliders the oxygen optode is typically installed aft close to the fin (figure \ref{fig:slocum_standard}).
 
-| image file needed |
-|:--:|
-| *Figure X: Insert Figure from IMOS DMQC report?* |
+![Standard Aanderaa optode 4831 mounting under the fin of the Slocum G2. \label{fig:slocum_standard}](images/slocum.jpg)
 
 However this positioning is not ideal for oxygen measurements due to the optode being within a region of laminar flow (Moat XXXX), additionally the optode response time has been observed to be dependent on the sensor orientation relative to the direction of flow [@Bittig2014]. 
 
-| ![slocum](images/slocum.jpg) |
-|:--:|
-| *Figure X: Standard Aanderaa optode 4831 mounting under the fin of the Slocum G2.* |
 
 An alternative mounting of the Aanderaa optode in a more prominent location fore of the glider fin has been demonstrated as being much more suitable for measuring oxygen on gliders (Fig. XX) [@NicholsonFeen2017]. 
 This mounting location means that the sensor foil faces the flow directly and therefore the diffusive boundary layer thickness at the optode membrane is minimised, reducing the optode response time. 
 Furthermore, this mounting location also means that in-situ in-air calibrations can be performed during deployment (similar to those done with Argo floats) which are beneficial when processing the DM oxygen data (see ‘in-air calibration’ section).
 
-| image file needed-we have only from an article |
-|:--:|
-| *Figure X: Taken from Nicholson and Feen (2017); Slocum glider showing alternative mounting of an Aanderaa optode perpendicular to the fin.* |
+![Slocum glider showing alternative mounting of an Aanderaa optode perpendicular to the fin.](images/slocum_better_location.jpg)
 
 #### SeaExplorer
 On SeaExplorer gliders, all existing oxygen sensor integrations are installed in the forward wet payload section (the nose cone). External mounting is also feasible using external puck mounts on the dry payload, located approximately 1/3 of the way back, but is rare and generally only used for instrument trials. The Rinko AROD-FT is generally installed on the forward starboard connector, with the sensing foil and temperature probe 15 centimeters back from the tip of the nose and lightly sheltered to avoid damage when making contact with the nose. Both the foil and temperature probe are well exposed to flow. The new RBR Coda integration is also planned to present the foil and probe slightly set back from the tip of the nose, while remaining exposed to unmodified flow. The SBE43 is found only when accompanied with a Seabird pumped CT sensor; both of these sensors are placed in the nose where the RBR Legato CT sensor can be seen in the figure below.
 
-| ![Rinko](images/Rinko.png) |
-|:--:|
-| *Figure X: Rinko AROD-FT in the flooded nose cone payload bay of a SeaExplorer next to an RBR Legato sensor.* |
+![Rinko AROD-FT in the flooded nose cone payload bay of a SeaExplorer next to an RBR Legato sensor.](images/Rinko.png)
 
 ### Antifouling
 Materials immersed in water experience a series of biological and chemical processes, resulting in the formation of complex layers with attached organisms. This biofouling can be divided into microfouling and macrofouling [@Delgado2021]. 
@@ -263,9 +248,7 @@ In situ intercomparisons will be required to find the outset of the sensor in di
 
 The Winkler method is used to determine the concentration of dissolved oxygen in discrete water samples which is a highly accurate method for determination of dissolved oxygen (± 0.15 mumol kg-1). We recommend to follow the GO-SHIP protocol described by [@Langdon2010] and a well trained technician to do the sampling and analysis.
 
-| ![100-0-calibration](images/100-0-calibration.png) |
-|:--:|
-| *Figure X: During 100% and 0% calibration.* |
+![During 100% and 0% calibration.](images/100-0-calibration.png)
 
 Issues with Winkler method at low oxygen concentrations (below 1 muM, some researchers consider that values below 20 muM shouldn't be use for the sensor calibration): 
 - There are various issues with Winkler at low oxygen concentrations as Winkler always biases towards too high oxygen: the detection limit of the method is around 1 uM [@Langdon2010], the oxygen absorbed in the plastic of the Niskin bottles might be transferred to  the water sampled (reference needed).
@@ -378,9 +361,7 @@ Materials: Silicon tube for sampling, multiparameter sonde, BOD bottles, Winkler
 4. A multiparameter sonde with a DO sensor whose precision is less than 0.1 % can be measured in the tank near the glider’s sensors (record at least values for Temperature, Conductivity and DO). *NOTE: Some DO sensors consume oxygen so, in this case, it’s recommended to move the sonde often to renew the water so the DO value does not decrease.*
 5. Check the outset of the sensor by comparing  values measured by the Optode sensor with winkler values after measuring the bottle samples in the lab.
 
-| ![WinklerBallasting](images/winkler-ballasting.png) |
-|:--:|
-| *Figure xx: Taking samples for Winkler analysis during ballasting in the glider tank at PLOCAN facilities.* |
+![Taking samples for Winkler analysis during ballasting in the glider tank at PLOCAN facilities](images/winkler-ballasting.png)
 
 # Missions execution
 This section covers the activities of those deploying and recovering the gliders in the field in addition to best practices for glider pilots.
@@ -404,9 +385,7 @@ This can be done by placing a wet sponge in the sensor membrane at least 8 hours
 
 *NOTE: Remember to remove the sponge and any other material used to keep the sensor wet.*
 
-| ![dryfoil](images/dryfoil.png) |
-|:--:|
-| *Figure x: Effect of dry foil, first dives show elevated oxygen concentrations and slow foil response times. taken from AlterEco AE2 Slocum “Stella” using a 4330 optode (standard foil).* |
+![Effect of dry foil, first dives show elevated oxygen concentrations and slow foil response times. taken from AlterEco AE2 Slocum “Stella” using a 4330 optode (standard foil).](images/dryfoil.png)
 
 Samples should be collected with the Niskin bottle(s) for Winkler analysis during the deployment (following [@Langdon2010] protocol). 
 It’s recommended to take between 4-6 samples on the surface (approx. 5m) (ideally samples will be taken at different depths). 
@@ -416,13 +395,9 @@ This will also help to record the sampling depths.
 When taking samples for the Winkler is not possible, values from the multiparameter sonde might be useful for in situ intercomparisons. 
 The sonde must be calibrated before and after the deployment/recovery (some sondes require to be calibrated the same day, please follow manufacturer recommendations).
 
-| ![CoastalDeployment](images/CoastalDeployment.png) |
-|:--:|
-| *Figure x: Coastal deployment of a Slocum glider from a small boat (photo taken during the Glider School at PLOCAN).* |
+![Coastal deployment of a Slocum glider from a small boat (photo taken during the Glider School at PLOCAN).](images/CoastalDeployment.png)
 
-| ![multiparametersonde](images/multiparametersonde.png) |
-|:--:|
-| *Figure x: Used of a multiparameter sonde for in-situ intercomparison  during deployments from small boats.* |
+![Using a multiparameter sonde for in-situ intercomparison during deployments from small boats.](images/multiparametersonde.png)
 
 ## Calibration during deployment/recovery from a ship with a CTD rosette equipped with a calibrated oxygen sensor 
 If the glider is deployed/recovered from a research vessel equipped with a CTD and a calibrated O2 sensor, the glider optode can either be connected directly to the CTD profiler if able to receive the digital (RS232) output from the Optode [@Uchida2010], or attached via a data logger. 
@@ -448,9 +423,7 @@ The combined data collected following these (CTD and lab calibration) steps will
 
 *NOTE: Save all data from the profiles and calibrations before deploying the glider. Always record Dphase [@Coppola2013].*
 
-| ![Datalogger](images/Datalogger.png) |
-|:--:|
-| *Several GEOMAR oxygen data loggers (Aanderaa Optode mounted on data logger) attached to a CTD frame and prepared for in-situ calibration during a CTD cast. Panels in the upper row show fixation with straps and zip ties. Panel in the lower row shows fixation with scaffolding clamps and tape in the interior lower part of the CTD frame.* |
+![GEOMAR oxygen data loggers (Aanderaa Optode mounted on data logger) attached to a CTD frame and prepared for in-situ calibration during a CTD cast. Panels in the upper row show fixation with straps and zip ties. Panel in the lower row shows fixation with scaffolding clamps and tape in the interior lower part of the CTD frame.](images/Datalogger.png)
 
 ## Deploying gliders in Oxygen Minimum Zones (OMZ)
 Note that the classical Winkler titration method is not reliable at oxygen concentrations in OMZ core [@Thomsen2016] since the method has a detection limit of around 1 uM [@Langdon2010]. 
