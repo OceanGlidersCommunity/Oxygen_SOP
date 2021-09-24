@@ -18,7 +18,7 @@ include-before: |
   1. Charitha Pattiaratchi, *IMOS Ocean Gliders, UWA Oceans Institute and Oceans Graduate School, The University of Western Australia, Perth, Australia*
   1. [Laurent Coppola](https://github.com/laurcopp), *Sorbonne Université, CNRS, Laboratoire d’Océanographie de Villefranche (LOV), 06230 Villefranche-sur-Mer, France*
   1. Tania Morales, *Plataforma Oceánica de Canarias (PLOCAN), Canary Islands, Spain*
-  1. [Virginie Racape](https://github.com/vracape), *Institut Universitaire Européen de la mer CNRS-UMS 3113, IFREMER-coriolis, Plouzané France*
+  1. [Virginie Racapé](https://github.com/vracape), *Institut Universitaire Européen de la mer CNRS-UMS 3113, IFREMER-coriolis, Plouzané France*
   1. [Claire Gourcuff](https://github.com/cgourcuf), *Euro-Argo ERIC, Brest, France*
   1. John Allen, *SOCIB, Palma de Mallorca, Spain*
   1. Eva Alou-Font, *SOCIB, Palma de Mallorca, Spain*
@@ -474,40 +474,40 @@ The mission plan should aim to pass close to these platforms, ideally multiple t
 
 # Real time data processing & Quality Control
 
-## Send OceanGliders metadata and set up real time data flow 
-Similarly to other type of metadata, oxygen sensor metadata (i.e. sensor model, calibration coefficient, intermediate parameters) should be send ahead of the mission to the Data Assembly Center. There is no unique procedure for his. Protocols, format and file naming convention should be discussed with DACs before deployment. After deployment, experience shows that it is unlikely that PI and operators find time to provide this information while glider is at sea. Without this information, the oxygen data will not be usable in real time. So far, the best documentation about Real Time Oxygen data management is available through ARGO data management documentation here: https://archimer.ifremer.fr/doc/00287/39795/. OceanOPS and DACs requirements on data and metadata are described in the OceanGliders Best Practices document in the data and metadata management section, paragraph 6  (link to be added when overview paper is in review).
-
 ## Real Time data processing
-In order to get usable oxygen values in Real Time (RT), it is important to access the appropriate calibration coefficients associated with the oxygen sensor onboard the glider. 
-Dissolved oxygen values computed inside the glider may not always be appropriate, and it is also important that the glider is configured so that intermediate parameters (phase measurements) are sent in RT, to allow dissolved oxygen computation using the best method associated with the sensor model, using both intermediate parameters and calibration coefficients (see [@Thierry2018]). 
-In parallel, cross-check can be performed to ensure that the coefficient calibrations are appropriate by comparing dissolved oxygen internally computed and recomputed using the intermediate parameters. 
-If appropriate, a time lag correction may be applied already in RT taking into account the sensor time response, using either the manufacturer value or any value defined from previous deployments with the specific sensor. A real time lag correction might improve the useability of the real time data significantly.
 
-- to add "oxygen saturation + salinity compensation"
-- to add examples of bad computation
+Prior to deployment, oxygen sensor metadata (i.e. sensor model, sensor serial number and calibration coefficients) should be sent ahead of the mission to the Data Assembly Center. It is important that the glider is well configured, intermediate parameters (phase measurements) should be sent in RT as well. This will allow first to check if dissolved oxygen values computed inside the glider are appropriate (add figure) and then this adds the possibility to recompute the dissolved oxygen concentration using the up to date method associated with the sensor model,  intermediate parameters and calibration coefficients. 
+
+Configurations for the calculation of DOXY are in fact function of the sensor model and intermediate parameters. The recommended configurations (e.g. salinity compensation of MOLAR_DOXY, pressure correction for pressure effect on quenching, temperature compensation) are available in the [Processing Argo oxygen data at the DAC level](https://archimer.ifremer.fr/doc/00287/39795/). For some optode models, it may be appropriate to apply a time lag correction in RT, taking into account the sensor time response, using either the manufacturer value or any value defined from previous deployments with the specific sensor. A real time lag correction might improve the useability of the real time data significantly.The method is described in Bittig et al.(2014).
+
+There is no unique procedure for Real time data and metadata sending. Protocols, format and file naming convention should be discussed with DACs before deployment. OceanOPS and DACs requirements on data and metadata are described in the OceanGliders Best Practices document in the data and metadata management section, paragraph 6  (link to be added when overview paper is in review). 
 
 ## Real Time quality control (RTQC)
+Real time quality control tests applied on EGO oxygen data are extracted from the [Argo quality control manual for dissolved oxygen](https://archimer.ifremer.fr/doc/00354/46542/82301.pdf). Details are summarized below. These tests are applied in supplement to trajectory tests. 
+RTQC applied on the temperature measured by the oxygen sensor should follow the RTQC procedure defined for the CTD temperature. 
+
+### Doxy QC initialisation
+Several oxygen sensors suffer from predeployment storage drift that can reduce accuracy by up to 20% or more (Bittig et al., 2019). As a consequence and because this biais can be corrected, dissolved oxygen concentration measured in real time should be set to 3 “bad data that are potentially correctable”. To retrieve usable oxygen data, an adjustment in real time should be quickly performed. 
 
 ### Global range check
-- to add
-
-### Stuck value check
-- to add
-
-### Frozen profile check
-- to add
+This test applies a gross filter on EGO oxygen data. If one observation is out of the global range [-5 600] µmol/kg, its QC flag is set up to 4 “bad data”.
 
 ### Outlier and spike check
-Outliers and spikes are difficult to detect as optodes typically smooth out spikes due to their slow response time.
+Outliers and spikes are difficult to detect as optodes typically smooth out spikes due to their slow response time. A simple test checking the differences between sequential measurements is nevertheless possible if i) it is applied on a specific phase (ascending or descending for exemple) and ii) assuming a sampling adequately reproduces changes in dissolved oxygen concentrations. In this context, if one measurement is significantly different from adjacent ones, it is a spike in both size and gradient. 
+Test value = | V2 − (V3 + V1)/2 | − | (V3 − V1) / 2 |
 
-### Compare with climatologies and deep waters  
-- to add
+Where V2 is the measurement being tested as a spike, V1 and V3 are the values above and below. 
 
-### Regional range check
-- to add
+V2  value should be flagged as 4 “bad data”, when :
+Test value > 50 µmol/kg for pressure < 500 dbar
+Test value > 25 µmol/kg for pressure >= 500 dbar
 
-### Neural-Network approaches
-- to add
+## Stuck value test
+This test looks for EGO oxygen data in the same phase (ascending or descending for example) being identical. Stuck values should be flagged as 4 “bad data”.
+
+## bad P/T/S QC spreading
+The test checks that the dissolved oxygen concentration in µmol/kg is computed from a valid pressure, temperature and salinity.  Considering the pressure or temperature impact on the oxygen conversion, when pressure or temperature is marked as bad (qc = 4), oxygen concentration should be set to 4. Conversely, and as the salinity impact on the oxygen conversion is less than previous parameters, when salinity is marked as bad, oxygen concentration should be set to 3. 
+
 
 # Post-recovery operations and calibrations
 At first users should report that their mission is over to support(at)oceanobs.org
