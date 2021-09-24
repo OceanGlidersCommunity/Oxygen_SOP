@@ -1,0 +1,23 @@
+# Details for attribution and permission for each of the images
+
+- `100-0-calibration.png`
+- `AanderaSensors.png` - XXX, Aanderaa data instruments
+- `ARODFTSensor.jpg`
+- `CoastalDeployment.png`
+- `Datalogger.png`
+- `dryfoil.png` - Tom Hull, Cefas, tom.hull@cefas.co.uk
+- `edit_markdown_file.png`
+- `EUROSEA.png`
+- `GROOM2_logo.png`
+- `logo.png`
+- `logo_v02_1_contour.png`
+- `logo-ocean-gliders.png`
+- `multiparametersonde.png`
+- `OGIVE.png` - Tom Hull, Cefas, tom.hull@cefas.co.uk
+- `Rinko.png`
+- `SAMBA.png` - Bastien Queste, University of Gothenburg, bastien.queste@gu.se
+- `slocum.jpg`
+- `slocum_better_location.jpg` - Matthew Palmer, NOC, rolm@noc.ac.uk
+- `storage.jpg`
+- `TerminalProgram.jpg`
+- `winkler-ballasting.png`
