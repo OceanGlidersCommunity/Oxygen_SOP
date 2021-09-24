@@ -4,7 +4,7 @@
 - `AanderaSensors.png` - XXX, Aanderaa data instruments
 - `ARODFTSensor.jpg`
 - `CoastalDeployment.png`
-- `Datalogger.png`
+- `Datalogger.png`- Johannes Hahn, BSH
 - `dryfoil.png` - Tom Hull, Cefas, tom.hull@cefas.co.uk
 - `edit_markdown_file.png`
 - `EUROSEA.png`
