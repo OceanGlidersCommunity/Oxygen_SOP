@@ -29,6 +29,7 @@ include-before: |
   \newpage
 toc: true
 toc-depth: 2
+bibliography: oxygen.bib
 ---
 \newpage
 
@@ -526,6 +527,10 @@ Follow protocol described in section ‘Calibration during deployment/recovery f
 
 # Delayed Mode Quality Control (DMQC)
 
+## Calculation of oxygen variables
+
+Following @Bittig2018.
+
 ## Sensor drift correction
 Aanderaa describe the in-situ drift characteristics of the 4330 and 4831 series optodes as being < 0.5 % per year and they make no distinction between the standard or fast (“F"-type) foils [@TengbergHovdenes2014].
 Optodes made after 2016 undergo a “burning-in period” during manufacture and therefore have substantially less drift [@TengbergHovdenes2014].
@@ -544,11 +549,83 @@ Tom Hull found values between 0.0004 and 0.0035 % d-1 across 16 vehicles in-situ
 The drift correction should be applied to the oxygen concentration, not the measured phase [@Bittig2018].
 
 ## Sensor time response correction
-In all but the most homogeneous waters it is essential to correct for the slow time response of optodes. This is particularly critical for optodes using the “standard” black foils.
-Correction requires the collection of optode phase and temperature and therefore the instruments and gliders should be configured to collect these variables and not just oxygen concentration or saturation. 
-Accurate time-stamps for these data are required to be able to perform this correction.
 
-- add rest after join discussion and convergence
+In all but the most homogeneous waters it is essential to correct for the slow time response of optodes [@Bittig2014, @Bittig2017] (see figure \ref{fig:kelvin}).
+This is particularly critical for optodes using the “standard” black foils, and as previously mentioned Slocum gliders with the optode in the standard location [@Moat2016].
+
+![Example uncorrected profiles from AlterEco AE5 “Kelvin” Slocum with a 4831 optode with standard foil demonstrating significant lag in both optode temperature and phase.](images\kelvin_lag.png)
+
+Correction requires the collection of optode phase, temperature and time.
+Therefore the instruments and gliders should be configured to collect these variables and not just oxygen concentration or saturation. 
+If only optode temperature and concentration are recorded, routines exist to recalculate phase, but this can introduce some inaccuracy and is best avoided.
+Accurate time-stamps for these data are required to be able to perform this correction.
+Many data processing routines may remove these timestamps, such as to place the oxygen data on the same time-axis as the CTD,
+but for best results the oxygen sensor time should be used for the time response correction before interpolating to match the CTD.
+Users should be aware that many gliders have independent guidance-control computers and sensor computers and timestamps may differ between them.
+A important note is which temperature, be it optode or CTD, is used for the correction.
+The optode temperature is typically have lower accuracy and a slower response.
+
+The lag is caused by a combination of factors, the relevance of these changes depending on the environment, optode type and glider platform.
+The rate of diffusion across the membrane (foil) is controlled by the water temperature and the thickness of the foil.
+Diffusion across the boundary layer above the membrane is also temperature dependent,
+but also influenced by the flow of water, which is determined by the position of the sensor and the glider speed and/or angle of attack.
+Lastly geometric lag is caused by a delay in water reaching the sensor due to glider geometry and the flow path of the surrounding water.
+
+The boundary layer diffusion lag and the geometric lag will also affect the optode temperature response, which itself may be have a time response due to the type of PRT used.
+As noted above, the type 3835 optodes have a particularly slow responding temperature sensors and it typical for users to use the CTD temperature in these instances.
+
+The ideal correction method is still a point of discussion and we suggest users try each of these procedures and assess how well they work for their own use case.
+
+### time response correction 1 - GEOMAR
+
+This routine developed by Johannes Hahn for the GEOMAR MATLAB Slocum toolbox [XXX reference], and has been used primarily for the tropical Atlantic Peruvian coast, mostly in deep waters.
+It determines a $\tau$ (in seconds) for an exponential filter by comparing up and down casts (in pressure space) and minimising the difference between them.
+This routine makes no explicit correction for "geometric" lag, that is the lag introduced by the CTD and optode being some distance from each other.
+
+1. linearly interpolate optode phase, optode temp, CTD temp, pressure and salinity variables onto 1 sec grid to avoid issues from different measurement times.
+1. a set of foil temperatures is estimated by applying an exponential filter to the CTD temperature with time scales from 10 to 50 seconds (in steps of 5 sec), thereby creating different ‘virtual’ foil temperatures.
+1. with this set of virtual foil temperatures oxygen concentrations are calculated using either the Aanderaa supplied or the own-calibration derived set of optode coefficients.
+1. for each of the resulting oxygen concentrations a reverse exponential filter with time scales of 0 to 200 seconds is applied to create sets of oxygen concentration profiles.
+1. these sets of concentration profiles are filtered with a forward-backward filter (MATLAB `filtfilt`) to remove the noise introduced by the reverse filtering.
+1. all concentrations are gridded to a 1 dbar grid (first binned and then linearly interpolated to the full dbar).
+1. differences between all up-down pairs are calculated and summed up for each of the concentration sets.
+1. the one delay pair (CTD-temp delay for virtual foil temperature & Optode response delay) with the smallest difference sum is chosen and applied to the whole deployment.
+1. typically the ‘best’  delays are CTD-temp: 30-50 seconds, optode response : 20-30 seconds.
+1. included into the optimization are only up-down pairs that were not influenced by obvious bio-fouling
+
+**TODO example image of GEOMAR correction, pre and post**
+
+### time response correction 2 - IMOS
+
+The routine developed by Mun Woo for the IMOS glider toolbox also compares up and down casts in pressure space, but applies a time-shift rather than an exponential filter.
+These time-shift values are determined per dive, but a rolling median is calculated to exclude dives with very high or low lag values.
+**TODO - is this done with phase or oxygen? - TH**
+<!-- **NOTE** presumably those dives should be flagged as bad? - TH -->
+advantage of this method is it does not amplify noise which the filter will tend to do.
+However, simply shifting the optode data relative to time will not remove some of the second order effects.
+
+**TODO example image of IMOS correction**
+
+### time response correction 3 - UEA
+
+The routine developed by Bastien Queste for the UEA Seaglider toolbox works as follows:
+
+1. the CTD temperature is aligned based on flight speed to the optode phase using a 1-D interpolation and a flight speed dependent time-shift.
+(the optode and seabird temperature are close together on a Seaglider so the time-shift is small).
+1. oxygen partial pressure is calculated using the optode phase and time shifted optode temperature
+1. up and down profiles are compared (in pressure or density space depending on environmental conditions) and  either:
+    1. a shoelace algorithm is used to minimise the area between the curves or
+    1. the RMSD from vertically binned data is calculated
+1. a minimisation algorithm (`fminsearch` from MATLAB) is used to fit two lag coefficients: $\tau = \tau_0 + \tau_1 (T-20)$ as per @Hahn2014.
+1. this $\tau$ is then used with an exponential inverse-filter, typically against optode phase (and oxygen recalculated) but partial pressure or concentration as per @Bittig2018 has also been tested.
+The correction is applied on a per-dive basis.
+
+### time response correction 4 - AlterEco
+
+For AlterEco many gliders were not collecting data on both up and down casts which precludes the use of the above routines.
+1. A $\tau$ was calculated for the geometric and boundary layer diffusive lag by minimising the difference between the CTD and optode temperatures.
+1. This $\tau$ was used to then inverse-filter the optode phase and temperature
+1. A secondary lag correction based on the temperature as per the UEA toolbox and @Hahn2014.
 
 ## Light intrusion
 Optodes can be sensitive to light intrusion if the foil is damaged. 
