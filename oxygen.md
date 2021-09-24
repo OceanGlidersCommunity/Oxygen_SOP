@@ -498,14 +498,14 @@ Test value = | V2 − (V3 + V1)/2 | − | (V3 − V1) / 2 |
 
 Where V2 is the measurement being tested as a spike, V1 and V3 are the values above and below. 
 
-V2  value should be flagged as 4 “bad data”, when :
+V2  value should be flagged as 4 “bad data”, when:
 Test value > 50 µmol/kg for pressure < 500 dbar
 Test value > 25 µmol/kg for pressure >= 500 dbar
 
 ## Stuck value test
 This test looks for EGO oxygen data in the same phase (ascending or descending for example) being identical. Stuck values should be flagged as 4 “bad data”.
 
-## bad P/T/S QC spreading
+## Bad P/T/S QC spreading
 The test checks that the dissolved oxygen concentration in µmol/kg is computed from a valid pressure, temperature and salinity.  Considering the pressure or temperature impact on the oxygen conversion, when pressure or temperature is marked as bad (qc = 4), oxygen concentration should be set to 4. Conversely, and as the salinity impact on the oxygen conversion is less than previous parameters, when salinity is marked as bad, oxygen concentration should be set to 3. 
 
 
