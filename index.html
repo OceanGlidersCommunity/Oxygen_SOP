@@ -31,7 +31,7 @@
 <li>Charitha Pattiaratchi, <em>IMOS Ocean Gliders, UWA Oceans Institute and Oceans Graduate School, The University of Western Australia, Perth, Australia</em></li>
 <li><a href="https://github.com/laurcopp">Laurent Coppola</a>, <em>Sorbonne Université, CNRS, Laboratoire d’Océanographie de Villefranche (LOV), 06230 Villefranche-sur-Mer, France</em></li>
 <li>Tania Morales, <em>Plataforma Oceánica de Canarias (PLOCAN), Canary Islands, Spain</em></li>
-<li><a href="https://github.com/vracape">Virginie Racape</a>, <em>Institut Universitaire Européen de la mer CNRS-UMS 3113, IFREMER-coriolis, Plouzané France</em></li>
+<li><a href="https://github.com/vracape">Virginie Racapé</a>, <em>Institut Universitaire Européen de la mer CNRS-UMS 3113, IFREMER-coriolis, Plouzané France</em></li>
 <li><a href="https://github.com/cgourcuf">Claire Gourcuff</a>, <em>Euro-Argo ERIC, Brest, France</em></li>
 <li>John Allen, <em>SOCIB, Palma de Mallorca, Spain</em></li>
 <li>Eva Alou-Font, <em>SOCIB, Palma de Mallorca, Spain</em></li>
@@ -50,7 +50,7 @@
 <h1 id="sop-development-process">SOP development process</h1>
 <ol type="1">
 <li><p>Initial SOP was drafted by <a href="https://github.com/patricialg">Patricia López-García</a>, <a href="https://github.com/tomhull">Tom Hull</a>, <a href="https://github.com/soerenthomsen">Soeren Thomsen</a> and <a href="https://github.com/hahn-johannes">Johannes Hahn</a>.</p></li>
-<li><p>Two expert sessions during OceanGliders Best Practice Workshop, May 11 - 25 2021. Additional authors joined: <a href="https://github.com/bastienqueste">Bastien Y. Queste</a>, Gerd Krahmann, Charlotte Williams, Mun Woo, Charitha Pattiaratchi, Laurent Coppola, Tania Morales, <a href="https://github.com/vracape">Virginie Racape</a>, <a href="https://github.com/cgourcuf">Claire Gourcuff</a>, John Allen, Eva Alou, <a href="https://github.com/nizaroka">Nikolaos D. Zarokanellos</a></p></li>
+<li><p>Two expert sessions during OceanGliders Best Practice Workshop, May 11 - 25 2021. Additional authors joined: <a href="https://github.com/bastienqueste">Bastien Y. Queste</a>, Gerd Krahmann, Charlotte Williams, Mun Woo, Charitha Pattiaratchi, <a href="https://github.com/laurcopp">Laurent Coppola</a>, Tania Morales, <a href="https://github.com/vracape">Virginie Racape</a>, <a href="https://github.com/cgourcuf">Claire Gourcuff</a>, John Allen, Eva Alou, <a href="https://github.com/nizaroka">Nikolaos D. Zarokanellos</a></p></li>
 <li><p>First community and user feedback was provided during the OceanGliders Best Practice Workshop, May 11 - 25 2021 by attendees.</p></li>
 <li><p>SOP moved to this repository by: <a href="https://github.com/patricialg">Patricia López-García</a>, <a href="https://github.com/tomhull">Tom Hull</a>, <a href="https://github.com/soerenthomsen">Soeren Thomsen</a> in September 2021.</p></li>
 <li><p>Additional authors joined on GitHub: <a href="https://github.com/vturpin">Victor Turpin</a>, <a href="https://github.com/catsch">Catherine Schmechtig</a>, <a href="https://github.com/ptestor">Pierre Testor</a></p></li>
@@ -396,41 +396,28 @@ Some information to read before we proceed with the calibration: 1. For a 100 % 
 <li>to add text and figure to allow user separating real and “biofouling” diurnal cycling</li>
 </ul>
 <h1 id="real-time-data-processing-quality-control">Real time data processing &amp; Quality Control</h1>
-<h2 id="send-oceangliders-metadata-and-set-up-real-time-data-flow">Send OceanGliders metadata and set up real time data flow</h2>
-<p>Similarly to other type of metadata, oxygen sensor metadata (i.e. sensor model, calibration coefficient, intermediate parameters) should be send ahead of the mission to the Data Assembly Center. There is no unique procedure for his. Protocols, format and file naming convention should be discussed with DACs before deployment. After deployment, experience shows that it is unlikely that PI and operators find time to provide this information while glider is at sea. Without this information, the oxygen data will not be usable in real time. So far, the best documentation about Real Time Oxygen data management is available through ARGO data management documentation here: https://archimer.ifremer.fr/doc/00287/39795/. OceanOPS and DACs requirements on data and metadata are described in the OceanGliders Best Practices document in the data and metadata management section, paragraph 6 (link to be added when overview paper is in review).</p>
 <h2 id="real-time-data-processing">Real Time data processing</h2>
-<p>In order to get usable oxygen values in Real Time (RT), it is important to access the appropriate calibration coefficients associated with the oxygen sensor onboard the glider. Dissolved oxygen values computed inside the glider may not always be appropriate, and it is also important that the glider is configured so that intermediate parameters (phase measurements) are sent in RT, to allow dissolved oxygen computation using the best method associated with the sensor model, using both intermediate parameters and calibration coefficients (see <span class="citation" data-cites="Thierry2018">(Thierry Virginie 2018)</span>). In parallel, cross-check can be performed to ensure that the coefficient calibrations are appropriate by comparing dissolved oxygen internally computed and recomputed using the intermediate parameters. If appropriate, a time lag correction may be applied already in RT taking into account the sensor time response, using either the manufacturer value or any value defined from previous deployments with the specific sensor. A real time lag correction might improve the useability of the real time data significantly.</p>
-<ul>
-<li>to add “oxygen saturation + salinity compensation”</li>
-<li>to add examples of bad computation</li>
-</ul>
+<p>Prior to deployment, oxygen sensor metadata (i.e. sensor model, sensor serial number and calibration coefficients) should be sent ahead of the mission to the Data Assembly Center. It is important that the glider is well configured, intermediate parameters (phase measurements) should be sent in real time (RT) as well. This will allow first to check if dissolved oxygen values computed inside the glider are appropriate and then this adds the possibility to recompute the dissolved oxygen concentration using the up to date method associated with the sensor model, intermediate parameters and calibration coefficients.</p>
+<figure>
+<img src="images/RTQC_check_Doxy_combined.png" alt="" /><figcaption>Difference between oxygen concentration computed by the glider (DOXY) and those computed by the Data Assembly Center (DAC) from intermediate parameters and associated calibration coefficient.</figcaption>
+</figure>
+<p>Configurations for the calculation of DOXY are in fact function of the sensor model and intermediate parameters. The recommended configurations (e.g. salinity compensation of MOLAR_DOXY, pressure correction for pressure effect on quenching, temperature compensation) are available in the <a href="https://archimer.ifremer.fr/doc/00287/39795/">Processing Argo oxygen data at the DAC level</a>. For some optode models, it may be appropriate to apply a time lag correction in RT, taking into account the sensor time response, using either the manufacturer value or any value defined from previous deployments with the specific sensor. A real time lag correction might improve the useability of the real time data significantly.The method is described in <span class="citation" data-cites="Bittig2014">(Bittig et al. 2014)</span>.</p>
+<p>There is no unique procedure for Real time data and metadata sending. Protocols, format and file naming convention should be discussed with DACs before deployment. OceanOPS and DACs requirements on data and metadata are described in the OceanGliders Best Practices document in the data and metadata management section, paragraph 6 (link to be added when overview paper is in review).</p>
 <h2 id="real-time-quality-control-rtqc">Real Time quality control (RTQC)</h2>
+<p>Real time quality control tests applied on EGO oxygen data are extracted from the <a href="https://archimer.ifremer.fr/doc/00354/46542/82301.pdf">Argo quality control manual for dissolved oxygen</a>. Details are summarized below. These tests are applied in supplement to trajectory tests. RTQC applied on the temperature measured by the oxygen sensor should follow the RTQC procedure defined for the CTD temperature.</p>
+<h3 id="doxy-qc-initialisation">Doxy QC initialisation</h3>
+<p>Several oxygen sensors suffer from predeployment storage drift that can reduce accuracy by up to 20% or more (Bittig et al., 2019). As a consequence and because this bias can be corrected, dissolved oxygen concentration measured in real time should be set to 3 “bad data that are potentially correctable”. To retrieve usable oxygen data, an adjustment in real time should be quickly performed.</p>
 <h3 id="global-range-check">Global range check</h3>
-<ul>
-<li>to add</li>
-</ul>
-<h3 id="stuck-value-check">Stuck value check</h3>
-<ul>
-<li>to add</li>
-</ul>
-<h3 id="frozen-profile-check">Frozen profile check</h3>
-<ul>
-<li>to add</li>
-</ul>
+<p>This test applies a gross filter on EGO oxygen data. If one observation is out of the global range [-5 600] µmol/kg, its QC flag is set up to 4 “bad data”.</p>
 <h3 id="outlier-and-spike-check">Outlier and spike check</h3>
-<p>Outliers and spikes are difficult to detect as optodes typically smooth out spikes due to their slow response time.</p>
-<h3 id="compare-with-climatologies-and-deep-waters">Compare with climatologies and deep waters</h3>
-<ul>
-<li>to add</li>
-</ul>
-<h3 id="regional-range-check">Regional range check</h3>
-<ul>
-<li>to add</li>
-</ul>
-<h3 id="neural-network-approaches">Neural-Network approaches</h3>
-<ul>
-<li>to add</li>
-</ul>
+<p>Outliers and spikes are difficult to detect as optodes typically smooth out spikes due to their slow response time. A simple test checking the differences between sequential measurements is nevertheless possible if i) it is applied on a specific phase (ascending or descending for example) and ii) assuming a sampling adequately reproduces changes in dissolved oxygen concentrations. In this context, if one measurement is significantly different from adjacent ones, it is a spike in both size and gradient.</p>
+<p>Test value = | V2 − (V3 + V1)/2 | − | (V3 − V1) / 2 |</p>
+<p>Where V2 is the measurement being tested as a spike, V1 and V3 are the values above and below.</p>
+<p>V2 value should be flagged as 4 “bad data”, when: Test value &gt; 50 µmol/kg for pressure &lt; 500 dbar Test value &gt; 25 µmol/kg for pressure &gt;= 500 dbar</p>
+<h3 id="stuck-value-test">Stuck value test</h3>
+<p>This test looks for EGO oxygen data in the same phase (ascending or descending for example) being identical. Stuck values should be flagged as 4 “bad data”.</p>
+<h3 id="bad-pts-qc-spreading">Bad P/T/S QC spreading</h3>
+<p>The test checks that the dissolved oxygen concentration in /mumol/kg is computed from a valid pressure, temperature and salinity. Considering the pressure or temperature impact on the oxygen conversion, when pressure or temperature is marked as bad (qc = 4), oxygen concentration should be set to 4. Conversely, and as the salinity impact on the oxygen conversion is less than previous parameters, when salinity is marked as bad, oxygen concentration should be set to 3.</p>
 <h1 id="post-recovery-operations-and-calibrations">Post-recovery operations and calibrations</h1>
 <p>At first users should report that their mission is over to support(at)oceanobs.org</p>
 <h2 id="biofouling-assessment">Biofouling assessment</h2>
@@ -559,9 +546,6 @@ Some information to read before we proceed with the calibration: 1. For a 100 % 
 </div>
 <div id="ref-TengbergHovdenes2014">
 <p>Tengberg, A., and J. Hovdenes. 2014. “Information on Long-Term Stability and Accuracy of Aanderaa Oxygen Optodes and Information About Multipoint Calibration System and Sensor Option Overview.” <em>Aanderaa Data Instruments AS</em>. <a href="https://www.aanderaa.com/media/pdfs/2014-04-O2-optode-and-calibration.pdf">https://www.aanderaa.com/media/pdfs/2014-04-O2-optode-and-calibration.pdf</a>.</p>
-</div>
-<div id="ref-Thierry2018">
-<p>Thierry Virginie, Gilbert Denis, Bittig Henry. 2018. “Processing Argo Oxygen Data at the Dac Level.” <a href="https://doi.org/10.13155/39795">https://doi.org/10.13155/39795</a>.</p>
 </div>
 <div id="ref-Thomsen2016">
 <p>Thomsen, Soeren, Torsten Kanzow, Gerd Krahmann, Richard J. Greatbatch, Marcus Dengler, and Gaute Lavik. 2016. “The Formation of a Subsurface Anticyclonic Eddy in the Peru-Chile Undercurrent and Its Impact on the Near-Coastal Salinity, Oxygen, and Nutrient Distributions.” <em>Journal of Geophysical Research: Oceans</em> 121 (1): 476–501. <a href="https://doi.org/https://doi.org/10.1002/2015JC010878">https://doi.org/https://doi.org/10.1002/2015JC010878</a>.</p>
