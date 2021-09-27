@@ -15,6 +15,7 @@
 - `multiparametersonde.png`
 - `OGIVE.png` - Tom Hull, Cefas, tom.hull@cefas.co.uk
 - `Rinko.png`
+- `RTQC_check_Doxy_combined.png` - Virgine Racape
 - `SAMBA.png` - Bastien Queste, University of Gothenburg, bastien.queste@gu.se
 - `slocum.jpg`
 - `slocum_better_location.jpg` - Matthew Palmer, NOC, rolm@noc.ac.uk
