@@ -479,7 +479,7 @@ The mission plan should aim to pass close to these platforms, ideally multiple t
 
 Prior to deployment, oxygen sensor metadata (i.e. sensor model, sensor serial number and calibration coefficients) should be sent ahead of the mission to the Data Assembly Center. It is important that the glider is well configured, intermediate parameters (phase measurements) should be sent in real time (RT) as well. This will allow first to check if dissolved oxygen values computed inside the glider are appropriate and then this adds the possibility to recompute the dissolved oxygen concentration using the up to date method associated with the sensor model, intermediate parameters and calibration coefficients. 
 
-![Difference between oxygen concentration computed by the glider (DOXY) and those computed by the Data Assembly Center (DAC) from intermediate parameters and associated calibration coefficient.](images/RTQC_check_Doxy_combined.png)
+![Difference between oxygen concentration computed by the glider (DOXY) and those computed by the Data Assembly Center (DAC) from intermediate parameters and associated calibration coefficient (DOXY2).](images/RTQC_check_Doxy_combined.png)
 
 Configurations for the calculation of DOXY are in fact function of the sensor model and intermediate parameters. The recommended configurations (e.g. salinity compensation of MOLAR_DOXY, pressure correction for pressure effect on quenching, temperature compensation) are available in the [Processing Argo oxygen data at the DAC level](https://archimer.ifremer.fr/doc/00287/39795/). For some optode models, it may be appropriate to apply a time lag correction in RT, taking into account the sensor time response, using either the manufacturer value or any value defined from previous deployments with the specific sensor. A real time lag correction might improve the useability of the real time data significantly.The method is described in [@Bittig2014].
 
@@ -511,7 +511,7 @@ This test looks for EGO oxygen data in the same phase (ascending or descending f
 
 ### Bad P/T/S QC spreading
 
-The test checks that the dissolved oxygen concentration in /mumol/kg is computed from a valid pressure, temperature and salinity. 
+The test checks that the dissolved oxygen concentration in µmol/kg is computed from a valid pressure, temperature and salinity. 
 Considering the pressure or temperature impact on the oxygen conversion, when pressure or temperature is marked as bad (qc = 4), oxygen concentration should be set to 4. 
 Conversely, and as the salinity impact on the oxygen conversion is less than previous parameters, when salinity is marked as bad, oxygen concentration should be set to 3. 
 
