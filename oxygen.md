@@ -490,7 +490,7 @@ Real time quality control tests applied on EGO oxygen data are extracted from th
 RTQC applied on the temperature measured by the oxygen sensor should follow the RTQC procedure defined for the CTD temperature. 
 
 ### Doxy QC initialisation
-Several oxygen sensors suffer from predeployment storage drift that can reduce accuracy by up to 20% or more (Bittig et al., 2019). As a consequence and because this bias can be corrected, dissolved oxygen concentration measured in real time should be set to 3 “bad data that are potentially correctable”. To retrieve usable oxygen data, an adjustment in real time should be quickly performed. 
+Several oxygen sensors suffer from predeployment storage drift that can reduce accuracy by up to 20% or more [@Bittig2019]. As a consequence and because this bias can be corrected, dissolved oxygen concentration measured in real time should be set to 3 “bad data that are potentially correctable”. To retrieve usable oxygen data, an adjustment in real time should be quickly performed. 
 
 ### Global range check
 This test applies a gross filter on EGO oxygen data. If one observation is out of the global range [-5 600] µmol/kg, its QC flag is set up to 4 “bad data”.
