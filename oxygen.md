@@ -18,7 +18,7 @@ include-before: |
   1. Charitha Pattiaratchi, *IMOS Ocean Gliders, UWA Oceans Institute and Oceans Graduate School, The University of Western Australia, Perth, Australia*
   1. [Laurent Coppola](https://github.com/laurcopp), *Sorbonne Université, CNRS, Laboratoire d’Océanographie de Villefranche (LOV), 06230 Villefranche-sur-Mer, France*
   1. Tania Morales, *Plataforma Oceánica de Canarias (PLOCAN), Canary Islands, Spain*
-  1. [Virginie Racape](https://github.com/vracape), *Institut Universitaire Européen de la mer CNRS-UMS 3113, IFREMER-coriolis, Plouzané France*
+  1. [Virginie Racapé](https://github.com/vracape), *Institut Universitaire Européen de la mer CNRS-UMS 3113, IFREMER-coriolis, Plouzané France*
   1. [Claire Gourcuff](https://github.com/cgourcuf), *Euro-Argo ERIC, Brest, France*
   1. John Allen, *SOCIB, Palma de Mallorca, Spain*
   1. Eva Alou-Font, *SOCIB, Palma de Mallorca, Spain*
@@ -29,6 +29,7 @@ include-before: |
   \newpage
 toc: true
 toc-depth: 2
+bibliography: oxygen.bib
 ---
 \newpage
 
@@ -37,7 +38,7 @@ toc-depth: 2
 1) Initial SOP was drafted by [Patricia López-García](https://github.com/patricialg), [Tom Hull](https://github.com/tomhull), [Soeren Thomsen](https://github.com/soerenthomsen) and [Johannes Hahn](https://github.com/hahn-johannes).
 
 2) Two expert sessions during OceanGliders Best Practice Workshop, May 11 - 25 2021. 
-Additional authors joined: [Bastien Y. Queste](https://github.com/bastienqueste), Gerd Krahmann, Charlotte Williams, Mun Woo, Charitha Pattiaratchi, Laurent Coppola, Tania Morales, [Virginie Racape](https://github.com/vracape), [Claire Gourcuff](https://github.com/cgourcuf), John Allen, Eva Alou, [Nikolaos D. Zarokanellos](https://github.com/nizaroka)
+Additional authors joined: [Bastien Y. Queste](https://github.com/bastienqueste), Gerd Krahmann, Charlotte Williams, Mun Woo, Charitha Pattiaratchi, [Laurent Coppola](https://github.com/laurcopp), Tania Morales, [Virginie Racape](https://github.com/vracape), [Claire Gourcuff](https://github.com/cgourcuf), John Allen, Eva Alou, [Nikolaos D. Zarokanellos](https://github.com/nizaroka)
 
 3) First community and user feedback was provided during the OceanGliders Best Practice Workshop, May 11 - 25 2021 by attendees. 
 
@@ -473,40 +474,45 @@ The mission plan should aim to pass close to these platforms, ideally multiple t
 
 # Real time data processing & Quality Control
 
-## Send OceanGliders metadata and set up real time data flow 
-Similarly to other type of metadata, oxygen sensor metadata (i.e. sensor model, calibration coefficient, intermediate parameters) should be send ahead of the mission to the Data Assembly Center. There is no unique procedure for his. Protocols, format and file naming convention should be discussed with DACs before deployment. After deployment, experience shows that it is unlikely that PI and operators find time to provide this information while glider is at sea. Without this information, the oxygen data will not be usable in real time. So far, the best documentation about Real Time Oxygen data management is available through ARGO data management documentation here: https://archimer.ifremer.fr/doc/00287/39795/. OceanOPS and DACs requirements on data and metadata are described in the OceanGliders Best Practices document in the data and metadata management section, paragraph 6  (link to be added when overview paper is in review).
-
 ## Real Time data processing
-In order to get usable oxygen values in Real Time (RT), it is important to access the appropriate calibration coefficients associated with the oxygen sensor onboard the glider. 
-Dissolved oxygen values computed inside the glider may not always be appropriate, and it is also important that the glider is configured so that intermediate parameters (phase measurements) are sent in RT, to allow dissolved oxygen computation using the best method associated with the sensor model, using both intermediate parameters and calibration coefficients (see [@Thierry2018]). 
-In parallel, cross-check can be performed to ensure that the coefficient calibrations are appropriate by comparing dissolved oxygen internally computed and recomputed using the intermediate parameters. 
-If appropriate, a time lag correction may be applied already in RT taking into account the sensor time response, using either the manufacturer value or any value defined from previous deployments with the specific sensor. A real time lag correction might improve the useability of the real time data significantly.
 
-- to add "oxygen saturation + salinity compensation"
-- to add examples of bad computation
+Prior to deployment, oxygen sensor metadata (i.e. sensor model, sensor serial number and calibration coefficients) should be sent ahead of the mission to the Data Assembly Center. It is important that the glider is well configured, intermediate parameters (phase measurements) should be sent in real time (RT) as well. This will allow first to check if dissolved oxygen values computed inside the glider are appropriate and then this adds the possibility to recompute the dissolved oxygen concentration using the up to date method associated with the sensor model, intermediate parameters and calibration coefficients. 
+
+![Difference between oxygen concentration computed by the glider (DOXY) and those computed by the Data Assembly Center (DAC) from intermediate parameters and associated calibration coefficient.](images/RTQC_check_Doxy_combined.png)
+
+Configurations for the calculation of DOXY are in fact function of the sensor model and intermediate parameters. The recommended configurations (e.g. salinity compensation of MOLAR_DOXY, pressure correction for pressure effect on quenching, temperature compensation) are available in the [Processing Argo oxygen data at the DAC level](https://archimer.ifremer.fr/doc/00287/39795/). For some optode models, it may be appropriate to apply a time lag correction in RT, taking into account the sensor time response, using either the manufacturer value or any value defined from previous deployments with the specific sensor. A real time lag correction might improve the useability of the real time data significantly.The method is described in [@Bittig2014].
+
+There is no unique procedure for Real time data and metadata sending. Protocols, format and file naming convention should be discussed with DACs before deployment. OceanOPS and DACs requirements on data and metadata are described in the OceanGliders Best Practices document in the data and metadata management section, paragraph 6  (link to be added when overview paper is in review). 
 
 ## Real Time quality control (RTQC)
+Real time quality control tests applied on EGO oxygen data are extracted from the [Argo quality control manual for dissolved oxygen](https://archimer.ifremer.fr/doc/00354/46542/82301.pdf). Details are summarized below. These tests are applied in supplement to trajectory tests. 
+RTQC applied on the temperature measured by the oxygen sensor should follow the RTQC procedure defined for the CTD temperature. 
+
+### Doxy QC initialisation
+Several oxygen sensors suffer from predeployment storage drift that can reduce accuracy by up to 20% or more (Bittig et al., 2019). As a consequence and because this bias can be corrected, dissolved oxygen concentration measured in real time should be set to 3 “bad data that are potentially correctable”. To retrieve usable oxygen data, an adjustment in real time should be quickly performed. 
 
 ### Global range check
-- to add
-
-### Stuck value check
-- to add
-
-### Frozen profile check
-- to add
+This test applies a gross filter on EGO oxygen data. If one observation is out of the global range [-5 600] µmol/kg, its QC flag is set up to 4 “bad data”.
 
 ### Outlier and spike check
-Outliers and spikes are difficult to detect as optodes typically smooth out spikes due to their slow response time.
+Outliers and spikes are difficult to detect as optodes typically smooth out spikes due to their slow response time. A simple test checking the differences between sequential measurements is nevertheless possible if i) it is applied on a specific phase (ascending or descending for example) and ii) assuming a sampling adequately reproduces changes in dissolved oxygen concentrations. In this context, if one measurement is significantly different from adjacent ones, it is a spike in both size and gradient. 
 
-### Compare with climatologies and deep waters  
-- to add
+Test value = | V2 − (V3 + V1)/2 | − | (V3 − V1) / 2 |
 
-### Regional range check
-- to add
+Where V2 is the measurement being tested as a spike, V1 and V3 are the values above and below. 
 
-### Neural-Network approaches
-- to add
+V2  value should be flagged as 4 “bad data”, when:
+Test value > 50 µmol/kg for pressure < 500 dbar
+Test value > 25 µmol/kg for pressure >= 500 dbar
+
+### Stuck value test
+This test looks for EGO oxygen data in the same phase (ascending or descending for example) being identical. Stuck values should be flagged as 4 “bad data”.
+
+### Bad P/T/S QC spreading
+
+The test checks that the dissolved oxygen concentration in /mumol/kg is computed from a valid pressure, temperature and salinity. 
+Considering the pressure or temperature impact on the oxygen conversion, when pressure or temperature is marked as bad (qc = 4), oxygen concentration should be set to 4. 
+Conversely, and as the salinity impact on the oxygen conversion is less than previous parameters, when salinity is marked as bad, oxygen concentration should be set to 3. 
 
 # Post-recovery operations and calibrations
 At first users should report that their mission is over to support(at)oceanobs.org
@@ -526,6 +532,10 @@ Follow protocol described in section ‘Calibration during deployment/recovery f
 
 # Delayed Mode Quality Control (DMQC)
 
+## Calculation of oxygen variables
+
+Following @Bittig2018.
+
 ## Sensor drift correction
 Aanderaa describe the in-situ drift characteristics of the 4330 and 4831 series optodes as being < 0.5 % per year and they make no distinction between the standard or fast (“F"-type) foils [@TengbergHovdenes2014].
 Optodes made after 2016 undergo a “burning-in period” during manufacture and therefore have substantially less drift [@TengbergHovdenes2014].
@@ -544,11 +554,83 @@ Tom Hull found values between 0.0004 and 0.0035 % d-1 across 16 vehicles in-situ
 The drift correction should be applied to the oxygen concentration, not the measured phase [@Bittig2018].
 
 ## Sensor time response correction
-In all but the most homogeneous waters it is essential to correct for the slow time response of optodes. This is particularly critical for optodes using the “standard” black foils.
-Correction requires the collection of optode phase and temperature and therefore the instruments and gliders should be configured to collect these variables and not just oxygen concentration or saturation. 
-Accurate time-stamps for these data are required to be able to perform this correction.
 
-- add rest after join discussion and convergence
+In all but the most homogeneous waters it is essential to correct for the slow time response of optodes [@Bittig2014, @Bittig2017] (see figure \ref{fig:kelvin}).
+This is particularly critical for optodes using the “standard” black foils, and as previously mentioned Slocum gliders with the optode in the standard location [@Moat2016].
+
+![Example uncorrected profiles from AlterEco AE5 “Kelvin” Slocum with a 4831 optode with standard foil demonstrating significant lag in both optode temperature and phase.](images\kelvin_lag.png)
+
+Correction requires the collection of optode phase, temperature and time.
+Therefore the instruments and gliders should be configured to collect these variables and not just oxygen concentration or saturation. 
+If only optode temperature and concentration are recorded, routines exist to recalculate phase, but this can introduce some inaccuracy and is best avoided.
+Accurate time-stamps for these data are required to be able to perform this correction.
+Many data processing routines may remove these timestamps, such as to place the oxygen data on the same time-axis as the CTD,
+but for best results the oxygen sensor time should be used for the time response correction before interpolating to match the CTD.
+Users should be aware that many gliders have independent guidance-control computers and sensor computers and timestamps may differ between them.
+A important note is which temperature, be it optode or CTD, is used for the correction.
+The optode temperature is typically have lower accuracy and a slower response.
+
+The lag is caused by a combination of factors, the relevance of these changes depending on the environment, optode type and glider platform.
+The rate of diffusion across the membrane (foil) is controlled by the water temperature and the thickness of the foil.
+Diffusion across the boundary layer above the membrane is also temperature dependent,
+but also influenced by the flow of water, which is determined by the position of the sensor and the glider speed and/or angle of attack.
+Lastly geometric lag is caused by a delay in water reaching the sensor due to glider geometry and the flow path of the surrounding water.
+
+The boundary layer diffusion lag and the geometric lag will also affect the optode temperature response, which itself may be have a time response due to the type of PRT used.
+As noted above, the type 3835 optodes have a particularly slow responding temperature sensors and it typical for users to use the CTD temperature in these instances.
+
+The ideal correction method is still a point of discussion and we suggest users try each of these procedures and assess how well they work for their own use case.
+
+### time response correction 1 - GEOMAR
+
+This routine developed by Johannes Hahn for the GEOMAR MATLAB Slocum toolbox [XXX reference], and has been used primarily for the tropical Atlantic Peruvian coast, mostly in deep waters.
+It determines a $\tau$ (in seconds) for an exponential filter by comparing up and down casts (in pressure space) and minimising the difference between them.
+This routine makes no explicit correction for "geometric" lag, that is the lag introduced by the CTD and optode being some distance from each other.
+
+1. linearly interpolate optode phase, optode temp, CTD temp, pressure and salinity variables onto 1 sec grid to avoid issues from different measurement times.
+1. a set of foil temperatures is estimated by applying an exponential filter to the CTD temperature with time scales from 10 to 50 seconds (in steps of 5 sec), thereby creating different ‘virtual’ foil temperatures.
+1. with this set of virtual foil temperatures oxygen concentrations are calculated using either the Aanderaa supplied or the own-calibration derived set of optode coefficients.
+1. for each of the resulting oxygen concentrations a reverse exponential filter with time scales of 0 to 200 seconds is applied to create sets of oxygen concentration profiles.
+1. these sets of concentration profiles are filtered with a forward-backward filter (MATLAB `filtfilt`) to remove the noise introduced by the reverse filtering.
+1. all concentrations are gridded to a 1 dbar grid (first binned and then linearly interpolated to the full dbar).
+1. differences between all up-down pairs are calculated and summed up for each of the concentration sets.
+1. the one delay pair (CTD-temp delay for virtual foil temperature & Optode response delay) with the smallest difference sum is chosen and applied to the whole deployment.
+1. typically the ‘best’  delays are CTD-temp: 30-50 seconds, optode response : 20-30 seconds.
+1. included into the optimization are only up-down pairs that were not influenced by obvious bio-fouling
+
+**TODO example image of GEOMAR correction, pre and post**
+
+### time response correction 2 - IMOS
+
+The routine developed by Mun Woo for the IMOS glider toolbox also compares up and down casts in pressure space, but applies a time-shift rather than an exponential filter.
+These time-shift values are determined per dive, but a rolling median is calculated to exclude dives with very high or low lag values.
+**TODO - is this done with phase or oxygen? - TH**
+<!-- **NOTE** presumably those dives should be flagged as bad? - TH -->
+advantage of this method is it does not amplify noise which the filter will tend to do.
+However, simply shifting the optode data relative to time will not remove some of the second order effects.
+
+**TODO example image of IMOS correction**
+
+### time response correction 3 - UEA
+
+The routine developed by Bastien Queste for the UEA Seaglider toolbox works as follows:
+
+1. the CTD temperature is aligned based on flight speed to the optode phase using a 1-D interpolation and a flight speed dependent time-shift.
+(the optode and seabird temperature are close together on a Seaglider so the time-shift is small).
+1. oxygen partial pressure is calculated using the optode phase and time shifted optode temperature
+1. up and down profiles are compared (in pressure or density space depending on environmental conditions) and  either:
+    1. a shoelace algorithm is used to minimise the area between the curves or
+    1. the RMSD from vertically binned data is calculated
+1. a minimisation algorithm (`fminsearch` from MATLAB) is used to fit two lag coefficients: $\tau = \tau_0 + \tau_1 (T-20)$ as per @Hahn2014.
+1. this $\tau$ is then used with an exponential inverse-filter, typically against optode phase (and oxygen recalculated) but partial pressure or concentration as per @Bittig2018 has also been tested.
+The correction is applied on a per-dive basis.
+
+### time response correction 4 - AlterEco
+
+For AlterEco many gliders were not collecting data on both up and down casts which precludes the use of the above routines.
+1. A $\tau$ was calculated for the geometric and boundary layer diffusive lag by minimising the difference between the CTD and optode temperatures.
+1. This $\tau$ was used to then inverse-filter the optode phase and temperature
+1. A secondary lag correction based on the temperature as per the UEA toolbox and @Hahn2014.
 
 ## Light intrusion
 Optodes can be sensitive to light intrusion if the foil is damaged. 
