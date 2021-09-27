@@ -497,8 +497,6 @@ This test applies a gross filter on EGO oxygen data. If one observation is out o
 ### Outlier and spike check
 Outliers and spikes are difficult to detect as optodes typically smooth out spikes due to their slow response time. A simple test checking the differences between sequential measurements is nevertheless possible if i) it is applied on a specific phase (ascending or descending for example) and ii) assuming a sampling adequately reproduces changes in dissolved oxygen concentrations. In this context, if one measurement is significantly different from adjacent ones, it is a spike in both size and gradient. 
 
-$Test value = \vert V2 − (V3 + V1)/2 \vert − \vert (V3 − V1) / 2 \vert$
-
 Where V2 is the measurement being tested as a spike, V1 and V3 are the values above and below. 
 
 V2  value should be flagged as 4 “bad data”, when:
