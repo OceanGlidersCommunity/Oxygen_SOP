@@ -593,6 +593,7 @@ gives an estimate of the temperature of the optode foil. And the other describes
 The processing so far makes no explicit correction for the "geometric" lag, that is any lag introduced by the CTD and optode being some distance from each other.
 This "geometric" lag should be of the order of a few seconds and thus is significantly smaller than the other two delay time constants. Implementing and correcting such a
 lag should however be fairly simple.
+
 To determine the two time constants a number of steps are performed:
 
 1. Linearly interpolate optode phase, optode temp, CTD temp, pressure and salinity variables onto 1 sec grid to avoid issues from different measurement times.
