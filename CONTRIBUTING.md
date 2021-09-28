@@ -9,3 +9,5 @@
 5. Make a pull request, tell us briefly why you made changes, and submit.
 6. The SOP team will approve your changes and you're done.
 7. All contributers will be listed as co-authors on the next peer-reviewed publication.
+
+We are happy to provide individual training sessions for people who are new on GitHub.
