@@ -2,7 +2,7 @@
 
 # OceanGliders Oxygen SOP Readme
 
-This Github repository is for the [OceanGliders](https://www.oceangliders.org) Oxygen Standard Operating Procedure (SOP).
+This GitHub repository is for the [OceanGliders](https://www.oceangliders.org) Oxygen Standard Operating Procedure (SOP).
 
 To read the SOP online simply follow the link [here](oxygen.md).
 
