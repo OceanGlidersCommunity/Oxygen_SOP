@@ -447,12 +447,12 @@ It is however essential that at least one good quality up and down cast to the m
 Coordination between the recovery group and the pilots is essential.
 
 ### Gather data to help correct for sensor response time
-Regular up- and down casts are needed to estimate and correct for the sensor response time. 
+Regular up- and downcasts are needed to estimate and correct for the sensor response time. 
 Combined up- and downcasts should be carried out at least every week and particularly at the beginning and at the end of the deployment. 
 One to two days per week appear to be a reasonable compromise between energy saving and calibration quality. 
 If bio-fouling is expected during the deployment it is better to collect up-down pairs earlier rather than later.
 
-- add "Sampling rates"
+A sufficient high frequency sampling is required for a good lag correction. In particular in areas with a strong oxycline, we recommend to always sample at 5 s period. If battery lifetime is an issue period up- and down dives with high frequency sampling are more useful than continuous measurement at a lower frequency. 
 
 ### Gather data to correct for sensor drift
 #### Deep water masses or known anoxic waters
