@@ -585,7 +585,7 @@ We suggest users try each of these procedures and assess how well they work for 
 
 ### Time response correction 1 - GEOMAR
 
-This routine developed by Johannes Hahn for the GEOMAR MATLAB Slocum toolbox [XXX reference], and has been used primarily for the tropical Atlantic Peruvian coast, mostly in deep waters.
+This routine was developed by Johannes Hahn for the GEOMAR MATLAB Slocum toolbox [XXX reference], and has been used primarily for the tropical Atlantic Peruvian coast, mostly in deep waters.
 It determines a $\tau$ (in seconds) for an exponential filter by comparing up and down casts (in pressure space) and minimising the difference between them.
 This routine makes no explicit correction for "geometric" lag, that is the lag introduced by the CTD and optode being some distance from each other.
 
