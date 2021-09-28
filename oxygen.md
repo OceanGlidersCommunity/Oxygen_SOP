@@ -12,7 +12,7 @@ include-before: |
   1. [Soeren Thomsen](https://github.com/soerenthomsen), *LOCEAN, ISPL, Sorbonne University, Paris, France*
   1. [Johannes Hahn](https://github.com/hahn-johannes), *Federal Maritime and Hydrographic Agency (BSH), Hamburg, Germany*
   1. [Bastien Y. Queste](https://github.com/bastienqueste), *Department of Marine Science, University of Gothenburg, Gothenburg, Sweden*
-  1. Gerd Krahmann, *GEOMAR Helmholtz Centre for Ocean Research Kiel, Germany* 
+  1. [Gerd Krahmann](https://github.com/gkrahmann), *GEOMAR Helmholtz Centre for Ocean Research Kiel, Germany* 
   1. Charlotte Williams, *Marine Physics and Ocean Climate Group. National Oceanography Centre, Liverpool, UK*
   1. Mun Woo, *IMOS Ocean Gliders, UWA Oceans Institute and Oceans Graduate School, The University of Western Australia, Perth, Australia*
   1. Charitha Pattiaratchi, *IMOS Ocean Gliders, UWA Oceans Institute and Oceans Graduate School, The University of Western Australia, Perth, Australia*
