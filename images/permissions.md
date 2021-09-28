@@ -21,4 +21,4 @@
 - `slocum_better_location.jpg` - Matthew Palmer, NOC
 - `storage.jpg`
 - `TerminalProgram.jpg`- Patricia Lopez-Garcia
-- `winkler-ballasting.png`
+- `winkler-ballasting.png`- Patricia Lopez-Garcia
