@@ -21,8 +21,8 @@ A PDF version can be found under [releases](https://github.com/OceanGlidersCommu
 8. All contributers will be listed as co-authors on the next peer-reviewed publication.
 
 ## Next steps
-1) 4 months community review on GitHub until end of January 2022
-3) Submission to [Frontiers: Research Topic Best Practices in Ocean Observing](https://www.frontiersin.org/research-topics/7173/best-practices-in-ocean-observing) for peer-review
+1) 4 months community review on GitHub until January 31 2022
+3) Submission to [Frontiers: Research Topic Best Practices in Ocean Observing](https://www.frontiersin.org/research-topics/7173/best-practices-in-ocean-observing) for peer-review February 2022
 4) Depositing of major SOP releases at the [Ocean Best Practice System (OBPS)](https://www.oceanbestpractices.org)
 
 The main SOP document will always reside in this GitHub repository to allow updates within the OceanGliders community at any time.
