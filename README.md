@@ -14,7 +14,7 @@ See contributer guideline [here](https://github.com/OceanGlidersCommunity/Oxygen
 
 ## Next steps
 1) 4 months community review on GitHub until January 31 2022
-2) Submit to [GOOS](https://www.goosocean.org) endorsement process as outline in [Hermes et al. 2020](http://dx.doi.org/10.25607/OBP-926)
+2) Submit to [GOOS](https://www.goosocean.org) endorsement process as outline in [Hermes 2020](http://dx.doi.org/10.25607/OBP-926)
 3) Submission to [Frontiers: Research Topic Best Practices in Ocean Observing](https://www.frontiersin.org/research-topics/7173/best-practices-in-ocean-observing) for peer-review February 2022
 4) Depositing of major SOP releases at the [Ocean Best Practice System (OBPS)](https://www.oceanbestpractices.org)
 
