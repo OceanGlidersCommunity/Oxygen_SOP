@@ -26,7 +26,7 @@ include-before: |
   1. [Victor Turpin](https://github.com/vturpin), *OceanOps, Brest, France*
   1. [Catherine Schmechtig](https://github.com/catsch), *CNRS, Sorbonne Université, Osu Ecce Terra, Paris, France*
   1. [Pierre Testor](https://github.com/ptestor), *CNRS-Sorbonne Universités (UPMC Univ. Pierre et Marie Curie, Paris 06)-CNRS-IRD-MNHN, UMR 7159, Laboratoire d’Océanographie et de Climatologie (LOCEAN), Institut Pierre Simon Laplace (IPSL), Observatoire Ecce Terra, Paris, France*
-  1. Julius Busecke
+  1. [Julius Busecke](https://github.com/jbusecke), *Columbia University/Lamont-Doherty Earth Observatory, New York, USA*
   \newpage
 toc: true
 toc-depth: 2
@@ -45,7 +45,7 @@ Additional authors joined: [Bastien Y. Queste](https://github.com/bastienqueste)
 
 4) SOP moved to this repository by: [Patricia López-García](https://github.com/patricialg), [Tom Hull](https://github.com/tomhull), [Soeren Thomsen](https://github.com/soerenthomsen) in September 2021. 
 
-5) Additional authors joined on GitHub prior to the community: [Victor Turpin](https://github.com/vturpin), [Catherine Schmechtig](https://github.com/catsch), [Pierre Testor](https://github.com/ptestor), Julius Busecke
+5) Additional authors joined on GitHub prior to the community: [Victor Turpin](https://github.com/vturpin), [Catherine Schmechtig](https://github.com/catsch), [Pierre Testor](https://github.com/ptestor), [Julius Busekke](https://github.com/jbusecke)
 
 6) Next step: 4 months of community review on GitHub starting in October 2021.
 
