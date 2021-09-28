@@ -38,8 +38,8 @@ Hosting this document on GitHub allows easy editing by contributors, no need to 
 However, [Github flavoured markdown](https://github.github.com/gfm/) is missing some features which are nice to have in the final version of the document, most notably citations.
 To add these features we use [Pandoc](https://pandoc.org/) and use Github actions to author a HTML and PDF version of the SOP.
 
-## Licence
-This work is licensed under a [Creative Commons Attribution 2.0 Generic License](https://creativecommons.org/licenses/by/2.0).
+## License
+This work is licensed under a [Creative Commons Attribution 4.0 Generic License](https://creativecommons.org/licenses/by/4.0/).
 
 ## Code of Conduct
 - link Code of Conduct file here as soon as finalized. Join the discussion [here](https://github.com/OceanGlidersCommunity/OG-format-user-manual/pull/23)
