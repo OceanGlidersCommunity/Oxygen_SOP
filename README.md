@@ -33,9 +33,7 @@ Or do you struggle to comment / edit the SOP document?
 Just raise a question [here](https://github.com/OceanGlidersCommunity/Oxygen_SOP/discussions).
 
 ## Licence
-
-- likely one version of Creative Commons (https://creativecommons.org), to be discussed with Ocean Best Practice System and Frontiers, 
-- join issue here [#31](https://github.com/OceanGlidersCommunity/Oxygen_SOP/issues/31)
+This work is licensed under a [Creative Commons Attribution 2.0 Generic License](https://creativecommons.org/licenses/by/2.0).
 
 ## About Markdown and Pandoc
 
