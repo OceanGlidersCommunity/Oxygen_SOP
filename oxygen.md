@@ -145,9 +145,8 @@ This is similar to procedures used on other optodes.
 
 ![Oxygen saturation from a Rinko AROD-FT on a SeaExplorer glider in the Bornholm Basin (credit: Voice of the Ocean Foundation and University of Gothenburg). \label{fig:samba}](images/SAMBA.png)
 
-
 Recent deployments of a SeaExplorer glider equipped with an AROD-FT sensor have shown long-term stability (low drift over time) but with a significant offset observed during sections in the Ligurian Sea (on average 10-15 \mumol/kg). 
-Deployments in the Bornholm Basin have shown good agreement across a wide range of oxygen concentrations with a nearby BOOS monitoring station; this sensor was a recent acquisition and had had little opportunity to drift in storage.
+Deployments in the Bornholm Basin have shown good agreement across a wide range of oxygen concentrations with a nearby BOOS monitoring station; this sensor was a recent acquisition and had little opportunity to drift in storage.
 
 ## Clark electrode polarographic sensor (SBE43)
 - input from expert needed here
