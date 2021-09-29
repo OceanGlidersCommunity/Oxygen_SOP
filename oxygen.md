@@ -171,7 +171,6 @@ After recovery the sensor and to remove any biofouling, this is the protocol rec
 
 ## Sensor configuration for deployment
 Salinity configuration: 0 PSU. For optode sensors: when there is a small variation in salinity (less than 1 g/ kg), it can be set to the mid value avoiding the need of salinity compensation. However, even in that case, it is a good practice to set salinity to 0 for two reasons: 1) it is usually difficult to find the salinity value defined for old deployments and 2) in case the equations change, it would be easier to recalculate oxygen values from uncompensated values. 
-Sampling period: (see open issue / discussion)
 
 ## Sensor integration with gliders
 Optodes should be configured to record the intermediate parameters (calphase and temperature), not just oxygen.
