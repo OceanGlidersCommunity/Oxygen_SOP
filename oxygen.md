@@ -132,7 +132,7 @@ This sensor is still fairly recent on gliders and little is known for now.
 
 ## JFE Advantech RINKO
 AROD-FT sensor (RINKO JFE) is used for the SeaExplorer gliders (Alseamar) and for some Argo floats (small size and low power consumption). 
-This sensor is based on the optical (phosphorescence) principle which is now widely known as a remarkably fast response oxygen sensor (< 1s) with a high accuracy (± 2.0 mumol/L). 
+This sensor is based on the optical (phosphorescence) principle which is now widely known as a remarkably fast response oxygen sensor (< 1s) with a high accuracy (± 2.0 \mumol/kg). 
 This sensor used a multi-points calibration (16 points with 4 temperatures and 4 DO concentrations). 
 In this procedure, the DO reference standards are produced by saturing the primary mixtures with DO concentrations of approximately 4%, 10%, 17% and 25% respectively (certified by the National Metrology Institute of Japan). 
 
@@ -146,7 +146,7 @@ This is similar to procedures used on other optodes.
 ![Oxygen saturation from a Rinko AROD-FT on a SeaExplorer glider in the Bornholm Basin (credit: Voice of the Ocean Foundation and University of Gothenburg). \label{fig:samba}](images/SAMBA.png)
 
 
-Recent deployments of a SeaExplorer glider equipped with an AROD-FT sensor have shown long-term stability (low drift over time) but with a significant offset observed during sections in the Ligurian Sea (on average 10-15 mumol/kg). 
+Recent deployments of a SeaExplorer glider equipped with an AROD-FT sensor have shown long-term stability (low drift over time) but with a significant offset observed during sections in the Ligurian Sea (on average 10-15 \mumol/kg). 
 Deployments in the Bornholm Basin have shown good agreement across a wide range of oxygen concentrations with a nearby BOOS monitoring station; this sensor was a recent acquisition and had had little opportunity to drift in storage.
 
 ## Clark electrode polarographic sensor (SBE43)
