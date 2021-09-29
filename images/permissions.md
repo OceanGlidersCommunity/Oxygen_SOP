@@ -3,22 +3,22 @@
 - `100-0-calibration.png`
 - `AanderaSensors.png` - XXX, Aanderaa data instruments
 - `ARODFTSensor.jpg`
-- `CoastalDeployment.png`
+- `CoastalDeployment.png`- Patricia Lopez-Garcia
 - `Datalogger.png`- Johannes Hahn, BSH
-- `dryfoil.png` - Tom Hull, Cefas, tom.hull@cefas.co.uk
-- `edit_markdown_file.png`
-- `EUROSEA.png`
-- `GROOM2_logo.png`
-- `logo.png`
-- `logo_v02_1_contour.png`
-- `logo-ocean-gliders.png`
-- `multiparametersonde.png`
-- `OGIVE.png` - Tom Hull, Cefas, tom.hull@cefas.co.uk
+- `dryfoil.png` - Tom Hull, Cefas
+- `edit_markdown_file.png` - Soeren Thomsen
+- `EUROSEA.png`- EuroSea
+- `GROOM2_logo.png`- GROOM2
+- `logo.png`- OceanGliders
+- `logo_v02_1_contour.png`- OceanGliders
+- `logo-ocean-gliders.png`- OceanGliders
+- `multiparametersonde.png`- Patricia Lopez-Garcia
+- `OGIVE.png` - Tom Hull, Cefas
 - `Rinko.png`
 - `RTQC_check_Doxy_combined.png` - Virgine Racape
-- `SAMBA.png` - Bastien Queste, University of Gothenburg, bastien.queste@gu.se
+- `SAMBA.png` - Bastien Queste, University of Gothenburg
 - `slocum.jpg`
-- `slocum_better_location.jpg` - Matthew Palmer, NOC, rolm@noc.ac.uk
+- `slocum_better_location.jpg` - Matthew Palmer, NOC
 - `storage.jpg`
-- `TerminalProgram.jpg`
-- `winkler-ballasting.png`
+- `TerminalProgram.jpg`- Patricia Lopez-Garcia
+- `winkler-ballasting.png`- Patricia Lopez-Garcia

@@ -26,7 +26,7 @@ include-before: |
   1. [Victor Turpin](https://github.com/vturpin), *OceanOps, Brest, France*
   1. [Catherine Schmechtig](https://github.com/catsch), *CNRS, Sorbonne Université, Osu Ecce Terra, Paris, France*
   1. [Pierre Testor](https://github.com/ptestor), *CNRS-Sorbonne Universités (UPMC Univ. Pierre et Marie Curie, Paris 06)-CNRS-IRD-MNHN, UMR 7159, Laboratoire d’Océanographie et de Climatologie (LOCEAN), Institut Pierre Simon Laplace (IPSL), Observatoire Ecce Terra, Paris, France*
-  1. Julius Busecke
+  1. [Julius Busecke](https://github.com/jbusecke), *Columbia University/Lamont-Doherty Earth Observatory, New York, USA*
   \newpage
 toc: true
 toc-depth: 2
@@ -45,9 +45,9 @@ Additional authors joined: [Bastien Y. Queste](https://github.com/bastienqueste)
 
 4) SOP moved to this repository by: [Patricia López-García](https://github.com/patricialg), [Tom Hull](https://github.com/tomhull), [Soeren Thomsen](https://github.com/soerenthomsen) in September 2021. 
 
-5) Additional authors joined on GitHub prior to the community: [Victor Turpin](https://github.com/vturpin), [Catherine Schmechtig](https://github.com/catsch), [Pierre Testor](https://github.com/ptestor), Julius Busecke
+5) Additional authors joined on GitHub prior to the community review: [Victor Turpin](https://github.com/vturpin), [Catherine Schmechtig](https://github.com/catsch), [Pierre Testor](https://github.com/ptestor), [Julius Busecke](https://github.com/jbusecke)
 
-6) Next step: 4 months of community review on GitHub starting in October 2021.
+6) Next step: 4 months community review on GitHub starting in October 2021.
 
 # Introduction
 This standard operating procedure (SOP) document for dissolved oxygen (DO) aims to guide the user through the steps necessary for collection of good quality dissolved oxygen using gliders for both real time and post deployment data streams.
@@ -447,12 +447,12 @@ It is however essential that at least one good quality up and down cast to the m
 Coordination between the recovery group and the pilots is essential.
 
 ### Gather data to help correct for sensor response time
-Regular up- and down casts are needed to estimate and correct for the sensor response time. 
+Regular up- and downcasts are needed to estimate and correct for the sensor response time. 
 Combined up- and downcasts should be carried out at least every week and particularly at the beginning and at the end of the deployment. 
 One to two days per week appear to be a reasonable compromise between energy saving and calibration quality. 
 If bio-fouling is expected during the deployment it is better to collect up-down pairs earlier rather than later.
 
-- add "Sampling rates"
+A sufficient high frequency sampling is required for a good lag correction. In particular in areas with a strong oxycline, we recommend to always sample at 5 s period. If battery lifetime is an issue period up- and down dives with high frequency sampling are more useful than continuous measurement at a lower frequency. 
 
 ### Gather data to correct for sensor drift
 #### Deep water masses or known anoxic waters
