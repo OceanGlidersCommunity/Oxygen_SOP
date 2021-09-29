@@ -557,7 +557,7 @@ The drift correction should be applied to the oxygen concentration, not the meas
 In all but the most homogeneous waters it is essential to correct for the slow time response of optodes [@Bittig2014, @Bittig2017] (see figure \ref{fig:kelvin}).
 This is particularly critical for optodes using the “standard” black foils, and as previously mentioned Slocum gliders with the optode in the standard location near the tail of the glider[@Moat2016].
 
-![Example uncorrected profiles from AlterEco AE5 “Kelvin” Slocum with a 4831 optode with standard foil demonstrating significant lag in both optode temperature and phase.](images\kelvin_lag.png)
+![Example uncorrected profiles from AlterEco AE5 “Kelvin” Slocum with a 4831 optode with standard foil demonstrating significant lag in both optode temperature and phase.](images/kelvin_lag.png)
 
 Correction requires the collection of optode phase, temperature and time.
 Therefore the instruments and gliders should be configured to collect these variables and not just oxygen concentration or saturation. 
