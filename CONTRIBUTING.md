@@ -8,9 +8,7 @@ All major changes will remain open for at least three weeks to allow all co-auth
 Every co-author can request a change to be reverted and request further discussion to reach a new consensus. 
 Co-authors are encouraged to review GitHub activity periodically as co-authorship implies agreement with the content.  
 
-### Examples
-
-What is a small change:
+### What is a small change:
 - typos, language and formatting
 - adding new sensor descriptions
 - adding images
@@ -20,11 +18,19 @@ What is a small change:
 - concrete suggestions i.e. related to correction of methods
 
 ## How to contribute
-
 1. Log into your Github account
+
+# Case 1: Comment by opening an "issue":
+2. Open an issue, [here](https://github.com/OceanGlidersCommunity/Oxygen_SOP/issues)
+3. Click on the green bottom "New issue"
+![edit_markdown_file](images/case_01_issue.png)
+4. Describe your comment in an organized way
+
+# Case 2: Suggest a concrete modification via a "pull-request":
+
 2. Follow the link to the SOP markdown file, [here](oxygen.md).
 3. Click on the pencil on the upper right to edit the file.
-![oceangliders](images/edit_markdown_file.png)
+![edit_markdown_file](images/edit_markdown_file.png)
 
 4. Edit the document using [markdown](https://guides.github.com/features/mastering-markdown/).
 5. Make a [pull request](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request), tell us briefly why you made changes, and submit.
