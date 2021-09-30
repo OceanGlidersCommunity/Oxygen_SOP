@@ -8,9 +8,7 @@ All major changes will remain open for at least three weeks to allow all co-auth
 Every co-author can request a change to be reverted and request further discussion to reach a new consensus. 
 Co-authors are encouraged to review GitHub activity periodically as co-authorship implies agreement with the content.  
 
-### Examples
-
-What is a small change:
+### What is a small change:
 - typos, language and formatting
 - adding new sensor descriptions
 - adding images
