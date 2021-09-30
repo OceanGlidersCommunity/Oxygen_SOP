@@ -2,3 +2,9 @@ title: "Oxygen SOP"
 logo: images/logo-ocean-gliders.png
 execute:
   execute_notebooks: "off"
+repository:
+  url: https://github.com/jbusecke/Oxygen_SOP
+html:
+  use_repository_button: true
+  use_issues_button: true
+  use_edit_page_button: true
