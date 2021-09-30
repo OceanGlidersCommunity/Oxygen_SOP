@@ -4,6 +4,7 @@ execute:
   execute_notebooks: "off"
 repository:
   url: https://github.com/jbusecke/Oxygen_SOP
+  branch: main
 html:
   use_repository_button: true
   use_issues_button: true
