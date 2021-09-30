@@ -453,7 +453,8 @@ Some information to read before we proceed with the calibration: 1. For a 100 % 
 <img src="images/geomar_ox_example.png" alt="" /><figcaption>Example of original Optode oxygen concentrations (red) and GEOMAR processed and calibrated (blue) oxygen concentratins. Shown is a up-down pair from a deployment off Angola. Solid lines are the up and dashed lines the down data. Also shown are calibrated oxygen concentrations from a nearby and contemporaneous CTD cast.</figcaption>
 </figure>
 <h3 id="time-response-correction-2---imos">Time response correction 2 - IMOS</h3>
-<p>The routine developed by Mun Woo for the IMOS glider toolbox also compares up and down casts in pressure space, but applies a time-shift rather than an exponential filter. These time-shift values are determined per dive, but a rolling median is calculated to exclude dives with very high or low lag values. <strong>TODO - is this done with phase or oxygen? - TH</strong> <!-- **NOTE** presumably those dives should be flagged as bad? - TH --> advantage of this method is it does not amplify noise which the filter will tend to do. However, simply shifting the optode data relative to time will not remove some of the second order effects.</p>
+<p>The routine developed by Mun Woo for the IMOS glider toolbox compares up and down casts in pressure space, but applies a time-shift rather than an exponential filter <span class="citation" data-cites="WooGourcuff2021">(Woo and Gourcuff 2021)</span>. These time-shift values are determined per dive, but a rolling median is calculated to exclude dives with very high or low lag values. <strong>TODO - is this done with phase or oxygen? - TH</strong> <!-- **NOTE** presumably those dives should be flagged as bad? - TH --></p>
+<p>The advantage of this method is that it does not amplify noise which the filter will tend to do. However, simply shifting the optode data relative to time will not remove some of the second order effects.</p>
 <p><strong>TODO example image of IMOS correction</strong></p>
 <h3 id="time-response-correction-3---uea">Time response correction 3 - UEA</h3>
 <p>The routine developed by Bastien Queste for the UEA Seaglider toolbox works as follows:</p>
@@ -472,11 +473,8 @@ Some information to read before we proceed with the calibration: 1. For a 100 % 
 <p>For AlterEco many gliders were not collecting data on both up and down casts which precludes the use of the above routines. 1. A <span class="math inline"><em>τ</em></span> was calculated for the geometric and boundary layer diffusive lag by minimising the difference between the CTD and optode temperatures. 1. This <span class="math inline"><em>τ</em></span> was used to then inverse-filter the optode phase and temperature. 1. A secondary lag correction based on the temperature as per the UEA toolbox and <span class="citation" data-cites="Hahn2014">Hahn et al. (2014)</span>.</p>
 <h2 id="light-intrusion">Light intrusion</h2>
 <p>Optodes can be sensitive to light intrusion if the foil is damaged. These instruments will typically still provide good data in the absence of light. A check should be made for increased sensor noise near the surface during daylight hours and contrast this with night-time observations.</p>
-<h1 id="data-delivery-to-public-open-access-archives">Data delivery to public open access archives</h1>
-<ul>
-<li>list archives and best practices how to store data</li>
-<li>get input of data management</li>
-</ul>
+<h1 id="data-sharing-via-public-open-access-archives">Data sharing via public open access archives</h1>
+<p>OceanGliders encouranges the users to share their data public and open access both in real time and delayed mode. The best practices of data sharing are described in the <a href="add%20link%20to%20the%20OceanGliders%20data%20management%20user%20manual">OceanGliders data management user manual</a>.</p>
 <h1 id="acknowledgement">Acknowledgement</h1>
 <p>The coordination of producing this document was supported by the European Commission via the EuroSea.eu project under H2020 funding (Grant agreement 862626) and GROOM || Horizon 2020 research and innovation programme (Grant agreement No 951842).</p>
 <p><img src="images/EUROSEA.png" /> <img src="images/GROOM2_logo.png" /></p>
@@ -551,6 +549,9 @@ Some information to read before we proceed with the calibration: 1. For a 100 % 
 </div>
 <div id="ref-Uchida2010">
 <p>Uchida H., G. C. Johnson, and K. E. McTaggart. 2010. “CTD Oxygen Sensor Calibration Procedures.” <em>In, the GO-SHIP Repeat Hydrography Manual: A Collection of Expert Reports and Guidelines. IOCCP Report N°14</em> 134 (1): 1–17. <a href="https://doi.org/https://doi.org/10.25607/OBP-1344">https://doi.org/https://doi.org/10.25607/OBP-1344</a>.</p>
+</div>
+<div id="ref-WooGourcuff2021">
+<p>Woo, L. M., and C. Gourcuff. 2021. “Ocean Glider Delayed Mode Qa/Qc Best Practice Manual, Version 3.0.” <em>Hobart, Australia, Integrated Marine Observing System</em>, 60pp. <a href="https://doi.org/DOI:10.26198/5c997b5fdc9bd">https://doi.org/DOI:10.26198/5c997b5fdc9bd</a>.</p>
 </div>
 </div>
 </section>
