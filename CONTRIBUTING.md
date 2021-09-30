@@ -4,7 +4,7 @@ Every issue will be reviewed by at least one of the lead authors.
 They have the authority to decide whether the issues is a minor or major change. 
 Minor changes can be accepted directly after one review of the lead authors. 
 Major changes requires at least 3 reviews by co-authors with relevant knowledge on the specific topics. 
-All major changes will remain open for at least three weeks to allow all co-authors to feedback. 
+All major changes will remain open for at least 4 weeks to allow all co-authors to feedback. 
 Every co-author can request a change to be reverted and request further discussion to reach a new consensus. 
 Co-authors are encouraged to review GitHub activity periodically as co-authorship implies agreement with the content.  
 
