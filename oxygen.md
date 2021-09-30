@@ -643,9 +643,8 @@ Optodes can be sensitive to light intrusion if the foil is damaged.
 These instruments will typically still provide good data in the absence of light. 
 A check should be made for increased sensor noise near the surface during daylight hours and contrast this with night-time observations.
 
-# Data delivery to public open access archives
-- list archives and best practices how to store data
-- get input of data management 
+# Data sharing via public open access archives
+OceanGliders encouranges the users to share their data public and open access both in real time and delayed mode. The best practices of data sharing are described in the [OceanGliders data management user manual](add link to the OceanGliders data management user manual).
 
 # Acknowledgement 
 The coordination of producing this document was supported by the European Commission via the EuroSea.eu project under H2020 funding (Grant agreement 862626) and GROOM || Horizon 2020 research and innovation programme (Grant agreement No 951842).
