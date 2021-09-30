@@ -8,8 +8,7 @@ To read the SOP online simply follow the link [here](oxygen.md).
 
 A PDF version can be found [here](https://github.com/OceanGlidersCommunity/Oxygen_SOP/blob/main/oceangliders_oxygen_sop_v0.pdf) and under [releases](https://github.com/OceanGlidersCommunity/Oxygen_SOP/releases) once we've made one.
 
-## Ocean Gliders community review
-
+## OceanGliders Oxygen SOP community review
 The community review of the OceanGliders Oxygen SOP is open from October 2021 to January 31 2022.
 Please read our [Code of Conduct](add link) to ensure you follow the community rules.
 
