@@ -24,7 +24,10 @@ Co-authors are encouraged to review GitHub activity periodically as co-authorshi
 2. Open an issue, [here](https://github.com/OceanGlidersCommunity/Oxygen_SOP/issues)
 3. Click on the green bottom "New issue"
 ![edit_markdown_file](images/case_01_issue.png)
-4. Describe your comment in an organized way
+4. Give your issue a clear title and describe the problem in a consise and organized way
+5. Submit your new issue
+![edit_markdown_file](images/submit_new_issue.png)
+6. Please keep the discussion always focussed on the issue topic
 
 ### Case 2: Suggest a concrete modification via a "pull-request":
 
