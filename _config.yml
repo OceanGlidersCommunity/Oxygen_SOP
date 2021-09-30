@@ -3,7 +3,7 @@ logo: images/logo-ocean-gliders.png
 execute:
   execute_notebooks: "off"
 repository:
-  url: https://github.com/jbusecke/Oxygen_SOP
+  url: https://github.com/OceanGlidersCommunity/Oxygen_SOP
   branch: main
 html:
   use_repository_button: true
