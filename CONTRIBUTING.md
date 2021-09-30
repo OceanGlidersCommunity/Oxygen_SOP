@@ -23,14 +23,14 @@ Co-authors are encouraged to review GitHub activity periodically as co-authorshi
 # Case 1: Comment by opening an "issue":
 2. Open an issue, [here](https://github.com/OceanGlidersCommunity/Oxygen_SOP/issues)
 3. Click on the green bottom "New issue"
-- insert screenshot
+![edit_markdown_file](images/case_01_issue.png)
 4. Describe your comment in an organized way
 
 # Case 2: Suggest a concrete modification via a "pull-request":
 
 2. Follow the link to the SOP markdown file, [here](oxygen.md).
 3. Click on the pencil on the upper right to edit the file.
-![oceangliders](images/edit_markdown_file.png)
+![edit_markdown_file](images/edit_markdown_file.png)
 
 4. Edit the document using [markdown](https://guides.github.com/features/mastering-markdown/).
 5. Make a [pull request](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request), tell us briefly why you made changes, and submit.
