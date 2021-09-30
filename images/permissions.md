@@ -1,19 +1,19 @@
 # Details for attribution and permission for each of the images
 
-- `100-0-calibration.png`
+- `100-0-calibration.png` - Patricia Lopez-Garcia
 - `AanderaSensors.png` - XXX, Aanderaa data instruments
 - `ARODFTSensor.jpg`
 - `case_01_issue.png` - Soeren Thomsen
-- `CoastalDeployment.png`- Patricia Lopez-Garcia
-- `Datalogger.png`- Johannes Hahn, BSH
+- `CoastalDeployment.png` - Patricia Lopez-Garcia
+- `Datalogger.png`- Johannes Hahn
 - `dryfoil.png` - Tom Hull, Cefas
 - `edit_markdown_file.png` - Soeren Thomsen
 - `EUROSEA.png` - EuroSea
 - `geomar_ox_example.png` - Gerd Krahmann
 - `GROOM2_logo.png`- GROOM2
 - `logo.png`- OceanGliders
-- `logo_v02_1_contour.png`- OceanGliders
-- `logo-ocean-gliders.png`- OceanGliders
+- `logo_v02_1_contour.png` - OceanGliders
+- `logo-ocean-gliders.png` - OceanGliders
 - `multiparametersonde.png`- Patricia Lopez-Garcia
 - `OGIVE.png` - Tom Hull, Cefas
 - `Rinko.png`
