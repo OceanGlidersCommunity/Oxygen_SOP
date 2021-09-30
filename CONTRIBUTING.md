@@ -20,13 +20,13 @@ Co-authors are encouraged to review GitHub activity periodically as co-authorshi
 ## How to contribute
 1. Log into your Github account
 
-# Case 1: Comment by opening an "issue":
+### Case 1: Comment by opening an "issue":
 2. Open an issue, [here](https://github.com/OceanGlidersCommunity/Oxygen_SOP/issues)
 3. Click on the green bottom "New issue"
 ![edit_markdown_file](images/case_01_issue.png)
 4. Describe your comment in an organized way
 
-# Case 2: Suggest a concrete modification via a "pull-request":
+### Case 2: Suggest a concrete modification via a "pull-request":
 
 2. Follow the link to the SOP markdown file, [here](oxygen.md).
 3. Click on the pencil on the upper right to edit the file.
