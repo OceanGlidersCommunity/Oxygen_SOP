@@ -1,0 +1,4 @@
+title: "Oxygen SOP"
+logo: images/logo-ocean-gliders.png
+execute:
+  execute_notebooks: "off"
