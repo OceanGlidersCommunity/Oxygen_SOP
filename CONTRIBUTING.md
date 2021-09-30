@@ -1,3 +1,24 @@
+## How we make decisions on relevant content changes?
+
+Every issue will be reviewed at least one of the lead authors. 
+They have the authority to decide whether the issues is a minor or major change. 
+Minor changes can be accepted directly after one review of the lead authors. 
+Major changes requires at least 3 reviews co-authors with relevant knowledge on the specific topics. 
+All major changes will remain open for at least three weeks to allow all co-authors to feedback. 
+Every co-author can request a change to be reverted and request further discussion to reach a new consensus. 
+Co-authors are encouraged to review GitHub activity periodically as co-authorship implies agreement with the content.  
+
+### Examples
+
+What is a small change:
+- typos, language and formatting
+- adding new sensor descriptions
+- adding images
+
+### What is a major change: 
+- change of uncertainties ranges
+- concrete suggestions i.e. related to correction of methods
+
 ## How to contribute
 
 1. Log into your Github account

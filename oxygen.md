@@ -39,7 +39,7 @@ bibliography: oxygen.bib
 1) Initial SOP was drafted by [Patricia López-García](https://github.com/patricialg), [Tom Hull](https://github.com/tomhull), [Soeren Thomsen](https://github.com/soerenthomsen) and [Johannes Hahn](https://github.com/hahn-johannes).
 
 2) Two expert sessions during OceanGliders Best Practice Workshop, May 11 - 25 2021. 
-Additional authors joined: [Bastien Y. Queste](https://github.com/bastienqueste), Gerd Krahmann, Charlotte Williams, Mun Woo, Charitha Pattiaratchi, [Laurent Coppola](https://github.com/laurcopp), Tania Morales, [Virginie Racape](https://github.com/vracape), [Claire Gourcuff](https://github.com/cgourcuf), John Allen, Eva Alou, [Nikolaos D. Zarokanellos](https://github.com/nizaroka)
+Additional authors joined: [Bastien Y. Queste](https://github.com/bastienqueste), [Gerd Krahmann](https://github.com/gkrahmann), Charlotte Williams, Mun Woo, Charitha Pattiaratchi, [Laurent Coppola](https://github.com/laurcopp), Tania Morales, [Virginie Racape](https://github.com/vracape), [Claire Gourcuff](https://github.com/cgourcuf), John Allen, Eva Alou, [Nikolaos D. Zarokanellos](https://github.com/nizaroka)
 
 3) First community and user feedback was provided during the OceanGliders Best Practice Workshop, May 11 - 25 2021 by attendees. 
 
@@ -132,7 +132,7 @@ This sensor is still fairly recent on gliders and little is known for now.
 
 ## JFE Advantech RINKO
 AROD-FT sensor (RINKO JFE) is used for the SeaExplorer gliders (Alseamar) and for some Argo floats (small size and low power consumption). 
-This sensor is based on the optical (phosphorescence) principle which is now widely known as a remarkably fast response oxygen sensor (< 1s) with a high accuracy (± 2.0 mumol/L). 
+This sensor is based on the optical (phosphorescence) principle which is now widely known as a remarkably fast response oxygen sensor (below 1s) with a high accuracy of 2 mumol/kg. 
 This sensor used a multi-points calibration (16 points with 4 temperatures and 4 DO concentrations). 
 In this procedure, the DO reference standards are produced by saturing the primary mixtures with DO concentrations of approximately 4%, 10%, 17% and 25% respectively (certified by the National Metrology Institute of Japan). 
 
@@ -145,9 +145,8 @@ This is similar to procedures used on other optodes.
 
 ![Oxygen saturation from a Rinko AROD-FT on a SeaExplorer glider in the Bornholm Basin (credit: Voice of the Ocean Foundation and University of Gothenburg). \label{fig:samba}](images/SAMBA.png)
 
-
 Recent deployments of a SeaExplorer glider equipped with an AROD-FT sensor have shown long-term stability (low drift over time) but with a significant offset observed during sections in the Ligurian Sea (on average 10-15 mumol/kg). 
-Deployments in the Bornholm Basin have shown good agreement across a wide range of oxygen concentrations with a nearby BOOS monitoring station; this sensor was a recent acquisition and had had little opportunity to drift in storage.
+Deployments in the Bornholm Basin have shown good agreement across a wide range of oxygen concentrations with a nearby BOOS monitoring station; this sensor was a recent acquisition and had little opportunity to drift in storage.
 
 ## Clark electrode polarographic sensor (SBE43)
 - input from expert needed here
@@ -171,8 +170,7 @@ After recovery the sensor and to remove any biofouling, this is the protocol rec
 *NOTE: Don’t change the foil unless it is physically damaged.* 
 
 ## Sensor configuration for deployment
-Salinity configuration: 0 PSU. For optode sensors: when there is a small variation in salinity (less than 1 g/ kg), it can be set to the mid value avoiding the need of salinity compensation. However, even in that case, it is a good practice to set salinity to 0 for two reasons: 1) it is usually difficult to find the salinity value defined for old deployments and 2) in case the equations change, it would be easier to recalculate oxygen values from uncompensated values. 
-Sampling period: (see open issue / discussion)
+Salinity configuration: 0 PSU. For optode sensors: when there is a small variation in salinity (less than 1 g/kg), it can be set to the mid value avoiding the need of salinity compensation. However, even in that case, it is a good practice to set salinity to 0 for two reasons: 1) it is usually difficult to find the salinity value defined for old deployments and 2) in case the equations change, it would be easier to recalculate oxygen values from uncompensated values. 
 
 ## Sensor integration with gliders
 Optodes should be configured to record the intermediate parameters (calphase and temperature), not just oxygen.
@@ -188,9 +186,9 @@ Accurate time-stamps, or offsets relative to CT measurements must be recorded fo
 
 
 #### Seaglider
-On Seagliders the oxygen sensor is normally mounted externally behind the CT sensor (see figure XXX). Given this exposed location it is important to mount the optode with the sensing foil facing away from incident light to avoid unnecessary UV exposure.
+On Seagliders the oxygen sensor is normally mounted externally behind the CT sensor (see figure \ref{fig:seagliders_standard}. Given this exposed location it is important to mount the optode with the sensing foil facing away from incident light to avoid unnecessary UV exposure.
 
-![UEA OGIVE seaglider with 4330F optode, together with NOC LoC spectrophotometric pH, unpumped SBE CT and Fluidion potentiometric pH sensor.](images/OGIVE.png)
+![UEA OGIVE seaglider with 4330F optode, together with NOC LoC spectrophotometric pH, unpumped SBE CT and Fluidion potentiometric pH sensor. \label{fig:seagliders_standard}](images/OGIVE.png)
 
 #### Slocum
 On slocum gliders the oxygen optode is typically installed aft close to the fin (figure \ref{fig:slocum_standard}).
@@ -200,11 +198,11 @@ On slocum gliders the oxygen optode is typically installed aft close to the fin 
 However this positioning is not ideal for oxygen measurements due to the optode being within a region of laminar flow [@Moat2016], additionally the optode response time has been observed to be dependent on the sensor orientation relative to the direction of flow [@Bittig2014]. 
 
 
-An alternative mounting of the Aanderaa optode in a more prominent location fore of the glider fin has been demonstrated as being much more suitable for measuring oxygen on gliders (Fig. XX) [@NicholsonFeen2017]. 
+An alternative mounting of the Aanderaa optode in a more prominent location fore of the glider fin has been demonstrated as being much more suitable for measuring oxygen on gliders (Fig. \ref{fig:slocum_alternative_mounting}) [@NicholsonFeen2017]. 
 This mounting location means that the sensor foil faces the flow directly and therefore the diffusive boundary layer thickness at the optode membrane is minimised, reducing the optode response time. 
 Furthermore, this mounting location also means that in-situ in-air calibrations can be performed during deployment (similar to those done with Argo floats) which are beneficial when processing the DM oxygen data (see ‘in-air calibration’ section).
 
-![Slocum glider showing alternative mounting of an Aanderaa optode perpendicular to the fin.](images/slocum_better_location.jpg)
+![Slocum glider showing alternative mounting of an Aanderaa optode perpendicular to the fin. \label{fig:slocum_alternative_mounting}](images/slocum_better_location.jpg)
 
 #### SeaExplorer
 On SeaExplorer gliders, all existing oxygen sensor integrations are installed in the forward wet payload section (the nose cone). External mounting is also feasible using external puck mounts on the dry payload, located approximately 1/3 of the way back, but is rare and generally only used for instrument trials. The Rinko AROD-FT is generally installed on the forward starboard connector, with the sensing foil and temperature probe 15 centimeters back from the tip of the nose and lightly sheltered to avoid damage when making contact with the nose. Both the foil and temperature probe are well exposed to flow. The new RBR Coda integration is also planned to present the foil and probe slightly set back from the tip of the nose, while remaining exposed to unmodified flow. The SBE43 is found only when accompanied with a Seabird pumped CT sensor; both of these sensors are placed in the nose where the RBR Legato CT sensor can be seen in the figure below.
@@ -559,7 +557,7 @@ The drift correction should be applied to the oxygen concentration, not the meas
 In all but the most homogeneous waters it is essential to correct for the slow time response of optodes [@Bittig2014, @Bittig2017] (see figure \ref{fig:kelvin}).
 This is particularly critical for optodes using the “standard” black foils, and as previously mentioned Slocum gliders with the optode in the standard location near the tail of the glider[@Moat2016].
 
-![Example uncorrected profiles from AlterEco AE5 “Kelvin” Slocum with a 4831 optode with standard foil demonstrating significant lag in both optode temperature and phase.](images\kelvin_lag.png)
+![Example uncorrected profiles from AlterEco AE5 “Kelvin” Slocum with a 4831 optode with standard foil demonstrating significant lag in both optode temperature and phase.](images/kelvin_lag.png)
 
 Correction requires the collection of optode phase, temperature and time.
 Therefore the instruments and gliders should be configured to collect these variables and not just oxygen concentration or saturation. 

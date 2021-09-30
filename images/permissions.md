@@ -3,6 +3,7 @@
 - `100-0-calibration.png`
 - `AanderaSensors.png` - XXX, Aanderaa data instruments
 - `ARODFTSensor.jpg`
+- `case_01_issue.png` - Soeren Thomsen
 - `CoastalDeployment.png`- Patricia Lopez-Garcia
 - `Datalogger.png`- Johannes Hahn, BSH
 - `dryfoil.png` - Tom Hull, Cefas
