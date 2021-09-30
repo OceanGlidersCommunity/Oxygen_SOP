@@ -8,7 +8,8 @@
 - `Datalogger.png`- Johannes Hahn, BSH
 - `dryfoil.png` - Tom Hull, Cefas
 - `edit_markdown_file.png` - Soeren Thomsen
-- `EUROSEA.png`- EuroSea
+- `EUROSEA.png` - EuroSea
+- `geomar_ox_example.png` - Gerd Krahmann
 - `GROOM2_logo.png`- GROOM2
 - `logo.png`- OceanGliders
 - `logo_v02_1_contour.png`- OceanGliders
