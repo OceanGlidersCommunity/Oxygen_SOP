@@ -10,7 +10,7 @@ A PDF version can be found [here](https://github.com/OceanGlidersCommunity/Oxyge
 
 ## Community review
 The community review of the OceanGliders Oxygen SOP is open from October 2021 to January 31 2022.
-Please read our [Code of Conduct](add link) to ensure you follow the community rules.
+Please read our [Code of Conduct](https://github.com/OceanGlidersCommunity/OG-format-user-manual/pull/23) to ensure you follow the community rules.
 
 ### Who is invited to review?
 Constructive feedback by anyone is welcome. We encourage both experts and new gliders users who want to start observing oxygen to feedback on the document. For example: Experts are welcome to critically assess the specific methods and uncertainty ranges outlined in the SOP. New users can help to improve the SOP by providing a feedback from the user perspective. 
