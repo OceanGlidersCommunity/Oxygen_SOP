@@ -367,7 +367,7 @@ This section covers the activities of those deploying and recovering the gliders
 ## Deployment
 While keeping the oxygen sensor protected from sunlight and kept moist any lens cover must be removed prior to deployment, use of highly visible material, such as a red flag, can aid in ensuring it’s removal in addition to the pre-deployment checklist.
 
-In-air measurements prior to deployment can and should be carried out together with the in-situ air pressure and relative humidity measurements to provide an additional reference for calibration. Details of this procedure can be found in section XXX.
+In-air measurements prior to deployment can and should be carried out together with the in-situ air pressure and relative humidity measurements to provide an additional reference for calibration. Details of this procedure can be found in section [in-air-carlibration](https://github.com/OceanGlidersCommunity/Oxygen_SOP/blob/main/oxygen.md#in-air-calibration).
 
 ## In-situ reference samples
 Even with good ballasting it can require several dives for a glider to fly correctly with an ideal dive profile. 
