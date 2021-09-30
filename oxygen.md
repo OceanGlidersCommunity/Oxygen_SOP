@@ -180,9 +180,7 @@ Accurate time-stamps, or offsets relative to CT measurements must be recorded fo
 
 #### Spray
 
-| image file needed-we have only from an article |
-|:--:|
-| *Figure xx: Fig. 2 of Takeshita et al. 2021.* |
+- input from expert needed
 
 
 #### Seaglider
