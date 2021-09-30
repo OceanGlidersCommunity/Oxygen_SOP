@@ -607,11 +607,12 @@ To determine the two time constants a number of steps are performed:
 
 ### Time response correction 2 - IMOS
 
-The routine developed by Mun Woo for the IMOS glider toolbox also compares up and down casts in pressure space, but applies a time-shift rather than an exponential filter.
+The routine developed by Mun Woo for the IMOS glider toolbox compares up and down casts in pressure space, but applies a time-shift rather than an exponential filter [@WooGourcuff2021].
 These time-shift values are determined per dive, but a rolling median is calculated to exclude dives with very high or low lag values.
 **TODO - is this done with phase or oxygen? - TH**
 <!-- **NOTE** presumably those dives should be flagged as bad? - TH -->
-advantage of this method is it does not amplify noise which the filter will tend to do.
+
+The advantage of this method is that it does not amplify noise which the filter will tend to do.
 However, simply shifting the optode data relative to time will not remove some of the second order effects.
 
 **TODO example image of IMOS correction**
