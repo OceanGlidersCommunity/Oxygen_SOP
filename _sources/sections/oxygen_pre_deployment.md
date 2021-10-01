@@ -44,17 +44,25 @@ On Seagliders the oxygen sensor is normally mounted externally behind the CT sen
 ![UEA OGIVE seaglider with 4330F optode, together with NOC LoC spectrophotometric pH, unpumped SBE CT and Fluidion potentiometric pH sensor. \label{fig:seagliders_standard}](/images/OGIVE.png)
 -->
 
-:::{figure-md} OGIVE
+:::{figure-md} seagliders_standard
 <img src="/images/OGIVE.png" alt="Seaglider sensor integration" class="bg-primary mb-1" width="400px">
 
-UEA OGIVE seaglider with 4330F optode, together with NOC LoC spectrophotometric pH, unpumped SBE CT and Fluidion potentiometric pH sensor.
+UEA OGIVE seaglider with 4330F optode, together with NOC LoC spectrophotometric pH, unpumped SBE CT and Fluidion potentiometric pH sensor. \label{fig:seagliders_standard}
 :::
 
 
 #### Slocum
 On slocum gliders the oxygen optode is typically installed aft close to the fin (figure \ref{fig:slocum_standard}).
 
+<!--
 ![Standard Aanderaa optode 4831 mounting under the fin of the Slocum G2. \label{fig:slocum_standard}](/images/slocum.jpg)
+-->
+
+:::{figure-md} slocum_standard
+<img src="/images/slocum.jpg" alt="Slocum sensor integration" class="bg-primary mb-1" width="400px">
+
+Standard Aanderaa optode 4831 mounting under the fin of the Slocum G2. \label{fig:slocum_standard}
+:::
 
 However this positioning is not ideal for oxygen measurements due to the optode being within a region of laminar flow [@Moat2016], additionally the optode response time has been observed to be dependent on the sensor orientation relative to the direction of flow [@Bittig2014]. 
 
