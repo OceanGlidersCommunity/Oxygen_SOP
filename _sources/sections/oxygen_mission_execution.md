@@ -21,7 +21,7 @@ This can be done by placing a wet sponge in the sensor membrane at least 8 hours
 
 *NOTE: Remember to remove the sponge and any other material used to keep the sensor wet.*
 
-![Effect of dry foil, first dives show elevated oxygen concentrations and slow foil response times. taken from AlterEco AE2 Slocum “Stella” using a 4330 optode (standard foil).](images/dryfoil.png)
+![Effect of dry foil, first dives show elevated oxygen concentrations and slow foil response times. taken from AlterEco AE2 Slocum “Stella” using a 4330 optode (standard foil).](./images/dryfoil.png)
 
 Samples should be collected with the Niskin bottle(s) for Winkler analysis during the deployment (following [@Langdon2010] protocol). 
 It’s recommended to take between 4-6 samples on the surface (approx. 5m) (ideally samples will be taken at different depths). 
