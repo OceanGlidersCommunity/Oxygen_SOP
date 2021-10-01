@@ -4,9 +4,9 @@ Every issue will be reviewed by at least one of the lead authors.
 They have the authority to decide whether the issues is a minor or major change. 
 Minor changes can be accepted directly after one review of the lead authors. 
 Major changes requires at least 3 reviews by co-authors with relevant knowledge on the specific topics. 
-All major changes will remain open for at least 4 weeks to allow all co-authors to feedback. 
+All major changes will remain open for at least 4 weeks to allow all co-authors to provide feedback. 
 Every co-author can request a change to be reverted and request further discussion to reach a new consensus. 
-Co-authors are encouraged to review GitHub activity periodically as co-authorship implies agreement with the content.  
+Co-authors are encouraged to periodically review GitHub activity as co-authorship implies agreement with the content.  
 
 ### Minor change
 - typos, language and formatting
@@ -18,16 +18,18 @@ Co-authors are encouraged to review GitHub activity periodically as co-authorshi
 - concrete suggestions i.e. related to correction of methods
 
 ## How to contribute
+You can contribute in two ways: Case 1[link to header] - opening an issue, Case 2[link to further down the page header] - creating a pull request
+
 1. Log into your Github account
 
 ### Case 1: Comment by opening an "issue":
 2. Open an issue, [here](https://github.com/OceanGlidersCommunity/Oxygen_SOP/issues)
 3. Click on the green bottom "New issue"
 ![edit_markdown_file](images/case_01_issue.png)
-4. Give your issue a clear title and describe the problem in a consise and organized way
+4. Give your issue a clear title and describe the problem in a concise and organized way
 5. Submit your new issue
 ![edit_markdown_file](images/submit_new_issue.png)
-6. Please keep the discussion always focussed on the issue topic
+6. Please keep the discussion always focused on the issue topic
 
 ### Case 2: Suggest a concrete modification via a "pull-request":
 
