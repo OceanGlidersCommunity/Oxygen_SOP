@@ -12,4 +12,5 @@ sections:
 - file: sections/oxygen_dmqc
 - file: sections/data_sharing
 - file: sections/contributions
+- file: sections/oxygen_references
 - file: sections/acknowledgement
