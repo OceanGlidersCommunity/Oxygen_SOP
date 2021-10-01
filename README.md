@@ -6,7 +6,7 @@ This GitHub repository is for the [OceanGliders](https://www.oceangliders.org) O
 
 ## How to read the SOP
 
-1) Work in progress: [Here](https://oceangliderscommunity.github.io/Oxygen_SOP/oxygen.html) we prepare a webpage version for the commmunity review. 
+Work in progress: [Here](https://oceangliderscommunity.github.io/Oxygen_SOP/oxygen.html) we prepare a webpage version for the commmunity review. 
 
 <!-- 2) Read the SOP directly in this repository [here](oxygen.md). 
 
