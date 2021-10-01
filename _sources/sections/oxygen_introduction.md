@@ -82,6 +82,7 @@ After this it should be less than 0.5 % per year, unless the foil is mechanicall
 Suit of smart optodes sensors. (Image was taken from the manufacturer webpage www.aanderaa.com) \label{fig:optodes}
 :::
 
+test reference \ref{fig:optodes}
 
 ## RBR coda T.ODO
 The RBRcoda T.ODO uses the same foils and methods as the 4831 and 4831F so everything above specified for the 4831 will also apply to those instruments as well.
