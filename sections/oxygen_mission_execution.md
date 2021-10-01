@@ -83,7 +83,15 @@ The combined data collected following these (CTD and lab calibration) steps will
 
 *NOTE: Save all data from the profiles and calibrations before deploying the glider. Always record Dphase [@Coppola2013].*
 
+<!--
 ![GEOMAR oxygen data loggers (Aanderaa Optode mounted on data logger) attached to a CTD frame and prepared for in-situ calibration during a CTD cast. Panels in the upper row show fixation with straps and zip ties. Panel in the lower row shows fixation with scaffolding clamps and tape in the interior lower part of the CTD frame.](/images/Datalogger.png)
+-->
+
+:::{figure-md} datalogger
+<img src="../images/Datalogger.png" alt="Data logger on CTD" class="bg-primary mb-1" width="600px">
+
+GEOMAR oxygen data loggers (Aanderaa Optode mounted on data logger) attached to a CTD frame and prepared for in-situ calibration during a CTD cast. Panels in the upper row show fixation with straps and zip ties. Panel in the lower row shows fixation with scaffolding clamps and tape in the interior lower part of the CTD frame.
+:::
 
 ## Deploying gliders in Oxygen Minimum Zones (OMZ)
 Note that the classical Winkler titration method is not reliable at oxygen concentrations in OMZ core [@Thomsen2016] since the method has a detection limit of around 1 uM [@Langdon2010]. 
