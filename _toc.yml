@@ -7,6 +7,7 @@ sections:
 - file: oxygen
 - file: sections/introduction
 - file: sections/oxygen_pre_deployment
+- file: sections/oxygen_mission_execution
 - file: sections/oxygen_rtqc
 - file: sections/oxygen_post_recovery
 - file: sections/oxygen_dmqc
