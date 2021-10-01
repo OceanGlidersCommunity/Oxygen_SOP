@@ -2,7 +2,7 @@
 
 The coordination of producing this document was supported by the European Commission via the EuroSea.eu project under H2020 funding (Grant agreement 862626) and GROOM || Horizon 2020 research and innovation programme (Grant agreement No 951842).
 
-![](images/EUROSEA.png) ![](images/GROOM2_logo.png)
+![](/images/EUROSEA.png) ![](/images/GROOM2_logo.png)
 
 Patricia Lopez-Garcia was supported by TechOceanS project which received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 101000858 (TechOceanS). This output reflects only the author’s view and the Research Executive Agency (REA) cannot be held responsible for any use that may be made of the information contained therein.
 
