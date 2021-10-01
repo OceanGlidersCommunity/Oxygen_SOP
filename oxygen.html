@@ -1237,12 +1237,10 @@ lag should however be fairly simple.</p>
 <div class="section" id="time-response-correction-2-imos">
 <h3><span class="section-number">7.3.2. </span>Time response correction 2 - IMOS<a class="headerlink" href="#time-response-correction-2-imos" title="Permalink to this headline">¶</a></h3>
 <p>The routine developed by Mun Woo for the IMOS glider toolbox compares up and down casts in pressure space, but applies a time-shift rather than an exponential filter [&#64;WooGourcuff2021].
-These time-shift values are determined per dive, but a rolling median is calculated to exclude dives with very high or low lag values.
-<strong>TODO - is this done with phase or oxygen? - TH</strong></p>
+These time-shift values are determined per dive, but a rolling median is calculated to exclude dives with very high or low lag values.</p>
 <!-- **NOTE** presumably those dives should be flagged as bad? - TH -->
 <p>The advantage of this method is that it does not amplify noise which the filter will tend to do.
 However, simply shifting the optode data relative to time will not remove some of the second order effects.</p>
-<p><strong>TODO example image of IMOS correction</strong></p>
 </div>
 <div class="section" id="time-response-correction-3-uea">
 <h3><span class="section-number">7.3.3. </span>Time response correction 3 - UEA<a class="headerlink" href="#time-response-correction-3-uea" title="Permalink to this headline">¶</a></h3>
