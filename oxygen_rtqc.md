@@ -1,3 +1,3 @@
-# Real time data processing & Quality Control
+# Real Time Data Processing & Quality Control
 
 ...
