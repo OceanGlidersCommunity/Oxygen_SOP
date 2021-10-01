@@ -82,7 +82,15 @@ To determine the two time constants a number of steps are performed:
 1. Typically the ‘best’ delays are CTD-temp: 30-100 seconds, optode response : 20-50 seconds.
 1. Included into the optimization are only up-down pairs that were not influenced by obvious bio-fouling.
 
+<!--
 ![Example of original Optode oxygen concentrations (red) and GEOMAR processed and calibrated (blue) oxygen concentratins. Shown is a up-down pair from a deployment off Angola. Solid lines are the up and dashed lines the down data. Also shown are calibrated oxygen concentrations from a nearby and contemporaneous CTD cast.](/images/geomar_ox_example.png)
+-->
+
+:::{figure-md} geomar_ox_example
+<img src="../images/geomar_ox_example.png" alt="GEOMAR correction example" class="bg-primary mb-1" width="400px">
+
+Example of original Optode oxygen concentrations (red) and GEOMAR processed and calibrated (blue) oxygen concentratins. Shown is a up-down pair from a deployment off Angola. Solid lines are the up and dashed lines the down data. Also shown are calibrated oxygen concentrations from a nearby and contemporaneous CTD cast.
+:::
 
 ### Time response correction 2 - IMOS
 
