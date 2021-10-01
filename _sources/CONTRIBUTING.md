@@ -18,7 +18,7 @@ Co-authors are encouraged to periodically review GitHub activity as co-authorshi
 - concrete suggestions i.e. related to correction of methods
 
 ## How to contribute
-You can contribute in two ways: Case 1[link to header] - opening an issue, Case 2[link to further down the page header] - creating a pull request
+You can contribute in two ways: [Case 1](https://github.com/OceanGlidersCommunity/Oxygen_SOP/blob/main/CONTRIBUTING.md#case-1-comment-by-opening-an-issue) - opening an issue, [Case 2]() - creating a pull request
 
 1. Log into your Github account
 
