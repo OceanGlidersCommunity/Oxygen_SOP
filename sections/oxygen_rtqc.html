@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>9. Real Time Data Processing &amp; Quality Control &#8212; Oxygen SOP</title>
+    <title>10. Real Time Data Processing &amp; Quality Control &#8212; Oxygen SOP</title>
     
   <link href="../_static/css/theme.css" rel="stylesheet" />
   <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -87,8 +87,8 @@ commentsRunWhenDOMLoaded(addUtterances);
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="10. Post-recovery operations and calibrations" href="oxygen_post_recovery.html" />
-    <link rel="prev" title="2. Introduction" href="../oxygen.html" />
+    <link rel="next" title="11. Post-recovery operations and calibrations" href="oxygen_post_recovery.html" />
+    <link rel="prev" title="9. Pre-deployment operations and calibrations" href="oxygen_pre_deployment.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -140,34 +140,39 @@ commentsRunWhenDOMLoaded(addUtterances);
    2. Introduction
   </a>
  </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="oxygen_pre_deployment.html">
+   9. Pre-deployment operations and calibrations
+  </a>
+ </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   9. Real Time Data Processing &amp; Quality Control
+   10. Real Time Data Processing &amp; Quality Control
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="oxygen_post_recovery.html">
-   10. Post-recovery operations and calibrations
+   11. Post-recovery operations and calibrations
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="oxygen_dmqc.html">
-   11. Delayed Mode Quality Control (DMQC)
+   12. Delayed Mode Quality Control (DMQC)
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="data_sharing.html">
-   12. Data sharing
+   13. Data sharing
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="contributions.html">
-   13. Contributions
+   14. Contributions
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="acknowledgement.html">
-   14. Acknowledgement
+   15. Acknowledgement
   </a>
  </li>
 </ul>
@@ -261,37 +266,37 @@ commentsRunWhenDOMLoaded(addUtterances);
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#real-time-data-processing">
-   9.1. Real Time data processing
+   10.1. Real Time data processing
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#real-time-quality-control-rtqc">
-   9.2. Real Time quality control (RTQC)
+   10.2. Real Time quality control (RTQC)
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#doxy-qc-initialisation">
-     9.2.1. Doxy QC initialisation
+     10.2.1. Doxy QC initialisation
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#global-range-check">
-     9.2.2. Global range check
+     10.2.2. Global range check
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#outlier-and-spike-check">
-     9.2.3. Outlier and spike check
+     10.2.3. Outlier and spike check
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#stuck-value-test">
-     9.2.4. Stuck value test
+     10.2.4. Stuck value test
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#bad-p-t-s-qc-spreading">
-     9.2.5. Bad P/T/S QC spreading
+     10.2.5. Bad P/T/S QC spreading
     </a>
    </li>
   </ul>
@@ -308,28 +313,28 @@ commentsRunWhenDOMLoaded(addUtterances);
               <div>
                 
   <div class="section" id="real-time-data-processing-quality-control">
-<h1><span class="section-number">9. </span>Real Time Data Processing &amp; Quality Control<a class="headerlink" href="#real-time-data-processing-quality-control" title="Permalink to this headline">¶</a></h1>
+<h1><span class="section-number">10. </span>Real Time Data Processing &amp; Quality Control<a class="headerlink" href="#real-time-data-processing-quality-control" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="real-time-data-processing">
-<h2><span class="section-number">9.1. </span>Real Time data processing<a class="headerlink" href="#real-time-data-processing" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">10.1. </span>Real Time data processing<a class="headerlink" href="#real-time-data-processing" title="Permalink to this headline">¶</a></h2>
 <p>Prior to deployment, oxygen sensor metadata (i.e. sensor model, sensor serial number and calibration coefficients) should be sent ahead of the mission to the Data Assembly Center. It is important that the glider is well configured, intermediate parameters (phase measurements) should be sent in real time (RT) as well. This will allow first to check if dissolved oxygen values computed inside the glider are appropriate and then this adds the possibility to recompute the dissolved oxygen concentration using the up to date method associated with the sensor model, intermediate parameters and calibration coefficients.</p>
 <p><img alt="Difference between oxygen concentration computed by the glider (DOXY) and those computed by the Data Assembly Center (DAC) from intermediate parameters and associated calibration coefficient (DOXY2)." src="sections/images/RTQC_check_Doxy_combined.png" /></p>
 <p>Configurations for the calculation of DOXY are in fact function of the sensor model and intermediate parameters. The recommended configurations (e.g. salinity compensation of MOLAR_DOXY, pressure correction for pressure effect on quenching, temperature compensation) are available in the <a class="reference external" href="https://archimer.ifremer.fr/doc/00287/39795/">Processing Argo oxygen data at the DAC level</a>. For some optode models, it may be appropriate to apply a time lag correction in RT, taking into account the sensor time response, using either the manufacturer value or any value defined from previous deployments with the specific sensor. A real time lag correction might improve the useability of the real time data significantly.The method is described in [&#64;Bittig2014].</p>
 <p>There is no unique procedure for Real time data and metadata sending. Protocols, format and file naming convention should be discussed with DACs before deployment. OceanOPS and DACs requirements on data and metadata are described in the OceanGliders Best Practices document in the data and metadata management section, paragraph 6  (link to be added when overview paper is in review).</p>
 </div>
 <div class="section" id="real-time-quality-control-rtqc">
-<h2><span class="section-number">9.2. </span>Real Time quality control (RTQC)<a class="headerlink" href="#real-time-quality-control-rtqc" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">10.2. </span>Real Time quality control (RTQC)<a class="headerlink" href="#real-time-quality-control-rtqc" title="Permalink to this headline">¶</a></h2>
 <p>Real time quality control tests applied on EGO oxygen data are extracted from the <a class="reference external" href="https://archimer.ifremer.fr/doc/00354/46542/82301.pdf">Argo quality control manual for dissolved oxygen</a>. Details are summarized below. These tests are applied in supplement to trajectory tests.
 RTQC applied on the temperature measured by the oxygen sensor should follow the RTQC procedure defined for the CTD temperature.</p>
 <div class="section" id="doxy-qc-initialisation">
-<h3><span class="section-number">9.2.1. </span>Doxy QC initialisation<a class="headerlink" href="#doxy-qc-initialisation" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">10.2.1. </span>Doxy QC initialisation<a class="headerlink" href="#doxy-qc-initialisation" title="Permalink to this headline">¶</a></h3>
 <p>Several oxygen sensors suffer from predeployment storage drift that can reduce accuracy by up to 20% or more [&#64;Bittig2019]. As a consequence and because this bias can be corrected, dissolved oxygen concentration measured in real time should be set to 3 “bad data that are potentially correctable”. To retrieve usable oxygen data, an adjustment in real time should be quickly performed.</p>
 </div>
 <div class="section" id="global-range-check">
-<h3><span class="section-number">9.2.2. </span>Global range check<a class="headerlink" href="#global-range-check" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">10.2.2. </span>Global range check<a class="headerlink" href="#global-range-check" title="Permalink to this headline">¶</a></h3>
 <p>This test applies a gross filter on EGO oxygen data. If one observation is out of the global range [-5 600] <span class="math notranslate nohighlight">\(\mu\)</span>umol/kg, its QC flag is set up to 4 “bad data”.</p>
 </div>
 <div class="section" id="outlier-and-spike-check">
-<h3><span class="section-number">9.2.3. </span>Outlier and spike check<a class="headerlink" href="#outlier-and-spike-check" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">10.2.3. </span>Outlier and spike check<a class="headerlink" href="#outlier-and-spike-check" title="Permalink to this headline">¶</a></h3>
 <p>Outliers and spikes are difficult to detect as optodes typically smooth out spikes due to their slow response time. A simple test checking the differences between sequential measurements is nevertheless possible if i) it is applied on a specific phase (ascending or descending for example) and ii) assuming a sampling adequately reproduces changes in dissolved oxygen concentrations. In this context, if one measurement is significantly different from adjacent ones, it is a spike in both size and gradient.</p>
 <p>Test value = | V2 - (V3 + V1)/2 | - | (V3 - V1) / 2 |</p>
 <p>Where V2 is the measurement being tested as a spike, V1 and V3 are the values above and below.</p>
@@ -338,11 +343,11 @@ Test value &gt; 50 µmol/kg for pressure &lt; 500 dbar
 Test value &gt; 25 µmol/kg for pressure &gt;= 500 dbar</p>
 </div>
 <div class="section" id="stuck-value-test">
-<h3><span class="section-number">9.2.4. </span>Stuck value test<a class="headerlink" href="#stuck-value-test" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">10.2.4. </span>Stuck value test<a class="headerlink" href="#stuck-value-test" title="Permalink to this headline">¶</a></h3>
 <p>This test looks for EGO oxygen data in the same phase (ascending or descending for example) being identical. Stuck values should be flagged as 4 “bad data”.</p>
 </div>
 <div class="section" id="bad-p-t-s-qc-spreading">
-<h3><span class="section-number">9.2.5. </span>Bad P/T/S QC spreading<a class="headerlink" href="#bad-p-t-s-qc-spreading" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">10.2.5. </span>Bad P/T/S QC spreading<a class="headerlink" href="#bad-p-t-s-qc-spreading" title="Permalink to this headline">¶</a></h3>
 <p>The test checks that the dissolved oxygen concentration in µmol/kg is computed from a valid pressure, temperature and salinity.
 Considering the pressure or temperature impact on the oxygen conversion, when pressure or temperature is marked as bad (qc = 4), oxygen concentration should be set to 4.
 Conversely, and as the salinity impact on the oxygen conversion is less than previous parameters, when salinity is marked as bad, oxygen concentration should be set to 3.</p>
@@ -380,11 +385,11 @@ Conversely, and as the salinity impact on the oxygen conversion is less than pre
 <div class='prev-next-bottom'>
     
     <div id="prev">
-        <a class="left-prev" href="../oxygen.html" title="previous page">
+        <a class="left-prev" href="oxygen_pre_deployment.html" title="previous page">
             <i class="prevnext-label fas fa-angle-left"></i>
             <div class="prevnext-info">
                 <p class="prevnext-label">previous</p>
-                <p class="prevnext-title"><span class="section-number">2. </span>Introduction</p>
+                <p class="prevnext-title"><span class="section-number">9. </span>Pre-deployment operations and calibrations</p>
             </div>
         </a>
     </div>
@@ -392,7 +397,7 @@ Conversely, and as the salinity impact on the oxygen conversion is less than pre
         <a class="right-next" href="oxygen_post_recovery.html" title="next page">
             <div class="prevnext-info">
                 <p class="prevnext-label">next</p>
-                <p class="prevnext-title"><span class="section-number">10. </span>Post-recovery operations and calibrations</p>
+                <p class="prevnext-title"><span class="section-number">11. </span>Post-recovery operations and calibrations</p>
             </div>
             <i class="prevnext-label fas fa-angle-right"></i>
         </a>
