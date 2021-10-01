@@ -40,8 +40,16 @@ Accurate time-stamps, or offsets relative to CT measurements must be recorded fo
 
 #### Seaglider
 On Seagliders the oxygen sensor is normally mounted externally behind the CT sensor (see figure \ref{fig:seagliders_standard}. Given this exposed location it is important to mount the optode with the sensing foil facing away from incident light to avoid unnecessary UV exposure.
-
+<!-- 
 ![UEA OGIVE seaglider with 4330F optode, together with NOC LoC spectrophotometric pH, unpumped SBE CT and Fluidion potentiometric pH sensor. \label{fig:seagliders_standard}](/images/OGIVE.png)
+-->
+
+:::{figure-md} OGIVE
+<img src="/images/OGIVE.png" alt="Seaglider sensor integration" class="bg-primary mb-1" width="400px">
+
+UEA OGIVE seaglider with 4330F optode, together with NOC LoC spectrophotometric pH, unpumped SBE CT and Fluidion potentiometric pH sensor.
+:::
+
 
 #### Slocum
 On slocum gliders the oxygen optode is typically installed aft close to the fin (figure \ref{fig:slocum_standard}).
