@@ -31,9 +31,9 @@ This will also help to record the sampling depths.
 When taking samples for the Winkler is not possible, values from the multiparameter sonde might be useful for in situ intercomparisons. 
 The sonde must be calibrated before and after the deployment/recovery (some sondes require to be calibrated the same day, please follow manufacturer recommendations).
 
-![Coastal deployment of a Slocum glider from a small boat (photo taken during the Glider School at PLOCAN).](images/CoastalDeployment.png)
+![Coastal deployment of a Slocum glider from a small boat (photo taken during the Glider School at PLOCAN).](/images/CoastalDeployment.png)
 
-![Using a multiparameter sonde for in-situ intercomparison during deployments from small boats.](images/multiparametersonde.png)
+![Using a multiparameter sonde for in-situ intercomparison during deployments from small boats.](/images/multiparametersonde.png)
 
 ## Calibration during deployment/recovery from a ship with a CTD rosette equipped with a calibrated oxygen sensor 
 If the glider is deployed/recovered from a research vessel equipped with a CTD and a calibrated O2 sensor, the glider optode can either be connected directly to the CTD profiler if able to receive the digital (RS232) output from the Optode [@Uchida2010], or attached via a data logger. 
@@ -59,7 +59,7 @@ The combined data collected following these (CTD and lab calibration) steps will
 
 *NOTE: Save all data from the profiles and calibrations before deploying the glider. Always record Dphase [@Coppola2013].*
 
-![GEOMAR oxygen data loggers (Aanderaa Optode mounted on data logger) attached to a CTD frame and prepared for in-situ calibration during a CTD cast. Panels in the upper row show fixation with straps and zip ties. Panel in the lower row shows fixation with scaffolding clamps and tape in the interior lower part of the CTD frame.](images/Datalogger.png)
+![GEOMAR oxygen data loggers (Aanderaa Optode mounted on data logger) attached to a CTD frame and prepared for in-situ calibration during a CTD cast. Panels in the upper row show fixation with straps and zip ties. Panel in the lower row shows fixation with scaffolding clamps and tape in the interior lower part of the CTD frame.](/images/Datalogger.png)
 
 ## Deploying gliders in Oxygen Minimum Zones (OMZ)
 Note that the classical Winkler titration method is not reliable at oxygen concentrations in OMZ core [@Thomsen2016] since the method has a detection limit of around 1 uM [@Langdon2010]. 
