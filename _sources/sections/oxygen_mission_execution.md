@@ -44,7 +44,7 @@ The sonde must be calibrated before and after the deployment/recovery (some sond
 -->
 
 :::{figure-md} CoastalDeployment
-<img src="../images/CoastalDeployment.png" alt="Deployment from small boat" class="bg-primary mb-1" width="400px">
+<img src="../images/CoastalDeployment.png" alt="Deployment from small boat" class="bg-primary mb-1" width="300px">
 
 Coastal deployment of a Slocum glider from a small boat (photo taken during the Glider School at PLOCAN).
 :::
@@ -54,7 +54,7 @@ Coastal deployment of a Slocum glider from a small boat (photo taken during the 
 -->
 
 :::{figure-md} multiparametersonde
-<img src="../images/multiparametersonde.png" alt="Intercomparison with multiparametersonde" class="bg-primary mb-1" width="400px">
+<img src="../images/multiparametersonde.png" alt="Intercomparison with multiparametersonde" class="bg-primary mb-1" width="600px">
 
 Using a multiparameter sonde for in-situ intercomparison during deployments from small boats.
 :::
