@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>7. Delayed Mode Quality Control (DMQC) &#8212; Oxygen SOP</title>
+    <title>6. Delayed Mode Quality Control (DMQC) &#8212; Oxygen SOP</title>
     
   <link href="../_static/css/theme.css" rel="stylesheet" />
   <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -87,8 +87,8 @@ commentsRunWhenDOMLoaded(addUtterances);
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="8. Data sharing" href="data_sharing.html" />
-    <link rel="prev" title="6. Post-recovery operations and calibrations" href="oxygen_post_recovery.html" />
+    <link rel="next" title="7. Data sharing" href="data_sharing.html" />
+    <link rel="prev" title="5. Post-recovery operations and calibrations" href="oxygen_post_recovery.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -131,53 +131,48 @@ commentsRunWhenDOMLoaded(addUtterances);
 </ul>
 <ul class="current nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="../SOP_development_process.html">
-   1. SOP development process
-  </a>
- </li>
- <li class="toctree-l1">
   <a class="reference internal" href="oxygen_introduction.html">
-   2. Introduction
+   1. Introduction
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="oxygen_pre_deployment.html">
-   3. Pre-deployment operations and calibrations
+   2. Pre-deployment operations and calibrations
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="oxygen_mission_execution.html">
-   4. Missions execution
+   3. Missions execution
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="oxygen_rtqc.html">
-   5. Real Time Data Processing &amp; Quality Control
+   4. Real Time Data Processing &amp; Quality Control
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="oxygen_post_recovery.html">
-   6. Post-recovery operations and calibrations
+   5. Post-recovery operations and calibrations
   </a>
  </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   7. Delayed Mode Quality Control (DMQC)
+   6. Delayed Mode Quality Control (DMQC)
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="data_sharing.html">
-   8. Data sharing
+   7. Data sharing
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="contributions.html">
-   9. Contributions
+   8. Contributions
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="acknowledgement.html">
-   10. Acknowledgement
+   9. Acknowledgement
   </a>
  </li>
 </ul>
@@ -271,44 +266,44 @@ commentsRunWhenDOMLoaded(addUtterances);
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#calculation-of-oxygen-variables">
-   7.1. Calculation of oxygen variables
+   6.1. Calculation of oxygen variables
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#sensor-drift-correction">
-   7.2. Sensor drift correction
+   6.2. Sensor drift correction
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#sensor-time-response-correction">
-   7.3. Sensor time response correction
+   6.3. Sensor time response correction
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#time-response-correction-1-geomar">
-     7.3.1. Time response correction 1 - GEOMAR
+     6.3.1. Time response correction 1 - GEOMAR
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#time-response-correction-2-imos">
-     7.3.2. Time response correction 2 - IMOS
+     6.3.2. Time response correction 2 - IMOS
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#time-response-correction-3-uea">
-     7.3.3. Time response correction 3 - UEA
+     6.3.3. Time response correction 3 - UEA
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#time-response-correction-4-altereco">
-     7.3.4. Time response correction 4 - AlterEco
+     6.3.4. Time response correction 4 - AlterEco
     </a>
    </li>
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#light-intrusion">
-   7.4. Light intrusion
+   6.4. Light intrusion
   </a>
  </li>
 </ul>
@@ -323,13 +318,13 @@ commentsRunWhenDOMLoaded(addUtterances);
               <div>
                 
   <div class="section" id="delayed-mode-quality-control-dmqc">
-<h1><span class="section-number">7. </span>Delayed Mode Quality Control (DMQC)<a class="headerlink" href="#delayed-mode-quality-control-dmqc" title="Permalink to this headline">¶</a></h1>
+<h1><span class="section-number">6. </span>Delayed Mode Quality Control (DMQC)<a class="headerlink" href="#delayed-mode-quality-control-dmqc" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="calculation-of-oxygen-variables">
-<h2><span class="section-number">7.1. </span>Calculation of oxygen variables<a class="headerlink" href="#calculation-of-oxygen-variables" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">6.1. </span>Calculation of oxygen variables<a class="headerlink" href="#calculation-of-oxygen-variables" title="Permalink to this headline">¶</a></h2>
 <p>Following &#64;Bittig2018.</p>
 </div>
 <div class="section" id="sensor-drift-correction">
-<h2><span class="section-number">7.2. </span>Sensor drift correction<a class="headerlink" href="#sensor-drift-correction" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">6.2. </span>Sensor drift correction<a class="headerlink" href="#sensor-drift-correction" title="Permalink to this headline">¶</a></h2>
 <p>Aanderaa describe the in-situ drift characteristics of the 4330 and 4831 series optodes as being &lt; 0.5 % per year and they make no distinction between the standard or fast (“F”-type) foils [&#64;TengbergHovdenes2014].
 Optodes made after 2016 undergo a “burning-in period” during manufacture and therefore have substantially less drift [&#64;TengbergHovdenes2014].
 Drift is a function of UV exposure and sampling frequency.
@@ -345,7 +340,7 @@ Tom Hull found values between 0.0004 and 0.0035 % d-1 across 16 vehicles in-situ
 <p>The drift correction should be applied to the oxygen concentration, not the measured phase [&#64;Bittig2018].</p>
 </div>
 <div class="section" id="sensor-time-response-correction">
-<h2><span class="section-number">7.3. </span>Sensor time response correction<a class="headerlink" href="#sensor-time-response-correction" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">6.3. </span>Sensor time response correction<a class="headerlink" href="#sensor-time-response-correction" title="Permalink to this headline">¶</a></h2>
 <p>In all but the most homogeneous waters it is essential to correct for the slow time response of optodes [&#64;Bittig2014, &#64;Bittig2017] (see figure \ref{fig:kelvin}).
 This is particularly critical for optodes using the “standard” black foils, and as previously mentioned Slocum gliders with the optode in the standard location near the tail of the glider[&#64;Moat2016].</p>
 <p><img alt="Example uncorrected profiles from AlterEco AE5 “Kelvin” Slocum with a 4831 optode with standard foil demonstrating significant lag in both optode temperature and phase." src="../_images/kelvin_lag.png" /></p>
@@ -368,7 +363,7 @@ As noted above, the type 3835 optodes have particularly slow responding temperat
 <p>The ideal correction method is still a point of discussion.
 We suggest users try each of these procedures and assess how well they work for their own use case.</p>
 <div class="section" id="time-response-correction-1-geomar">
-<h3><span class="section-number">7.3.1. </span>Time response correction 1 - GEOMAR<a class="headerlink" href="#time-response-correction-1-geomar" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">6.3.1. </span>Time response correction 1 - GEOMAR<a class="headerlink" href="#time-response-correction-1-geomar" title="Permalink to this headline">¶</a></h3>
 <p>Optode calibration and processing methods were developed by Johannes Hahn in collaboration with Henry Bittig for use on moored and glider-attached Aanderaa optodes.
 A set of routines were adapted to the particuliarities of optodes on gliders and to the typical conditions of GEOMAR glider deployments. This processing has now
 been used on nearly 100 glider deployments mostly in the Tropical Atlantic and Pacific Oceans [XXX reference].
@@ -393,7 +388,7 @@ lag should however be fairly simple.</p>
 <p><img alt="Example of original Optode oxygen concentrations (red) and GEOMAR processed and calibrated (blue) oxygen concentratins. Shown is a up-down pair from a deployment off Angola. Solid lines are the up and dashed lines the down data. Also shown are calibrated oxygen concentrations from a nearby and contemporaneous CTD cast." src="../_images/geomar_ox_example.png" /></p>
 </div>
 <div class="section" id="time-response-correction-2-imos">
-<h3><span class="section-number">7.3.2. </span>Time response correction 2 - IMOS<a class="headerlink" href="#time-response-correction-2-imos" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">6.3.2. </span>Time response correction 2 - IMOS<a class="headerlink" href="#time-response-correction-2-imos" title="Permalink to this headline">¶</a></h3>
 <p>The routine developed by Mun Woo for the IMOS glider toolbox compares up and down casts in pressure space, but applies a time-shift rather than an exponential filter [&#64;WooGourcuff2021].
 These time-shift values are determined per dive, but a rolling median is calculated to exclude dives with very high or low lag values.</p>
 <!-- **NOTE** presumably those dives should be flagged as bad? - TH -->
@@ -401,7 +396,7 @@ These time-shift values are determined per dive, but a rolling median is calcula
 However, simply shifting the optode data relative to time will not remove some of the second order effects.</p>
 </div>
 <div class="section" id="time-response-correction-3-uea">
-<h3><span class="section-number">7.3.3. </span>Time response correction 3 - UEA<a class="headerlink" href="#time-response-correction-3-uea" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">6.3.3. </span>Time response correction 3 - UEA<a class="headerlink" href="#time-response-correction-3-uea" title="Permalink to this headline">¶</a></h3>
 <p>The routine developed by Bastien Queste for the UEA Seaglider toolbox works as follows:</p>
 <ol class="simple">
 <li><p>The CTD temperature is aligned based on flight speed to the optode phase using a 1-D interpolation and a flight speed dependent time-shift.
@@ -419,7 +414,7 @@ The correction is applied on a per-dive basis.</p></li>
 </ol>
 </div>
 <div class="section" id="time-response-correction-4-altereco">
-<h3><span class="section-number">7.3.4. </span>Time response correction 4 - AlterEco<a class="headerlink" href="#time-response-correction-4-altereco" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">6.3.4. </span>Time response correction 4 - AlterEco<a class="headerlink" href="#time-response-correction-4-altereco" title="Permalink to this headline">¶</a></h3>
 <p>For AlterEco many gliders were not collecting data on both up and down casts which precludes the use of the above routines.</p>
 <ol class="simple">
 <li><p>A <span class="math notranslate nohighlight">\(\tau\)</span> was calculated for the geometric and boundary layer diffusive lag by minimising the difference between the CTD and optode temperatures.</p></li>
@@ -429,7 +424,7 @@ The correction is applied on a per-dive basis.</p></li>
 </div>
 </div>
 <div class="section" id="light-intrusion">
-<h2><span class="section-number">7.4. </span>Light intrusion<a class="headerlink" href="#light-intrusion" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">6.4. </span>Light intrusion<a class="headerlink" href="#light-intrusion" title="Permalink to this headline">¶</a></h2>
 <p>Optodes can be sensitive to light intrusion if the foil is damaged.
 These instruments will typically still provide good data in the absence of light.
 A check should be made for increased sensor noise near the surface during daylight hours and contrast this with night-time observations.</p>
@@ -470,7 +465,7 @@ A check should be made for increased sensor noise near the surface during daylig
             <i class="prevnext-label fas fa-angle-left"></i>
             <div class="prevnext-info">
                 <p class="prevnext-label">previous</p>
-                <p class="prevnext-title"><span class="section-number">6. </span>Post-recovery operations and calibrations</p>
+                <p class="prevnext-title"><span class="section-number">5. </span>Post-recovery operations and calibrations</p>
             </div>
         </a>
     </div>
@@ -478,7 +473,7 @@ A check should be made for increased sensor noise near the surface during daylig
         <a class="right-next" href="data_sharing.html" title="next page">
             <div class="prevnext-info">
                 <p class="prevnext-label">next</p>
-                <p class="prevnext-title"><span class="section-number">8. </span>Data sharing</p>
+                <p class="prevnext-title"><span class="section-number">7. </span>Data sharing</p>
             </div>
             <i class="prevnext-label fas fa-angle-right"></i>
         </a>
