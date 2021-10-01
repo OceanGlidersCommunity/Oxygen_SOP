@@ -75,14 +75,11 @@ After this it should be less than 0.5 % per year, unless the foil is mechanicall
 ![Suit of smart optodes sensors. (Image was taken from the manufacturer webpage www.aanderaa.com) \label{fig:optodes}](/images/AanderaSensors.png) 
 -->
 
-
 :::{figure-md} optodes
 <img src="/images/AanderaSensors.png" alt="Aandera Optodes" class="bg-primary mb-1" width="200px">
 
 Suit of smart optodes sensors. (Image was taken from the manufacturer webpage www.aanderaa.com) \label{fig:optodes}
 :::
-
-test reference \ref{fig:optodes}
 
 ## RBR coda T.ODO
 The RBRcoda T.ODO uses the same foils and methods as the 4831 and 4831F so everything above specified for the 4831 will also apply to those instruments as well.
@@ -97,7 +94,15 @@ This sensor is based on the optical (phosphorescence) principle which is now wid
 This sensor used a multi-points calibration (16 points with 4 temperatures and 4 DO concentrations). 
 In this procedure, the DO reference standards are produced by saturing the primary mixtures with DO concentrations of approximately 4%, 10%, 17% and 25% respectively (certified by the National Metrology Institute of Japan). 
 
+<!--
 ![AROD-FT sensor mounted on a SeaExplorer glider (credit: ALSEAMAR) \label{fig:ARODFT}](/images/ARODFTSensor.jpg)
+-->
+
+:::{figure-md} ARODFT
+<img src="/images/ARODFTSensor.jpg" alt="AROD-FT sensor" class="bg-primary mb-1" width="200px">
+
+AROD-FT sensor mounted on a SeaExplorer glider (credit: ALSEAMAR) \label{fig:ARODFT}
+:::
 
 The DO concentration is calculated from the [@Uchida2010] equation with 9 calibration coefficients. 
 A second equation is used to take into account the pressure effect (linear equation with one calibration coefficient). 
