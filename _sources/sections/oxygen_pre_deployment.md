@@ -38,7 +38,7 @@ On Seagliders the oxygen sensor is normally mounted externally behind the CT sen
 #### Slocum
 On slocum gliders the oxygen optode is typically installed aft close to the fin (figure \ref{fig:slocum_standard}).
 
-![Standard Aanderaa optode 4831 mounting under the fin of the Slocum G2. \label{fig:slocum_standard}](images/slocum.jpg)
+![Standard Aanderaa optode 4831 mounting under the fin of the Slocum G2. \label{fig:slocum_standard}](/images/slocum.jpg)
 
 However this positioning is not ideal for oxygen measurements due to the optode being within a region of laminar flow [@Moat2016], additionally the optode response time has been observed to be dependent on the sensor orientation relative to the direction of flow [@Bittig2014]. 
 
