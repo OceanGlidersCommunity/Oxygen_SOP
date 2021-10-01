@@ -31,7 +31,7 @@ This is particularly critical for optodes using the “standard” black foils, 
 -->
 
 :::{figure-md} kelvin_lag
-<img src="../images/kelvin_lag.png" alt="Lag example" class="bg-primary mb-1" width="500px">
+<img src="../images/kelvin_lag.png" alt="Lag example" class="bg-primary mb-1" width="600px">
 
 Example uncorrected profiles from AlterEco AE5 “Kelvin” Slocum with a 4831 optode with standard foil demonstrating significant lag in both optode temperature and phase.
 :::
@@ -66,8 +66,8 @@ been used on nearly 100 glider deployments mostly in the Tropical Atlantic and P
 The processing determines two delay time constants. One $\tau_{CTD}$ describes the time constant of an exponential filter which, when applied to the glider's CTD temperature, 
 gives an estimate of the temperature of the optode foil. And the other describes the optode response time to changing oxygen concentrations.
 The processing so far makes no explicit correction for the "geometric" lag, that is any lag introduced by the CTD and optode being some distance from each other.
-This "geometric" lag should be of the order of a few seconds and thus is significantly smaller than the other two delay time constants. Implementing and correcting such a
-lag should however be fairly simple.
+This "geometric" lag should be of the order of a few seconds and thus is significantly smaller than the other two delay time constants. 
+Implementing and correcting such a lag should however be fairly simple.
 
 To determine the two time constants a number of steps are performed:
 

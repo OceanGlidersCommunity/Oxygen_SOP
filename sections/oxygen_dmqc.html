@@ -352,7 +352,7 @@ This is particularly critical for optodes using the “standard” black foils, 
 ![Example uncorrected profiles from AlterEco AE5 “Kelvin” Slocum with a 4831 optode with standard foil demonstrating significant lag in both optode temperature and phase.](/images/kelvin_lag.png)
 -->
 <div class="figure align-default" id="kelvin-lag">
-<a class="bg-primary mb-1 reference internal image-reference" href="../_images/kelvin_lag.png"><img alt="Lag example" class="bg-primary mb-1" src="../_images/kelvin_lag.png" style="width: 500px;" /></a>
+<a class="bg-primary mb-1 reference internal image-reference" href="../_images/kelvin_lag.png"><img alt="Lag example" class="bg-primary mb-1" src="../_images/kelvin_lag.png" style="width: 600px;" /></a>
 <p class="caption"><span class="caption-number">Fig. 7.1 </span><span class="caption-text">Example uncorrected profiles from AlterEco AE5 “Kelvin” Slocum with a 4831 optode with standard foil demonstrating significant lag in both optode temperature and phase.</span><a class="headerlink" href="#kelvin-lag" title="Permalink to this image">¶</a></p>
 </div>
 <p>Correction requires the collection of optode phase, temperature and time.
@@ -381,8 +381,8 @@ been used on nearly 100 glider deployments mostly in the Tropical Atlantic and P
 The processing determines two delay time constants. One <span class="math notranslate nohighlight">\(\tau_{CTD}\)</span> describes the time constant of an exponential filter which, when applied to the glider’s CTD temperature,
 gives an estimate of the temperature of the optode foil. And the other describes the optode response time to changing oxygen concentrations.
 The processing so far makes no explicit correction for the “geometric” lag, that is any lag introduced by the CTD and optode being some distance from each other.
-This “geometric” lag should be of the order of a few seconds and thus is significantly smaller than the other two delay time constants. Implementing and correcting such a
-lag should however be fairly simple.</p>
+This “geometric” lag should be of the order of a few seconds and thus is significantly smaller than the other two delay time constants.
+Implementing and correcting such a lag should however be fairly simple.</p>
 <p>To determine the two time constants a number of steps are performed:</p>
 <ol class="simple">
 <li><p>Linearly interpolate optode phase, optode temp, CTD temp, pressure and salinity variables onto 1 sec grid to avoid issues from different measurement times.</p></li>
