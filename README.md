@@ -5,11 +5,13 @@
 This GitHub repository is for the [OceanGliders](https://www.oceangliders.org) Oxygen Standard Operating Procedure (SOP).
 
 ## How to read the SOP
-1) Read the SOP directly in this repository [here](oxygen.md). 
 
-2) Read a PDF version (including formulas, references and figure captions) [here](https://github.com/OceanGlidersCommunity/Oxygen_SOP/blob/main/oceangliders_oxygen_sop_v0.pdf).
+1) Work in progress: [Here](https://oceangliderscommunity.github.io/Oxygen_SOP/oxygen.html) we prepare a webpage version for the commmunity review. 
 
-3) Work in progress: [Here](https://oceangliderscommunity.github.io/Oxygen_SOP/oxygen.html) we prepare a webpage version for the commmunity review. 
+2) Read the SOP directly in this repository [here](oxygen.md). 
+
+3) Read a PDF version (including formulas, references and figure captions) [here](https://github.com/OceanGlidersCommunity/Oxygen_SOP/blob/main/oceangliders_oxygen_sop_v0.pdf).
+
 
 ## Community review
 The community review is open from October 2021 to January 31 2022.
