@@ -76,7 +76,7 @@ After this it should be less than 0.5 % per year, unless the foil is mechanicall
 -->
 
 :::{figure-md} optodes
-<img src="/images/AanderaSensors.png" alt="Aandera Optodes" class="bg-primary mb-1" width="200px">
+<img src="/images/AanderaSensors.png" alt="Aandera Optodes" class="bg-primary mb-1" width="400px">
 
 Suit of smart optodes sensors. (Image was taken from the manufacturer webpage www.aanderaa.com) \label{fig:optodes}
 :::
@@ -99,7 +99,7 @@ In this procedure, the DO reference standards are produced by saturing the prima
 -->
 
 :::{figure-md} ARODFT
-<img src="/images/ARODFTSensor.jpg" alt="AROD-FT sensor" class="bg-primary mb-1" width="200px">
+<img src="/images/ARODFTSensor.jpg" alt="AROD-FT sensor" class="bg-primary mb-1" width="400px">
 
 AROD-FT sensor mounted on a SeaExplorer glider (credit: ALSEAMAR) \label{fig:ARODFT}
 :::
@@ -114,7 +114,7 @@ This is similar to procedures used on other optodes.
 -->
 
 :::{figure-md} samba
-<img src="/images/SAMBA.png" alt="Oxygen saturation from a Rinko AROD-FT on a SeaExplorer glider in the Bornholm Basin" class="bg-primary mb-1" width="200px">
+<img src="/images/SAMBA.png" alt="Oxygen saturation from a Rinko AROD-FT on a SeaExplorer glider in the Bornholm Basin" class="bg-primary mb-1" width="400px">
 
 Oxygen saturation from a Rinko AROD-FT on a SeaExplorer glider in the Bornholm Basin (credit: Voice of the Ocean Foundation and University of Gothenburg).  \label{fig:samba}
 :::
