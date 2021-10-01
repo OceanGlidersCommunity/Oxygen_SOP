@@ -49,7 +49,15 @@ The sonde must be calibrated before and after the deployment/recovery (some sond
 Coastal deployment of a Slocum glider from a small boat (photo taken during the Glider School at PLOCAN).
 :::
 
+<!--
 ![Using a multiparameter sonde for in-situ intercomparison during deployments from small boats.](/images/multiparametersonde.png)
+-->
+
+:::{figure-md} multiparametersonde
+<img src="../images/multiparametersonde.png" alt="Intercomparison with multiparametersonde" class="bg-primary mb-1" width="400px">
+
+Using a multiparameter sonde for in-situ intercomparison during deployments from small boats.
+:::
 
 ## Calibration during deployment/recovery from a ship with a CTD rosette equipped with a calibrated oxygen sensor 
 If the glider is deployed/recovered from a research vessel equipped with a CTD and a calibrated O2 sensor, the glider optode can either be connected directly to the CTD profiler if able to receive the digital (RS232) output from the Optode [@Uchida2010], or attached via a data logger. 
