@@ -2,7 +2,8 @@ format: jb-article
 root: README
 options:  # The options key will be applied to all chapters, but not sub-sections
   numbered: True
-sections:
+chapters:
 - file: SOP_development_process
 - file: oxygen
-- file: contributions
+  sections:
+  - file: contributions
