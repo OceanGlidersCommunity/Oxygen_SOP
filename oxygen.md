@@ -451,9 +451,6 @@ Few gliders currently have this capability.
 Other oxygen monitoring platforms, such as moorings can be used as an inter-comparison reference if the quality of these data is better than those of the glider.
 The mission plan should aim to pass close to these platforms, ideally multiple times across the length of the mission.
 
-### Observe data for evidence of biofouling
-- to add text and figure to allow user separating real and “biofouling” diurnal cycling
-
 # Real time data processing & Quality Control
 
 ## Real Time data processing
