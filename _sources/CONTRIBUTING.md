@@ -42,4 +42,4 @@ You can contribute in two ways: [Case 1](https://github.com/OceanGlidersCommunit
 6. The SOP team will review your changes as outline above, and if approved, the process is complete and you're done.
 7. All contributers will be listed as co-authors on the next peer-reviewed publication.
 
-We are happy to provide individual training sessions for people who are new on GitHub.
+We are happy to provide individual training sessions for people who are new on GitHub. Please indicate your interest [here](https://github.com/OceanGlidersCommunity/Oxygen_SOP/discussions) so we can organize sessions.
