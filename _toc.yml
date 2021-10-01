@@ -6,8 +6,8 @@ sections:
 - file: SOP_development_process
 - file: oxygen
 - file: sections/oxygen_rtqc
-- file: oxygen_post_recovery
-- file: oxygen_dmqc
-- file: data_sharing
-- file: contributions
-- file: acknowledgement
+- file: sections/oxygen_post_recovery
+- file: sections/oxygen_dmqc
+- file: sections/data_sharing
+- file: sections/contributions
+- file: sections/acknowledgement
