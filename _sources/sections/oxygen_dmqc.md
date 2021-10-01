@@ -26,7 +26,7 @@ The drift correction should be applied to the oxygen concentration, not the meas
 In all but the most homogeneous waters it is essential to correct for the slow time response of optodes [@Bittig2014, @Bittig2017] (see figure \ref{fig:kelvin}).
 This is particularly critical for optodes using the “standard” black foils, and as previously mentioned Slocum gliders with the optode in the standard location near the tail of the glider[@Moat2016].
 
-![Example uncorrected profiles from AlterEco AE5 “Kelvin” Slocum with a 4831 optode with standard foil demonstrating significant lag in both optode temperature and phase.](images/kelvin_lag.png)
+![Example uncorrected profiles from AlterEco AE5 “Kelvin” Slocum with a 4831 optode with standard foil demonstrating significant lag in both optode temperature and phase.](/images/kelvin_lag.png)
 
 Correction requires the collection of optode phase, temperature and time.
 Therefore the instruments and gliders should be configured to collect these variables and not just oxygen concentration or saturation. 
@@ -74,7 +74,7 @@ To determine the two time constants a number of steps are performed:
 1. Typically the ‘best’ delays are CTD-temp: 30-100 seconds, optode response : 20-50 seconds.
 1. Included into the optimization are only up-down pairs that were not influenced by obvious bio-fouling.
 
-![Example of original Optode oxygen concentrations (red) and GEOMAR processed and calibrated (blue) oxygen concentratins. Shown is a up-down pair from a deployment off Angola. Solid lines are the up and dashed lines the down data. Also shown are calibrated oxygen concentrations from a nearby and contemporaneous CTD cast.](images/geomar_ox_example.png)
+![Example of original Optode oxygen concentrations (red) and GEOMAR processed and calibrated (blue) oxygen concentratins. Shown is a up-down pair from a deployment off Angola. Solid lines are the up and dashed lines the down data. Also shown are calibrated oxygen concentrations from a nearby and contemporaneous CTD cast.](/images/geomar_ox_example.png)
 
 ### Time response correction 2 - IMOS
 
