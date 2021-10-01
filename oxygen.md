@@ -497,8 +497,7 @@ Conversely, and as the salinity impact on the oxygen conversion is less than pre
 At first users should report that their mission is over to support(at)oceanobs.org
 
 ## Biofouling assessment
-Fotos should be taken for biofuiling assessment. 
-- to add: examples of typical biofouling 
+Pictures should be taken for biofuiling assessment. 
 
 ## Sensor storage
 Foil must be kept wet and protected from light after recovery until validation in the lab.
