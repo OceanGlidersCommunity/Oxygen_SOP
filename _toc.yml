@@ -5,6 +5,7 @@ options:  # The options key will be applied to all chapters, but not sub-section
 sections:
 - file: SOP_development_process
 - file: oxygen
+- file: sections/oxygen_pre_deployment
 - file: sections/oxygen_rtqc
 - file: sections/oxygen_post_recovery
 - file: sections/oxygen_dmqc
