@@ -71,7 +71,7 @@ If done correctly such an adjustment should result in an absolute accuracy of ar
 The drift will decrease over time so that during the second year it is not likely to be more than 1-2 %. 
 After this it should be less than 0.5 % per year, unless the foil is mechanically damaged (Aanderaa). 
 
-![Suit of smart optodes sensors. (Image was taken from the manufacturer webpage www.aanderaa.com) \label{fig:optodes}](OceanGlidersCommunity/Oxygen_SOP/images/AanderaSensors.png)
+![Suit of smart optodes sensors. (Image was taken from the manufacturer webpage www.aanderaa.com) \label{fig:optodes}](/OceanGlidersCommunity/Oxygen_SOP/images/AanderaSensors.png)
 
 ## RBR coda T.ODO
 The RBRcoda T.ODO uses the same foils and methods as the 4831 and 4831F so everything above specified for the 4831 will also apply to those instruments as well.
