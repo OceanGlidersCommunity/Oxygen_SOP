@@ -336,23 +336,23 @@ commentsRunWhenDOMLoaded(addUtterances);
 <div class="section" id="sensor-drift-correction">
 <h2><span class="section-number">7.2. </span>Sensor drift correction<a class="headerlink" href="#sensor-drift-correction" title="Permalink to this headline">¶</a></h2>
 <p>Aanderaa describe the in-situ drift characteristics of the 4330 and 4831 series optodes as being &lt; 0.5 % per year and they make no distinction between the standard or fast (“F”-type) foils <span id="id2">[<a class="reference internal" href="oxygen_references.html#id20">Tengberg and Hovdenes, 2014</a>]</span>.
-Optodes made after 2016 undergo a “burning-in period” during manufacture and therefore have substantially less drift {cite}`TengbergHovdenes2014].
+Optodes made after 2016 undergo a “burning-in period” during manufacture and therefore have substantially less drift <span id="id3">[<a class="reference internal" href="oxygen_references.html#id20">Tengberg and Hovdenes, 2014</a>]</span>.
 Drift is a function of UV exposure and sampling frequency.
 The foil becomes less sensitive and therefore drift is always towards lower oxygen concentrations.
 The drift is believed to be due to bleaching of the luminophore foil via ambient light; it is particularly sensitive to fluorescent lights.
 The bleaching effect is partly counteracted by a destabilising effect on the luminophore.
 Together this manifests as a positive factor on the oxygen concentration (slope &gt; 1) and a positive offset at zero oxygen.</p>
-<p><span id="id3">[<a class="reference internal" href="oxygen_references.html#id5">Queste <em>et al.</em>, 2018</a>]</span> recorded drifts of 0.0176 and 0.0109 <span class="math notranslate nohighlight">\(\mu\)</span>mol/kg/day for two Seagliders using inflections in the oxygen profiles as the glider penetrated to Arabian Sea Oxygen Minimum Zone and the sodium sulphite method, but no Winklers.
-<span id="id4">[<a class="reference internal" href="oxygen_references.html#id4">Bittig and Körtzinger, 2015</a>]</span> report a 10 % drift over 3 years, but this is a combination of in-situ and ex-situ drift.
-<span id="id5">[<a class="reference internal" href="oxygen_references.html#id6">Bittig <em>et al.</em>, 2018</a>]</span> determined the drift to be typically 0.1-0.2 % per year in-situ.
+<p><span id="id4">[<a class="reference internal" href="oxygen_references.html#id5">Queste <em>et al.</em>, 2018</a>]</span> recorded drifts of 0.0176 and 0.0109 <span class="math notranslate nohighlight">\(\mu\)</span>mol/kg/day for two Seagliders using inflections in the oxygen profiles as the glider penetrated to Arabian Sea Oxygen Minimum Zone and the sodium sulphite method, but no Winklers.
+<span id="id5">[<a class="reference internal" href="oxygen_references.html#id4">Bittig and Körtzinger, 2015</a>]</span> report a 10 % drift over 3 years, but this is a combination of in-situ and ex-situ drift.
+<span id="id6">[<a class="reference internal" href="oxygen_references.html#id6">Bittig <em>et al.</em>, 2018</a>]</span> determined the drift to be typically 0.1-0.2 % per year in-situ.
 A drift of 0.0004 % d-1 has been calculated based on UEA seagliders against Baltic deep water oxygen climatology (Possenti et al., 2020).
 Tom Hull found values between 0.0004 and 0.0035 % d-1 across 16 vehicles in-situ (slocums and seagliders with 4330F (old foil formulation), 4835 and 4831 optodes (unpublished?).</p>
-<p>The drift correction should be applied to the oxygen concentration, not the measured phase <span id="id6">[<a class="reference internal" href="oxygen_references.html#id6">Bittig <em>et al.</em>, 2018</a>]</span>.</p>
+<p>The drift correction should be applied to the oxygen concentration, not the measured phase <span id="id7">[<a class="reference internal" href="oxygen_references.html#id6">Bittig <em>et al.</em>, 2018</a>]</span>.</p>
 </div>
 <div class="section" id="sensor-time-response-correction">
 <h2><span class="section-number">7.3. </span>Sensor time response correction<a class="headerlink" href="#sensor-time-response-correction" title="Permalink to this headline">¶</a></h2>
-<p>In all but the most homogeneous waters it is essential to correct for the slow time response of optodes <span id="id7">[<a class="reference internal" href="oxygen_references.html#id8">Bittig <em>et al.</em>, 2014</a>]</span>, <span id="id8">[<a class="reference internal" href="oxygen_references.html#id7">Bittig and Körtzinger, 2017</a>]</span> (see figure \ref{fig:kelvin}).
-This is particularly critical for optodes using the “standard” black foils, and as previously mentioned Slocum gliders with the optode in the standard location near the tail of the glider <span id="id9">[<a class="reference internal" href="oxygen_references.html#id24">Moat <em>et al.</em>, 2016</a>]</span>.</p>
+<p>In all but the most homogeneous waters it is essential to correct for the slow time response of optodes <span id="id8">[<a class="reference internal" href="oxygen_references.html#id8">Bittig <em>et al.</em>, 2014</a>]</span>, <span id="id9">[<a class="reference internal" href="oxygen_references.html#id7">Bittig and Körtzinger, 2017</a>]</span> (see figure \ref{fig:kelvin}).
+This is particularly critical for optodes using the “standard” black foils, and as previously mentioned Slocum gliders with the optode in the standard location near the tail of the glider <span id="id10">[<a class="reference internal" href="oxygen_references.html#id24">Moat <em>et al.</em>, 2016</a>]</span>.</p>
 <!--
 ![Example uncorrected profiles from AlterEco AE5 “Kelvin” Slocum with a 4831 optode with standard foil demonstrating significant lag in both optode temperature and phase.](/images/kelvin_lag.png)
 -->
@@ -382,7 +382,7 @@ We suggest users try each of these procedures and assess how well they work for 
 <h3><span class="section-number">7.3.1. </span>Time response correction 1 - GEOMAR<a class="headerlink" href="#time-response-correction-1-geomar" title="Permalink to this headline">¶</a></h3>
 <p>Optode calibration and processing methods were developed by Johannes Hahn in collaboration with Henry Bittig for use on moored and glider-attached Aanderaa optodes.
 A set of routines were adapted to the particuliarities of optodes on gliders and to the typical conditions of GEOMAR glider deployments. This processing has now
-been used on nearly 100 glider deployments mostly in the Tropical Atlantic and Pacific Oceans <span id="id10">[<a class="reference internal" href="oxygen_references.html#id28">Krahmann <em>et al.</em>, 2021</a>]</span>.
+been used on nearly 100 glider deployments mostly in the Tropical Atlantic and Pacific Oceans <span id="id11">[<a class="reference internal" href="oxygen_references.html#id28">Krahmann <em>et al.</em>, 2021</a>]</span>.
 The processing determines two delay time constants. One <span class="math notranslate nohighlight">\(\tau_{CTD}\)</span> describes the time constant of an exponential filter which, when applied to the glider’s CTD temperature,
 gives an estimate of the temperature of the optode foil. And the other describes the optode response time to changing oxygen concentrations.
 The processing so far makes no explicit correction for the “geometric” lag, that is any lag introduced by the CTD and optode being some distance from each other.
@@ -411,7 +411,7 @@ Implementing and correcting such a lag should however be fairly simple.</p>
 </div>
 <div class="section" id="time-response-correction-2-imos">
 <h3><span class="section-number">7.3.2. </span>Time response correction 2 - IMOS<a class="headerlink" href="#time-response-correction-2-imos" title="Permalink to this headline">¶</a></h3>
-<p>The routine developed by Mun Woo for the IMOS glider toolbox compares up and down casts in pressure space, but applies a time-shift rather than an exponential filter <span id="id11">[<a class="reference internal" href="oxygen_references.html#id27">Woo and Gourcuff, 2021</a>]</span>.
+<p>The routine developed by Mun Woo for the IMOS glider toolbox compares up and down casts in pressure space, but applies a time-shift rather than an exponential filter <span id="id12">[<a class="reference internal" href="oxygen_references.html#id27">Woo and Gourcuff, 2021</a>]</span>.
 These time-shift values are determined per dive, but a rolling median is calculated to exclude dives with very high or low lag values.</p>
 <!-- **NOTE** presumably those dives should be flagged as bad? - TH -->
 <p>The advantage of this method is that it does not amplify noise which the filter will tend to do.
@@ -431,7 +431,7 @@ However, simply shifting the optode data relative to time will not remove some o
 </ol>
 </li>
 <li><p>A minimisation algorithm (<code class="docutils literal notranslate"><span class="pre">fminsearch</span></code> from MATLAB) is used to fit two lag coefficients: <span class="math notranslate nohighlight">\(\tau = \tau_0 + \tau_1 (T-20)\)</span> as per &#64;Hahn2014.</p></li>
-<li><p>This <span class="math notranslate nohighlight">\(\tau\)</span> is then used with an exponential inverse-filter, typically against optode phase (and oxygen recalculated) but partial pressure or concentration as per <span id="id12">[<a class="reference internal" href="oxygen_references.html#id6">Bittig <em>et al.</em>, 2018</a>]</span> has also been tested.
+<li><p>This <span class="math notranslate nohighlight">\(\tau\)</span> is then used with an exponential inverse-filter, typically against optode phase (and oxygen recalculated) but partial pressure or concentration as per <span id="id13">[<a class="reference internal" href="oxygen_references.html#id6">Bittig <em>et al.</em>, 2018</a>]</span> has also been tested.
 The correction is applied on a per-dive basis.</p></li>
 </ol>
 </div>
@@ -441,7 +441,7 @@ The correction is applied on a per-dive basis.</p></li>
 <ol class="simple">
 <li><p>A <span class="math notranslate nohighlight">\(\tau\)</span> was calculated for the geometric and boundary layer diffusive lag by minimising the difference between the CTD and optode temperatures.</p></li>
 <li><p>This <span class="math notranslate nohighlight">\(\tau\)</span> was used to then inverse-filter the optode phase and temperature.</p></li>
-<li><p>A secondary lag correction based on the temperature as per the UEA toolbox and <span id="id13">[<a class="reference internal" href="oxygen_references.html#id3">Hahn <em>et al.</em>, 2014</a>]</span>.</p></li>
+<li><p>A secondary lag correction based on the temperature as per the UEA toolbox and <span id="id14">[<a class="reference internal" href="oxygen_references.html#id3">Hahn <em>et al.</em>, 2014</a>]</span>.</p></li>
 </ol>
 </div>
 </div>
