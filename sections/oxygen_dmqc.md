@@ -6,7 +6,7 @@ Following {cite}`Bittig2018`.
 
 ## Sensor drift correction
 Aanderaa describe the in-situ drift characteristics of the 4330 and 4831 series optodes as being < 0.5 % per year and they make no distinction between the standard or fast (“F"-type) foils {cite}`TengbergHovdenes2014`.
-Optodes made after 2016 undergo a “burning-in period” during manufacture and therefore have substantially less drift {cite}`TengbergHovdenes2014].
+Optodes made after 2016 undergo a “burning-in period” during manufacture and therefore have substantially less drift {cite}`TengbergHovdenes2014`.
 Drift is a function of UV exposure and sampling frequency. 
 The foil becomes less sensitive and therefore drift is always towards lower oxygen concentrations. 
 The drift is believed to be due to bleaching of the luminophore foil via ambient light; it is particularly sensitive to fluorescent lights. 
