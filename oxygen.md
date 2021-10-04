@@ -34,21 +34,6 @@ bibliography: oxygen.bib
 ---
 \newpage
 
-# SOP development process
-
-1) Initial SOP was drafted by [Patricia López-García](https://github.com/patricialg), [Tom Hull](https://github.com/tomhull), [Soeren Thomsen](https://github.com/soerenthomsen) and [Johannes Hahn](https://github.com/hahn-johannes).
-
-2) Two expert sessions during OceanGliders Best Practice Workshop, May 11 - 25 2021. 
-Additional authors joined: [Bastien Y. Queste](https://github.com/bastienqueste), [Gerd Krahmann](https://github.com/gkrahmann), Charlotte Williams, Mun Woo, Charitha Pattiaratchi, [Laurent Coppola](https://github.com/laurcopp), Tania Morales, [Virginie Racape](https://github.com/vracape), [Claire Gourcuff](https://github.com/cgourcuf), John Allen, Eva Alou, [Nikolaos D. Zarokanellos](https://github.com/nizaroka)
-
-3) First community and user feedback was provided during the OceanGliders Best Practice Workshop, May 11 - 25 2021 by attendees. 
-
-4) SOP moved to this repository by: [Patricia López-García](https://github.com/patricialg), [Tom Hull](https://github.com/tomhull), [Soeren Thomsen](https://github.com/soerenthomsen) in September 2021. 
-
-5) Additional authors joined on GitHub prior to the community review: [Victor Turpin](https://github.com/vturpin), [Catherine Schmechtig](https://github.com/catsch), [Pierre Testor](https://github.com/ptestor), [Julius Busecke](https://github.com/jbusecke)
-
-6) Next step: 4 months community review on GitHub starting in October 2021.
-
 # Introduction
 This standard operating procedure (SOP) document for dissolved oxygen (DO) aims to guide the user through the steps necessary for collection of good quality dissolved oxygen using gliders for both real time and post deployment data streams.
 
@@ -84,7 +69,7 @@ Some early Slocum gliders were  delivered with optodes of type 5013, these are i
 
 ### Foil type: F or standard
 Most optodes use the PreSens PSt3 foil (PreSens - Precision Sensing GmbH), these have as standard a black opaque protective layer protecting the pink sensing layer.
-For glider applications the “F” type foils are typically preferred as these remove the opaque layer which results in much faster diffusion across the foil, and therefore faster sensor response (8 s compared to ~ 25 s [@Bittig2014]). 
+For glider applications the “F” type foils are typically preferred as these remove the opaque layer which results in much faster diffusion across the foil, and therefore faster sensor response ($\tau$ = 8 s compared to ~ 25 s [@Bittig2014]). 
 However, removal of the protective layer makes the foil more susceptible to UV radiation, and is known to reduce the sensor stability, especially when exposed to strong sunlight.
 Newer 4330F and 4831F optodes (Since July 8th 2018) use an improved formulation of the Presens fast foil which are less sunlight sensitive and have much lower noise levels. These can be identified by their white appearance. 
 It is recommended that older F-type instruments (with the pink foils) are upgraded with these improved foils. 
@@ -125,14 +110,14 @@ After this it should be less than 0.5 % per year, unless the foil is mechanicall
 
 ## RBR coda T.ODO
 The RBRcoda T.ODO uses the same foils and methods as the 4831 and 4831F so everything above specified for the 4831 will also apply to those instruments as well.
-RBR refers to the standard optode (~30 s tau) foil as “slow” and the fast (~8 s) as the standard.
+RBR refers to the standard optode (~30 s $\tau$) foil as “slow” and the fast (~8 s) as the standard.
 They also use further foil design (~1 s response) which they call fast. 
 The RBR sensor has a smaller form factor than the Aandera optodes, but is overall more similar to a 4831 with the temperature sensor very closely located to the sensing foil. 
 This sensor is still fairly recent on gliders and little is known for now.
 
 ## JFE Advantech RINKO
 AROD-FT sensor (RINKO JFE) is used for the SeaExplorer gliders (Alseamar) and for some Argo floats (small size and low power consumption). 
-This sensor is based on the optical (phosphorescence) principle which is now widely known as a remarkably fast response oxygen sensor (below 1s) with a high accuracy of 2 mumol/kg. 
+This sensor is based on the optical (phosphorescence) principle which is now widely known as a remarkably fast response oxygen sensor (below 1s) with a high accuracy of 2 $\mu$mol/kg. 
 This sensor used a multi-points calibration (16 points with 4 temperatures and 4 DO concentrations). 
 In this procedure, the DO reference standards are produced by saturing the primary mixtures with DO concentrations of approximately 4%, 10%, 17% and 25% respectively (certified by the National Metrology Institute of Japan). 
 
@@ -145,7 +130,7 @@ This is similar to procedures used on other optodes.
 
 ![Oxygen saturation from a Rinko AROD-FT on a SeaExplorer glider in the Bornholm Basin (credit: Voice of the Ocean Foundation and University of Gothenburg). \label{fig:samba}](images/SAMBA.png)
 
-Recent deployments of a SeaExplorer glider equipped with an AROD-FT sensor have shown long-term stability (low drift over time) but with a significant offset observed during sections in the Ligurian Sea (on average 10-15 mumol/kg). 
+Recent deployments of a SeaExplorer glider equipped with an AROD-FT sensor have shown long-term stability (low drift over time) but with a significant offset observed during sections in the Ligurian Sea (on average 10-15 $\mu$mol/kg). 
 Deployments in the Bornholm Basin have shown good agreement across a wide range of oxygen concentrations with a nearby BOOS monitoring station; this sensor was a recent acquisition and had little opportunity to drift in storage.
 
 ## Clark electrode polarographic sensor (SBE43)
@@ -244,11 +229,11 @@ In situ intercomparisons will be required to find the outset of the sensor in di
 
 *NOTE: A multipoint DO calibration is necessary to obtain new foil coefficients and that can be done at the manufacturer laboratories or in any fully equipped calibration lab. These values shouldn’t be changed otherwise.*
 
-The Winkler method is used to determine the concentration of dissolved oxygen in discrete water samples which is a highly accurate method for determination of dissolved oxygen (± 0.15 mumol kg-1). We recommend to follow the GO-SHIP protocol described by [@Langdon2010] and a well trained technician to do the sampling and analysis.
+The Winkler method is used to determine the concentration of dissolved oxygen in discrete water samples which is a highly accurate method for determination of dissolved oxygen (± 0.15 $\mu$mol/kg). We recommend to follow the GO-SHIP protocol described by [@Langdon2010] and a well trained technician to do the sampling and analysis.
 
 ![During 100% and 0% calibration.](images/100-0-calibration.png)
 
-Issues with Winkler method at low oxygen concentrations (below 1 muM, some researchers consider that values below 20 muM shouldn't be use for the sensor calibration): 
+Issues with Winkler method at low oxygen concentrations (below 1 $\mu$mol/kg, some researchers consider that values below 20 $\mu$mol/kg shouldn't be use for the sensor calibration): 
 - There are various issues with Winkler at low oxygen concentrations as Winkler always biases towards too high oxygen: the detection limit of the method is around 1 uM [@Langdon2010], the oxygen absorbed in the plastic of the Niskin bottles might be transferred to  the water sampled (reference needed).
 - Within the core of the Peruvian oxygen minimum zones oxygen concentrations at nmol levels are present
 other approaches for 0 % in-situ calibration [@Revsbech2009] and [@Thomsen2016].
@@ -466,9 +451,6 @@ Few gliders currently have this capability.
 Other oxygen monitoring platforms, such as moorings can be used as an inter-comparison reference if the quality of these data is better than those of the glider.
 The mission plan should aim to pass close to these platforms, ideally multiple times across the length of the mission.
 
-### Observe data for evidence of biofouling
-- to add text and figure to allow user separating real and “biofouling” diurnal cycling
-
 # Real time data processing & Quality Control
 
 ## Real Time data processing
@@ -489,7 +471,7 @@ RTQC applied on the temperature measured by the oxygen sensor should follow the 
 Several oxygen sensors suffer from predeployment storage drift that can reduce accuracy by up to 20% or more [@Bittig2019]. As a consequence and because this bias can be corrected, dissolved oxygen concentration measured in real time should be set to 3 “bad data that are potentially correctable”. To retrieve usable oxygen data, an adjustment in real time should be quickly performed. 
 
 ### Global range check
-This test applies a gross filter on EGO oxygen data. If one observation is out of the global range [-5 600] /mumol/kg, its QC flag is set up to 4 “bad data”.
+This test applies a gross filter on EGO oxygen data. If one observation is out of the global range [-5 600] $\mu$umol/kg, its QC flag is set up to 4 “bad data”.
 
 ### Outlier and spike check
 Outliers and spikes are difficult to detect as optodes typically smooth out spikes due to their slow response time. A simple test checking the differences between sequential measurements is nevertheless possible if i) it is applied on a specific phase (ascending or descending for example) and ii) assuming a sampling adequately reproduces changes in dissolved oxygen concentrations. In this context, if one measurement is significantly different from adjacent ones, it is a spike in both size and gradient. 
@@ -515,8 +497,7 @@ Conversely, and as the salinity impact on the oxygen conversion is less than pre
 At first users should report that their mission is over to support(at)oceanobs.org
 
 ## Biofouling assessment
-Fotos should be taken for biofuiling assessment. 
-- to add: examples of typical biofouling 
+Pictures should be taken for biofuiling assessment. 
 
 ## Sensor storage
 Foil must be kept wet and protected from light after recovery until validation in the lab.
@@ -542,7 +523,7 @@ The drift is believed to be due to bleaching of the luminophore foil via ambient
 The bleaching effect is partly counteracted by a destabilising effect on the luminophore. 
 Together this manifests as a positive factor on the oxygen concentration (slope > 1) and a positive offset at zero oxygen.
 
-[@Queste2018] recorded drifts of 0.0176 and 0.0109 /mumol/kg/day for two Seagliders using inflections in the oxygen profiles as the glider penetrated to Arabian Sea Oxygen Minimum Zone and the sodium sulphite method, but no Winklers. 
+[@Queste2018] recorded drifts of 0.0176 and 0.0109 $\mu$mol/kg/day for two Seagliders using inflections in the oxygen profiles as the glider penetrated to Arabian Sea Oxygen Minimum Zone and the sodium sulphite method, but no Winklers. 
 [@BittigKoertzinger2015] report a 10 % drift over 3 years, but this is a combination of in-situ and ex-situ drift. 
 [@Bittig2018] determined the drift to be typically 0.1-0.2 % per year in-situ. 
 A drift of 0.0004 % d-1 has been calculated based on UEA seagliders against Baltic deep water oxygen climatology (Possenti et al., 2020).
@@ -609,13 +590,10 @@ To determine the two time constants a number of steps are performed:
 
 The routine developed by Mun Woo for the IMOS glider toolbox compares up and down casts in pressure space, but applies a time-shift rather than an exponential filter [@WooGourcuff2021].
 These time-shift values are determined per dive, but a rolling median is calculated to exclude dives with very high or low lag values.
-**TODO - is this done with phase or oxygen? - TH**
 <!-- **NOTE** presumably those dives should be flagged as bad? - TH -->
 
 The advantage of this method is that it does not amplify noise which the filter will tend to do.
 However, simply shifting the optode data relative to time will not remove some of the second order effects.
-
-**TODO example image of IMOS correction**
 
 ### Time response correction 3 - UEA
 
@@ -642,19 +620,5 @@ For AlterEco many gliders were not collecting data on both up and down casts whi
 Optodes can be sensitive to light intrusion if the foil is damaged. 
 These instruments will typically still provide good data in the absence of light. 
 A check should be made for increased sensor noise near the surface during daylight hours and contrast this with night-time observations.
-
-# Data sharing via public open access archives
-OceanGliders encouranges the users to share their data public and open access both in real time and delayed mode. The best practices of data sharing are described in the [OceanGliders data management user manual](add link to the OceanGliders data management user manual).
-
-# Acknowledgement 
-The coordination of producing this document was supported by the European Commission via the EuroSea.eu project under H2020 funding (Grant agreement 862626) and GROOM || Horizon 2020 research and innovation programme (Grant agreement No 951842).
-
-![](images/EUROSEA.png) ![](images/GROOM2_logo.png)
-
-Patricia Lopez-Garcia was supported by TechOceanS project which received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 101000858 (TechOceanS). This output reflects only the author’s view and the Research Executive Agency (REA) cannot be held responsible for any use that may be made of the information contained therein.
-
-Tom Hull was supported by “Alternative framework to assess marine ecosystem functioning in shelf seas" (https://projects.noc.ac.uk/altereco/). AlterEco represents a pilot study of a novel monitoring framework to deliver improved spatiotemporal understanding of key shelf sea ecosystem drivers through the use of autonomous systems, primarily underwater gliders. It was funded by the UK National Environment Research Council (NERC), the UK government’s Department for Environment, Food and Rural Affairs (Defra), the World Wide Fund for Nature (WWF) grant numbers NE/P013899/1, NE/P013902/2, NE/P013740/1 and NE/P013864/1.
-
-This work also contributes to the MOOSE network, which is funded by the CNRS-INSU and the French Ministry for Education and Research (ILICO).
 
 # References

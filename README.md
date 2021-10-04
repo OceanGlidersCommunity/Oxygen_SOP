@@ -1,10 +1,12 @@
 ![oceangliders](images/logo-ocean-gliders.png)
 
-# OceanGliders Oxygen SOP Readme
+# OceanGliders Oxygen SOP
 
 This GitHub repository is for the [OceanGliders](https://www.oceangliders.org) Oxygen Standard Operating Procedure (SOP).
 
-To read the SOP online simply follow the link [here](oxygen.md). A clean PDF version (including formulas, references and figure captions) can be found [here](https://github.com/OceanGlidersCommunity/Oxygen_SOP/blob/main/oceangliders_oxygen_sop_v0.pdf) and under [releases](https://github.com/OceanGlidersCommunity/Oxygen_SOP/releases) once we've made one.
+## How to read the SOP
+
+You can read the SOP [here](https://oceangliderscommunity.github.io/Oxygen_SOP/oxygen.html). 
 
 ## Community review
 The community review is open from October 2021 to January 31 2022.
@@ -35,9 +37,9 @@ This work is licensed under a [Creative Commons Attribution 4.0 Generic License]
 ## Code of Conduct
 - link Code of Conduct file here as soon as finalized. Join the discussion [here](https://github.com/OceanGlidersCommunity/OG-format-user-manual/pull/23)
 
-## About Markdown and Pandoc
+<!-- ## About Markdown and Pandoc
 
 Hosting this document on GitHub allows easy editing by contributors, no need to pull the repository to your local machine.
 However, [Github flavoured markdown](https://github.github.com/gfm/) is missing some features which are nice to have in the final version of the document, most notably citations.
-To add these features we use [Pandoc](https://pandoc.org/) and use Github actions to author a HTML and PDF version of the SOP.
+To add these features we use [Pandoc](https://pandoc.org/) and use Github actions to author a HTML and PDF version of the SOP. -->
 
