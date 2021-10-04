@@ -12,3 +12,5 @@ html:
   comments:
     utterances:
       repo: "OceanGlidersCommunity/Oxygen_SOP"
+bibtex_bibfiles:
+    - oxygen.bib
