@@ -5,26 +5,26 @@
 Following @Bittig2018.
 
 ## Sensor drift correction
-Aanderaa describe the in-situ drift characteristics of the 4330 and 4831 series optodes as being < 0.5 % per year and they make no distinction between the standard or fast (“F"-type) foils [@TengbergHovdenes2014].
-Optodes made after 2016 undergo a “burning-in period” during manufacture and therefore have substantially less drift [@TengbergHovdenes2014].
+Aanderaa describe the in-situ drift characteristics of the 4330 and 4831 series optodes as being < 0.5 % per year and they make no distinction between the standard or fast (“F"-type) foils {cite}`TengbergHovdenes2014`.
+Optodes made after 2016 undergo a “burning-in period” during manufacture and therefore have substantially less drift {cite}`TengbergHovdenes2014].
 Drift is a function of UV exposure and sampling frequency. 
 The foil becomes less sensitive and therefore drift is always towards lower oxygen concentrations. 
 The drift is believed to be due to bleaching of the luminophore foil via ambient light; it is particularly sensitive to fluorescent lights. 
 The bleaching effect is partly counteracted by a destabilising effect on the luminophore. 
 Together this manifests as a positive factor on the oxygen concentration (slope > 1) and a positive offset at zero oxygen.
 
-[@Queste2018] recorded drifts of 0.0176 and 0.0109 $\mu$mol/kg/day for two Seagliders using inflections in the oxygen profiles as the glider penetrated to Arabian Sea Oxygen Minimum Zone and the sodium sulphite method, but no Winklers. 
-[@BittigKoertzinger2015] report a 10 % drift over 3 years, but this is a combination of in-situ and ex-situ drift. 
-[@Bittig2018] determined the drift to be typically 0.1-0.2 % per year in-situ. 
+{cite}`Queste2018` recorded drifts of 0.0176 and 0.0109 $\mu$mol/kg/day for two Seagliders using inflections in the oxygen profiles as the glider penetrated to Arabian Sea Oxygen Minimum Zone and the sodium sulphite method, but no Winklers. 
+{cite}`BittigKoertzinger2015` report a 10 % drift over 3 years, but this is a combination of in-situ and ex-situ drift. 
+{cite}`Bittig2018` determined the drift to be typically 0.1-0.2 % per year in-situ. 
 A drift of 0.0004 % d-1 has been calculated based on UEA seagliders against Baltic deep water oxygen climatology (Possenti et al., 2020).
 Tom Hull found values between 0.0004 and 0.0035 % d-1 across 16 vehicles in-situ (slocums and seagliders with 4330F (old foil formulation), 4835 and 4831 optodes (unpublished?). 
 
-The drift correction should be applied to the oxygen concentration, not the measured phase [@Bittig2018].
+The drift correction should be applied to the oxygen concentration, not the measured phase {cite}`Bittig2018`.
 
 ## Sensor time response correction
 
-In all but the most homogeneous waters it is essential to correct for the slow time response of optodes [@Bittig2014, @Bittig2017] (see figure \ref{fig:kelvin}).
-This is particularly critical for optodes using the “standard” black foils, and as previously mentioned Slocum gliders with the optode in the standard location near the tail of the glider[@Moat2016].
+In all but the most homogeneous waters it is essential to correct for the slow time response of optodes {cite}`Bittig2014`, {cite}`Bittig2017` (see figure \ref{fig:kelvin}).
+This is particularly critical for optodes using the “standard” black foils, and as previously mentioned Slocum gliders with the optode in the standard location near the tail of the glider {cite}`Moat2016`.
 
 <!--
 ![Example uncorrected profiles from AlterEco AE5 “Kelvin” Slocum with a 4831 optode with standard foil demonstrating significant lag in both optode temperature and phase.](/images/kelvin_lag.png)
@@ -62,7 +62,7 @@ We suggest users try each of these procedures and assess how well they work for 
 
 Optode calibration and processing methods were developed by Johannes Hahn in collaboration with Henry Bittig for use on moored and glider-attached Aanderaa optodes. 
 A set of routines were adapted to the particuliarities of optodes on gliders and to the typical conditions of GEOMAR glider deployments. This processing has now
-been used on nearly 100 glider deployments mostly in the Tropical Atlantic and Pacific Oceans [XXX reference].
+been used on nearly 100 glider deployments mostly in the Tropical Atlantic and Pacific Oceans [XXX Krahmann 2021 reference].
 The processing determines two delay time constants. One $\tau_{CTD}$ describes the time constant of an exponential filter which, when applied to the glider's CTD temperature, 
 gives an estimate of the temperature of the optode foil. And the other describes the optode response time to changing oxygen concentrations.
 The processing so far makes no explicit correction for the "geometric" lag, that is any lag introduced by the CTD and optode being some distance from each other.
@@ -94,7 +94,7 @@ Example of original Optode oxygen concentrations (red) and GEOMAR processed and 
 
 ### Time response correction 2 - IMOS
 
-The routine developed by Mun Woo for the IMOS glider toolbox compares up and down casts in pressure space, but applies a time-shift rather than an exponential filter [@WooGourcuff2021].
+The routine developed by Mun Woo for the IMOS glider toolbox compares up and down casts in pressure space, but applies a time-shift rather than an exponential filter {cite}`WooGourcuff2021`.
 These time-shift values are determined per dive, but a rolling median is calculated to exclude dives with very high or low lag values.
 <!-- **NOTE** presumably those dives should be flagged as bad? - TH -->
 
@@ -112,7 +112,7 @@ The routine developed by Bastien Queste for the UEA Seaglider toolbox works as f
     1. A shoelace algorithm is used to minimise the area between the curves or
     1. The RMSD from vertically binned data is calculated
 1. A minimisation algorithm (`fminsearch` from MATLAB) is used to fit two lag coefficients: $\tau = \tau_0 + \tau_1 (T-20)$ as per @Hahn2014.
-1. This $\tau$ is then used with an exponential inverse-filter, typically against optode phase (and oxygen recalculated) but partial pressure or concentration as per @Bittig2018 has also been tested.
+1. This $\tau$ is then used with an exponential inverse-filter, typically against optode phase (and oxygen recalculated) but partial pressure or concentration as per {cite}`Bittig2018` has also been tested.
 The correction is applied on a per-dive basis.
 
 ### Time response correction 4 - AlterEco
@@ -120,7 +120,7 @@ The correction is applied on a per-dive basis.
 For AlterEco many gliders were not collecting data on both up and down casts which precludes the use of the above routines.
 1. A $\tau$ was calculated for the geometric and boundary layer diffusive lag by minimising the difference between the CTD and optode temperatures.
 1. This $\tau$ was used to then inverse-filter the optode phase and temperature.
-1. A secondary lag correction based on the temperature as per the UEA toolbox and @Hahn2014.
+1. A secondary lag correction based on the temperature as per the UEA toolbox and {cite}`Hahn2014`.
 
 ## Light intrusion
 Optodes can be sensitive to light intrusion if the foil is damaged. 
