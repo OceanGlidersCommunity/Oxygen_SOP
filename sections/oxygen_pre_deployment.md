@@ -47,7 +47,7 @@ On Seagliders the oxygen sensor is normally mounted externally behind the CT sen
 :::{figure-md} seagliders_standard
 <img src="/images/OGIVE.png" alt="Seaglider sensor integration" class="bg-primary mb-1" width="400px">
 
-UEA OGIVE seaglider with 4330F optode, together with NOC LoC spectrophotometric pH, unpumped SBE CT and Fluidion potentiometric pH sensor. \label{fig:seagliders_standard}
+UEA OGIVE seaglider with 4330F optode, together with NOC LoC spectrophotometric pH, unpumped SBE CT and Fluidion potentiometric pH sensor.
 :::
 
 
