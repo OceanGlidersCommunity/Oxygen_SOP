@@ -78,7 +78,7 @@ After this it should be less than 0.5 % per year, unless the foil is mechanicall
 :::{figure-md} optodes
 <img src="/images/AanderaSensors.png" alt="Aandera Optodes" class="bg-primary mb-1" width="400px">
 
-Suit of smart optodes sensors. (Image was taken from the manufacturer webpage www.aanderaa.com) \label{fig:optodes}
+Suit of smart optodes sensors. (Image was taken from the manufacturer webpage www.aanderaa.com)
 :::
 
 ## RBR coda T.ODO
