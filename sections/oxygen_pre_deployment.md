@@ -78,7 +78,7 @@ Furthermore, this mounting location also means that in-situ in-air calibrations 
 :::{figure-md} slocum_alternative_mounting
 <img src="/images/slocum_better_location.jpg" alt="Slocum better O2 sensor location" class="bg-primary mb-1" width="400px">
 
-Slocum glider showing alternative mounting of an Aanderaa optode perpendicular to the fin.}
+Slocum glider showing alternative mounting of an Aanderaa optode perpendicular to the fin.
 :::
 
 #### SeaExplorer
