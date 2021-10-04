@@ -2,7 +2,7 @@
 
 ## Calculation of oxygen variables
 
-Following @Bittig2018.
+Following {cite}`Bittig2018`.
 
 ## Sensor drift correction
 Aanderaa describe the in-situ drift characteristics of the 4330 and 4831 series optodes as being < 0.5 % per year and they make no distinction between the standard or fast (“F"-type) foils {cite}`TengbergHovdenes2014`.
@@ -62,7 +62,7 @@ We suggest users try each of these procedures and assess how well they work for 
 
 Optode calibration and processing methods were developed by Johannes Hahn in collaboration with Henry Bittig for use on moored and glider-attached Aanderaa optodes. 
 A set of routines were adapted to the particuliarities of optodes on gliders and to the typical conditions of GEOMAR glider deployments. This processing has now
-been used on nearly 100 glider deployments mostly in the Tropical Atlantic and Pacific Oceans [XXX Krahmann 2021 reference].
+been used on nearly 100 glider deployments mostly in the Tropical Atlantic and Pacific Oceans {cite}`Krahmann2021`.
 The processing determines two delay time constants. One $\tau_{CTD}$ describes the time constant of an exponential filter which, when applied to the glider's CTD temperature, 
 gives an estimate of the temperature of the optode foil. And the other describes the optode response time to changing oxygen concentrations.
 The processing so far makes no explicit correction for the "geometric" lag, that is any lag introduced by the CTD and optode being some distance from each other.
