@@ -185,6 +185,12 @@ There is also a possibility of using a Data Logger while we are working with the
 | *Figure X: Recording data using a terminal program (left image) and using a data logger (right image).* |
 -->
 
+:::{figure-md} terminal_program
+<img src="/images/TerminalProgram.jpg" alt="Terminal program" class="bg-primary mb-1" width="400px">
+
+Recording data using a terminal program.
+:::
+
 #### Calibration procedure
 Materials: Distilled water, aquarium pump, 1L and small volume beakers, stirrer and magnetic stirrer, BOD bottles, Winkler reagents, sodium sulfite solution, pipettes and tips, barometer, termometer.
 
