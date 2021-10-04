@@ -58,6 +58,7 @@ On slocum gliders the oxygen optode is typically installed aft close to the fin 
 ![Standard Aanderaa optode 4831 mounting under the fin of the Slocum G2. \label{fig:slocum_standard}](/images/slocum.jpg)
 -->
 
+(slocum_standard) = 
 :::{figure-md} slocum_standard
 <img src="/images/slocum.jpg" alt="Slocum sensor integration" class="bg-primary mb-1" width="400px">
 
