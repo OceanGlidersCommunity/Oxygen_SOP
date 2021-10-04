@@ -31,7 +31,7 @@ This can be done by placing a wet sponge in the sensor membrane at least 8 hours
 Effect of dry foil, first dives show elevated oxygen concentrations and slow foil response times. Taken from AlterEco AE2 Slocum “Stella” using a 4330 optode (standard foil).
 :::
 
-Samples should be collected with the Niskin bottle(s) for Winkler analysis during the deployment (following [@Langdon2010] protocol). 
+Samples should be collected with the Niskin bottle(s) for Winkler analysis during the deployment (following {cite}`Langdon2010` protocol). 
 It’s recommended to take between 4-6 samples on the surface (approx. 5m) (ideally samples will be taken at different depths). 
 After adding the Winkler reagents, samples should be kept in the dark and try to avoid high temperatures. 
 It’s also recommended to use a calibrated  multiparameter sonde to do DO profiles at the deployment site while taking samples with the Niskin bottles. 
@@ -60,9 +60,9 @@ Using a multiparameter sonde for in-situ intercomparison during deployments from
 :::
 
 ## Calibration during deployment/recovery from a ship with a CTD rosette equipped with a calibrated oxygen sensor 
-If the glider is deployed/recovered from a research vessel equipped with a CTD and a calibrated O2 sensor, the glider optode can either be connected directly to the CTD profiler if able to receive the digital (RS232) output from the Optode [@Uchida2010], or attached via a data logger. 
-Record down- and upcast data to allow hysteresis correction. The Optode data obtained during the bottle-firing stop for collection of water samples can be used for in situ calibration, since the difference between the downcast and upcast oxygen profiles is relatively small (1 uM approx., [@Uchida2008]). 
-The error in the Optode can be reduced by allowing sufficient time for the sensor equilibration after the stop (minimum 2 min as recommended by [@Hahn2014]. 
+If the glider is deployed/recovered from a research vessel equipped with a CTD and a calibrated O2 sensor, the glider optode can either be connected directly to the CTD profiler if able to receive the digital (RS232) output from the Optode {cite}`Uchida2010`, or attached via a data logger. 
+Record down- and upcast data to allow hysteresis correction. The Optode data obtained during the bottle-firing stop for collection of water samples can be used for in situ calibration, since the difference between the downcast and upcast oxygen profiles is relatively small (1 uM approx., {cite}`Uchida2008`). 
+The error in the Optode can be reduced by allowing sufficient time for the sensor equilibration after the stop (minimum 2 min as recommended by {cite}`Hahn2014`. 
 *NOTE: For Oxygen Minimum Zone regions follow recommendations in the section below.*
 
 To summarize, the steps we recommend to follow to calibrate oxygen sensors during regular CTD/O2 casts before deployment and after recovery, are:
@@ -71,17 +71,17 @@ To summarize, the steps we recommend to follow to calibrate oxygen sensors durin
  
 2) Record down- and upcast data. Timestamps of oxygen measurements are required. In case a logger is used, ensure before the calibration cast that the internal logger time is correct (i.e. in line with the CTD time).
 
-3) Collect calibration points against measurements with the CTD rosette oxygen sensor, which itself is calibrated against Winkler titrated water samples [@Langdon2010]. 
+3) Collect calibration points against measurements with the CTD rosette oxygen sensor, which itself is calibrated against Winkler titrated water samples {cite}`Langdon2010`. 
 
-4) Reference points for calibration are the same as the calibration stops. As for salinity, samples for Winkler titration will be collected during the upcast. When reached the selected depth, wait at least 2 min to ensure an equilibrated oxygen sensor [@Hahn2014]. Fire the bottles after this time. 
+4) Reference points for calibration are the same as the calibration stops. As for salinity, samples for Winkler titration will be collected during the upcast. When reached the selected depth, wait at least 2 min to ensure an equilibrated oxygen sensor {cite}`Hahn2014`. Fire the bottles after this time. 
 
-5) Do 0 % and 100 % calibration after recovering the sensor at two different temperatures (warm and cold lab). If 100 % is not possible, 0 % should be done to ensure that the central temperature range at zero oxygen is covered within the calibration [@Hahn2014]. 
+5) Do 0 % and 100 % calibration after recovering the sensor at two different temperatures (warm and cold lab). If 100 % is not possible, 0 % should be done to ensure that the central temperature range at zero oxygen is covered within the calibration {cite}`Hahn2014`. 
 
 The combined data collected following these (CTD and lab calibration) steps will be used to evaluate the calibration coefficients and it’s called hypercast calibration.
 
 *NOTE: This calibration should be done before the deployment and after the recovery. It’s important that the membrane is kept wet.*
 
-*NOTE: Save all data from the profiles and calibrations before deploying the glider. Always record Dphase [@Coppola2013].*
+*NOTE: Save all data from the profiles and calibrations before deploying the glider. Always record Dphase {cite}`Coppola2013`.*
 
 <!--
 ![GEOMAR oxygen data loggers (Aanderaa Optode mounted on data logger) attached to a CTD frame and prepared for in-situ calibration during a CTD cast. Panels in the upper row show fixation with straps and zip ties. Panel in the lower row shows fixation with scaffolding clamps and tape in the interior lower part of the CTD frame.](/images/Datalogger.png)
@@ -94,7 +94,7 @@ GEOMAR oxygen data loggers (Aanderaa Optode mounted on data logger) attached to 
 :::
 
 ## Deploying gliders in Oxygen Minimum Zones (OMZ)
-Note that the classical Winkler titration method is not reliable at oxygen concentrations in OMZ core [@Thomsen2016] since the method has a detection limit of around 1 uM [@Langdon2010]. 
+Note that the classical Winkler titration method is not reliable at oxygen concentrations in OMZ core {cite}`Thomsen2016` since the method has a detection limit of around 1 uM {cite}`Langdon2010`. 
 
 Steps recommended in these regions: 
 1) Do a 0/100 % calibration before and after deployment in the lab.
@@ -122,12 +122,12 @@ A sufficient high frequency sampling is required for a good lag correction. In p
 
 ### Gather data to correct for sensor drift
 #### Deep water masses or known anoxic waters
-In regions with known oxygen concentrations i.e. within the core of the Peruvian Oxygen Minimum Zone (OMZ) oxygen concentrations of close to zero or few nmol are typical [@Revsbech2009], [@Kalvelage2013], [@Thomsen2016] in-situ calibration points can be recorded. 
+In regions with known oxygen concentrations i.e. within the core of the Peruvian Oxygen Minimum Zone (OMZ) oxygen concentrations of close to zero or few nmol are typical {cite}`Revsbech2009`, {cite}`Kalvelage2013`, {cite}`Thomsen2016` in-situ calibration points can be recorded. 
 For this glider can be parked at this depth to get a 0 calibration at the beginning and at the end of the deployment. 
 This can also be done by adding different depth/temperature levels if the anoxic layer is thick enough to cover different temperatures. i.e. further offshore where the OMZ is several 100 m thick.
 
 #### In-air calibration
-In-air calibration can be carried out if optodes are attached in a way that they reach out of the water when the glider is surfacing [@NicholsonFeen2017] as done also for long float deployments [@Bittig2018] 
+In-air calibration can be carried out if optodes are attached in a way that they reach out of the water when the glider is surfacing {cite}`NicholsonFeen2017` as done also for long float deployments {cite}`Bittig2018` 
 This can be valuable in particular if no 0 / 100 % lab calibration or CTD intercomparison is available as well as for long deployments. 
 Contamination from splashing water and/or residual seawater on the sensor face have to be considered and corrected (Nisholson and Feen, 2017). 
 Few gliders currently have this capability.
