@@ -14,3 +14,6 @@ html:
       repo: "OceanGlidersCommunity/Oxygen_SOP"
 bibtex_bibfiles:
     - oxygen.bib
+sphinx:
+  config:
+    bibtex_reference_style: author_year
