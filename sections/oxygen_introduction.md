@@ -34,7 +34,7 @@ Some early Slocum gliders were  delivered with optodes of type 5013, these are i
 
 ### Foil type: F or standard
 Most optodes use the PreSens PSt3 foil (PreSens - Precision Sensing GmbH), these have as standard a black opaque protective layer protecting the pink sensing layer.
-For glider applications the “F” type foils are typically preferred as these remove the opaque layer which results in much faster diffusion across the foil, and therefore faster sensor response ($\tau$ = 8 s compared to ~ 25 s [@Bittig2014]). 
+For glider applications the “F” type foils are typically preferred as these remove the opaque layer which results in much faster diffusion across the foil, and therefore faster sensor response ($\tau$ = 8 s compared to ~ 25 s {cite}`Bittig2014`). 
 However, removal of the protective layer makes the foil more susceptible to UV radiation, and is known to reduce the sensor stability, especially when exposed to strong sunlight.
 Newer 4330F and 4831F optodes (Since July 8th 2018) use an improved formulation of the Presens fast foil which are less sunlight sensitive and have much lower noise levels. These can be identified by their white appearance. 
 It is recommended that older F-type instruments (with the pink foils) are upgraded with these improved foils. 
@@ -58,12 +58,12 @@ Consult your optode calibration sheet and confirm which terms are being used.
 There are three different calibration equations used to convert the measured phase to oxygen equations:
 The “Mk1” equation used by the older 3835 optodes uses a 5x4 matrix of coefficients. 
 The “Mk2” equation is used by non-multipoint calibrated 4330(F) and 4835 optodes, and uses a 2x14 matrix (FoilCoefA and FoilCoefB) together with a 2x27 matrix for the polynomial degree, this second matrix is the same across all of these type optodes. 
-Newer multipoint calibrated optodes use the Stern-Volmer (SVU) equation proposed by [@Uchida2008] which has 6 terms.
+Newer multipoint calibrated optodes use the Stern-Volmer (SVU) equation proposed by {cite}`Uchida2008` which has 6 terms.
 Non-multipoint foil calibrations are based on a common characterisation of a production batch. 
 Multipoint calibrations consist of 40 calibration points across a range of concentrations and temperatures and offer improved accuracy and should be preferred when purchasing these sensors.
 Consult your optode foil calibration document to verify which version your optode is using. 
 Understanding these differences in how the calculations are performed is important when recalculating oxygen from the phase readings, such as when compensating for lag.
-Regardless of the optode version, oxygen can be recalculated from calphase using the approach of [@Uchida2008].
+Regardless of the optode version, oxygen can be recalculated from calphase using the approach of {cite}`Uchida2008`.
 During the initial months of storage/use a Foil maturation process occurs resulting in lower readings by several %. 
 The maximum observed maturation induced drift on more than 1000 sensor has been 8 % for sensors with non-factory pre-matured WTW foils (model: 4835, 4531 and 5730 Steinsvik) and 6 % for sensors with factory pre-matured PSt3 foils (model: 4330, 4831, 5331 hadal). 
 During/between field deployments there are possibilities for end users to post-adjust the sensors either by a one-point air-saturation adjustment or by taking reference samples (e.g. water samples and Winkler titration) and/or using a well-calibrated sensor in parallel. 
@@ -104,9 +104,9 @@ In this procedure, the DO reference standards are produced by saturing the prima
 AROD-FT sensor mounted on a SeaExplorer glider (credit: ALSEAMAR) \label{fig:ARODFT}
 :::
 
-The DO concentration is calculated from the [@Uchida2010] equation with 9 calibration coefficients. 
+The DO concentration is calculated from the {cite}`Uchida2010` equation with 9 calibration coefficients. 
 A second equation is used to take into account the pressure effect (linear equation with one calibration coefficient). 
-Finally, the salinity-compensated DO concentration is calculated by multiplying the factor of the effect of salt on the oxygen solubility [@BensonKrause1984] and [@GarciaGordon1992].
+Finally, the salinity-compensated DO concentration is calculated by multiplying the factor of the effect of salt on the oxygen solubility {cite}`BensonKrause1984` and {cite}`GarciaGordon1992`.
 This is similar to procedures used on other optodes.
 
 <!--
