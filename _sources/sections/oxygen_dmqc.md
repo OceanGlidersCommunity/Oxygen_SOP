@@ -1,4 +1,4 @@
-# Delayed Mode Quality Control (DMQC)
+# Delayed Mode Quality Control
 
 ## Calculation of oxygen variables
 
