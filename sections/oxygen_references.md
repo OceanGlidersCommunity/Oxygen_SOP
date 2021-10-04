@@ -2,5 +2,3 @@
 
 ```{bibliography}
 ```
-
-[work in progress]
