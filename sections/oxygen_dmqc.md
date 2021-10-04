@@ -23,7 +23,7 @@ The drift correction should be applied to the oxygen concentration, not the meas
 
 ## Sensor time response correction
 
-In all but the most homogeneous waters it is essential to correct for the slow time response of optodes {cite}`Bittig2014`, {cite}`Bittig2017` (see {numref}{numref}`kelvin_lag`).
+In all but the most homogeneous waters it is essential to correct for the slow time response of optodes {cite}`Bittig2014`, {cite}`Bittig2017` (see {numref}`kelvin_lag`).
 This is particularly critical for optodes using the “standard” black foils, and as previously mentioned Slocum gliders with the optode in the standard location near the tail of the glider {cite}`Moat2016`.
 
 <!--
