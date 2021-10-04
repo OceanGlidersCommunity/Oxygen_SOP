@@ -14,7 +14,7 @@ Prior to deployment, oxygen sensor metadata (i.e. sensor model, sensor serial nu
 Difference between oxygen concentration computed by the glider (DOXY) and those computed by the Data Assembly Center (DAC) from intermediate parameters and associated calibration coefficient (DOXY2).
 :::
 
-Configurations for the calculation of DOXY are in fact function of the sensor model and intermediate parameters. The recommended configurations (e.g. salinity compensation of MOLAR_DOXY, pressure correction for pressure effect on quenching, temperature compensation) are available in the [Processing Argo oxygen data at the DAC level](https://archimer.ifremer.fr/doc/00287/39795/). For some optode models, it may be appropriate to apply a time lag correction in RT, taking into account the sensor time response, using either the manufacturer value or any value defined from previous deployments with the specific sensor. A real time lag correction might improve the useability of the real time data significantly.The method is described in [@Bittig2014].
+Configurations for the calculation of DOXY are in fact function of the sensor model and intermediate parameters. The recommended configurations (e.g. salinity compensation of MOLAR_DOXY, pressure correction for pressure effect on quenching, temperature compensation) are available in the [Processing Argo oxygen data at the DAC level](https://archimer.ifremer.fr/doc/00287/39795/). For some optode models, it may be appropriate to apply a time lag correction in RT, taking into account the sensor time response, using either the manufacturer value or any value defined from previous deployments with the specific sensor. A real time lag correction might improve the useability of the real time data significantly.The method is described in {cite}`Bittig2014`.
 
 There is no unique procedure for Real time data and metadata sending. Protocols, format and file naming convention should be discussed with DACs before deployment. OceanOPS and DACs requirements on data and metadata are described in the OceanGliders Best Practices document in the data and metadata management section, paragraph 6  (link to be added when overview paper is in review). 
 
@@ -23,7 +23,7 @@ Real time quality control tests applied on EGO oxygen data are extracted from th
 RTQC applied on the temperature measured by the oxygen sensor should follow the RTQC procedure defined for the CTD temperature. 
 
 ### Doxy QC initialisation
-Several oxygen sensors suffer from predeployment storage drift that can reduce accuracy by up to 20% or more [@Bittig2019]. As a consequence and because this bias can be corrected, dissolved oxygen concentration measured in real time should be set to 3 “bad data that are potentially correctable”. To retrieve usable oxygen data, an adjustment in real time should be quickly performed. 
+Several oxygen sensors suffer from predeployment storage drift that can reduce accuracy by up to 20% or more {cite}`Bittig2019`. As a consequence and because this bias can be corrected, dissolved oxygen concentration measured in real time should be set to 3 “bad data that are potentially correctable”. To retrieve usable oxygen data, an adjustment in real time should be quickly performed. 
 
 ### Global range check
 This test applies a gross filter on EGO oxygen data. If one observation is out of the global range [-5 600] $\mu$umol/kg, its QC flag is set up to 4 “bad data”.
