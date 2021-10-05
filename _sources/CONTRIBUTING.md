@@ -24,7 +24,7 @@ You can contribute in two ways: [Case 1](update link) - comment directly on the 
 
 ### Case 1: Comment directly on the online document without knowing GitHub.
 
-1. Read the Oxygen SOP [here](link)
+1. Read the Oxygen SOP [here](https://oceangliderscommunity.github.io/Oxygen_SOP/sections/oxygen_introduction.html)
 
 2) Scroll down to make your comment at the end of each section. 
 
@@ -45,7 +45,7 @@ You can contribute in two ways: [Case 1](update link) - comment directly on the 
 
 In general, we suggest to start a discussion (‘issue”) before directly editing the document via a “pull-request”. In particular if you request ‘major changes’. Editing the documents directly will require some basic [markdown](https://guides.github.com/features/mastering-markdown/) knowledge.
 
-1. Read the Oxygen SOP [here](link)
+1. Read the Oxygen SOP [here](https://oceangliderscommunity.github.io/Oxygen_SOP/sections/oxygen_introduction.html)
 2. Scroll up, move your mouse over the GitHub symbol and click "suggest edit".
 
 ![edit_markdown_file](images/suggest_edit_01.png)
