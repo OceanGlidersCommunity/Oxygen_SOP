@@ -38,3 +38,6 @@ Additional authors joined: [Bastien Y. Queste](https://github.com/bastienqueste)
 
 6) Next step: 4 months community review on GitHub starting in October 2021.
 
+## Contributions 
+
+[work in progress]

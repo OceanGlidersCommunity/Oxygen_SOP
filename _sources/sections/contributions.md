@@ -1,3 +1,0 @@
-# Contributions
-
-[work in progress]
