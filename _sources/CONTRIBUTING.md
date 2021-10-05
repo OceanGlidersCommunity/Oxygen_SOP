@@ -10,10 +10,10 @@ Co-authors are encouraged to periodically review GitHub activity as co-authorshi
 
 ### Minor change
 - typos, language and formatting
-- adding new sensor descriptions
 - adding images
 
 ### Major change 
+- adding new sensor descriptions
 - change of uncertainties ranges
 - concrete suggestions i.e. related to correction of methods
 
