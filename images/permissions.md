@@ -1,6 +1,6 @@
 # Details for attribution and permission for each of the images
 
-- `100-0-calibration.png` - Patricia Lopez-Garcia/Tania Morales
+- `100-0-calibration.png` - Tania Morales
 - `AanderaSensors.png` - XXX, Aanderaa data instruments
 - `ARODFTSensor.jpg`
 - `case_01_issue.png` - Soeren Thomsen
@@ -23,4 +23,4 @@
 - `slocum_better_location.jpg` - Matthew Palmer, NOC
 - `storage.jpg`- Patricia Lopez-Garcia
 - `TerminalProgram.jpg`- Patricia Lopez-Garcia
-- `winkler-ballasting.png`- Patricia Lopez-Garcia/Tania Morales
+- `winkler-ballasting.png`- Tania Morales
