@@ -1,10 +1,10 @@
 # Details for attribution and permission for each of the images
 
-- `100-0-calibration.png` - Patricia Lopez-Garcia
+- `100-0-calibration.png` - Tania Morales
 - `AanderaSensors.png` - XXX, Aanderaa data instruments
 - `ARODFTSensor.jpg`
 - `case_01_issue.png` - Soeren Thomsen
-- `CoastalDeployment.png` - Patricia Lopez-Garcia
+- `CoastalDeployment.png` - Tania Morales
 - `Datalogger.png`- Johannes Hahn
 - `dryfoil.png` - Tom Hull, Cefas
 - `edit_markdown_file.png` - Soeren Thomsen
@@ -14,13 +14,13 @@
 - `logo.png`- OceanGliders
 - `logo_v02_1_contour.png` - OceanGliders
 - `logo-ocean-gliders.png` - OceanGliders
-- `multiparametersonde.png`- Patricia Lopez-Garcia
+- `multiparametersonde.png`- Tania Morales
 - `OGIVE.png` - Tom Hull, Cefas
 - `Rinko.png`
 - `RTQC_check_Doxy_combined.png` - Virgine Racape
 - `SAMBA.png` - Bastien Queste, University of Gothenburg
 - `slocum.jpg`
 - `slocum_better_location.jpg` - Matthew Palmer, NOC
-- `storage.jpg`
+- `storage.jpg`- Patricia Lopez-Garcia
 - `TerminalProgram.jpg`- Patricia Lopez-Garcia
-- `winkler-ballasting.png`- Patricia Lopez-Garcia
+- `winkler-ballasting.png`- Tania Morales
