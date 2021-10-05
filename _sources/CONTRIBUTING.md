@@ -22,7 +22,7 @@ Please read our [Code of Conduct](add link when final) before contributing.
 
 You can contribute in two ways: [Case 1](https://github.com/OceanGlidersCommunity/Oxygen_SOP/blob/main/CONTRIBUTING.md#case-1-comment-by-opening-an-issue) - opening an issue, [Case 2](https://github.com/OceanGlidersCommunity/Oxygen_SOP/blob/main/CONTRIBUTING.md#case-2-suggest-a-concrete-modification-via-a-pull-request) - creating a pull request
 
-1. Log into your Github account
+1. Log into your GitHub account
 
 ### Case 1: Comment by opening an "issue":
 2. Open an issue, [here](https://github.com/OceanGlidersCommunity/Oxygen_SOP/issues)
