@@ -33,7 +33,7 @@ Just raise a question [here](https://github.com/OceanGlidersCommunity/Oxygen_SOP
 This work is licensed under a [Creative Commons Attribution 4.0 Generic License](https://creativecommons.org/licenses/by/4.0/).
 
 ## Code of Conduct
-- link Code of Conduct file here as soon as finalized. Join the discussion [here](https://github.com/OceanGlidersCommunity/OG-format-user-manual/pull/23)
+Read our Code of Conduct (CoC) [here](add link as soon as finalized). Join the discussion to finalize the CoC [here](https://github.com/OceanGlidersCommunity/OG-format-user-manual/pull/23)
 
 <!-- ## About Markdown and Pandoc
 
