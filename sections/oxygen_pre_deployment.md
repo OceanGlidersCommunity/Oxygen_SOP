@@ -153,7 +153,7 @@ other approaches for 0 % in-situ calibration {cite}`Revsbech2009` and {cite}`Tho
 
 #### 100 / 0 % saturation protocol
 
-This method is necessary to check the drift of oxygen measurements over time as the foil wears out. It’s recommended to do it before the deployment and after recovery. NOTE: Sensor foil must be wet during all protocol steps.   
+This method is necessary to check the sensor drift over time as the foil wears out. It’s recommended to do it before the deployment and after recovery. NOTE: Sensor foil must be wet during all procedure steps.   
 Some information to read before we proceed with the calibration:
 1. For a 100 % bubbled bath, connect an aquarium pump to the tube which at the end you have fitted with a porous stone (bubble dispenser). This will create small air bubbles that are sufficient to equilibrate the water rapidly. 
 NOTE: It is important that the aquarium pump takes in air from an open atmosphere outside, not from inside the room/laboratory where O2 levels will be affected by the on-going activities and/or the ventilation. To verify that optodes are in saturated water you can take them up from the water and hold them just above the surface for a few minutes. There should then be no change in the saturation readings (Aanderaa Best Practices).
