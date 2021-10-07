@@ -2,7 +2,7 @@
 
 This standard operating procedure (SOP) document for dissolved oxygen (DO) aims to guide the user through the steps necessary to collect good quality dissolved oxygen measurements using ocean gliders for both real time and post deployment data streams.
 
-*Table 1: List of the known sensor/glider combinations. We aim to cover all the available sensors in the market in this document.*
+*Table 1: List of the known sensor/glider combinations. We aim to cover all combinations in this document.*
 
 | Sensor / Glider  |  Slocum |  Autosub/ ALR (NOC) |  Seaglider | Deepglider  |  SeaExplorer |  Spray |  Information |
 |---|---|---|---|---|---|---|---|
@@ -86,7 +86,7 @@ The RBRcoda T.ODO uses the same foils and methods as the 4831 and 4831F so every
 RBR refers to the standard optode (~30 s $\tau$) foil as “slow” and the fast (~8 s) as the standard.
 They also use further foil design (~1 s response) which they call fast. 
 The RBR sensor has a smaller form factor than the Aandera optodes, but is overall more similar to a 4831 with the temperature sensor very closely located to the sensing foil. 
-This sensor has recently been implemented in ocean glider, and little has known about their performance.
+This sensor has recently been implemented in gliders, and little is known about their performance.
 
 ## JFE Advantech RINKO
 AROD-FT sensor (RINKO JFE) is used for the SeaExplorer gliders (Alseamar) and for some Argo floats (small size and low power consumption) (see {numref}`ARODFT`). 
