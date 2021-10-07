@@ -5,7 +5,7 @@ Optode foils typically drift more while in storage than while in use, the reason
 We recommend that all optodes should be stored away from the light (especially fluorescent lights), keep the foil humid and use the plastic caps provided with the sensor. Two-point calibration prior to deployment is always recommended.
 Sensors should be cleaned before storage and stored with black caps on, including some Milli-Q or tap water, or with a piece of wet cotton taped against the foil. 
 If sensors are stored dry the foil will dry out which could lead to 1-2 % lower readings. 
-The sensor then needs to be placed in water to hydrate at least 24 hours prior to starting field measurements again.
+The sensor then needs to be placed in water to hydrate at least 24 h prior to starting field measurements again.
 
 <!-- 
 ![Keeping sensor in small beakers before and during calibration process. Only the membrane will need to be submerged in distilled water. \label{fig:storage}](/images/storage.jpg)
