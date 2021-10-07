@@ -1,6 +1,6 @@
 # Introduction
 
-This standard operating procedure (SOP) document for dissolved oxygen (DO) aims to guide the user through the steps necessary for collection of good quality dissolved oxygen using gliders for both real time and post deployment data streams.
+This standard operating procedure (SOP) document for dissolved oxygen (DO) aims to guide the user through the steps necessary to collect good quality dissolved oxygen measurements using ocean gliders for both real time and post deployment data streams.
 
 *Table 1: List of the known sensor/glider combinations. We aim to cover all combinations in this document.*
 
@@ -14,10 +14,10 @@ This standard operating procedure (SOP) document for dissolved oxygen (DO) aims 
 |  RBRcoda T.ODO |   |   |   |   | X |   | [Link](https://rbr-global.com/products/sensors/rbrcoda-odo) |
 |  Contros Hydroflash (1) |   |   | X |   |   |   | [Link](https://www.kongsberg.com/globalassets/maritime/km-products/product-documents/hydroflash-accurate-fast-and-versatile-oxygen-optode/Download) |
 
-(1)The advanced, optical sensor is based on the principle of fluorescence quenching. Contros are no longer in operation, the sensors cannot be calibrated so they are likely to become obsolete.
+(1)The advanced, optical sensor is based on the principle of fluorescence quenching. Contros are no longer in operation, the sensors cannot be calibrated so they are likely to become obsolete in the future.
 
 ## Aanderaa Optodes
-Aanderaa optodes are the most widely used oxygen sensor on gliders and a large body of work has now been dedicated to their characterisation (e.g. {cite}`Bittig2018`).
+Aanderaa optodes are the most widely used oxygen sensor on ocean gliders and a large body of work has now been dedicated to their characterisation (e.g. {cite}`Bittig2018`).
 These sensors are based on the oxygen luminescence quenching of a platinum porphyrin complex (fluorescent indicator) that is immobilized in a sensing foil. 
 These offer low power consumption, good long-term stability, low fouling sensitivity while not being sensitive to H2S or freezing.
 Aanderaa optodes have seen several important developments since they were introduced in 2002, with various hardware and firmware revisions which we outline below (shown in {numref}`optodes`).
@@ -86,7 +86,7 @@ The RBRcoda T.ODO uses the same foils and methods as the 4831 and 4831F so every
 RBR refers to the standard optode (~30 s $\tau$) foil as “slow” and the fast (~8 s) as the standard.
 They also use further foil design (~1 s response) which they call fast. 
 The RBR sensor has a smaller form factor than the Aandera optodes, but is overall more similar to a 4831 with the temperature sensor very closely located to the sensing foil. 
-This sensor is still fairly recent on gliders and little is known for now.
+This sensor has recently been implemented in gliders, and little is known about their performance.
 
 ## JFE Advantech RINKO
 AROD-FT sensor (RINKO JFE) is used for the SeaExplorer gliders (Alseamar) and for some Argo floats (small size and low power consumption) (see {numref}`ARODFT`). 
