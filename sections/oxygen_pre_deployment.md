@@ -149,7 +149,7 @@ Issues with Winkler method at low oxygen concentrations (below 1 $\mu$mol/kg, so
 - There are various issues with Winkler at low oxygen concentrations as Winkler always biases towards too high oxygen: the detection limit of the method is around 1 uM {cite}`Langdon2010`, the oxygen absorbed in the plastic of the Niskin bottles might be transferred to  the water sampled (reference needed).
 - For example,within the core of the Peruvian oxygen minimum zones oxygen concentrations at nmol levels are present
 other approaches for 0 % in-situ calibration {cite}`Revsbech2009` and {cite}`Thomsen2016`.
-- STOP sensor, new low-oxygen sensing foils (0-10% saturation) from Aanderaa.
+- STOX sensor, new low-oxygen sensing foils (0-10% saturation) from Aanderaa.
 
 #### 100 / 0 % saturation protocol
 
