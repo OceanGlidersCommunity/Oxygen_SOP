@@ -1,6 +1,6 @@
 # Introduction
 
-This standard operating procedure (SOP) document for dissolved oxygen (DO) aims to guide the user through the steps necessary to collect good quality dissolved oxygen measurements using ocean gliders for both real time and post deployment data streams.
+This standard operating procedure (SOP) document for dissolved oxygen (DO) aims to guide the user through the steps necessary to collect good quality dissolved oxygen data using ocean gliders for both real time and post deployment data streams.
 
 *Table 1: List of the known sensor/glider combinations. We aim to cover all combinations in this document.*
 
