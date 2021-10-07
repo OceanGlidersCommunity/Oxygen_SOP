@@ -191,7 +191,7 @@ There is also a possibility of using a Data Logger while we are working with the
 Recording data using a terminal program.
 :::
 
-#### Calibration protocol procedure
+#### Calibration procedure
 Materials: Distilled water, aquarium pump, 1L and small volume beakers, stirrer and magnetic stirrer, BOD bottles, Winkler reagents, sodium sulfite solution, pipettes and tips, barometer, termometer.
 
 Type *Get All* command for saving the initial sensor configuration to be able to restore old values in case something goes wrong.
