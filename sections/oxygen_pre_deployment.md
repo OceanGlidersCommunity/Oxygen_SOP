@@ -17,7 +17,7 @@ The sensor then needs to be placed in water to hydrate at least 24 h prior to st
 Keeping sensor in small beakers before and during calibration process. Only the membrane will need to be submerged in distilled water.
 :::
 
-After recovery the sensor and to remove any biofouling, the following protocol recommended by the manufacturer: 
+After recovery the sensor and to remove any biofouling, the following protocol is recommended by the manufacturer: 
 1. If the sensor has been for too long exposed to the air, leave it overnight in a vinegar solution.
 2. Next day, place the sensor in soapy water and use a brush gently if it is necessary to remove all material adhered to the surface.
 3. Rinse very well with clean water and dry carefully. 
