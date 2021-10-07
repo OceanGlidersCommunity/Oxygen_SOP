@@ -1,7 +1,7 @@
 # Pre-deployment operations and calibrations
 
 ## Storage and cleaning
-- Optode foils typically drift more while in storage than while in use, the reasons for this are thought to be due to exposure to UV radiation and dry air {cite}`Bittig2018`, {cite}`Aanderaa2018`. 
+Optode foils typically drift more while in storage than while in use, the reasons for this are thought to be due to exposure to UV radiation and dry air {cite}`Bittig2018`, {cite}`Aanderaa2018`. 
 We recommend that all the available optodes sensors should be stored away from the light (especially fluorescent lights), keep the foil humid and use the plastic caps provided with the sensor. It is highly recommend a two-point calibration prior to each deployment.
 Optode foil sensors should be cleaned before storage and stored with black caps on including some Milli-Q water, or tap water, or with a piece of wet cotton taped against the foil. 
 If sensors are stored dry the foil will dry out which could lead to 1-2 % lower readings in the oxygen measurements. 
