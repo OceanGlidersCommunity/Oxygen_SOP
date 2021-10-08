@@ -21,6 +21,7 @@ Tom Hull found values between 0.0004 and 0.0035 % d-1 across 16 vehicles in-situ
 
 The drift correction should be applied to the oxygen concentration, not the measured phase {cite}`Bittig2018`.
 
+(dmqc_time_response)=
 ## Sensor time response correction
 
 In all but the most homogeneous waters it is essential to correct for the slow time response of optodes {cite}`Bittig2014`, {cite}`Bittig2017` (see {numref}`kelvin_lag`).
