@@ -16,7 +16,7 @@ Prior to deployment, all the required metadata should be sent ahead of the missi
 Difference between oxygen concentration computed by the glider (DOXY) and those computed by the Data Assembly Center (DAC) from intermediate parameters and associated calibration coefficient (DOXY2).
 :::
 
-For some optode models with large time response (e.g. 3835), it may be appropriate to apply a first time lag correction in RT, taking into account the sensor time response, using either the manufacturer value or any value defined from previous deployments with the specific sensor. A real time lag correction (see methods for such corrections in {ref}`dmqc_time_response` might improve the usability of the real time data significantly.
+For some optode models with large time response (e.g. 3835), it may be appropriate to apply a first time lag correction in RT, taking into account the sensor time response, using either the manufacturer value or any value defined from previous deployments with the specific sensor. A real time lag correction (see methods for such corrections in [section 7.2](`dmqc_time_response`) might improve the usability of the real time data significantly.
 
 There is no unique procedure for Real time data and metadata sending. Protocols, format and file naming convention should be discussed with DACs before deployment. OceanOPS and DACs requirements on data and metadata are described in the OceanGliders Best Practices document in the data and metadata management section, paragraph 6  (link to be added when overview paper is in review). 
 
