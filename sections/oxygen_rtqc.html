@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>5. Real Time Data Processing &amp; Quality Control &#8212; Oxygen SOP</title>
+    <title>5. Required Metadata, Real Time Data Processing &amp; Quality Control &#8212; Oxygen SOP</title>
     
   <link href="../_static/css/theme.css" rel="stylesheet" />
   <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -152,7 +152,7 @@ commentsRunWhenDOMLoaded(addUtterances);
  </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   5. Real Time Data Processing &amp; Quality Control
+   5. Required Metadata, Real Time Data Processing &amp; Quality Control
   </a>
  </li>
  <li class="toctree-l1">
@@ -270,8 +270,8 @@ commentsRunWhenDOMLoaded(addUtterances);
             <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#real-time-data-processing">
-   5.1. Real Time data processing
+  <a class="reference internal nav-link" href="#required-metadata-and-real-time-data-processing">
+   5.1. Required Metadata and Real Time Data Processing
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
@@ -317,11 +317,12 @@ commentsRunWhenDOMLoaded(addUtterances);
         
               <div>
                 
-  <div class="section" id="real-time-data-processing-quality-control">
-<h1><span class="section-number">5. </span>Real Time Data Processing &amp; Quality Control<a class="headerlink" href="#real-time-data-processing-quality-control" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="real-time-data-processing">
-<h2><span class="section-number">5.1. </span>Real Time data processing<a class="headerlink" href="#real-time-data-processing" title="Permalink to this headline">¶</a></h2>
-<p>Prior to deployment, oxygen sensor metadata (i.e. sensor model, sensor serial number and calibration coefficients) should be sent ahead of the mission to the Data Assembly Center. It is important that the glider is well configured, intermediate parameters (phase measurements) should be sent in real time (RT) as well. This will allow first to check if dissolved oxygen values computed inside the glider are appropriate and then this adds the possibility to recompute the dissolved oxygen concentration using the up to date method associated with the sensor model, intermediate parameters and calibration coefficients.</p>
+  <div class="section" id="required-metadata-real-time-data-processing-quality-control">
+<h1><span class="section-number">5. </span>Required Metadata, Real Time Data Processing &amp; Quality Control<a class="headerlink" href="#required-metadata-real-time-data-processing-quality-control" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="required-metadata-and-real-time-data-processing">
+<h2><span class="section-number">5.1. </span>Required Metadata and Real Time Data Processing<a class="headerlink" href="#required-metadata-and-real-time-data-processing" title="Permalink to this headline">¶</a></h2>
+<p>Configurations for the calculation of DOXY are function of the sensor model, sensor serial number, set of calibration coefficients and intermediate parameters. The recommended configurations (e.g. salinity compensation of MOLAR_DOXY, pressure correction for pressure effect on quenching, temperature compensation) and thus the required metadata are available in the Processing Argo oxygen data at the DAC level (<a class="reference external" href="https://archimer.ifremer.fr/doc/00287/39795">https://archimer.ifremer.fr/doc/00287/39795</a>).</p>
+<p>Prior to deployment, all the required metadata should be sent ahead of the mission to the Data Assembly Center. It is important that the glider is well configured, intermediate parameters (phase measurements) should be sent in real time (RT) as well. This will allow first to check if dissolved oxygen values computed inside the glider are appropriate <a class="reference internal" href="#rtqc-check-doxy"><span class="std std-numref">Fig. 5.1</span></a> and then this adds the possibility to recompute the dissolved oxygen concentration using the up to date method associated with the sensor model, intermediate parameters and calibration coefficients.</p>
 <!--
 ![Difference between oxygen concentration computed by the glider (DOXY) and those computed by the Data Assembly Center (DAC) from intermediate parameters and associated calibration coefficient (DOXY2).](/images/RTQC_check_Doxy_combined.png)
 -->
@@ -329,7 +330,7 @@ commentsRunWhenDOMLoaded(addUtterances);
 <a class="bg-primary mb-1 reference internal image-reference" href="../_images/RTQC_check_Doxy_combined.png"><img alt="Real time Doxy check" class="bg-primary mb-1" src="../_images/RTQC_check_Doxy_combined.png" style="width: 600px;" /></a>
 <p class="caption"><span class="caption-number">Fig. 5.1 </span><span class="caption-text">Difference between oxygen concentration computed by the glider (DOXY) and those computed by the Data Assembly Center (DAC) from intermediate parameters and associated calibration coefficient (DOXY2).</span><a class="headerlink" href="#rtqc-check-doxy" title="Permalink to this image">¶</a></p>
 </div>
-<p>Configurations for the calculation of DOXY are in fact function of the sensor model and intermediate parameters. The recommended configurations (e.g. salinity compensation of MOLAR_DOXY, pressure correction for pressure effect on quenching, temperature compensation) are available in the <a class="reference external" href="https://archimer.ifremer.fr/doc/00287/39795/">Processing Argo oxygen data at the DAC level</a>. For some optode models, it may be appropriate to apply a time lag correction in RT, taking into account the sensor time response, using either the manufacturer value or any value defined from previous deployments with the specific sensor. A real time lag correction might improve the useability of the real time data significantly.The method is described in <span id="id1">[<a class="reference internal" href="oxygen_references.html#id8">Bittig <em>et al.</em>, 2014</a>]</span>.</p>
+<p>For some optode models with large time response (e.g. 3835), it may be appropriate to apply a first time lag correction in RT, taking into account the sensor time response, using either the manufacturer value or any value defined from previous deployments with the specific sensor. A real time lag correction might improve the usability of the real time data significantly (see methods for such corrections in <a class="reference internal" href="oxygen_dmqc.html#dmqc-time-response"><span class="std std-numref">Section 7.3</span></a>).</p>
 <p>There is no unique procedure for Real time data and metadata sending. Protocols, format and file naming convention should be discussed with DACs before deployment. OceanOPS and DACs requirements on data and metadata are described in the OceanGliders Best Practices document in the data and metadata management section, paragraph 6  (link to be added when overview paper is in review).</p>
 </div>
 <div class="section" id="real-time-quality-control-rtqc">
@@ -338,7 +339,7 @@ commentsRunWhenDOMLoaded(addUtterances);
 RTQC applied on the temperature measured by the oxygen sensor should follow the RTQC procedure defined for the CTD temperature.</p>
 <div class="section" id="doxy-qc-initialisation">
 <h3><span class="section-number">5.2.1. </span>Doxy QC initialisation<a class="headerlink" href="#doxy-qc-initialisation" title="Permalink to this headline">¶</a></h3>
-<p>Several oxygen sensors suffer from predeployment storage drift that can reduce accuracy by up to 20% or more <span id="id2">[<a class="reference internal" href="oxygen_references.html#id26">Bittig <em>et al.</em>, 2019</a>]</span>. As a consequence and because this bias can be corrected, dissolved oxygen concentration measured in real time should be set to 3 “bad data that are potentially correctable”. To retrieve usable oxygen data, an adjustment in real time should be quickly performed.</p>
+<p>Several oxygen sensors suffer from predeployment storage drift that can reduce accuracy by up to 20% or more <span id="id1">[<a class="reference internal" href="oxygen_references.html#id26">Bittig <em>et al.</em>, 2019</a>]</span>. As a consequence and because this bias can be corrected, dissolved oxygen concentration measured in real time should be set to 3 “bad data that are potentially correctable”. To retrieve usable oxygen data, an adjustment in real time should be quickly performed.</p>
 </div>
 <div class="section" id="global-range-check">
 <h3><span class="section-number">5.2.2. </span>Global range check<a class="headerlink" href="#global-range-check" title="Permalink to this headline">¶</a></h3>
