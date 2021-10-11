@@ -14,6 +14,7 @@ Reference data should therefore only be performed after the glider is flying wel
 Ideally multiple sets of samples should be taken unless the horizontal variability of the deployment region is very well characterised. 
 This requires coordination between the deployment team and the glider pilot and should be part of the mission planning.
 
+(deployment_small_boat)=
 ## In situ intercomparison during deployment/recovery from a small boat.
 Materials: Silicon tube for sampling, Niskin bottles, multiparameter sonde, BOD bottles, Winkler reagents, pipettes and tips, cooling box.
 It is very important that the sensor has been kept wet before the deployment and after recovery. 
