@@ -72,14 +72,10 @@ If done correctly such an adjustment should result in an absolute accuracy of ar
 The drift will decrease over time so that during the second year it is not likely to be more than 1-2 %. 
 After this it should be less than 0.5 % per year, unless the foil is mechanically damaged (Aanderaa). 
 
-<!--
-![Suit of smart optodes sensors. (Image was taken from the manufacturer webpage www.aanderaa.com) \label{fig:optodes}](/images/AanderaSensors.png) 
--->
-
 :::{figure-md} optodes
-<img src="/images/AanderaSensors.png" alt="Aandera Optodes" class="bg-primary mb-1" width="400px">
+<img src="/images/AaanderaasensorsAll1.png" alt="Aandera Optodes" class="bg-primary mb-1" width="400px">
 
-Suit of smart optodes sensors. (Image was taken from the manufacturer webpage www.aanderaa.com)
+Suit of smart optodes sensors. (Oxygen sensors are indicated by red arrows)
 :::
 
 ## RBR coda T.ODO
