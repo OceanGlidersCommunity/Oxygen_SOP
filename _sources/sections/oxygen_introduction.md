@@ -27,7 +27,7 @@ While mostly cosmetic, the colour of the optode is a useful short-hand for the t
 The 3835 and 4835 optodes both feature a black housing with the temperature sensor integrated into the base of the sensor near the connector. 
 This results in a large thermal mass and increases the response time of the temperature sensor significantly. 
 The blue 4330 and 4831 sensors move the thermistor next to the sensing foil which results in much improved performance of the temperature sensor.
-with an increase in accuracy to 0.03$\^{circ}$C from 0.05$\^{circ}$C, and time-response reduction to <2 seconds rather than ~10 seconds {cite:p}`Aanderaa2018`. 
+with an increase in accuracy to 0.03$^{\circ}$C from 0.05$^{\circ}$C, and time-response reduction to <2 seconds rather than ~10 seconds {cite:p}`Aanderaa2018`. 
 All optodes other than the 4831 use a 10 pin Lemo connector, these connectors can’t be connected when wet and are prone to crevice corrosion. 
 The 4831 is therefore recommended with it’s Subconn wet-pluggable connector.
 Older optode versions (3830) have a titanium housing in the same form factor as the 3835. 
