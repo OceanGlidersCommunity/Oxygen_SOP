@@ -20,7 +20,7 @@ Co-authors are encouraged to periodically review GitHub activity as co-authorshi
 ## How to contribute
 Please read our [Code of Conduct](add link when final) before contributing.
 
-Important: We aim to have an organized discussion. Thus before adding new comments, please always look at [open issues](https://github.com/OceanGlidersCommunity/Oxygen_SOP/issues) and join the ongoing dicussion there.
+Important: We aim to have an organized discussion. Thus before adding new comments below sections, please always look at [open issues](https://github.com/OceanGlidersCommunity/Oxygen_SOP/issues) and join the ongoing dicussion there.
 
 You can contribute in two ways: [Case 1](https://github.com/OceanGlidersCommunity/Oxygen_SOP/blob/main/CONTRIBUTING.md#case-1-comment-directly-on-the-online-document-without-knowing-github) - comment directly on the online document, [Case 2](https://github.com/OceanGlidersCommunity/Oxygen_SOP/blob/main/CONTRIBUTING.md#case-2-make-a-concrete-suggestion-to-the-online-document-via-a-pull-request) - make a concrete suggestion to the online document via a pull request
 
