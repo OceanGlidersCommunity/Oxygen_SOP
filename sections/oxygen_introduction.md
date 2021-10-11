@@ -124,6 +124,13 @@ Recent deployments of a SeaExplorer glider equipped with an AROD-FT sensor have 
 Deployments in the Bornholm Basin have shown good agreement across a wide range of oxygen concentrations with a nearby BOOS monitoring station (see {numref}`samba`. This sensor was a recent acquisition and had little opportunity to drift in storage.
 
 ## Clark electrode polarographic sensor (SBE 43, SBE 43F and SBE 63)
-The SBE 43, SBE 43F and SBE 63 are individually calibrated with a calibration drift rates of less than 0.5% over 1000 h of operation . These sensors have been used in Seagliders and Spray and also in morrings and Argo floats. Sensors are designed for use in a CTD’s pumped flow path, providing optimal correlation with CTD measurements. Elapsed time between the CTD and associated oxygen measurement is easily quantified, and corrected for, in post-processing. The black plenum and plumbing’s black tubing blocks light, reducing in-situ algal growth. Response time Tau varies from 2-20 sec depending on the membrane thinness, ambient water temperature and flow rate. 
-Drift thresholds for sensor performance should be established prior to data collection, to determine how often instruments should be serviced, validated, and returned to Sea-Bird for a full service and calibration. It is recommended to do validation in the lab before and after deployment/recovery and while the sensor is in the water (if possible). For this task, Winkler samples or a clean, calibrated reference sensor will be required. (Information from https://www.seabird.com) 
+The SBE 43, SBE 43F and SBE 63 are individually calibrated with a calibration drift rates of less than 0.5% over 1000 h of operation. 
+These sensors have been used in Seagliders and Spray and also in morrings and Argo floats. 
+Sensors are designed for use in a CTD’s pumped flow path, providing optimal correlation with CTD measurements. 
+Elapsed time between the CTD and associated oxygen measurement is easily quantified, and corrected for, in post-processing. 
+The black plenum and plumbing’s black tubing blocks light, reducing in-situ algal growth. 
+Response time $\tau$ varies from 2-20 sec depending on the membrane thinness, ambient water temperature and flow rate. 
+Drift thresholds for sensor performance should be established prior to data collection, to determine how often instruments should be serviced, validated, and returned to Sea-Bird for a full service and calibration. 
+It is recommended to do validation in the lab before and after deployment/recovery and while the sensor is in the water (if possible). 
+For this task, Winkler samples or a clean, calibrated reference sensor will be required. (Information from https://www.seabird.com) 
 
