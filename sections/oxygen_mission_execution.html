@@ -76,6 +76,8 @@ commentsRunWhenDOMLoaded(addUtterances);
 </script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
     <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
     <script >
         const thebe_selector = ".thebe"
@@ -438,19 +440,19 @@ Coordination between the recovery group and the pilots is essential.</p>
 Combined up- and downcasts should be carried out at least every week and particularly at the beginning and at the end of the deployment.
 One to two days per week appear to be a reasonable compromise between energy saving and calibration quality.
 If bio-fouling is expected during the deployment it is better to collect up-down pairs earlier rather than later.</p>
-<p>A sufficient high frequency sampling is required for a good lag correction. In particular in areas with a strong oxycline, we recommend to always sample at 5 s period. If battery lifetime is an issue period up- and down dives with high frequency sampling are more useful than continuous measurement at a lower frequency.</p>
+<p>Several parameters, namely response time, profiling velocity and vertical oxygen gradient, have an impact on a feasible sampling interval and therefore on the error of the reconstructed true oxygen profile <span id="id11">[<a class="reference internal" href="oxygen_references.html#id8">Bittig <em>et al.</em>, 2014</a>]</span>. <span id="id12">[<a class="reference internal" href="oxygen_references.html#id8">Bittig <em>et al.</em>, 2014</a>]</span> writes “the sample interval should be significantly shorter than the response time <span class="math notranslate nohighlight">\(\tau\)</span> to resolve gradient regions and to be able to reconstruct the true oxygen profile.” Thus a sufficient high frequency sampling, here interpreted as an order of magnitude faster, is required for a good lag correction. In particular in areas with a strong oxycline, we recommend to always sample at 5 s period. If battery lifetime is an issue, periodic up- and down dives with high frequency sampling are more useful than continuous measurement at a lower frequency.</p>
 </div>
 <div class="section" id="gather-data-to-correct-for-sensor-drift">
 <h3><span class="section-number">4.6.2. </span>Gather data to correct for sensor drift<a class="headerlink" href="#gather-data-to-correct-for-sensor-drift" title="Permalink to this headline">¶</a></h3>
 <div class="section" id="deep-water-masses-or-known-anoxic-waters">
 <h4><span class="section-number">4.6.2.1. </span>Deep water masses or known anoxic waters<a class="headerlink" href="#deep-water-masses-or-known-anoxic-waters" title="Permalink to this headline">¶</a></h4>
-<p>In regions with known oxygen concentrations i.e. within the core of the Peruvian Oxygen Minimum Zone (OMZ) oxygen concentrations of close to zero or few nmol are typical <span id="id11">[<a class="reference internal" href="oxygen_references.html#id15">Revsbech <em>et al.</em>, 2009</a>]</span>, <span id="id12">[<a class="reference internal" href="oxygen_references.html#id16">Kalvelage <em>et al.</em>, 2013</a>]</span>, <span id="id13">[<a class="reference internal" href="oxygen_references.html#id14">Thomsen <em>et al.</em>, 2016</a>]</span> in-situ calibration points can be recorded.
+<p>In regions with known oxygen concentrations i.e. within the core of the Peruvian Oxygen Minimum Zone (OMZ) oxygen concentrations of close to zero or few nmol are typical <span id="id13">[<a class="reference internal" href="oxygen_references.html#id15">Revsbech <em>et al.</em>, 2009</a>]</span>, <span id="id14">[<a class="reference internal" href="oxygen_references.html#id16">Kalvelage <em>et al.</em>, 2013</a>]</span>, <span id="id15">[<a class="reference internal" href="oxygen_references.html#id14">Thomsen <em>et al.</em>, 2016</a>]</span> in-situ calibration points can be recorded.
 For this glider can be parked at this depth to get a 0 calibration at the beginning and at the end of the deployment.
 This can also be done by adding different depth/temperature levels if the anoxic layer is thick enough to cover different temperatures. i.e. further offshore where the OMZ is several 100 m thick.</p>
 </div>
 <div class="section" id="in-air-calibration">
 <h4><span class="section-number">4.6.2.2. </span>In-air calibration<a class="headerlink" href="#in-air-calibration" title="Permalink to this headline">¶</a></h4>
-<p>In-air calibration can be carried out if optodes are attached in a way that they reach out of the water when the glider is surfacing <span id="id14">[<a class="reference internal" href="oxygen_references.html#id2">Nicholson and Feen, 2017</a>]</span> as done also for long float deployments <span id="id15">[<a class="reference internal" href="oxygen_references.html#id6">Bittig <em>et al.</em>, 2018</a>]</span>
+<p>In-air calibration can be carried out if optodes are attached in a way that they reach out of the water when the glider is surfacing <span id="id16">[<a class="reference internal" href="oxygen_references.html#id2">Nicholson and Feen, 2017</a>]</span> as done also for long float deployments <span id="id17">[<a class="reference internal" href="oxygen_references.html#id6">Bittig <em>et al.</em>, 2018</a>]</span>
 This can be valuable in particular if no 0 / 100 % lab calibration or CTD intercomparison is available as well as for long deployments.
 Contamination from splashing water and/or residual seawater on the sensor face have to be considered and corrected (Nisholson and Feen, 2017).
 Few gliders currently have this capability.</p>
