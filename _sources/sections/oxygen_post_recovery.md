@@ -12,4 +12,4 @@ Foil must be kept wet and protected from light after recovery until validation i
 When the glider is recovered, a 0% and 100% calibration is recommended as outlined above at two different temperatures levels.
 
 ## Field calibration
-Follow protocol described in section ‘Calibration during deployment/recovery from a ship with a CTD rosette equipped with a calibrated oxygen sensor’.
+If you recover the glider from a small boat or a research vessel follow protocols described in {numref}‘deployment_small_boat‘ and {numref}‘deployment_ship_CTD‘ accordingly.
