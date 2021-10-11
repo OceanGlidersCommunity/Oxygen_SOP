@@ -5,6 +5,7 @@
 - `ARODFTSensor.jpg`
 - `case_01_issue.png` - Soeren Thomsen
 - `CoastalDeployment.png` - Tania Morales
+- `CTD_calibration_XX.png` - Johannes Hahn
 - `Datalogger.png`- Johannes Hahn
 - `dryfoil.png` - Tom Hull, Cefas
 - `edit_markdown_file.png` - Soeren Thomsen
