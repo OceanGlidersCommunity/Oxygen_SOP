@@ -60,6 +60,7 @@ Coastal deployment of a Slocum glider from a small boat (photo taken during the 
 Using a multiparameter sonde for in-situ intercomparison during deployments from small boats.
 :::
 
+(deployment_ship_CTD)=
 ## Calibration during deployment/recovery from a ship with a CTD rosette equipped with a calibrated oxygen sensor 
 If the glider is deployed/recovered from a research vessel equipped with a CTD and a calibrated O2 sensor, the glider optode can either be connected directly to the CTD profiler if able to receive the digital (RS232) output from the Optode {cite}`Uchida2010`, or attached via a data logger. 
 Record down- and upcast data to allow hysteresis correction. The Optode data obtained during the bottle-firing stop for collection of water samples can be used for in situ calibration, since the difference between the downcast and upcast oxygen profiles is relatively small (1 uM approx., {cite}`Uchida2008`). 
