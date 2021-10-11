@@ -17,7 +17,7 @@ The sensor then needs to be placed in water to hydrate at least 24 h prior to st
 Keeping sensor in small beakers before and during calibration process. Only the membrane will need to be submerged in distilled water.
 :::
 
-After recovery the sensor and to remove any biofouling, the following protocol is recommended by the manufacturer: 
+After recovery the sensor has to be cleaned to remove any biofouling. The following protocol is recommended by the manufacturer: 
 1. If the sensor has been for too long exposed to the air, leave it overnight in a vinegar solution.
 2. Next day, place the sensor in soapy water and use a brush gently if it is necessary to remove all material adhered to the surface.
 3. Rinse very well with clean water and dry carefully. 
@@ -147,9 +147,9 @@ Setup for 100% and 0% calibration.
 
 Issues with Winkler method at low oxygen concentrations (below 1 $\mu$mol/kg, some researchers consider that values below 20 $\mu$mol/kg shouldn't be use for the sensor calibration): 
 - There are various issues with Winkler at low oxygen concentrations as Winkler always biases towards too high oxygen: the detection limit of the method is around 1 uM {cite}`Langdon2010`, the oxygen absorbed in the plastic of the Niskin bottles might be transferred to  the water sampled (reference needed).
-- For example, within the core of the Peruvian oxygen minimum zones oxygen concentrations at nmol levels are present
-other approaches for 0 % in-situ calibration {cite}`Revsbech2009` and {cite}`Thomsen2016`.
-- STOX sensor, new low-oxygen sensing foils (0-10% saturation) from Aanderaa.
+- For example, within the core of the Peruvian oxygen minimum zones oxygen concentrations at nmol levels are present.
+- Thus in-situ approaches for 0 % calibration {cite}`Thomsen2016` are suggested.
+- Also intercomparisons with STOX sensors attached to a shipboard CTD {cite}`Revsbech2009` or new low-oxygen sensing foils (0-10% saturation) from Aanderaa are recommended.
 
 #### 100 / 0 % saturation protocol
 
