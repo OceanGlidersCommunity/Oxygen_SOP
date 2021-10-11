@@ -135,6 +135,7 @@ In situ intercomparisons will be required to find the outset of the sensor in di
 *NOTE: A multipoint DO calibration is necessary to obtain new foil coefficients and that can be done at the manufacturer laboratories or in any fully equipped calibration lab. These values shouldn’t be changed otherwise.*
 
 The Winkler method is used to determine the concentration of dissolved oxygen in discrete water samples which is a highly accurate method for determination of dissolved oxygen (± 0.15 $\mu$mol/kg). We recommend to follow the GO-SHIP protocol described by {cite}`Langdon2010` and a well trained technician to do the sampling and analysis.
+*NOTE: This procedure is suitable for the measurement of the full range of oceanic oxygen concentrations (0-400 μmol kg-1) in uncontaminated seawater.*
 
 <!--
 ![During 100% and 0% calibration.](/images/100-0-calibration.png)
@@ -147,11 +148,14 @@ Setup for 100% and 0% calibration.
 :::
 
 
-Issues with Winkler method at low oxygen concentrations (below 1 $\mu$mol/kg, some researchers consider that values below 20 $\mu$mol/kg shouldn't be use for the sensor calibration): 
-- There are various issues with Winkler at low oxygen concentrations as Winkler always biases towards too high oxygen: the detection limit of the method is around 1 uM {cite}`Langdon2010`, the oxygen absorbed in the plastic of the Niskin bottles might be transferred to  the water sampled (reference needed).
-- For example, within the core of the Peruvian oxygen minimum zones oxygen concentrations at nmol levels are present.
-- Thus in-situ approaches for 0 % calibration {cite}`Thomsen2016` are suggested.
-- Also intercomparisons with STOX sensors attached to a shipboard CTD {cite}`Revsbech2009` or new low-oxygen sensing foils (0-10% saturation) from Aanderaa are recommended.
+There are various issues with Winkler at low oxygen concentrations that have been described in the bibliography: 
+-	In waters  with concentrations  below 5 $\mu$mol/kg where a high concentration of nitrite may cause a positive oxygen bias {cite}`Langdon2010`. In more recent articles, scientist even avoid using Winkler at concentrations <20 μmol kg-1 (reference?). 
+-	Oxygen absorbed in the plastic of the Niskin bottles might be transferred to the water sampled (reference needed).
+-	Presence of extremely low concentrations of oxygen concentrations (nmol levels) in areas like the core of the Peruvian oxygen minimum zones.
+
+Thus, when working in these areas, it is recomended to do:
+- In-situ approaches for 0 % calibration suggested by {cite}`Thomsen2016`.
+- Intercomparisons with STOX sensors attached to a shipboard CTD {cite}`Revsbech2009` or new low-oxygen sensing foils (0-10% saturation) from Aanderaa are recommended.
 
 #### 100 / 0 % saturation protocol
 
