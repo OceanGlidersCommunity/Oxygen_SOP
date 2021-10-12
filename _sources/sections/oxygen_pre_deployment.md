@@ -34,9 +34,7 @@ Accurate time-stamps, or offsets relative to CT measurements must be recorded fo
 ### Mounting location
 
 #### Spray
-
 - input from expert needed
-
 
 #### Seaglider
 On Seagliders the oxygen sensor is normally mounted externally behind the CT sensor (see {numref}`seagliders_standard`. Given this exposed location it is important to mount the optode with the sensing foil facing away from incident light to avoid unnecessary UV exposure.
@@ -147,8 +145,12 @@ Setup for 100% and 0% calibration.
 
 There are various issues with Winkler at low oxygen concentrations that have been described in the bibliography: 
  -	In waters with concentrations below 5 $\mu$mol/kg, high concentration of nitrite may cause a positive oxygen bias {cite}`Langdon2010`. In more recent articles, scientist even avoid using Winkler at concentrations <20 $\mu$mol/kg {cite}`Thomsen2016`. 
- -	Oxygen absorbed in the plastic of the Niskin bottles is transferred into the water sampled and results with subesquent Winkler sampling to positive biases of 2 - 4 $\mu$mol/kg CITATION
+ -	Oxygen absorbed in the plastic of the Niskin bottles is transferred into the water sampled and results with subesquent Winkler sampling to positive biases of 2 - 4 $\mu$mol/kg ADD Garcia-Robledo2021 citation.
  -	Presence of extremely low concentrations of oxygen concentrations (nmol levels) in areas like the core of the Peruvian oxygen minimum zones.
+
+Thus, when working in these areas, it is recomended to do:
+ - In-situ approaches for 0 % calibration suggested by {cite}`Thomsen2016`.
+ - Intercomparisons with STOX sensors attached to a shipboard CTD {cite}`Revsbech2009` or new low-oxygen sensing foils (0-10% saturation) from Aanderaa are recommended.
 
 #### 100 / 0 % saturation protocol
 
