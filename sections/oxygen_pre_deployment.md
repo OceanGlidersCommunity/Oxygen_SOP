@@ -125,11 +125,10 @@ You will need to leave the sensor logging outside in the free air for several ho
 Optodes and similar instruments generally drift more while in storage than in use. It is therefore essential that these instruments are recalibrated prior to glider deployment. This is necessary even if in-situ reference (Winkler) samples are taken during the deployment as they will not cover the full range of oxygen concentrations during the period of the mission. As the instrument drift manifests as an increasing offset from zero in addition to a reducing sensitivity, a two point calibration is required to rescale the optodes measuring range.
 
 ### Two point calibration procedure, optode example
-This protocol is recommended to do for at least two different temperatures, which cover the expected in-situ temperature range. 
-There are several possibilities in order to achieve this, some examples:
+This protocol is recommended to do for at least two different temperatures, which cover the expected in-situ temperature range. There are several possibilities in order to achieve this, some examples:
 1. Doing the experiments in labs with different temperatures. You need to leave all materials, reagents and sensors in the lab/workshop/room at least 8 hours (e.g. overnight) before starting the calibration.
 2. Doing the experiment in the lab and changing the temperature. This is possible if the lab has an AC that we can turn on/off or change the temperature in the lab. You need to leave all materials, reagents and sensors in the lab at least 8 hours (e.g. overnight) before starting the calibration.
-4. Doing the experiment using a thermostatic bath. You need to leave the 0 and 100% solutions in the bath at least overnight before starting the calibration. It is most likely that you won’t be able to use a magnetic stirrer, so you need to be sure that you place the end of the bubble tube in the bottom of the bottle/beaker. 
+3. Doing the experiment using a thermostatic bath. You need to leave the 0 and 100% solutions in the bath at least overnight before starting the calibration. It is most likely that you won’t be able to use a magnetic stirrer, so you need to be sure that you place the end of the bubble tube in the bottom of the bottle/beaker. 
 
 In situ intercomparisons will be required to find the outset of the sensor in different seawater conditions. Therefore, samples should be taken in the tank during the ballasting (if this is 1-2 days before deployment, no more) and at the deployment/recovery site (ideally at different depths).
 
@@ -137,8 +136,9 @@ In situ intercomparisons will be required to find the outset of the sensor in di
 
 The Winkler method is used to determine the concentration of dissolved oxygen in discrete water samples which is a highly accurate method for determination of dissolved oxygen (± 0.15 $\mu$mol/kg). We recommend to follow the GO-SHIP protocol described by {cite}`Langdon2010` and a well trained technician to do the sampling and analysis.
 
-*NOTE: This procedure is suitable for the measurement of the full range of oceanic oxygen concentrations (0-400 $\mu$mol/kg) in uncontaminated seawater.*
-
+<!--
+![During 100% and 0% calibration.](/images/100-0-calibration.png)
+-->
 
 :::{figure-md} 100-0-calibration
 <img src="/images/100-0-calibration.png" alt="100 0 % calibration" class="bg-primary mb-1" width="400px">
@@ -146,14 +146,12 @@ The Winkler method is used to determine the concentration of dissolved oxygen in
 Setup for 100% and 0% calibration.
 :::
 
-There are various issues with Winkler at low oxygen concentrations that have been described in the bibliography: 
--	In waters with concentrations below 5 $\mu$mol/kg, high concentration of nitrite may cause a positive oxygen bias {cite}`Langdon2010`. In more recent articles, scientist even avoid using Winkler at concentrations <20 $\mu$mol/kg {cite}`Thomsen2016`. 
--	Oxygen absorbed in the plastic of the Niskin bottles is transferred into the water sampled and results with subesquent Winkler sampling to positive biases of 2 - 4 $\mu$mol/kg {cite}`Garcia-Robledo2021`.
--	Presence of extremely low concentrations of oxygen concentrations (nmol levels) in areas like the core of the Peruvian oxygen minimum zones.
 
-Thus, when working in these areas, it is recomended to do:
-- In-situ approaches for 0 % calibration suggested by {cite}`Thomsen2016`.
-- Intercomparisons with STOX sensors attached to a shipboard CTD {cite}`Revsbech2009` or new low-oxygen sensing foils (0-10% saturation) from Aanderaa are recommended.
+Issues with Winkler method at low oxygen concentrations (below 1 $\mu$mol/kg, some researchers consider that values below 20 $\mu$mol/kg shouldn't be use for the sensor calibration): 
+- There are various issues with Winkler at low oxygen concentrations as Winkler always biases towards too high oxygen: the detection limit of the method is around 1 uM {cite}`Langdon2010`, the oxygen absorbed in the plastic of the Niskin bottles might be transferred to  the water sampled (reference needed).
+- For example, within the core of the Peruvian oxygen minimum zones oxygen concentrations at nmol levels are present.
+- Thus in-situ approaches for 0 % calibration {cite}`Thomsen2016` are suggested.
+- Also intercomparisons with STOX sensors attached to a shipboard CTD {cite}`Revsbech2009` or new low-oxygen sensing foils (0-10% saturation) from Aanderaa are recommended.
 
 #### 100 / 0 % saturation protocol
 
