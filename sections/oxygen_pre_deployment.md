@@ -137,9 +137,7 @@ In situ intercomparisons will be required to find the outset of the sensor in di
 
 The Winkler method is used to determine the concentration of dissolved oxygen in discrete water samples which is a highly accurate method for determination of dissolved oxygen (± 0.15 $\mu$mol/kg). We recommend to follow the GO-SHIP protocol described by {cite}`Langdon2010` and a well trained technician to do the sampling and analysis.
 
-<!--
-![During 100% and 0% calibration.](/images/100-0-calibration.png)
--->
+*NOTE: This procedure is suitable for the measurement of the full range of oceanic oxygen concentrations (0-400 $\mu$mol/kg) in uncontaminated seawater.*
 
 :::{figure-md} 100-0-calibration
 <img src="/images/100-0-calibration.png" alt="100 0 % calibration" class="bg-primary mb-1" width="400px">
