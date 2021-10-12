@@ -36,7 +36,7 @@ Additional authors joined: [Bastien Y. Queste](https://github.com/bastienqueste)
 
 5) Additional authors joined on GitHub prior to the community review: [Victor Turpin](https://github.com/vturpin), [Catherine Schmechtig](https://github.com/catsch), [Pierre Testor](https://github.com/ptestor), [Julius Busecke](https://github.com/jbusecke).
 
-6) Next step: 4 months community review on GitHub starting in October 2021.
+6) At the moment: 4 months community review on GitHub until 31 January 2022.
 
 ## Contributions 
 
