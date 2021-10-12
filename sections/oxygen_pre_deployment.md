@@ -150,6 +150,10 @@ There are various issues with Winkler at low oxygen concentrations that have bee
  -	Oxygen absorbed in the plastic of the Niskin bottles is transferred into the water sampled and results with subesquent Winkler sampling to positive biases of 2 - 4 $\mu$mol/kg {cite}`Garcia-Robledo2021`.
  -	Presence of extremely low concentrations of oxygen concentrations (nmol levels) in areas like the core of the Peruvian oxygen minimum zones.
 
+Thus, when working in these areas, it is recomended to do:
+ - In-situ approaches for 0 % calibration suggested by {cite}`Thomsen2016`.
+ - Intercomparisons with STOX sensors attached to a shipboard CTD {cite}`Revsbech2009` or new low-oxygen sensing foils (0-10% saturation) from Aanderaa are recommended.
+
 #### 100 / 0 % saturation protocol
 
 This method is necessary to check the sensor drift over time as the foil wears out. It’s recommended to do it before the deployment and after recovery. NOTE: Sensor foil must be wet during all procedure steps.   
