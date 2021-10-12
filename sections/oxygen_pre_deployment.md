@@ -34,9 +34,7 @@ Accurate time-stamps, or offsets relative to CT measurements must be recorded fo
 ### Mounting location
 
 #### Spray
-
 - input from expert needed
-
 
 #### Seaglider
 On Seagliders the oxygen sensor is normally mounted externally behind the CT sensor (see {numref}`seagliders_standard`. Given this exposed location it is important to mount the optode with the sensing foil facing away from incident light to avoid unnecessary UV exposure.
