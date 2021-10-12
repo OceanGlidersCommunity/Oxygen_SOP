@@ -147,7 +147,7 @@ Setup for 100% and 0% calibration.
 
 There are various issues with Winkler at low oxygen concentrations that have been described in the bibliography: 
  -	In waters with concentrations below 5 $\mu$mol/kg, high concentration of nitrite may cause a positive oxygen bias {cite}`Langdon2010`. In more recent articles, scientist even avoid using Winkler at concentrations <20 $\mu$mol/kg {cite}`Thomsen2016`. 
- -	XXX add
+ -	Oxygen absorbed in the plastic of the Niskin bottles is transferred into the water sampled and results with subesquent Winkler sampling to positive biases of 2 - 4 $\mu$mol/kg CITATION
  -	Presence of extremely low concentrations of oxygen concentrations (nmol levels) in areas like the core of the Peruvian oxygen minimum zones.
 
 #### 100 / 0 % saturation protocol
