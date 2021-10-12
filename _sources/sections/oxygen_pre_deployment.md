@@ -145,12 +145,8 @@ The Winkler method is used to determine the concentration of dissolved oxygen in
 Setup for 100% and 0% calibration.
 :::
 
-
-Issues with Winkler method at low oxygen concentrations (below 1 $\mu$mol/kg, some researchers consider that values below 20 $\mu$mol/kg shouldn't be use for the sensor calibration): 
-- There are various issues with Winkler at low oxygen concentrations as Winkler always biases towards too high oxygen: the detection limit of the method is around 1 uM {cite}`Langdon2010`, the oxygen absorbed in the plastic of the Niskin bottles might be transferred to  the water sampled (reference needed).
-- For example, within the core of the Peruvian oxygen minimum zones oxygen concentrations at nmol levels are present.
-- Thus in-situ approaches for 0 % calibration {cite}`Thomsen2016` are suggested.
-- Also intercomparisons with STOX sensors attached to a shipboard CTD {cite}`Revsbech2009` or new low-oxygen sensing foils (0-10% saturation) from Aanderaa are recommended.
+There are various issues with Winkler at low oxygen concentrations that have been described in the bibliography: 
+ -	In waters with concentrations below 5 $\mu$mol/kg, high concentration of nitrite may cause a positive oxygen bias {cite}`Langdon2010`. In more recent articles, scientist even avoid using Winkler at concentrations <20 $\mu$mol/kg {cite}`Thomsen2016`. 
 
 #### 100 / 0 % saturation protocol
 
