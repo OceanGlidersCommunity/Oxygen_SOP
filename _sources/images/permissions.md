@@ -1,7 +1,6 @@
 # Details for attribution and permission for each of the images
 
 - `100-0-calibration.png` - Tania Morales
-- `AanderaSensors.png` - XXX, Aanderaa data instruments
 - `ARODFTSensor.jpg`
 - `case_01_issue.png` - Soeren Thomsen
 - `CoastalDeployment.png` - Tania Morales
