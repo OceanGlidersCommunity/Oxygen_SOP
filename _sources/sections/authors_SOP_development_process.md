@@ -1,4 +1,4 @@
-# Authors and development process
+# Authors, development process and contributions
 
 ## Authors
   1. [Patricia López-García](https://github.com/patricialg), *Ocean Technology and Engineering Group, National Oceanography Centre, Southampton, UK*
