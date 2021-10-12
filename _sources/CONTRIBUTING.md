@@ -58,4 +58,4 @@ In general, we suggest to start a discussion (‘issue”) before directly editi
 7. The SOP team will review your changes as outline above, and if approved, the process is complete and you're done.
 8. All contributers will be listed as co-authors on the next peer-reviewed publication.
 
-We are happy to provide individual training sessions for people who are new on GitHub. Please indicate your interest [here](https://github.com/OceanGlidersCommunity/Oxygen_SOP/discussions) so we can organize sessions.
+We are happy to provide individual training sessions for people who are new on GitHub. Please indicate your interest [here](https://github.com/OceanGlidersCommunity/Oxygen_SOP/discussions/133) so we can organize sessions.
