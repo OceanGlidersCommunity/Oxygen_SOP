@@ -40,4 +40,73 @@ Additional authors joined: [Bastien Y. Queste](https://github.com/bastienqueste)
 
 ## Contributions 
 
-[work in progress]
+[Patricia López-García](https://github.com/patricialg) drafted the initial document collating information from several SOPs, sensor manuals and articles. 
+Main contribution to: Introduction section (producing Table 1 from information gathered from glider users and completing information for Clark electrodes sensors SBE 43/63), Pre-deployment operations and calibrations section (subsections Storage and cleaning and Pre-deployment calibrations), Post-recovery operations and calibrations section. 
+She added some images to the document. 
+She co-chaired two oxygen expert sessions during the OceanGliders Best Practice workshop in May 2021. 
+She implemented discussions and comments from expert sessions. 
+She reviewed and edited all parts of the SOP. She helps to maintain the SOP on GitHub.
+
+[Tom Hull](https://github.com/tomhull) drafted the initial document. 
+He wrote the introduction such as the detailed description of the different Aanderaa optodes/foil types. 
+He implemented discussions and comments from the expert sessions. 
+Drafted and revised the Delayed Mode Quality Control section. 
+He co-chaired one oxygen expert session during the OceanGliders Best Practice workshop in May 2021. 
+He reviewed and edited all parts of the SOP. 
+He helps to maintain the SOP on GitHub.
+
+[Soeren Thomsen](https://github.com/soerenthomsen) initiated the development of the oxygen SOP in February 2021. 
+Drafted the initial document. 
+Coordinated the whole development process including organising multiple meetings, e.g. two expert sessions during the OceanGliders Best Practice Workshop. 
+He gave specific content input on the two point 0 / 100 % and Oxygen Minimum Zone calibration procedure. 
+He reviewed and edited all parts of the SOP. 
+He helps to maintain the SOP on GitHub.
+
+[Johannes Hahn](https://github.com/hahn-johannes) drafted the initial document. 
+He gave specific content input on the sections pre-deployment, operations and calibrations such as key parts like the multipoint calibration section where he provided specific values related to sensor and foil accuracy and specifications. 
+He further provided images related to CTD calibration procedures. 
+He joined the two expert sessions during the OceanGliders Best Practice Workshop in May 2021.
+
+[Bastien Y. Queste](https://github.com/bastienqueste) co-wrote the JFE Advantech RINKO and seaglider section of the introduction. 
+He provided multiple images such as the seaglider example deployment in the Bornholm Basin. 
+Joined the two expert sessions during the OceanGliders Best Practice Workshop in May 2021. 
+He provided detailed feedback on the delayed mode quality control section.
+
+[Gerd Krahmann](https://github.com/gkrahmann) provided input to the Real Time Data Processing and Quality Control section. 
+He revised the Delayed Mode Quality Control Section and provided example images of the GEOMAR time delay correction methods. 
+He joined the two expert sessions during the OceanGliders Best Practice Workshop in May 2021. 
+
+[Charlotte Williams](https://github.com/charlotte-aj-williams) wrote section 3.3.1.3. on Slocum sensor integration and mounting. 
+She joined the two expert sessions during the OceanGliders Best Practice Workshop in May 2021.
+
+Mun Woo gave specific content input to the Delayed Mode Quality Control Section. 
+Joined the two expert sessions during the OceanGliders Best Practice Workshop in May 2021.
+
+Charitha Pattiaratchi gave specific content input to the Delayed Mode Quality Control Section. Joined the two expert sessions during the OceanGliders Best Practice Workshop in May 2021.
+
+[Laurent Coppola](https://github.com/laurcopp) gave specific content input on the sections pre-deployment, operations and calibrations such as key parts like the multipoint calibration section where he provided specific values related to sensor and foil accuracy and specifications. 
+He co-wrote the JFE Advantech RINKO section of the introduction. 
+He co-chaired one oxygen expert session during the OceanGliders Best Practice workshop.
+
+Tania Morales contributed to the content of sections pre-deployment, operations and calibrations including images for the coastal deployment at PLOCAN. 
+
+[Virginie Racapé](https://github.com/vracape) co-wrote the Real Time Quality Control section.
+
+[Claire Gourcuff](https://github.com/cgourcuf) co-wrote the Real Time Quality Control section.
+
+John Allen provided feedback to the overall document. 
+
+Eva Alou-Font provided feedback to the overall document. 
+
+[Nikolaos D. Zarokanellos](https://github.com/nizaroka) provided feedback to the overall document. 
+
+[Victor Turpin](https://github.com/vturpin) wrote the parts related to the OceanGliders data management. 
+
+[Catherine Schmechtig](https://github.com/catsch) co-wrote the Real Time Quality Control section.
+
+[Pierre Testor](https://github.com/ptestor) wrote the proposals for funding the OceanGliders best practice coordination activities. 
+He reviewed the overall document and provided feedback on the overall document. 
+
+[Julius Busecke](https://github.com/jbusecke) supported the moving to GitHub and jupyter books. He helped to better facilitate the community review i.e. by implementing the commenting function via utterances-bot.
+
+
