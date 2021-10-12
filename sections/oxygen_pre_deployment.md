@@ -144,13 +144,13 @@ Setup for 100% and 0% calibration.
 :::
 
 There are various issues with Winkler at low oxygen concentrations that have been described in the bibliography: 
- -	In waters with concentrations below 5 $\mu$mol/kg, high concentration of nitrite may cause a positive oxygen bias {cite}`Langdon2010`. In more recent articles, scientist even avoid using Winkler at concentrations <20 $\mu$mol/kg {cite}`Thomsen2016`. 
- -	Oxygen absorbed in the plastic of the Niskin bottles is transferred into the water sampled and results with subesquent Winkler sampling to positive biases of 2 - 4 $\mu$mol/kg {cite}`Garcia-Robledo2021`.
+ -	In waters with concentrations below 5 $\mu$mol/kg, high concentration of nitrite may cause a positive oxygen bias {cite}`Langdon2010`. In more recent articles, scientists even avoid using Winkler at concentrations below 20 $\mu$mol/kg {cite}`Thomsen2016`. 
+ -	Oxygen absorbed in the plastic of the Niskin bottles is transferred into the water sampled. This oxygen contamination increases the concentration obtained when follow Winkler method. It has been measured values of apparent concentration of 2 - 4 $\mu$mol/kg in the Pacific minimum zones, showing a significant positive bias {cite}`Garcia-Robledo2021`.
  -	Presence of extremely low concentrations of oxygen concentrations (nmol levels) in areas like the core of the Peruvian oxygen minimum zones.
 
 Thus, when working in these areas, it is recomended to do:
  - In-situ approaches for 0 % calibration suggested by {cite}`Thomsen2016`.
- - Intercomparisons with STOX sensors attached to a shipboard CTD {cite}`Revsbech2009` or new low-oxygen sensing foils (0-10% saturation) from Aanderaa are recommended.
+ - Intercomparisons with STOX sensors attached to a shipboard CTD {cite}`Revsbech2009` or new low-oxygen sensing foils (0-10% saturation) from Aanderaa.
 
 #### 100 / 0 % saturation protocol
 
