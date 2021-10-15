@@ -70,7 +70,7 @@ The maximum observed maturation induced drift on more than 1000 sensor has been 
 During/between field deployments there are possibilities for end users to post-adjust the sensors either by a one-point air-saturation adjustment or by taking reference samples (e.g. water samples and Winkler titration) and/or using a well-calibrated sensor in parallel. 
 If done correctly such an adjustment should result in an absolute accuracy of around 1 % for multipoint calibrated sensors (model: 4330, 4831, 5331 and 5730) and 3 % for two-point calibrated (model: 4835, 4531), see below for more information about factory calibrations. 
 The drift will decrease over time so that during the second year it is not likely to be more than 1-2 %. 
-After this it should be less than 0.5 % per year, unless the foil is mechanically damaged (Aanderaa). 
+After this it should be less than 0.5 % per year, unless the foil is mechanically damaged (Aanderaa).
 
 :::{figure-md} optodes
 <img src="/images/AaanderaasensorsAll1.png" alt="Aandera Optodes" class="bg-primary mb-1" width="400px">
