@@ -28,7 +28,7 @@ After recovery the sensor has to be cleaned to remove any biofouling. The follow
 Salinity configuration: 0 PSU. For optode sensors: when there is a small variation in salinity (less than 1 g/kg), it can be set to the mid value avoiding the need of salinity compensation. However, even in that case, it is a good practice to set salinity to 0 for two reasons: 1) it is usually difficult to find the salinity value defined for old deployments and 2) in case the equations change, it would be easier to recalculate oxygen values from uncompensated values. 
 
 ## Sensor integration with gliders
-Optodes should be configured to record the intermediate parameters (calphase and temperature), not just oxygen.
+Optodes should be configured to record the intermediate parameters (`calphase` and temperature), not just oxygen concentration or saturation.
 Accurate time-stamps, or offsets relative to CT measurements must be recorded for performing the lag correction.
 
 ### Mounting location
@@ -113,9 +113,9 @@ Regardless of whether efforts to prevent fouling are made, it is vital that post
 Based on in-air calibrations on Argo floats and gliders {cite}`BittigKoertzinger2015`, {cite}`Johnson2015`, {cite}`Bittig2015`, {cite}`NicholsonFeen2017` and {cite}`Bittig2018` a simpler method has been recommended by the manufacturer to do it before and after deployments (Aanderaa Best Practices for Maintaining High Data Quality). 
 This could be used during campaigns. 
 This won’t be useful if sensor foil is not wet or the temperature of the foil is different from that measured with the temperature sensor. 
-You will need to leave the sensor logging outside in the free air for several hours before and after deployment. Remember to save the air pressure. 
+You will need to leave the sensor logging outside in the free air for several hours before and after deployment. Remember to record the local air pressure. 
 
-*NOTE: At sea level at standard air pressure (101.3 kPa = 1 Atm = 14.69 psi) the sensors should show 100 % if wet and 102 % if completely dry; at air pressure 100 kPa it should show (1.3/101.3)100 = 1.3 % lower.*
+*NOTE: At sea level at standard air pressure (101.3 kPa = 1 Atm = 14.69 psi) the sensors should show 100 % if wet and 102 % if completely dry; at air pressure 100 kPa it should show (1.3/101.3)100 = 1.3 % lower. See (ref)`air-pressure-effects`*
 
 *NOTE: It is highly recommended to do this protocol at night when humidity is higher and the temperature is lower and more stable.* 
 
@@ -277,3 +277,18 @@ Materials: Silicon tube for sampling, multiparameter sonde, BOD bottles, Winkler
 Taking samples for Winkler analysis during ballasting in the glider tank at PLOCAN facilities.
 :::
 
+(air-pressure-effects)=
+# Effects of atmospheric pressure during calibration
+
+During the above procedures it is important to note that the equilibrium saturation oxygen concentration (C<sub>sat</sub> i.e. {cite:t}`GarciaGordon1992`) is expressed relative to 1 atmosphere.
+This solubility parametrisation is described as having an RMS error of 0.3 \% (± 1.01 μmol kg<sup>-1</sup>).
+The pressure effects can be significant, at 10 <sup>o</sup>C a change in local air-pressure between 990 and 1010 hPa changes the equilibrium concentration by 5.4 μmol kg<sup>-1</sup>.
+The quality of the local air pressure measurements during calibration is worth considering.
+{cite:t}`Ponte2003` estimated the overall uncertainty for ECMWF products to be typically less than 3 hPa over most of the ocean.
+This is equivalent to a 0.9-1.1 μmol kg<sup>-1</sup> error in C<sub>sat</sub>.
+
+:::{figure-md} winkler-ballasting
+<img src="/images/pressure-effect.png" alt="Effect of sea level pressure on the equilibirum saturation oxygen concentration (C<sub>sat</sub>)" class="bg-primary mb-1" width="400px">
+
+Effect of local air pressure on the equilibrium saturation oxygen concentration (C<sub>sat</sub>) at 10 <sup>o</sup>C.
+:::
