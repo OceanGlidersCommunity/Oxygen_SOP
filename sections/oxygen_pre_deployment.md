@@ -115,7 +115,7 @@ This could be used during campaigns.
 This won’t be useful if sensor foil is not wet or the temperature of the foil is different from that measured with the temperature sensor. 
 You will need to leave the sensor logging outside in the free air for several hours before and after deployment. Remember to record the local air pressure. 
 
-*NOTE: At sea level at standard air pressure (101.3 kPa = 1 Atm = 14.69 psi) the sensors should show 100 % if wet and 102 % if completely dry; at air pressure 100 kPa it should show (1.3/101.3)100 = 1.3 % lower. See (ref)`air-pressure-effects`*
+*NOTE: At sea level at standard air pressure (101.3 kPa = 1 Atm = 14.69 psi) the sensors should show 100 % if wet and 102 % if completely dry; at air pressure 100 kPa it should show (1.3/101.3)100 = 1.3 % lower. See {ref}`air-pressure-effects`*
 
 *NOTE: It is highly recommended to do this protocol at night when humidity is higher and the temperature is lower and more stable.* 
 
@@ -282,7 +282,7 @@ Taking samples for Winkler analysis during ballasting in the glider tank at PLOC
 
 During the above procedures it is important to note that the equilibrium saturation oxygen concentration (C<sub>sat</sub> i.e. {cite:t}`GarciaGordon1992`) is expressed relative to 1 atmosphere.
 This solubility parametrisation is described as having an RMS error of 0.3 \% (± 1.01 μmol kg<sup>-1</sup>).
-The pressure effects can be significant, at 10 <sup>o</sup>C a change in local air-pressure between 990 and 1010 hPa changes the equilibrium concentration by 5.4 μmol kg<sup>-1</sup>.
+The pressure effects can be significant, at 10 <sup>o</sup>C a change in local air pressure between 990 and 1010 hPa changes the equilibrium concentration by 5.4 μmol kg<sup>-1</sup>.
 The quality of the local air pressure measurements during calibration is worth considering.
 {cite:t}`Ponte2003` estimated the overall uncertainty for ECMWF products to be typically less than 3 hPa over most of the ocean.
 This is equivalent to a 0.9-1.1 μmol kg<sup>-1</sup> error in C<sub>sat</sub>.
