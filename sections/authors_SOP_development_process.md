@@ -73,6 +73,7 @@ Joined the two expert sessions during the OceanGliders Best Practice Workshop in
 He provided detailed feedback on the delayed mode quality control section.
 
 [Gerd Krahmann](https://github.com/gkrahmann) provided input to the Real Time Data Processing and Quality Control section. 
+He provided example of biofouling including the effect on the oxygen data.
 He revised the Delayed Mode Quality Control Section and provided example images of the GEOMAR time delay correction methods. 
 He joined the two expert sessions during the OceanGliders Best Practice Workshop in May 2021. 
 
