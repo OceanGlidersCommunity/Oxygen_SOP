@@ -53,7 +53,7 @@ Conversely, and as the salinity impact on the oxygen conversion is less than pre
 ### Effects of biofouling on optode measurements
 
 Biofouling can impact the optode measurements in different ways and the real time data should be carefully checked to assess typical effects of biofouling. 
-Two examples for the effects of bio-fouling on the oxygen concentrations reported by optodes are shown in {numref}`biofouling_data`. In {numref}`biofouling_examples` you can see the biofouling on the glider.
+Two examples for the effects of biofouling on the oxygen concentrations reported by optodes are shown in {numref}`biofouling_data`. In {numref}`biofouling_examples` you can see the biofouling on the glider.
 
 :::{figure-md} biofouling_data
 <img src="/images/biofouling_data_combined_gerd_krahmann.png" alt="Biofouling effect on oxygen data" class="bg-primary mb-1" width="600px">
