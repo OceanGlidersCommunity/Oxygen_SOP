@@ -96,12 +96,12 @@ GEOMAR oxygen data loggers (Aanderaa Optode mounted on data logger) attached to 
 :::
 
 ## Deploying gliders in Oxygen Minimum Zones (OMZ)
-Note that the classical Winkler titration method is not reliable at oxygen concentrations in OMZ core {cite}`Thomsen2016` since the method has a detection limit of around 1 uM {cite}`Langdon2010`. 
+Note that the classical Winkler titration method is not reliable at oxygen concentrations in OMZ core {cite}`Thomsen2016` since the method has some limitations (see discussion in Two point calibration procedure, optode example section). 
 
 Steps recommended in these regions: 
 1) Do a 0/100 % calibration before and after deployment in the lab.
 
-2) Measure Winkler in samples with concentration higher than 20 uM, typically in the mixed layer during the deployment and/or recovery. 
+2) Measure Winkler in samples with concentration higher than 20 $\mu$mol/kg, typically in the mixed layer during the deployment and/or recovery. 
 The Winkler method is also a problem when there is a strong vertical gradient, typically found in OMZ regions. 
 Thus calibration points below the mixed layer are often not suitable. 
 Look for regions with weak vertical gradients.
