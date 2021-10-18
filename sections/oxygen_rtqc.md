@@ -50,3 +50,18 @@ The test checks that the dissolved oxygen concentration in µmol/kg is computed 
 Considering the pressure or temperature impact on the oxygen conversion, when pressure or temperature is marked as bad (qc = 4), oxygen concentration should be set to 4. 
 Conversely, and as the salinity impact on the oxygen conversion is less than previous parameters, when salinity is marked as bad, oxygen concentration should be set to 3. 
 
+### Effects of biofouling on optode measurements
+
+Biofouling can impact the optode measurements in different ways and the real time data should be carefully checked to assess typical effects of biofouling. 
+Two examples for the effects of bio-fouling on the oxygen concentrations reported by optodes are shown in {numref}`biofouling_data`.
+
+:::{figure-md} biofouling_data
+<img src="/images/biofouling_data_combined_gerd_krahmann.png" alt="Biofouling effect on oxygen data" class="bg-primary mb-1" width="600px">
+
+Left: Rapidly decreasing reported oxygen concentrations caused by the growth of a gooseneck barnacle on the optode foil. 
+At the end of the deployment the barnacle prevented all exchange of oxygen between water and foil. 
+Right: Slow effects of algae growth on the foil. 
+Towards the end of the deployment a diurnal cycle in the reported near-surface oxygen concentrations becomes visible. 
+Elevated reported oxygen concentrations coincide with local daylight times and the glider being in the euphotic zone.
+:::
+
