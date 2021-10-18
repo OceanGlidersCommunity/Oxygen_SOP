@@ -6,7 +6,7 @@ At first users should report that their mission is over to support(at)oceanobs.o
 Pictures should be taken for biofuiling assessment. 
 
 :::{figure-md} biofouling_examples
-<img src="/images/biofouling_combined_Mario_Mueller.jpg" alt="Examples of biofouling. " class="bg-primary mb-1" width="400px">
+<img src="/images/biofouling_combined_Mario_Mueller.png" alt="Examples of biofouling. " class="bg-primary mb-1" width="400px">
 
 Examples of biofouling. A gooseneck barnacle is growing on the optode foil (left). Algae growth on the foil (right).
 :::
