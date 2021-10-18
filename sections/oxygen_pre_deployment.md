@@ -287,7 +287,7 @@ The quality of the local air pressure measurements during calibration is worth c
 {cite:t}`Ponte2003` estimated the overall uncertainty for ECMWF products to be typically less than 3 hPa over most of the ocean.
 This is equivalent to a 0.9-1.1 μmol kg<sup>-1</sup> error in C<sub>sat</sub>.
 
-:::{figure-md} winkler-ballasting
+:::{figure-md} pressure_effect
 <img src="/images/pressure-effect.png" alt="Effect of sea level pressure on the equilibirum saturation oxygen concentration (C<sub>sat</sub>)" class="bg-primary mb-1" width="400px">
 
 Effect of local air pressure on the equilibrium saturation oxygen concentration (C<sub>sat</sub>) at 10 <sup>o</sup>C.
