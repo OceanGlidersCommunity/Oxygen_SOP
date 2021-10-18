@@ -5,6 +5,9 @@
 - `biofouling_combined_Mario_Mueller.png` - Mario Mueller
 - `biofouling_01_Mario_Mueller.jpg` - Mario Mueller
 - `biofouling_02_Mario_Mueller.jpg` - Mario Mueller
+- `biofouling_data_01_gerd_krahmann.png` - Gerd Krahmann
+- `biofouling_data_02_gerd_krahmann.png` - Gerd Krahmann
+- `biofouling_data_combined_gerd_krahmann.png` - Gerd Krahmann
 - `case_01_issue.png` - Soeren Thomsen
 - `CoastalDeployment.png` - Tania Morales
 - `CTD_calibration_XX.png` - Johannes Hahn
