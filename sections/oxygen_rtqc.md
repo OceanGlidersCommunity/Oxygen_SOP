@@ -28,7 +28,7 @@ RTQC applied on the temperature measured by the oxygen sensor should follow the 
 Several oxygen sensors suffer from predeployment storage drift that can reduce accuracy by up to 20% or more {cite}`Bittig2019`. As a consequence and because this bias can be corrected, dissolved oxygen concentration measured in real time should be set to 3 “bad data that are potentially correctable”. To retrieve usable oxygen data, an adjustment in real time should be quickly performed. 
 
 ### Global range check
-This test applies a gross filter on EGO oxygen data. If one observation is out of the global range [-5 600] $\mu$umol/kg, its QC flag is set up to 4 “bad data”.
+This test applies a gross filter on EGO oxygen data. If one observation is out of the global range [-5, 600] $\mu$mol/kg, its QC flag is set up to 4 “bad data”.
 
 ### Outlier and spike check
 Outliers and spikes are difficult to detect as optodes typically smooth out spikes due to their slow response time. A simple test checking the differences between sequential measurements is nevertheless possible if i) it is applied on a specific phase (ascending or descending for example) and ii) assuming a sampling adequately reproduces changes in dissolved oxygen concentrations. In this context, if one measurement is significantly different from adjacent ones, it is a spike in both size and gradient. 
