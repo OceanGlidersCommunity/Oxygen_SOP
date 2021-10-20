@@ -97,7 +97,7 @@ Tania Morales contributed to the content of sections pre-deployment, operations 
 
 John Allen provided feedback to the overall document. 
 
-Eva Alou-Font provided feedback to the overall document. 
+[Eva Alou-Font](https://github.com/ealou) provided feedback to the overall document. 
 
 [Nikolaos D. Zarokanellos](https://github.com/nizaroka) provided feedback to the overall document. 
 
