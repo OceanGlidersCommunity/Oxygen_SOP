@@ -357,6 +357,11 @@ commentsRunWhenDOMLoaded(addUtterances);
    </li>
   </ul>
  </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#effects-of-atmospheric-pressure-during-calibration">
+   3.5. Effects of atmospheric pressure during calibration
+  </a>
+ </li>
 </ul>
 
             </nav>
@@ -398,7 +403,7 @@ The sensor then needs to be placed in water to hydrate at least 24 h prior to st
 </div>
 <div class="section" id="sensor-integration-with-gliders">
 <h2><span class="section-number">3.3. </span>Sensor integration with gliders<a class="headerlink" href="#sensor-integration-with-gliders" title="Permalink to this headline">¶</a></h2>
-<p>Optodes should be configured to record the intermediate parameters (calphase and temperature), not just oxygen.
+<p>Optodes should be configured to record the intermediate parameters (<code class="docutils literal notranslate"><span class="pre">calphase</span></code> and temperature), not just oxygen concentration or saturation.
 Accurate time-stamps, or offsets relative to CT measurements must be recorded for performing the lag correction.</p>
 <div class="section" id="mounting-location">
 <h3><span class="section-number">3.3.1. </span>Mounting location<a class="headerlink" href="#mounting-location" title="Permalink to this headline">¶</a></h3>
@@ -471,8 +476,8 @@ When applying the tape, be sure that it is not in contact with any other metal p
 <p>Based on in-air calibrations on Argo floats and gliders <span id="id7">[<a class="reference internal" href="oxygen_references.html#id5">Bittig and Körtzinger, 2015</a>]</span>, <span id="id8">[<a class="reference internal" href="oxygen_references.html#id20">Johnson <em>et al.</em>, 2015</a>]</span>, <span id="id9">[<a class="reference internal" href="oxygen_references.html#id30">Bittig <em>et al.</em>, 2015</a>]</span>, <span id="id10">[<a class="reference internal" href="oxygen_references.html#id2">Nicholson and Feen, 2017</a>]</span> and <span id="id11">[<a class="reference internal" href="oxygen_references.html#id7">Bittig <em>et al.</em>, 2018</a>]</span> a simpler method has been recommended by the manufacturer to do it before and after deployments (Aanderaa Best Practices for Maintaining High Data Quality).
 This could be used during campaigns.
 This won’t be useful if sensor foil is not wet or the temperature of the foil is different from that measured with the temperature sensor.
-You will need to leave the sensor logging outside in the free air for several hours before and after deployment. Remember to save the air pressure.</p>
-<p><em>NOTE: At sea level at standard air pressure (101.3 kPa = 1 Atm = 14.69 psi) the sensors should show 100 % if wet and 102 % if completely dry; at air pressure 100 kPa it should show (1.3/101.3)100 = 1.3 % lower.</em></p>
+You will need to leave the sensor logging outside in the free air for several hours before and after deployment. Remember to record the local air pressure.</p>
+<p><em>NOTE: At sea level at standard air pressure (101.3 kPa = 1 Atm = 14.69 psi) the sensors should show 100 % if wet and 102 % if completely dry; at air pressure 100 kPa it should show (1.3/101.3)100 = 1.3 % lower. See also <a class="reference internal" href="#air-pressure-effects"><span class="std std-numref">Section 3.5</span></a>.</em></p>
 <p><em>NOTE: It is highly recommended to do this protocol at night when humidity is higher and the temperature is lower and more stable.</em></p>
 </div>
 </div>
@@ -642,6 +647,19 @@ Value of oxygen saturation should be 100 % or higher.</p></li>
 <a class="bg-primary mb-1 reference internal image-reference" href="../_images/winkler-ballasting.png"><img alt="Winkler calibration during balasting" class="bg-primary mb-1" src="../_images/winkler-ballasting.png" style="width: 400px;" /></a>
 <p class="caption"><span class="caption-number">Fig. 3.8 </span><span class="caption-text">Taking samples for Winkler analysis during ballasting in the glider tank at PLOCAN facilities.</span><a class="headerlink" href="#winkler-ballasting" title="Permalink to this image">¶</a></p>
 </div>
+</div>
+</div>
+<div class="section" id="effects-of-atmospheric-pressure-during-calibration">
+<span id="air-pressure-effects"></span><h2><span class="section-number">3.5. </span>Effects of atmospheric pressure during calibration<a class="headerlink" href="#effects-of-atmospheric-pressure-during-calibration" title="Permalink to this headline">¶</a></h2>
+<p>During the above procedures it is important to note that the equilibrium saturation oxygen concentration (C<sub>sat</sub> i.e. <span id="id18">Garcia and Gordon [<a class="reference internal" href="oxygen_references.html#id12">1992</a>]</span>) is expressed relative to 1 atmosphere.
+This solubility parametrisation is described as having an RMS error of 0.3 % (± 1.01 μmol kg<sup>-1</sup>).
+The pressure effects can be significant, at 10 <sup>o</sup>C a change in local air pressure between 990 and 1010 hPa changes the equilibrium concentration by 5.4 μmol kg<sup>-1</sup>.
+The quality of the local air pressure measurements during calibration is worth considering.
+<span id="id19">Ponte and Dorandeu [<a class="reference internal" href="oxygen_references.html#id31">2003</a>]</span> estimated the overall uncertainty for ECMWF products to be typically less than 3 hPa over most of the ocean.
+This is equivalent to a 0.9-1.1 μmol kg<sup>-1</sup> error in C<sub>sat</sub>.</p>
+<div class="figure align-default" id="pressure-effect">
+<a class="bg-primary mb-1 reference internal image-reference" href="../_images/pressure-effect.png"><img alt="Effect of sea level pressure on the equilibirum saturation oxygen concentration (C&lt;sub&gt;sat&lt;/sub&gt;)" class="bg-primary mb-1" src="../_images/pressure-effect.png" style="width: 400px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 3.9 </span><span class="caption-text">Effect of local air pressure on the equilibrium saturation oxygen concentration (C<sub>sat</sub>) at 10 <sup>o</sup>C.</span><a class="headerlink" href="#pressure-effect" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 </div>
