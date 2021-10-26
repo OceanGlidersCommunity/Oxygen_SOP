@@ -115,5 +115,5 @@ He reviewed the overall document and provided feedback on the overall document.
 
 [Evi Bourma](https://github.com/evibourma) provided input to the SBE43 sensor section.
 
-
+[Clark Richards](https://github.com/richardsc) provided input to the SBE43 sensor section.
 
