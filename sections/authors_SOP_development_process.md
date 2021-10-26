@@ -39,6 +39,8 @@ Additional authors joined: [Bastien Y. Queste](https://github.com/bastienqueste)
 
 6) At the moment: 4 months community review on GitHub until 31 January 2022.
 
+7) Additional authors joined on GitHub during to the community review: [Evi Bourma](https://github.com/evibourma)
+
 ## Contributions 
 
 [Patricia López-García](https://github.com/patricialg) drafted the initial document collating information from several SOPs, sensor manuals and articles. 
