@@ -39,7 +39,7 @@ Additional authors joined: [Bastien Y. Queste](https://github.com/bastienqueste)
 
 6) At the moment: 4 months community review on GitHub until 31 January 2022.
 
-7) Additional authors joined on GitHub during the community review: [Evi Bourma](https://github.com/evibourma)
+7) Additional authors joined on GitHub during the community review: [Evi Bourma](https://github.com/evibourma), [Clark Richards](https://github.com/richardsc)
 
 ## Contributions 
 
@@ -115,5 +115,5 @@ He reviewed the overall document and provided feedback on the overall document.
 
 [Evi Bourma](https://github.com/evibourma) provided input to the SBE43 sensor section.
 
-
+[Clark Richards](https://github.com/richardsc) provided input to the SBE43 sensor section.
 
