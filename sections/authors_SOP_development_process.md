@@ -111,4 +111,7 @@ He reviewed the overall document and provided feedback on the overall document.
 
 [Julius Busecke](https://github.com/jbusecke) supported the moving to GitHub and jupyter books. He helped to better facilitate the community review i.e. by implementing the commenting function via utterances-bot.
 
+[Evi Bourma](https://github.com/evibourma) provided input to the SBE43 sensor.
+
+
 
