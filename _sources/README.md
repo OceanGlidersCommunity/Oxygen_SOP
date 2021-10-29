@@ -26,7 +26,7 @@ The main SOP document will always reside in this GitHub repository to allow upda
 
 ## Questions?
 Do you have any questions related to oxygen measurements on gliders?
-Or do you struggle to comment / edit the SOP document? 
+Or do you struggle to comment the SOP document? 
 Just raise a question [here](https://github.com/OceanGlidersCommunity/Oxygen_SOP/discussions).
 
 ## License
