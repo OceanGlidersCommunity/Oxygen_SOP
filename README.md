@@ -35,9 +35,3 @@ This work is licensed under a [Creative Commons Attribution 4.0 Generic License]
 ## Code of Conduct
 Read our Code of Conduct (CoC) [here](add link as soon as finalized). Join the discussion to finalize the CoC [here](https://github.com/OceanGlidersCommunity/OG-format-user-manual/pull/23)
 
-<!-- ## About Markdown and Pandoc
-
-Hosting this document on GitHub allows easy editing by contributors, no need to pull the repository to your local machine.
-However, [Github flavoured markdown](https://github.github.com/gfm/) is missing some features which are nice to have in the final version of the document, most notably citations.
-To add these features we use [Pandoc](https://pandoc.org/) and use Github actions to author a HTML and PDF version of the SOP. -->
-
