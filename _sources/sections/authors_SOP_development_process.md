@@ -40,7 +40,7 @@ Additional authors joined: [Bastien Y. Queste](https://github.com/bastienqueste)
 
 6) At the moment: 4 months community review on GitHub until 31 January 2022.
 
-7) Additional authors joined on GitHub during the community review: [Evi Bourma](https://github.com/evibourma), [Clark Richards](https://github.com/richardsc)
+7) Additional authors joined on GitHub during the community review: [Evi Bourma](https://github.com/evibourma), [Clark Richards](https://github.com/richardsc), [Stuart Pearce](https://github.com/s-pearce)
 
 ## Contributions 
 
