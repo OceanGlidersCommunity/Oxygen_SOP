@@ -76,6 +76,8 @@ commentsRunWhenDOMLoaded(addUtterances);
 </script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
     <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
     <script>
         const thebe_selector = ".thebe"
@@ -260,6 +262,58 @@ commentsRunWhenDOMLoaded(addUtterances);
         <!-- Table of contents -->
         <div class="d-none d-md-block col-md-2 bd-toc show">
             
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#oxygen-sensors">
+   Oxygen sensors
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#aanderaa-optodes">
+     Aanderaa Optodes
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#hardware-design-blue-or-black">
+       Hardware design: blue or black
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#foil-type-f-or-standard">
+       Foil type: F or standard
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#calibration-equation-and-firmware-versions">
+       Calibration equation and firmware versions
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#rbr-coda-t-odo">
+     RBR coda T.ODO
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#jfe-advantech-rinko">
+     JFE Advantech RINKO
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#clark-electrode-polarographic-sensor-sbe-43-sbe-43f-and-sbe-63">
+     Clark electrode polarographic sensor (SBE 43, SBE 43F and SBE 63)
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+            </nav>
         </div>
     </div>
 </div>
@@ -270,9 +324,118 @@ commentsRunWhenDOMLoaded(addUtterances);
                 
   <div class="tex2jax_ignore mathjax_ignore section" id="sensors-and-integrations">
 <h1>Sensors and integrations<a class="headerlink" href="#sensors-and-integrations" title="Permalink to this headline">¶</a></h1>
-<ul class="simple">
-<li><p>copy over content here from intro and pre-deployment sections</p></li>
-</ul>
+<div class="section" id="oxygen-sensors">
+<h2>Oxygen sensors<a class="headerlink" href="#oxygen-sensors" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="aanderaa-optodes">
+<h3>Aanderaa Optodes<a class="headerlink" href="#aanderaa-optodes" title="Permalink to this headline">¶</a></h3>
+<p>Aanderaa optodes are the most widely used oxygen sensor on ocean gliders and a large body of work has now been dedicated to their characterisation (e.g. <span id="id1">[<a class="reference internal" href="oxygen_references.html#id7">Bittig <em>et al.</em>, 2018</a>]</span>).
+These sensors are based on the oxygen luminescence quenching of a platinum porphyrin complex (fluorescent indicator) that is immobilized in a sensing foil.
+These offer low power consumption, good long-term stability, low fouling sensitivity while not being sensitive to H2S or freezing.
+Aanderaa optodes have seen several important developments since they were introduced in 2002, with various hardware and firmware revisions which we outline below (shown in <code class="xref std std-numref docutils literal notranslate"><span class="pre">optodes</span></code>).</p>
+<div class="section" id="hardware-design-blue-or-black">
+<h4>Hardware design: blue or black<a class="headerlink" href="#hardware-design-blue-or-black" title="Permalink to this headline">¶</a></h4>
+<p>While mostly cosmetic, the colour of the optode is a useful short-hand for the two main optode designs.
+The 3835 and 4835 optodes both feature a black housing with the temperature sensor integrated into the base of the sensor near the connector.
+This results in a large thermal mass and increases the response time of the temperature sensor significantly.
+The blue 4330 and 4831 sensors move the thermistor next to the sensing foil which results in much improved performance of the temperature sensor.
+with an increase in accuracy to 0.03<span class="math notranslate nohighlight">\(^{\circ}\)</span>C from 0.05<span class="math notranslate nohighlight">\(^{\circ}\)</span>C, and time-response reduction to &lt;2 seconds rather than ~10 seconds <span id="id2">[<a class="reference internal" href="oxygen_references.html#id26">Data Instruments AS, 2018</a>]</span>.
+All optodes other than the 4831 use a 10 pin Lemo connector, these connectors can’t be connected when wet and are prone to crevice corrosion.
+The 4831 is therefore recommended with it’s Subconn wet-pluggable connector.
+Older optode versions (3830) have a titanium housing in the same form factor as the 3835.
+Some early Slocum gliders were delivered with optodes of type 5013, these are identical to the 3830.</p>
+</div>
+<div class="section" id="foil-type-f-or-standard">
+<h4>Foil type: F or standard<a class="headerlink" href="#foil-type-f-or-standard" title="Permalink to this headline">¶</a></h4>
+<p>Most optodes use the PreSens PSt3 foil (PreSens - Precision Sensing GmbH), these have as standard a black opaque protective layer protecting the pink sensing layer.
+For glider applications the “F” type foils are typically preferred as these remove the opaque layer which results in much faster diffusion across the foil, and therefore faster sensor response (<span class="math notranslate nohighlight">\(\tau\)</span> = 8 s compared to ~ 25 s <span id="id3">[<a class="reference internal" href="oxygen_references.html#id9">Bittig <em>et al.</em>, 2014</a>]</span>).
+However, removal of the protective layer makes the foil more susceptible to UV radiation, and is known to reduce the sensor stability, especially when exposed to strong sunlight.
+Newer 4330F and 4831F optodes (Since July 8th 2018) use an improved formulation of the Presens fast foil which are less sunlight sensitive and have much lower noise levels. These can be identified by their white appearance.
+It is recommended that older F-type instruments (with the pink foils) are upgraded with these improved foils.
+Otherwise foils should typically not be replaced unless mechanically damaged (light intrusion) as older foils perform better, with less drift than new ones.</p>
+</div>
+<div class="section" id="calibration-equation-and-firmware-versions">
+<h4>Calibration equation and firmware versions<a class="headerlink" href="#calibration-equation-and-firmware-versions" title="Permalink to this headline">¶</a></h4>
+<p>The way optode foils are initially calibrated by Aanderaa, and how the measured values are processed by the optode varies between different optode versions.
+The optode illuminates the sensing foil with both a red and blue LED.
+Since the red light does not produce fluorescence in the foil the phase measurements are obtained from the difference between the blue (P1) and the red (P2) excitation.</p>
+<p>P_T = A(T) + (P1 - P2) · B(T)</p>
+<p>Where P_T is the temperature compensated phase (known as ‘TCphase‘).
+A and B are temperature dependent coefficients which allow for temperature compensation of the phase measurement.
+However for most 4330, 4831 and 4835 optodes these are not used, such that A(T) = 0 and B(T) = 1.
+This can be confirmed by communicating with an optode and inspecting the ‘PTC0Coef‘ and ‘PTC1Coef‘ properties.
+For older optodes (4330 serial numbers &lt; 1000) the temperature compensated phase is then used to calculate ‘calphase‘ (P_c).
+For newer optodes P_T = P_c. Similarly older optodes have their calibration (and recalibration) applied though the modification of the ‘PhaseCoef‘ coefficients.
+On later optodes the calibration is not applied in phase space, but on the oxygen concentration though the use of the ‘ConcCoef0‘ and ‘ConcCoef1‘ coefficents (‘PhaseCoef0‘ and ‘PhaseCoef1‘ are set to zero and 1 respectively).
+Consult your optode calibration sheet and confirm which terms are being used.
+There are three different calibration equations used to convert the measured phase to oxygen equations:
+The “Mk1” equation used by the older 3835 optodes uses a 5x4 matrix of coefficients.
+The “Mk2” equation is used by non-multipoint calibrated 4330(F) and 4835 optodes, and uses a 2x14 matrix (FoilCoefA and FoilCoefB) together with a 2x27 matrix for the polynomial degree, this second matrix is the same across all of these type optodes.
+Newer multipoint calibrated optodes use the Stern-Volmer (SVU) equation proposed by <span id="id4">[<a class="reference internal" href="oxygen_references.html#id10">Uchida <em>et al.</em>, 2008</a>]</span> which has 6 terms.
+Non-multipoint foil calibrations are based on a common characterisation of a production batch.
+Multipoint calibrations consist of 40 calibration points across a range of concentrations and temperatures and offer improved accuracy and should be preferred when purchasing these sensors.
+Consult your optode foil calibration document to verify which version your optode is using.
+Understanding these differences in how the calculations are performed is important when recalculating oxygen from the phase readings, such as when compensating for lag.
+Regardless of the optode version, oxygen can be recalculated from calphase using the approach of <span id="id5">[<a class="reference internal" href="oxygen_references.html#id10">Uchida <em>et al.</em>, 2008</a>]</span>.
+During the initial months of storage/use a Foil maturation process occurs resulting in lower readings by several %.
+The maximum observed maturation induced drift on more than 1000 sensor has been 8 % for sensors with non-factory pre-matured WTW foils (model: 4835, 4531 and 5730 Steinsvik) and 6 % for sensors with factory pre-matured PSt3 foils (model: 4330, 4831, 5331 hadal).
+During/between field deployments there are possibilities for end users to post-adjust the sensors either by a one-point air-saturation adjustment or by taking reference samples (e.g. water samples and Winkler titration) and/or using a well-calibrated sensor in parallel.
+If done correctly such an adjustment should result in an absolute accuracy of around 1 % for multipoint calibrated sensors (model: 4330, 4831, 5331 and 5730) and 3 % for two-point calibrated (model: 4835, 4531), see below for more information about factory calibrations.
+The drift will decrease over time so that during the second year it is not likely to be more than 1-2 %.
+After this it should be less than 0.5 % per year, unless the foil is mechanically damaged (Aanderaa).</p>
+<div class="figure align-default" id="optodes">
+<a class="bg-primary mb-1 reference internal image-reference" href="../_images/AaanderaasensorsAll1.png"><img alt="Aandera Optodes" class="bg-primary mb-1" src="../_images/AaanderaasensorsAll1.png" style="width: 400px;" /></a>
+<p class="caption"><span class="caption-text">Suit of smart optodes sensors. Oxygen sensors are indicated by red arrows.</span><a class="headerlink" href="#optodes" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+</div>
+<div class="section" id="rbr-coda-t-odo">
+<h3>RBR coda T.ODO<a class="headerlink" href="#rbr-coda-t-odo" title="Permalink to this headline">¶</a></h3>
+<p>The RBRcoda T.ODO uses the same foils and methods as the 4831 and 4831F so everything above specified for the 4831 will also apply to those instruments as well.
+RBR refers to the standard optode (~30 s <span class="math notranslate nohighlight">\(\tau\)</span>) foil as “slow” and the fast (~8 s) as the standard.
+They also use further foil design (~1 s response) which they call fast.
+The RBR sensor has a smaller form factor than the Aandera optodes, but is overall more similar to a 4831 with the temperature sensor very closely located to the sensing foil.
+This sensor has recently been implemented in gliders, and little is known about their performance.</p>
+</div>
+<div class="section" id="jfe-advantech-rinko">
+<h3>JFE Advantech RINKO<a class="headerlink" href="#jfe-advantech-rinko" title="Permalink to this headline">¶</a></h3>
+<p>AROD-FT sensor (RINKO JFE) is used for the SeaExplorer gliders (Alseamar) and for some Argo floats (small size and low power consumption) (see <code class="xref std std-numref docutils literal notranslate"><span class="pre">ARODFT</span></code>).
+This sensor is based on the optical (phosphorescence) principle which is now widely known as a remarkably fast response oxygen sensor (below 1s) with a high accuracy of 2 <span class="math notranslate nohighlight">\(\mu\)</span>mol/kg.
+This sensor used a multi-points calibration (16 points with 4 temperatures and 4 DO concentrations).
+In this procedure, the DO reference standards are produced by saturing the primary mixtures with DO concentrations of approximately 4%, 10%, 17% and 25% respectively (certified by the National Metrology Institute of Japan).</p>
+<!--
+![AROD-FT sensor mounted on a SeaExplorer glider (credit: ALSEAMAR) \label{fig:ARODFT}](/images/ARODFTSensor.jpg)
+-->
+<div class="figure align-default" id="arodft">
+<a class="bg-primary mb-1 reference internal image-reference" href="../_images/ARODFTSensor.jpg"><img alt="AROD-FT sensor" class="bg-primary mb-1" src="../_images/ARODFTSensor.jpg" style="width: 400px;" /></a>
+<p class="caption"><span class="caption-text">AROD-FT sensor mounted on a SeaExplorer glider (credit: ALSEAMAR)</span><a class="headerlink" href="#arodft" title="Permalink to this image">¶</a></p>
+</div>
+<p>The DO concentration is calculated from the <span id="id6">[<a class="reference internal" href="oxygen_references.html#id18">Uchida H. and McTaggart, 2010</a>]</span> equation with 9 calibration coefficients.
+A second equation is used to take into account the pressure effect (linear equation with one calibration coefficient).
+Finally, the salinity-compensated DO concentration is calculated by multiplying the factor of the effect of salt on the oxygen solubility <span id="id7">[<a class="reference internal" href="oxygen_references.html#id11">Benson and Krause Jr., 1980</a>]</span> and <span id="id8">[<a class="reference internal" href="oxygen_references.html#id12">Garcia and Gordon, 1992</a>]</span>.
+This is similar to procedures used on other optodes.</p>
+<!--
+![Oxygen saturation from a Rinko AROD-FT on a SeaExplorer glider in the Bornholm Basin (credit: Voice of the Ocean Foundation and University of Gothenburg). \label{fig:samba}](/images/SAMBA.png)
+-->
+<div class="figure align-default" id="samba">
+<a class="bg-primary mb-1 reference internal image-reference" href="../_images/SAMBA.png"><img alt="Oxygen saturation from a Rinko AROD-FT on a SeaExplorer glider in the Bornholm Basin" class="bg-primary mb-1" src="../_images/SAMBA.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-text">Oxygen saturation from a Rinko AROD-FT on a SeaExplorer glider in the Bornholm Basin (credit: Voice of the Ocean Foundation and University of Gothenburg).</span><a class="headerlink" href="#samba" title="Permalink to this image">¶</a></p>
+</div>
+<p>Recent deployments of a SeaExplorer glider equipped with an AROD-FT sensor have shown long-term stability (low drift over time) but with a significant offset observed during sections in the Ligurian Sea (on average 10-15 <span class="math notranslate nohighlight">\(\mu\)</span>mol/kg).
+Deployments in the Bornholm Basin have shown good agreement across a wide range of oxygen concentrations with a nearby BOOS monitoring station (see <code class="xref std std-numref docutils literal notranslate"><span class="pre">samba</span></code>. This sensor was a recent acquisition and had little opportunity to drift in storage.</p>
+</div>
+<div class="section" id="clark-electrode-polarographic-sensor-sbe-43-sbe-43f-and-sbe-63">
+<h3>Clark electrode polarographic sensor (SBE 43, SBE 43F and SBE 63)<a class="headerlink" href="#clark-electrode-polarographic-sensor-sbe-43-sbe-43f-and-sbe-63" title="Permalink to this headline">¶</a></h3>
+<p>The SBE 43, SBE 43F and SBE 63 are individually calibrated with a calibration drift rates of less than 0.5% over 1000 h of operation.
+These sensors have been used in Seagliders and Spray and also in morrings and Argo floats.
+Sensors are designed for use in a CTD’s pumped flow path, providing optimal correlation with CTD measurements.
+Elapsed time between the CTD and associated oxygen measurement is easily quantified, and corrected for, in post-processing.
+The black plenum and plumbing’s black tubing blocks light, reducing in-situ algal growth.
+Response time <span class="math notranslate nohighlight">\(\tau\)</span> varies from 2-20 sec depending on the membrane thinness, ambient water temperature and flow rate.
+Drift thresholds for sensor performance should be established prior to data collection, to determine how often instruments should be serviced, validated, and returned to Sea-Bird for a full service and calibration.
+It is recommended to do validation in the lab before and after deployment/recovery and while the sensor is in the water (if possible).
+For this task, Winkler samples or a clean, calibrated reference sensor will be required. (Information from <a class="reference external" href="https://www.seabird.com">https://www.seabird.com</a>)</p>
+</div>
+</div>
 </div>
 
     <script type="text/x-thebe-config">
