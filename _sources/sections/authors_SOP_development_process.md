@@ -23,6 +23,7 @@
   1. [Julius Busecke](https://github.com/jbusecke), *Columbia University/Lamont-Doherty Earth Observatory, New York, USA*
   2. [Evi Bourma](https://github.com/evibourma), *Hellenic Centre for Marine Research (HCMR)/Institute of Oceanography, Athens, Greece*
   1. [Clark Richards](https://github.com/richardsc), *Fisheries and Oceans Canada, Bedford Institute of Oceanography, Halifax, Canada*
+  1. [Stuart Pearce](https://github.com/s-pearce), *to be filled, USA*
 
 ## SOP development process
 
@@ -116,4 +117,6 @@ He reviewed the overall document and provided feedback on the overall document.
 [Evi Bourma](https://github.com/evibourma) provided input to the SBE43 sensor section.
 
 [Clark Richards](https://github.com/richardsc) provided input to the SBE43 sensor section.
+
+[Stuart Pearce](https://github.com/s-pearce) provided input to the Aanderaa optode section related to MK2 equation, SVU/Multipoint-calibration and firmwares. 
 
