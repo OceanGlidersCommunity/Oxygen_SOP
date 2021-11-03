@@ -87,7 +87,7 @@ commentsRunWhenDOMLoaded(addUtterances);
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="3. Pre-deployment operations and calibrations" href="oxygen_pre_deployment.html" />
+    <link rel="next" title="3. Sensors and integrations" href="oxygen_sensors_integration.html" />
     <link rel="prev" title="1. Authors, development process and contributions" href="authors_SOP_development_process.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
@@ -141,43 +141,48 @@ commentsRunWhenDOMLoaded(addUtterances);
   </a>
  </li>
  <li class="toctree-l1">
+  <a class="reference internal" href="oxygen_sensors_integration.html">
+   3. Sensors and integrations
+  </a>
+ </li>
+ <li class="toctree-l1">
   <a class="reference internal" href="oxygen_pre_deployment.html">
-   3. Pre-deployment operations and calibrations
+   4. Pre-deployment operations and calibrations
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="oxygen_mission_execution.html">
-   4. Missions execution
+   5. Missions execution
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="oxygen_rtqc.html">
-   5. Required Metadata, Real Time Data Processing &amp; Quality Control
+   6. Required Metadata, Real Time Data Processing &amp; Quality Control
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="oxygen_post_recovery.html">
-   6. Post-recovery operations and calibrations
+   7. Post-recovery operations and calibrations
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="oxygen_dmqc.html">
-   7. Delayed Mode Quality Control
+   8. Delayed Mode Quality Control
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="data_sharing.html">
-   8. Data sharing
+   9. Data sharing
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="oxygen_references.html">
-   9. References
+   10. References
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="acknowledgement.html">
-   10. Acknowledgement
+   11. Acknowledgement
   </a>
  </li>
 </ul>
@@ -405,7 +410,7 @@ commentsRunWhenDOMLoaded(addUtterances);
 <p>Aanderaa optodes are the most widely used oxygen sensor on ocean gliders and a large body of work has now been dedicated to their characterisation (e.g. <span id="id1">[<a class="reference internal" href="oxygen_references.html#id7">Bittig <em>et al.</em>, 2018</a>]</span>).
 These sensors are based on the oxygen luminescence quenching of a platinum porphyrin complex (fluorescent indicator) that is immobilized in a sensing foil.
 These offer low power consumption, good long-term stability, low fouling sensitivity while not being sensitive to H2S or freezing.
-Aanderaa optodes have seen several important developments since they were introduced in 2002, with various hardware and firmware revisions which we outline below (shown in <code class="xref std std-numref docutils literal notranslate"><span class="pre">optodes</span></code>).</p>
+Aanderaa optodes have seen several important developments since they were introduced in 2002, with various hardware and firmware revisions which we outline below (shown in <a class="reference internal" href="oxygen_sensors_integration.html#optodes"><span class="std std-numref">Fig. 3.1</span></a>).</p>
 <div class="section" id="hardware-design-blue-or-black">
 <h3><span class="section-number">2.1.1. </span>Hardware design: blue or black<a class="headerlink" href="#hardware-design-blue-or-black" title="Permalink to this headline">¶</a></h3>
 <p>While mostly cosmetic, the colour of the optode is a useful short-hand for the two main optode designs.
@@ -472,7 +477,7 @@ This sensor has recently been implemented in gliders, and little is known about 
 </div>
 <div class="section" id="jfe-advantech-rinko">
 <h2><span class="section-number">2.3. </span>JFE Advantech RINKO<a class="headerlink" href="#jfe-advantech-rinko" title="Permalink to this headline">¶</a></h2>
-<p>AROD-FT sensor (RINKO JFE) is used for the SeaExplorer gliders (Alseamar) and for some Argo floats (small size and low power consumption) (see <code class="xref std std-numref docutils literal notranslate"><span class="pre">ARODFT</span></code>).
+<p>AROD-FT sensor (RINKO JFE) is used for the SeaExplorer gliders (Alseamar) and for some Argo floats (small size and low power consumption) (see <a class="reference internal" href="oxygen_sensors_integration.html#arodft"><span class="std std-numref">Fig. 3.2</span></a>).
 This sensor is based on the optical (phosphorescence) principle which is now widely known as a remarkably fast response oxygen sensor (below 1s) with a high accuracy of 2 <span class="math notranslate nohighlight">\(\mu\)</span>mol/kg.
 This sensor used a multi-points calibration (16 points with 4 temperatures and 4 DO concentrations).
 In this procedure, the DO reference standards are produced by saturing the primary mixtures with DO concentrations of approximately 4%, 10%, 17% and 25% respectively (certified by the National Metrology Institute of Japan).</p>
@@ -495,7 +500,7 @@ This is similar to procedures used on other optodes.</p>
 <p class="caption"><span class="caption-number">Fig. 2.3 </span><span class="caption-text">Oxygen saturation from a Rinko AROD-FT on a SeaExplorer glider in the Bornholm Basin (credit: Voice of the Ocean Foundation and University of Gothenburg).</span><a class="headerlink" href="#samba" title="Permalink to this image">¶</a></p>
 </div>
 <p>Recent deployments of a SeaExplorer glider equipped with an AROD-FT sensor have shown long-term stability (low drift over time) but with a significant offset observed during sections in the Ligurian Sea (on average 10-15 <span class="math notranslate nohighlight">\(\mu\)</span>mol/kg).
-Deployments in the Bornholm Basin have shown good agreement across a wide range of oxygen concentrations with a nearby BOOS monitoring station (see <code class="xref std std-numref docutils literal notranslate"><span class="pre">samba</span></code>. This sensor was a recent acquisition and had little opportunity to drift in storage.</p>
+Deployments in the Bornholm Basin have shown good agreement across a wide range of oxygen concentrations with a nearby BOOS monitoring station (see <a class="reference internal" href="oxygen_sensors_integration.html#samba"><span class="std std-numref">Fig. 3.3</span></a>. This sensor was a recent acquisition and had little opportunity to drift in storage.</p>
 </div>
 <div class="section" id="clark-electrode-polarographic-sensor-sbe-43-sbe-43f-and-sbe-63">
 <h2><span class="section-number">2.4. </span>Clark electrode polarographic sensor (SBE 43, SBE 43F and SBE 63)<a class="headerlink" href="#clark-electrode-polarographic-sensor-sbe-43-sbe-43f-and-sbe-63" title="Permalink to this headline">¶</a></h2>
@@ -550,10 +555,10 @@ For this task, Winkler samples or a clean, calibrated reference sensor will be r
         </a>
     </div>
      <div id="next">
-        <a class="right-next" href="oxygen_pre_deployment.html" title="next page">
+        <a class="right-next" href="oxygen_sensors_integration.html" title="next page">
             <div class="prevnext-info">
                 <p class="prevnext-label">next</p>
-                <p class="prevnext-title"><span class="section-number">3. </span>Pre-deployment operations and calibrations</p>
+                <p class="prevnext-title"><span class="section-number">3. </span>Sensors and integrations</p>
             </div>
             <i class="prevnext-label fas fa-angle-right"></i>
         </a>
