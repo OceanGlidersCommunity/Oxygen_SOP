@@ -404,12 +404,14 @@ The sensor then needs to be placed in water to hydrate at least 24 h prior to st
 </div>
 <div class="section" id="sensor-configuration-for-deployment">
 <h2><span class="section-number">4.2. </span>Sensor configuration for deployment<a class="headerlink" href="#sensor-configuration-for-deployment" title="Permalink to this headline">¶</a></h2>
-<p>Salinity configuration: 0 PSU. For optode sensors: when there is a small variation in salinity (less than 1 g/kg), it can be set to the mid value avoiding the need of salinity compensation. However, even in that case, it is a good practice to set salinity to 0 for two reasons: 1) it is usually difficult to find the salinity value defined for old deployments and 2) in case the equations change, it would be easier to recalculate oxygen values from uncompensated values.</p>
+<p>Salinity configuration: 0 PSU.
+For optode sensors: when there is a small variation in salinity (less than 1 g/kg), it can be set to the mid value avoiding the need of salinity compensation.
+However, even in that case, it is a good practice to set salinity to 0 for two reasons: 1) it is usually difficult to find the salinity value defined for old deployments and 2) in case the equations change, it would be easier to recalculate oxygen values from uncompensated values.
+Optodes should be configured to record the intermediate parameters (<code class="docutils literal notranslate"><span class="pre">calphase</span></code> and temperature), not just oxygen concentration or saturation.
+Accurate time-stamps, or offsets relative to CT measurements must be recorded for performing the lag correction.</p>
 </div>
 <div class="section" id="sensor-integration-with-gliders">
 <h2><span class="section-number">4.3. </span>Sensor integration with gliders<a class="headerlink" href="#sensor-integration-with-gliders" title="Permalink to this headline">¶</a></h2>
-<p>Optodes should be configured to record the intermediate parameters (<code class="docutils literal notranslate"><span class="pre">calphase</span></code> and temperature), not just oxygen concentration or saturation.
-Accurate time-stamps, or offsets relative to CT measurements must be recorded for performing the lag correction.</p>
 <div class="section" id="mounting-location">
 <h3><span class="section-number">4.3.1. </span>Mounting location<a class="headerlink" href="#mounting-location" title="Permalink to this headline">¶</a></h3>
 <div class="section" id="spray">
