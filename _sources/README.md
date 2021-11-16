@@ -2,7 +2,7 @@
 
 # OceanGliders Oxygen SOP
 
-This GitHub repository is for the [OceanGliders](https://www.oceangliders.org) Oxygen Standard Operating Procedure (SOP).
+This [GitHub repository](https://github.com/OceanGlidersCommunity/Oxygen_SOP) is for the [OceanGliders](https://www.oceangliders.org) Oxygen Standard Operating Procedure (SOP).
 
 Read the SOP [here](https://oceangliderscommunity.github.io/Oxygen_SOP/sections/authors_SOP_development_process.html). 
 
