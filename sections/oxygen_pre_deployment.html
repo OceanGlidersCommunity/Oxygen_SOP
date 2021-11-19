@@ -76,8 +76,6 @@ commentsRunWhenDOMLoaded(addUtterances);
 </script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
-    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
     <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
     <script>
         const thebe_selector = ".thebe"
@@ -415,16 +413,16 @@ There are several possibilities in order to achieve this, some examples:</p>
 </ol>
 <p>In situ intercomparisons will be required to find the outset of the sensor in different seawater conditions. Therefore, samples should be taken in the tank during the ballasting (if this is 1-2 days before deployment, no more) and at the deployment/recovery site (ideally at different depths).</p>
 <p><em>NOTE: A multipoint DO calibration is necessary to obtain new foil coefficients and that can be done at the manufacturer laboratories or in any fully equipped calibration lab. These values shouldn’t be changed otherwise.</em></p>
-<p>The Winkler method is used to determine the concentration of dissolved oxygen in discrete water samples which is a highly accurate method for determination of dissolved oxygen (± 0.15 <span class="math notranslate nohighlight">\(\mu\)</span>mol/kg). We recommend to follow the GO-SHIP protocol described by <span id="id9">[<a class="reference internal" href="oxygen_references.html#id19">Langdon, 2010</a>]</span> and a well trained technician to do the sampling and analysis.</p>
-<p><em>NOTE: This procedure is suitable for the measurement of the full range of oceanic oxygen concentrations (0-400 <span class="math notranslate nohighlight">\(\mu\)</span>mol/kg) in uncontaminated seawater.</em></p>
+<p>The Winkler method is used to determine the concentration of dissolved oxygen in discrete water samples which is a highly accurate method for determination of dissolved oxygen (± 0.15 μmol kg<sup>-1</sup>). We recommend to follow the GO-SHIP protocol described by <span id="id9">[<a class="reference internal" href="oxygen_references.html#id19">Langdon, 2010</a>]</span> and a well trained technician to do the sampling and analysis.</p>
+<p><em>NOTE: This procedure is suitable for the measurement of the full range of oceanic oxygen concentrations (0-400 μmol kg<sup>-1</sup>) in uncontaminated seawater.</em></p>
 <div class="figure align-default" id="calibration">
 <a class="bg-primary mb-1 reference internal image-reference" href="../_images/100-0-calibration.png"><img alt="100 0 % calibration" class="bg-primary mb-1" src="../_images/100-0-calibration.png" style="width: 400px;" /></a>
 <p class="caption"><span class="caption-number">Fig. 4.2 </span><span class="caption-text">Setup for 100% and 0% calibration.</span><a class="headerlink" href="#calibration" title="Permalink to this image">¶</a></p>
 </div>
 <p>There are various issues with Winkler at low oxygen concentrations that have been described in the bibliography:</p>
 <ul class="simple">
-<li><p>In waters with concentrations below 5 <span class="math notranslate nohighlight">\(\mu\)</span>mol/kg, high concentration of nitrite may cause a positive oxygen bias <span id="id10">[<a class="reference internal" href="oxygen_references.html#id19">Langdon, 2010</a>]</span>. In more recent articles, scientists even avoid using Winkler at concentrations below 20 <span class="math notranslate nohighlight">\(\mu\)</span>mol/kg <span id="id11">[<a class="reference internal" href="oxygen_references.html#id15">Thomsen <em>et al.</em>, 2016</a>]</span>.</p></li>
-<li><p>Oxygen absorbed in the plastic of the Niskin bottles is transferred into the water sampled. This oxygen contamination increases the concentration obtained when follow Winkler method. It has been measured values of apparent concentration of 2 - 4 <span class="math notranslate nohighlight">\(\mu\)</span>mol/kg in the Pacific minimum zones, showing a significant positive bias <span id="id12">[<a class="reference internal" href="oxygen_references.html#id3">Garcia-Robledo <em>et al.</em>, 2021</a>]</span>.</p></li>
+<li><p>In waters with concentrations below 5 μmol kg<sup>-1</sup>, high concentration of nitrite may cause a positive oxygen bias <span id="id10">[<a class="reference internal" href="oxygen_references.html#id19">Langdon, 2010</a>]</span>. In more recent articles, scientists even avoid using Winkler at concentrations below 20 μmol kg<sup>-1</sup> <span id="id11">[<a class="reference internal" href="oxygen_references.html#id15">Thomsen <em>et al.</em>, 2016</a>]</span>.</p></li>
+<li><p>Oxygen absorbed in the plastic of the Niskin bottles is transferred into the water sampled. This oxygen contamination increases the concentration obtained when follow Winkler method. It has been measured values of apparent concentration of 2 - 4 μmol kg<sup>-1</sup> in the Pacific minimum zones, showing a significant positive bias <span id="id12">[<a class="reference internal" href="oxygen_references.html#id3">Garcia-Robledo <em>et al.</em>, 2021</a>]</span>.</p></li>
 <li><p>Presence of extremely low concentrations of oxygen concentrations (nmol levels) in areas like the core of the Peruvian oxygen minimum zones.</p></li>
 </ul>
 <p>Thus, when working in these areas, it is recomended to do:</p>
@@ -463,11 +461,6 @@ To stop, type ‘Do Stop’.</p></li>
 <li><p>Once the sensor is measuring, continue with the procedure (see section Calibration Procedure).</p></li>
 </ol>
 <p>There is also a possibility of using a Data Logger while we are working with the sensors.</p>
-<!--
-| image file missing |
-|:--:|
-| *Figure X: Recording data using a terminal program (left image) and using a data logger (right image).* |
--->
 <div class="figure align-default" id="terminal-program">
 <a class="bg-primary mb-1 reference internal image-reference" href="../_images/TerminalProgram.jpg"><img alt="Terminal program" class="bg-primary mb-1" src="../_images/TerminalProgram.jpg" style="width: 400px;" /></a>
 <p class="caption"><span class="caption-number">Fig. 4.3 </span><span class="caption-text">Recording data using a terminal program.</span><a class="headerlink" href="#terminal-program" title="Permalink to this image">¶</a></p>
@@ -560,9 +553,6 @@ Value of oxygen saturation should be 100 % or higher.</p></li>
 <em>NOTE: Some DO sensors consume oxygen so, in this case, it’s recommended to move the sonde often to renew the water so the DO value does not decrease.</em></p></li>
 <li><p>Check the outset of the sensor by comparing  values measured by the Optode sensor with winkler values after measuring the bottle samples in the lab.</p></li>
 </ol>
-<!--
-![Taking samples for Winkler analysis during ballasting in the glider tank at PLOCAN facilities.](/images/winkler-ballasting.png)
--->
 <div class="figure align-default" id="winkler-ballasting">
 <a class="bg-primary mb-1 reference internal image-reference" href="../_images/winkler-ballasting.png"><img alt="Winkler calibration during balasting" class="bg-primary mb-1" src="../_images/winkler-ballasting.png" style="width: 400px;" /></a>
 <p class="caption"><span class="caption-number">Fig. 4.4 </span><span class="caption-text">Taking samples for Winkler analysis during ballasting in the glider tank at PLOCAN facilities.</span><a class="headerlink" href="#winkler-ballasting" title="Permalink to this image">¶</a></p>

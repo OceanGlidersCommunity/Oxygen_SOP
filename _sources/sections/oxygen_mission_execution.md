@@ -40,19 +40,11 @@ This will also help to record the sampling depths.
 When taking samples for the Winkler is not possible, values from the multiparameter sonde might be useful for in situ intercomparisons. 
 The sonde must be calibrated before and after the deployment/recovery (some sondes require to be calibrated the same day, please follow manufacturer recommendations).
 
-<!--
-![Coastal deployment of a Slocum glider from a small boat (photo taken during the Glider School at PLOCAN).](/images/CoastalDeployment.png)
--->
-
 :::{figure-md} CoastalDeployment
 <img src="../images/CoastalDeployment.png" alt="Deployment from small boat" class="bg-primary mb-1" width="300px">
 
 Coastal deployment of a Slocum glider from a small boat (photo taken during the Glider School at PLOCAN).
 :::
-
-<!--
-![Using a multiparameter sonde for in-situ intercomparison during deployments from small boats.](/images/multiparametersonde.png)
--->
 
 :::{figure-md} multiparametersonde
 <img src="../images/multiparametersonde.png" alt="Intercomparison with multiparametersonde" class="bg-primary mb-1" width="600px">
@@ -101,7 +93,7 @@ Note that the classical Winkler titration method is not reliable at oxygen conce
 Steps recommended in these regions: 
 1) Do a 0/100 % calibration before and after deployment in the lab.
 
-2) Measure Winkler in samples with concentration higher than 20 $\mu$mol/kg, typically in the mixed layer during the deployment and/or recovery. 
+2) Measure Winkler in samples with concentration higher than 20 μmol kg<sup>-1</sup>, typically in the mixed layer during the deployment and/or recovery. 
 The Winkler method is also a problem when there is a strong vertical gradient, typically found in OMZ regions. 
 Thus calibration points below the mixed layer are often not suitable. 
 Look for regions with weak vertical gradients.
