@@ -7,10 +7,6 @@ Sensors should be cleaned before storage and stored with black caps on, includin
 If sensors are stored dry the foil will dry out which could lead to 1-2 % lower readings. 
 The sensor then needs to be placed in water to hydrate at least 24 h prior to starting field measurements again.
 
-<!-- 
-![Keeping sensor in small beakers before and during calibration process. Only the membrane will need to be submerged in distilled water. \label{fig:storage}](/images/storage.jpg)
--->
-
 :::{figure-md} storage
 <img src="/images/storage.jpg" alt="Sensor storage" class="bg-primary mb-1" width="400px">
 
