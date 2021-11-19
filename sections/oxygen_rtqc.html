@@ -76,8 +76,6 @@ commentsRunWhenDOMLoaded(addUtterances);
 </script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
-    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
     <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
     <script>
         const thebe_selector = ".thebe"
@@ -356,7 +354,7 @@ RTQC applied on the temperature measured by the oxygen sensor should follow the 
 </div>
 <div class="section" id="global-range-check">
 <h3><span class="section-number">6.2.2. </span>Global range check<a class="headerlink" href="#global-range-check" title="Permalink to this headline">¶</a></h3>
-<p>This test applies a gross filter on EGO oxygen data. If one observation is out of the global range [-5, 600] <span class="math notranslate nohighlight">\(\mu\)</span>mol/kg, its QC flag is set up to 4 “bad data”.</p>
+<p>This test applies a gross filter on EGO oxygen data. If one observation is out of the global range [-5, 600] μmol kg<sup>-1</sup>, its QC flag is set up to 4 “bad data”.</p>
 </div>
 <div class="section" id="outlier-and-spike-check">
 <h3><span class="section-number">6.2.3. </span>Outlier and spike check<a class="headerlink" href="#outlier-and-spike-check" title="Permalink to this headline">¶</a></h3>
@@ -373,7 +371,7 @@ Test value &gt; 25 µmol/kg for pressure &gt;= 500 dbar</p>
 </div>
 <div class="section" id="bad-p-t-s-qc-spreading">
 <h3><span class="section-number">6.2.5. </span>Bad P/T/S QC spreading<a class="headerlink" href="#bad-p-t-s-qc-spreading" title="Permalink to this headline">¶</a></h3>
-<p>The test checks that the dissolved oxygen concentration in µmol/kg is computed from a valid pressure, temperature and salinity.
+<p>The test checks that the dissolved oxygen concentration in μmol kg<sup>-1</sup> is computed from a valid pressure, temperature and salinity.
 Considering the pressure or temperature impact on the oxygen conversion, when pressure or temperature is marked as bad (qc = 4), oxygen concentration should be set to 4.
 Conversely, and as the salinity impact on the oxygen conversion is less than previous parameters, when salinity is marked as bad, oxygen concentration should be set to 3.</p>
 </div>
