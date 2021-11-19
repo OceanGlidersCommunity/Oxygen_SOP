@@ -71,9 +71,9 @@ In situ intercomparisons will be required to find the outset of the sensor in di
 
 *NOTE: A multipoint DO calibration is necessary to obtain new foil coefficients and that can be done at the manufacturer laboratories or in any fully equipped calibration lab. These values shouldn’t be changed otherwise.*
 
-The Winkler method is used to determine the concentration of dissolved oxygen in discrete water samples which is a highly accurate method for determination of dissolved oxygen (± 0.15 $\mu$mol/kg). We recommend to follow the GO-SHIP protocol described by {cite}`Langdon2010` and a well trained technician to do the sampling and analysis.
+The Winkler method is used to determine the concentration of dissolved oxygen in discrete water samples which is a highly accurate method for determination of dissolved oxygen (± 0.15 μmol kg<sup>-1</sup>). We recommend to follow the GO-SHIP protocol described by {cite}`Langdon2010` and a well trained technician to do the sampling and analysis.
 
-*NOTE: This procedure is suitable for the measurement of the full range of oceanic oxygen concentrations (0-400 $\mu$mol/kg) in uncontaminated seawater.*
+*NOTE: This procedure is suitable for the measurement of the full range of oceanic oxygen concentrations (0-400 μmol kg<sup>-1</sup>) in uncontaminated seawater.*
 
 :::{figure-md} 100-0-calibration
 <img src="/images/100-0-calibration.png" alt="100 0 % calibration" class="bg-primary mb-1" width="400px">
@@ -82,8 +82,8 @@ Setup for 100% and 0% calibration.
 :::
 
 There are various issues with Winkler at low oxygen concentrations that have been described in the bibliography: 
- -	In waters with concentrations below 5 $\mu$mol/kg, high concentration of nitrite may cause a positive oxygen bias {cite}`Langdon2010`. In more recent articles, scientists even avoid using Winkler at concentrations below 20 $\mu$mol/kg {cite}`Thomsen2016`. 
- -	Oxygen absorbed in the plastic of the Niskin bottles is transferred into the water sampled. This oxygen contamination increases the concentration obtained when follow Winkler method. It has been measured values of apparent concentration of 2 - 4 $\mu$mol/kg in the Pacific minimum zones, showing a significant positive bias {cite}`Garcia-Robledo2021`.
+ -	In waters with concentrations below 5 μmol kg<sup>-1</sup>, high concentration of nitrite may cause a positive oxygen bias {cite}`Langdon2010`. In more recent articles, scientists even avoid using Winkler at concentrations below 20 μmol kg<sup>-1</sup> {cite}`Thomsen2016`. 
+ -	Oxygen absorbed in the plastic of the Niskin bottles is transferred into the water sampled. This oxygen contamination increases the concentration obtained when follow Winkler method. It has been measured values of apparent concentration of 2 - 4 μmol kg<sup>-1</sup> in the Pacific minimum zones, showing a significant positive bias {cite}`Garcia-Robledo2021`.
  -	Presence of extremely low concentrations of oxygen concentrations (nmol levels) in areas like the core of the Peruvian oxygen minimum zones.
 
 Thus, when working in these areas, it is recomended to do:
@@ -117,12 +117,6 @@ To stop, type ‘Do Stop’.
 4. Once the sensor is measuring, continue with the procedure (see section Calibration Procedure).
 
 There is also a possibility of using a Data Logger while we are working with the sensors. 
-
-<!--
-| image file missing |
-|:--:|
-| *Figure X: Recording data using a terminal program (left image) and using a data logger (right image).* |
--->
 
 :::{figure-md} terminal_program
 <img src="/images/TerminalProgram.jpg" alt="Terminal program" class="bg-primary mb-1" width="400px">
@@ -204,10 +198,6 @@ Materials: Silicon tube for sampling, multiparameter sonde, BOD bottles, Winkler
 6. A multiparameter sonde with a DO sensor whose precision is less than 0.1 % can be measured in the tank near the glider’s sensors (record at least values for Temperature, Conductivity and DO). 
 *NOTE: Some DO sensors consume oxygen so, in this case, it’s recommended to move the sonde often to renew the water so the DO value does not decrease.*
 8. Check the outset of the sensor by comparing  values measured by the Optode sensor with winkler values after measuring the bottle samples in the lab.
-
-<!--
-![Taking samples for Winkler analysis during ballasting in the glider tank at PLOCAN facilities.](/images/winkler-ballasting.png)
--->
 
 :::{figure-md} winkler-ballasting
 <img src="/images/winkler-ballasting.png" alt="Winkler calibration during balasting" class="bg-primary mb-1" width="400px">
