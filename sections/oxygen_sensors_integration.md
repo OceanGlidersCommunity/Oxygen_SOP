@@ -13,7 +13,7 @@ While mostly cosmetic, the colour of the optode is a useful short-hand for the t
 The 3835 and 4835 optodes both feature a black housing with the temperature sensor integrated into the base of the sensor near the connector. 
 This results in a large thermal mass and increases the response time of the temperature sensor significantly. 
 The blue 4330 and 4831 sensors move the thermistor next to the sensing foil which results in much improved performance of the temperature sensor.
-with an increase in accuracy to 0.03$^{\circ}$C from 0.05$^{\circ}$C, and time-response reduction to <2 seconds rather than ~10 seconds {cite:p}`Aanderaa2018`. 
+with an increase in accuracy to 0.03 °C from 0.05 °C, and time-response reduction to <2 seconds rather than ~10 seconds {cite:p}`Aanderaa2018`. 
 All optodes other than the 4831 use a 10 pin Lemo connector, these connectors can’t be connected when wet and are prone to crevice corrosion. 
 The 4831 is therefore recommended with it’s Subconn wet-pluggable connector.
 Older optode versions (3830) have a titanium housing in the same form factor as the 3835. 
@@ -21,7 +21,7 @@ Some early Slocum gliders were delivered with optodes of type 5013, these are id
 
 #### Foil type: F or standard
 Most optodes use the PreSens PSt3 foil (PreSens - Precision Sensing GmbH), these have as standard a black opaque protective layer protecting the pink sensing layer.
-For glider applications the “F” type foils are typically preferred as these remove the opaque layer which results in much faster diffusion across the foil, and therefore faster sensor response ($\tau$ = 8 s compared to ~ 25 s {cite}`Bittig2014`). 
+For glider applications the “F” type foils are typically preferred as these remove the opaque layer which results in much faster diffusion across the foil, and therefore faster sensor response (τ = 8 s compared to ~ 25 s {cite}`Bittig2014`). 
 However, removal of the protective layer makes the foil more susceptible to UV radiation, and is known to reduce the sensor stability, especially when exposed to strong sunlight.
 Newer 4330F and 4831F optodes (Since July 8th 2018) use an improved formulation of the Presens fast foil which are less sunlight sensitive and have much lower noise levels. These can be identified by their white appearance. 
 It is recommended that older F-type instruments (with the pink foils) are upgraded with these improved foils. 
@@ -46,6 +46,7 @@ There are three different calibration equations used to convert the measured pha
 The “Mk1” equation used by the older 3835 optodes uses a 5x4 matrix of coefficients. 
 The “Mk2” equation is used by non-multipoint calibrated 4330(F) and 4835 optodes, and uses a 2x14 matrix (FoilCoefA and FoilCoefB) together with a 2x27 matrix for the polynomial degree, this second matrix is the same across all of these type optodes. 
 Newer multipoint calibrated optodes use the Stern-Volmer (SVU) equation proposed by {cite}`Uchida2008` which has 6 terms.
+The SVU equation was introduced with firmware version 4.4.8.
 Non-multipoint foil calibrations are based on a common characterisation of a production batch. 
 Multipoint calibrations consist of 40 calibration points across a range of concentrations and temperatures and offer improved accuracy and should be preferred when purchasing these sensors.
 Consult your optode foil calibration document to verify which version your optode is using. 
@@ -66,7 +67,7 @@ Suit of smart optodes sensors. Oxygen sensors are indicated by red arrows.
 
 ### RBR coda T.ODO
 The RBRcoda T.ODO uses the same foils and methods as the 4831 and 4831F so everything above specified for the 4831 will also apply to those instruments as well.
-RBR refers to the standard optode (~30 s $\tau$) foil as “slow” and the fast (~8 s) as the standard.
+RBR refers to the standard optode (~30 s τ) foil as “slow” and the fast (~8 s) as the standard.
 They also use further foil design (~1 s response) which they call fast. 
 The RBR sensor has a smaller form factor than the Aandera optodes, but is overall more similar to a 4831 with the temperature sensor very closely located to the sensing foil. 
 This sensor has recently been implemented in gliders, and little is known about their performance.
@@ -111,7 +112,7 @@ These sensors have been used in Seagliders and Spray and also in morrings and Ar
 Sensors are designed for use in a CTD’s pumped flow path, providing optimal correlation with CTD measurements. 
 Elapsed time between the CTD and associated oxygen measurement is easily quantified, and corrected for, in post-processing. 
 The black plenum and plumbing’s black tubing blocks light, reducing in-situ algal growth. 
-Response time $\tau$ varies from 2-20 sec depending on the membrane thinness, ambient water temperature and flow rate. 
+Response time τ varies from 2-20 sec depending on the membrane thinness, ambient water temperature and flow rate. 
 Drift thresholds for sensor performance should be established prior to data collection, to determine how often instruments should be serviced, validated, and returned to Sea-Bird for a full service and calibration. 
 It is recommended to do validation in the lab before and after deployment/recovery and while the sensor is in the water (if possible). 
 For this task, Winkler samples or a clean, calibrated reference sensor will be required. (Information from https://www.seabird.com) 
