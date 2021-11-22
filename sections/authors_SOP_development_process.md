@@ -121,4 +121,4 @@ He reviewed the overall document and provided feedback on the overall document.
 
 [Stuart Pearce](https://github.com/s-pearce) provided input to the Aanderaa optode section related to MK2 equation, SVU/Multipoint-calibration and firmwares. 
 
-[Filipa Carvaho](https://github.com/pipa85) provided feedback on overall document and helped to improve the overview schematic.
+[Filipa Carvalho](https://github.com/pipa85) provided feedback on overall document and helped to improve the overview schematic.
