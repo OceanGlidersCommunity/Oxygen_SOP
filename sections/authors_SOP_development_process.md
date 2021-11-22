@@ -24,7 +24,7 @@
   2. [Evi Bourma](https://github.com/evibourma), *Hellenic Centre for Marine Research (HCMR)/Institute of Oceanography, Athens, Greece*
   1. [Clark Richards](https://github.com/richardsc), *Fisheries and Oceans Canada, Bedford Institute of Oceanography, Halifax, Canada*
   1. [Stuart Pearce](https://github.com/s-pearce), *Ocean Observatories Initiative, Endurance Array, Oregon State University, Oregon, USA*
-  1. [Filipa Carvaho](https://github.com/pipa85), *National Oceanography Centre, Southampton, UK*
+  1. [Filipa Carvalho](https://github.com/pipa85), *National Oceanography Centre, Southampton, UK*
 
 ## SOP development process
 
