@@ -27,7 +27,6 @@
   1. [Filipa Carvalho](https://github.com/pipa85), *National Oceanography Centre, Southampton, UK*
 
 ## SOP development process
-
 1) Initial SOP was drafted by [Patricia López-García](https://github.com/patricialg), [Tom Hull](https://github.com/tomhull), [Soeren Thomsen](https://github.com/soerenthomsen) and [Johannes Hahn](https://github.com/hahn-johannes).
 
 2) Two expert sessions during OceanGliders Best Practice Workshop, May 11 - 25 2021. 
@@ -41,10 +40,9 @@ Additional authors joined: [Bastien Y. Queste](https://github.com/bastienqueste)
 
 6) At the moment: 4 months community review on GitHub until 31 January 2022.
 
-7) Additional authors joined on GitHub during the community review: [Evi Bourma](https://github.com/evibourma), [Clark Richards](https://github.com/richardsc), [Stuart Pearce](https://github.com/s-pearce), [Filipa Carvaho](https://github.com/pipa85).
+7) Additional authors joined on GitHub during the community review: [Evi Bourma](https://github.com/evibourma), [Clark Richards](https://github.com/richardsc), [Stuart Pearce](https://github.com/s-pearce), [Filipa Carvalho](https://github.com/pipa85).
 
 ## Contributions 
-
 [Patricia López-García](https://github.com/patricialg) drafted the initial document collating information from several SOPs, sensor manuals and articles. 
 Main contribution to: Introduction section (producing Table 1 from information gathered from glider users and completing information for Clark electrodes sensors SBE 43/63), Pre-deployment operations and calibrations section (subsections Storage and cleaning and Pre-deployment calibrations), Post-recovery operations and calibrations section. 
 She added some images to the document. 
