@@ -25,6 +25,7 @@
   1. [Clark Richards](https://github.com/richardsc), *Fisheries and Oceans Canada, Bedford Institute of Oceanography, Halifax, Canada*
   1. [Stuart Pearce](https://github.com/s-pearce), *Ocean Observatories Initiative, Endurance Array, Oregon State University, Oregon, USA*
   1. [Filipa Carvalho](https://github.com/pipa85), *National Oceanography Centre, Southampton, UK*
+  1. [Isabelle Giddy](https://github.com/isgiddy), *Southern Ocean Carbon and Climate Observatory, CSIR | Department of Oceanography, University of Cape Town, South Africa | Department of Marine Science, University of Gothenburg, Sweden*
 
 ## SOP development process
 1) Initial SOP was drafted by [Patricia López-García](https://github.com/patricialg), [Tom Hull](https://github.com/tomhull), [Soeren Thomsen](https://github.com/soerenthomsen) and [Johannes Hahn](https://github.com/hahn-johannes).
@@ -40,7 +41,7 @@ Additional authors joined: [Bastien Y. Queste](https://github.com/bastienqueste)
 
 6) At the moment: 4 months community review on GitHub until 31 January 2022.
 
-7) Additional authors joined on GitHub during the community review: [Evi Bourma](https://github.com/evibourma), [Clark Richards](https://github.com/richardsc), [Stuart Pearce](https://github.com/s-pearce), [Filipa Carvalho](https://github.com/pipa85).
+7) Additional authors joined on GitHub during the community review: [Evi Bourma](https://github.com/evibourma), [Clark Richards](https://github.com/richardsc), [Stuart Pearce](https://github.com/s-pearce), [Filipa Carvalho](https://github.com/pipa85), [Isabelle Giddy](https://github.com/isgiddy).
 
 ## Contributions 
 [Patricia López-García](https://github.com/patricialg) drafted the initial document collating information from several SOPs, sensor manuals and articles. 
@@ -120,3 +121,5 @@ He reviewed the overall document and provided feedback on the overall document.
 [Stuart Pearce](https://github.com/s-pearce) provided input to the Aanderaa optode section related to MK2 equation, SVU/Multipoint-calibration and firmwares. 
 
 [Filipa Carvalho](https://github.com/pipa85) provided feedback on overall document and helped to improve the overview schematic.
+
+[Isabelle Giddy](https://github.com/isgiddy) provided feedback on the pre-deployment section towards improving the procedure at very low-temperatures. Supports the technical maintanence of the SOP on GitHub.
