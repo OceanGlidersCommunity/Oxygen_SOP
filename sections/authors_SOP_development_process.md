@@ -4,23 +4,23 @@
   1. [Patricia López-García](https://github.com/patricialg), *Ocean Technology and Engineering Group, National Oceanography Centre, Southampton, UK,* [0000-0002-4689-2775](https://orcid.org/0000-0002-4689-2775)
   1. [Tom Hull](https://github.com/tomhull), *Centre for Environment Fisheries and Aquaculture Science, Lowestoft, UK,* [0000-0002-1714-9317](https://orcid.org/0000-0002-1714-9317)
   1. [Soeren Thomsen](https://github.com/soerenthomsen), *LOCEAN, ISPL, Sorbonne University, Paris, France,* [0000-0002-0598-8340](https://orcid.org/0000-0002-0598-8340)
-  1. [Johannes Hahn](https://github.com/hahn-johannes), *Federal Maritime and Hydrographic Agency (BSH), Hamburg, Germany* 
-  1. [Bastien Y. Queste](https://github.com/bastienqueste), *Department of Marine Science, University of Gothenburg, Gothenburg, Sweden*, [0000-0002-3786-2275](https://orcid.org/0000-0002-3786-2275)
-  1. [Gerd Krahmann](https://github.com/gkrahmann), *GEOMAR Helmholtz Centre for Ocean Research Kiel, Germany* 
-  1. [Charlotte Williams](https://github.com/charlotte-aj-williams), *Marine Physics and Ocean Climate Group. National Oceanography Centre, Liverpool, UK*
+  1. [Johannes Hahn](https://github.com/hahn-johannes), *Federal Maritime and Hydrographic Agency (BSH), Hamburg, Germany,* [0000-0002-5638-2031](https://orcid.org/0000-0002-5638-2031)
+  1. [Bastien Y. Queste](https://github.com/bastienqueste), *Department of Marine Science, University of Gothenburg, Gothenburg, Sweden,* [0000-0002-3786-2275(https://orcid.org/0000-0002-3786-2275)
+  1. [Gerd Krahmann](https://github.com/gkrahmann), *GEOMAR Helmholtz Centre for Ocean Research Kiel, Germany,* [0000-0003-0944-8795](https://orcid.org/0000-0003-0944-8795)
+  1. [Charlotte Williams](https://github.com/charlotte-aj-williams), *Marine Physics and Ocean Climate Group. National Oceanography Centre, Liverpool, UK,* [0000-0001-7964-4826](https://orcid.org/0000-0001-7964-4826) 
   1. Mun Woo, *IMOS Ocean Gliders, UWA Oceans Institute and Oceans Graduate School, The University of Western Australia, Perth, Australia*
   1. Charitha Pattiaratchi, *IMOS Ocean Gliders, UWA Oceans Institute and Oceans Graduate School, The University of Western Australia, Perth, Australia*
-  1. [Laurent Coppola](https://github.com/laurcopp), *Sorbonne Université, CNRS, Laboratoire d’Océanographie de Villefranche (LOV), 06230 Villefranche-sur-Mer, France*
-  1. Tania Morales, *Plataforma Oceánica de Canarias (PLOCAN), Canary Islands, Spain*
-  1. [Virginie Racapé](https://github.com/vracape), *Institut Universitaire Européen de la mer CNRS-UMS 3113, IFREMER-coriolis, Plouzané France*
+  1. [Laurent Coppola](https://github.com/laurcopp), *Sorbonne Université, CNRS, Laboratoire d’Océanographie de Villefranche (LOV), 06230 Villefranche-sur-Mer, France,* [0000-0003-0473-1129](https://orcid.org/0000-0003-0473-1129)
+  1. Tania Morales, *Plataforma Oceánica de Canarias (PLOCAN), Canary Islands, Spain,* [0000-0002-3585-8037](https://orcid.org/0000-0002-3585-8037)
+  1. [Virginie Racapé](https://github.com/vracape), *Institut Universitaire Européen de la mer CNRS-UMS 3113, IFREMER-coriolis, Plouzané France,* [0000-0003-0239-5125](https://orcid.org/0000-0003-0239-5125)
   1. [Claire Gourcuff](https://github.com/cgourcuf), *Euro-Argo ERIC, Brest, France*
   1. John Allen, *SOCIB, Palma de Mallorca, Spain*
   1. [Eva Alou-Font](https://github.com/ealou), *SOCIB, Palma de Mallorca, Spain*
   1. [Nikolaos D. Zarokanellos](https://github.com/nizaroka), *SOCIB, Palma de Mallorca, Spain*
   1. [Victor Turpin](https://github.com/vturpin), *OceanOps, Brest, France*
-  1. [Catherine Schmechtig](https://github.com/catsch), *CNRS, Sorbonne Université, Osu Ecce Terra, Paris, France*
+  1. [Catherine Schmechtig](https://github.com/catsch), *CNRS, Sorbonne Université, Osu Ecce Terra, Paris, France,* [0000-0002-1230-164X](https://orcid.org/0000-0002-1230-164X)
   1. [Pierre Testor](https://github.com/ptestor), *CNRS-Sorbonne Universités (UPMC Univ. Pierre et Marie Curie, Paris 06)-CNRS-IRD-MNHN, UMR 7159, Laboratoire d’Océanographie et de Climatologie (LOCEAN), Institut Pierre Simon Laplace (IPSL), Observatoire Ecce Terra, Paris, France*
-  1. [Julius Busecke](https://github.com/jbusecke), *Columbia University/Lamont-Doherty Earth Observatory, New York, USA*
+  1. [Julius Busecke](https://github.com/jbusecke), *Columbia University/Lamont-Doherty Earth Observatory, New York, USA,* [0000-0001-8571-865X](https://orcid.org/0000-0001-8571-865X)
   2. [Evi Bourma](https://github.com/evibourma), *Hellenic Centre for Marine Research (HCMR)/Institute of Oceanography, Athens, Greece*
   1. [Clark Richards](https://github.com/richardsc), *Fisheries and Oceans Canada, Bedford Institute of Oceanography, Halifax, Canada*
   1. [Stuart Pearce](https://github.com/s-pearce), *Ocean Observatories Initiative, Endurance Array, Oregon State University, Oregon, USA*
