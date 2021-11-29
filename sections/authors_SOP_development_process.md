@@ -4,8 +4,8 @@
   1. [Patricia López-García](https://github.com/patricialg), *Ocean Technology and Engineering Group, National Oceanography Centre, Southampton, UK,* [0000-0002-4689-2775](https://orcid.org/0000-0002-4689-2775)
   1. [Tom Hull](https://github.com/tomhull), *Centre for Environment Fisheries and Aquaculture Science, Lowestoft, UK,* [0000-0002-1714-9317](https://orcid.org/0000-0002-1714-9317)
   1. [Soeren Thomsen](https://github.com/soerenthomsen), *LOCEAN, ISPL, Sorbonne University, Paris, France,* [0000-0002-0598-8340](https://orcid.org/0000-0002-0598-8340)
-  1. [Johannes Hahn](https://github.com/hahn-johannes), *Federal Maritime and Hydrographic Agency (BSH), Hamburg, Germany*, [0000-0002-3786-2275](https://orcid.org/0000-0002-3786-2275)
-  1. [Bastien Y. Queste](https://github.com/bastienqueste), *Department of Marine Science, University of Gothenburg, Gothenburg, Sweden*
+  1. [Johannes Hahn](https://github.com/hahn-johannes), *Federal Maritime and Hydrographic Agency (BSH), Hamburg, Germany* 
+  1. [Bastien Y. Queste](https://github.com/bastienqueste), *Department of Marine Science, University of Gothenburg, Gothenburg, Sweden*, [0000-0002-3786-2275](https://orcid.org/0000-0002-3786-2275)
   1. [Gerd Krahmann](https://github.com/gkrahmann), *GEOMAR Helmholtz Centre for Ocean Research Kiel, Germany* 
   1. [Charlotte Williams](https://github.com/charlotte-aj-williams), *Marine Physics and Ocean Climate Group. National Oceanography Centre, Liverpool, UK*
   1. Mun Woo, *IMOS Ocean Gliders, UWA Oceans Institute and Oceans Graduate School, The University of Western Australia, Perth, Australia*
