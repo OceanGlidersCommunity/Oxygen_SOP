@@ -19,7 +19,7 @@
   1. [Nikolaos D. Zarokanellos](https://github.com/nizaroka), *SOCIB, Palma de Mallorca, Spain,* [0000-0002-6235-6198](https://orcid.org/0000-0002-6235-6198)
   1. [Victor Turpin](https://github.com/vturpin), *OceanOps, Brest, France*
   1. [Catherine Schmechtig](https://github.com/catsch), *CNRS, Sorbonne Université, Osu Ecce Terra, Paris, France,* [0000-0002-1230-164X](https://orcid.org/0000-0002-1230-164X)
-  1. [Pierre Testor](https://github.com/ptestor), *CNRS-Sorbonne Universités (UPMC Univ. Pierre et Marie Curie, Paris 06)-CNRS-IRD-MNHN, UMR 7159, Laboratoire d’Océanographie et de Climatologie (LOCEAN), Institut Pierre Simon Laplace (IPSL), Observatoire Ecce Terra, Paris, France*
+  1. [Pierre Testor](https://github.com/ptestor), *CNRS-Sorbonne Universités (UPMC Univ. Pierre et Marie Curie, Paris 06)-CNRS-IRD-MNHN, UMR 7159, Laboratoire d’Océanographie et de Climatologie (LOCEAN), Institut Pierre Simon Laplace (IPSL), Observatoire Ecce Terra, Paris, France*, , [0000-0002-8038-9479](https://orcid.org/0000-0002-8038-9479)
   1. [Julius Busecke](https://github.com/jbusecke), *Columbia University/Lamont-Doherty Earth Observatory, New York, USA,* [0000-0001-8571-865X](https://orcid.org/0000-0001-8571-865X)
   2. [Evi Bourma](https://github.com/evibourma), *Hellenic Centre for Marine Research (HCMR)/Institute of Oceanography, Athens, Greece*
   1. [Clark Richards](https://github.com/richardsc), *Fisheries and Oceans Canada, Bedford Institute of Oceanography, Halifax, Canada*
