@@ -21,7 +21,8 @@ See contributer guideline [here](https://github.com/OceanGlidersCommunity/Oxygen
 3) Depositing of first major SOP release at the [Ocean Best Practice System (OBPS)](https://www.oceanbestpractices.org) + doi by OBPS.
 4) Submission of shorter version to [Frontiers: Research Topic Best Practices in Ocean Observing](https://www.frontiersin.org/research-topics/7173/best-practices-in-ocean-observing) for peer-review February 2022
 
-The main SOP document will always reside in this GitHub repository to allow updates within the OceanGliders community at any time. After major revisions regular peer-reviewed updates are planned.
+The main SOP document will always reside in this GitHub repository to allow updates within the OceanGliders community at any time. 
+After major revisions regular peer-reviewed updates are planned.
 
 ## Questions?
 Do you have any questions related to oxygen measurements on gliders?
