@@ -99,7 +99,7 @@ However, simply shifting the optode data relative to time will not remove some o
 The routine developed by Bastien Queste for the UEA Seaglider toolbox works as follows:
 
 1. The CTD temperature is aligned based on flight speed to the optode phase using a 1-D interpolation and a flight speed dependent time-shift.
-(the optode and seabird temperature are close together on a Seaglider so the time-shift is small).
+(the optode and Sea-Bird temperature are close together on a Seaglider so the time-shift is small).
 1. Oxygen partial pressure is calculated using the optode phase and time shifted optode temperature.
 1. Up and down profiles are compared (in pressure or density space depending on environmental conditions) and either:
     1. A shoelace algorithm is used to minimise the area between the curves or
