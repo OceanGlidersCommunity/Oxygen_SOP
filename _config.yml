@@ -15,5 +15,7 @@ html:
 bibtex_bibfiles:
     - oxygen.bib
 sphinx:
+  extra_extensions:
+   - sphinx_astrorefs
   config:
     bibtex_reference_style: author_year
