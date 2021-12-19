@@ -15,7 +15,7 @@ This results in a large thermal mass and increases the response time of the temp
 The blue 4330 and 4831 sensors move the thermistor next to the sensing foil which results in much improved performance of the temperature sensor.
 with an increase in accuracy to 0.03 °C from 0.05 °C, and time-response reduction to <2 seconds rather than ~10 seconds {cite:p}`Aanderaa2018`. 
 All optodes other than the 4831 use a 10 pin Lemo connector, these connectors can’t be connected when wet and are prone to crevice corrosion. 
-The 4831 is therefore recommended with it’s Subconn wet-pluggable connector.
+The 4831 is therefore recommended for all applications with it’s Subconn wet-pluggable connector.
 Older optode versions (3830) have a titanium housing in the same form factor as the 3835. 
 Some early Slocum gliders were delivered with optodes of type 5013, these are identical to the 3830.
 
@@ -30,27 +30,37 @@ Otherwise foils should typically not be replaced unless mechanically damaged (li
 #### Calibration equation and firmware versions
 The way optode foils are initially calibrated by Aanderaa, and how the measured values are processed by the optode varies between different optode versions.
 The optode illuminates the sensing foil with both a red and blue LED. 
-Since the red light does not produce fluorescence in the foil the phase measurements are obtained from the difference between the blue (P1) and the red (P2) excitation.
+Since the red light does not produce fluorescence in the foil the phase measurements are obtained from the difference between the blue (`P1`) and the red (`P2`) excitation.
 
-P_T = A(T) + (P1 - P2) · B(T)
+    TCphase = A(T) + (P1 - P2) · B(T)
 
-Where P_T is the temperature compensated phase (known as ‘TCphase‘). 
+Where `TCphase` is the temperature compensated phase and `T` is the measured optode temperature temperature. 
 A and B are temperature dependent coefficients which allow for temperature compensation of the phase measurement. 
-However for most 4330, 4831 and 4835 optodes these are not used, such that A(T) = 0 and B(T) = 1. 
-This can be confirmed by communicating with an optode and inspecting the ‘PTC0Coef‘ and ‘PTC1Coef‘ properties. 
-For older optodes (4330 serial numbers < 1000) the temperature compensated phase is then used to calculate ‘calphase‘ (P_c). 
-For newer optodes P_T = P_c. Similarly older optodes have their calibration (and recalibration) applied though the modification of the ‘PhaseCoef‘ coefficients. 
-On later optodes the calibration is not applied in phase space, but on the oxygen concentration though the use of the ‘ConcCoef0‘ and ‘ConcCoef1‘ coefficents (‘PhaseCoef0‘ and ‘PhaseCoef1‘ are set to zero and 1 respectively). 
+However for most 4330, 4831 and 4835 optodes these are not used, such that `A(T)` = 0 and `B(T)` = 1. 
+This can be confirmed by communicating with an optode and inspecting the `PTC0Coef` and `PTC1Coef` properties. 
+For older optodes (4330 serial numbers < 1000) the temperature compensated phase is then used to calculate `calphase` (calibrated phase). 
+For newer optodes `TCphase` = `calphase`.
+Similarly older optodes have their calibration (and recalibration) applied though the modification of the `PhaseCoef` coefficients. 
+On later optodes the calibration is not applied in phase space, but on the oxygen concentration though the use of the `ConcCoef0` and `ConcCoef1` coefficents (`PhaseCoef0` and `PhaseCoef1` are set to zero and 1 respectively). 
 Consult your optode calibration sheet and confirm which terms are being used.
+
 There are three different calibration equations used to convert the measured phase to oxygen equations:
-The “Mk1” equation used by the older 3835 optodes uses a 5x4 matrix of coefficients. 
-The “Mk2” equation is used by non-multipoint calibrated 4330(F) and 4835 optodes, and uses a 2x14 matrix (FoilCoefA and FoilCoefB) together with a 2x27 matrix for the polynomial degree, this second matrix is the same across all of these type optodes. 
+The “Mk1” equation used by the older 3835 optodes uses a 5 x 4 matrix of coefficients. 
+The “Mk2” equation is used by non-multipoint calibrated 4330(F) and 4835 optodes, and uses a 2x14 matrix (FoilCoefA and FoilCoefB) together with a 2 x 27 matrix for the polynomial degree, this second matrix is the same across all of these type optodes. 
 Newer multipoint calibrated optodes use the Stern-Volmer (SVU) equation proposed by {cite}`Uchida2008` which has 6 terms.
 The SVU equation was introduced with firmware version 4.4.8.
+As of 2019 all new Aanderaa optodes are multipoint calibrated as standard.
 Non-multipoint foil calibrations are based on a common characterisation of a production batch. 
 Multipoint calibrations consist of 40 calibration points across a range of concentrations and temperatures and offer improved accuracy and should be preferred when purchasing these sensors.
 Consult your optode foil calibration document to verify which version your optode is using. 
 Understanding these differences in how the calculations are performed is important when recalculating oxygen from the phase readings, such as when compensating for lag.
+
+The resultant oxygen concentration (in μmol L<sup>-1</sup>) and saturation (\%) need to be corrected for salinity.
+Optical oxygen sensors do not measure salinity, but they can be configured to apply this salinity correction internally.
+We recommend to never change this from the default value of zero and to always apply a correction based on matched salinity during RTQC or DMQC.
+Aanderaa currently use the "combined" fit from {cite:t}`GarciaGordon1992` for this correction in their documentation.
+However following {cite:t}`Bittig2015`, this should be ideally be done using the {cite:t}`BensonKrause1984` data.
+
 Regardless of the optode version, oxygen can be recalculated from calphase using the approach of {cite}`Uchida2008`.
 During the initial months of storage/use a Foil maturation process occurs resulting in lower readings by several %. 
 The maximum observed maturation induced drift on more than 1000 sensor has been 8 % for sensors with non-factory pre-matured WTW foils (model: 4835, 4531 and 5730 Steinsvik) and 6 % for sensors with factory pre-matured PSt3 foils (model: 4330, 4831, 5331 hadal). 
@@ -62,21 +72,21 @@ After this it should be less than 0.5 % per year, unless the foil is mechanicall
 :::{figure-md} optodes
 <img src="/images/AaanderaasensorsAll1.png" alt="Aandera Optodes" class="bg-primary mb-1" width="400px">
 
-Suit of smart optodes sensors. Oxygen sensors are indicated by red arrows.
+Suit of Aanderaa smart sensors. Oxygen optodes are indicated by red arrows.
 :::
 
 ### RBR coda T.ODO
 The RBRcoda T.ODO uses the same foils and methods as the 4831 and 4831F so everything above specified for the 4831 will also apply to those instruments as well.
 RBR refers to the standard optode (~30 s τ) foil as “slow” and the fast (~8 s) as the standard.
-They also use further foil design (~1 s response) which they call fast. 
-The RBR sensor has a smaller form factor than the Aandera optodes, but is overall more similar to a 4831 with the temperature sensor very closely located to the sensing foil. 
+They also use further foil design (~1 s response) which they call “fast” . 
+The RBR sensor has a smaller form factor than the Aandera optodes, but is overall similar to a 4831 with the temperature sensor very closely located to the sensing foil. 
 This sensor has recently been implemented in gliders, and little is known about their performance.
 
 ### JFE Advantech RINKO
 AROD-FT sensor (RINKO JFE) is used for the SeaExplorer gliders (Alseamar) and for some Argo floats (small size and low power consumption) (see {numref}`ARODFT`). 
-This sensor is based on the optical (phosphorescence) principle which is now widely known as a remarkably fast response oxygen sensor (below 1s) with a high accuracy of 2 $\mu$mol/kg. 
+This sensor is based on the optical (phosphorescence) principle which a remarkably fast response oxygen sensor (below 1 s) with a good accuracy (±2 μmol kg<sup>-1</sup>). 
 This sensor used a multi-points calibration (16 points with 4 temperatures and 4 DO concentrations). 
-In this procedure, the DO reference standards are produced by saturing the primary mixtures with DO concentrations of approximately 4%, 10%, 17% and 25% respectively (certified by the National Metrology Institute of Japan). 
+The DO reference standards are produced by saturating the primary mixtures with DO concentrations of approximately 4%, 10%, 17% and 25% respectively (certified by the National Metrology Institute of Japan). 
 
 <!--
 ![AROD-FT sensor mounted on a SeaExplorer glider (credit: ALSEAMAR) \label{fig:ARODFT}](/images/ARODFTSensor.jpg)
@@ -89,7 +99,7 @@ AROD-FT sensor mounted on a SeaExplorer glider (credit: ALSEAMAR)
 :::
 
 The DO concentration is calculated from the {cite}`Uchida2010` equation with 9 calibration coefficients. 
-A second equation is used to take into account the pressure effect (linear equation with one calibration coefficient). 
+A second equation is used to take into account the pressure effect (a linear equation with one calibration coefficient). 
 Finally, the salinity-compensated DO concentration is calculated by multiplying the factor of the effect of salt on the oxygen solubility {cite}`BensonKrause1984` and {cite}`GarciaGordon1992`.
 This is similar to procedures used on other optodes.
 
