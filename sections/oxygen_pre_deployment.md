@@ -82,11 +82,11 @@ There are various issues with Winkler at low oxygen concentrations that have bee
  -	Oxygen absorbed in the plastic of the Niskin bottles is transferred into the water sampled. This oxygen contamination increases the concentration obtained when follow Winkler method. It has been measured values of apparent concentration of 2 - 4 μmol kg<sup>-1</sup> in the Pacific minimum zones, showing a significant positive bias {cite}`Garcia-Robledo2021`.
  -	Presence of extremely low concentrations of oxygen concentrations (nmol levels) in areas like the core of the Peruvian oxygen minimum zones.
 
-Thus, when working in these areas, it is recomended to do:
+Thus, when working in these areas, it is recommended to do:
  - In-situ approaches for 0 % calibration suggested by {cite}`Thomsen2016`.
  - Intercomparisons with STOX sensors attached to a shipboard CTD {cite}`Revsbech2009` or new low-oxygen sensing foils (0-10% saturation) from Aanderaa.
 
-#### 100 / 0 % saturation protocol
+#### 100 / 0 % saturation calibration protocol
 
 This method is necessary to check the sensor drift over time as the foil wears out. It’s recommended to do it before the deployment and after recovery. NOTE: Sensor foil must be wet during all procedure steps.   
 Some information to read before we proceed with the calibration:
@@ -100,17 +100,18 @@ There is also an option of removing the oxygen from the water bubbling nitrogen 
 6. While calibrating, measure air pressure and water temperature to calculate the DO saturation estimated at current pressure. When we are on board of a ship and would like to use the data from the ship weather station, we need to check where the calibration is taking place: lab air pressure will be influenced by air conditioning systems, location of the lab (at sea level or in decks below), size and occupancy of the lab,among others. These considerations should be taken into account when working in onshore labs also. Therefore,  having a portable weather station is highly recommended. For measuring temperature, a sonde with the same or better precision as the glider sensors must be used. 
 
 #### Communicating with the sensor using a terminal program and a cable
-When the DO sensor is disconnected from the glider:
-1. Connect the sensor to a PC by using a Sensor Cable (Cable #3855 for 4330/4835 optodes, Cable #5335 for 4831).
-2. Start a terminal program  with the following set-up:
-9600 Baud
-8 Data bits
-1 Stop bit
-No Parity
-Xon/Xoff Flow Control
-3. If using Tera Terminal Pro, after setting up the com port according to settings above please select “Terminal” in the “Set up” menu and click “Local echo” also select “CR+LF” for both “Receive” and “Transmit” under “New line”.
-To stop, type ‘Do Stop’.
-4. Once the sensor is measuring, continue with the procedure (see section Calibration Procedure).
+When the DO sensor is disconnected from the glider connect the sensor to a PC by using the cable (Cable #3855 for 4330/4835 optodes, Cable #5335 for 4831).
+These cables can be purchased from Aanderaa and provide power to the optode via USB.
+
+The following terminal configuration works for all optode types:
+
+- 9600 baud rate
+- 8 data bits
+- 1 stop bit
+- No parity
+- Xon/Xoff flow control on
+- Local echo
+- CR+LF receive and transmit
 
 There is also a possibility of using a Data Logger while we are working with the sensors. 
 
@@ -125,9 +126,9 @@ Materials: Distilled water, aquarium pump, 1L and small volume beakers, stirrer 
 
 Type *Get All* command for saving the initial sensor configuration to be able to restore old values in case something goes wrong.
 
-1. With the sensor submerged in  the 100 % water, connect to it and start measuring.  Set the Interval property to 30 seconds. (This interval is recommended during the calibration to reduce the risk of self heating in the small container).
+1. With the sensor submerged in  the 100 % water, connect to it and start measuring.  Set the Interval property to 30 seconds. (This interval is recommended during the calibration to reduce the risk of self heating in the small Set).
              
-            Set Passkey(1000)
+            container Passkey(1000)
             
             Set Interval(30)
             

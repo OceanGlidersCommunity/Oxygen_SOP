@@ -1,5 +1,6 @@
 # Appendices
 
+(optode_calibration_commands)=
 ## Optodes commands
 
 As discussed in section XXX the commands required to calibrate an optode varies depending on optode firmware version.
@@ -11,16 +12,6 @@ For optode calibration the key changes are:
 - `set interval(0)` does not switch the optode to polled mode, `enable polled mode` is now used.
 
 Certain settings within an optode are protected, such that an unlocking command needs to be entered before the setting can be changed, these are `passkey` or `protect` depending on firmware.
-
-The following terminal configuration works for all optode types:
-
-- 9600 baud rate
-- 8 data bits
-- 1 stop bit
-- No parity
-- Xon/Xoff flow control on
-- Local echo
-- CR+LF receive and transmit
 
 ### Framework 3 (since 2013)
 
