@@ -34,7 +34,7 @@ Since the red light does not produce fluorescence in the foil the phase measurem
 
     TCphase = A(T) + (P1 - P2) · B(T)
 
-Where `TCphase` is the temperature compensated phase and `T` is the measured optode temperature temperature. 
+Where `TCphase` is the temperature compensated phase and `T` is the measured optode temperature. 
 A and B are temperature dependent coefficients which allow for temperature compensation of the phase measurement. 
 However for most 4330, 4831 and 4835 optodes these are not used, such that `A(T)` = 0 and `B(T)` = 1. 
 This can be confirmed by communicating with an optode and inspecting the `PTC0Coef` and `PTC1Coef` properties. 
