@@ -1,6 +1,6 @@
 title: "Oxygen SOP"
-author: The OceanGliders community using [Jupyter Book](https://jupyterbook.org/intro.html) and is licensed under a [Creative Commons Attribution 4.0 Generic License](https://creativecommons.org/licenses/by/4.0/).
-copyright: "2021"
+author: The OceanGliders community
+copyright: "2021 under a [Creative Commons Attribution 4.0 Generic License](https://creativecommons.org/licenses/by/4.0/)"
 logo: images/logo-ocean-gliders.png
 execute:
   execute_notebooks: "off"
