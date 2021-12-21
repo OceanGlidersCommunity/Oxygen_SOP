@@ -3,7 +3,7 @@
 (optode_calibration_commands)=
 ## Optodes commands
 
-As discussed in section XXX the commands required to calibrate an optode varies depending on optode firmware version.
+As discussed in section {numref}`comm_sensor_terminal_cable` the commands required to calibrate an optode varies depending on optode firmware version.
 Here we present the key commands needed to perform a 0-100 calibration for all known optode variants.
 
 The framework 3 firmware saw many changes to the output and commands from the optodes which are summarised in the optode manual Appendix 11.
