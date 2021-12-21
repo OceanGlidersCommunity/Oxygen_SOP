@@ -99,6 +99,7 @@ There is also an option of removing the oxygen from the water bubbling nitrogen 
 5. Always check saturation values: an outset of ± 5 % is adequate, so a value between 95 to 105 % is correct.
 6. While calibrating, measure air pressure and water temperature to calculate the DO saturation estimated at current pressure. When we are on board of a ship and would like to use the data from the ship weather station, we need to check where the calibration is taking place: lab air pressure will be influenced by air conditioning systems, location of the lab (at sea level or in decks below), size and occupancy of the lab,among others. These considerations should be taken into account when working in onshore labs also. Therefore,  having a portable weather station is highly recommended. For measuring temperature, a sonde with the same or better precision as the glider sensors must be used. 
 
+(comm_sensor_terminal_cable)=
 #### Communicating with the sensor using a terminal program and a cable
 When the DO sensor is disconnected from the glider connect the sensor to a PC by using the cable (Cable #3855 for 4330/4835 optodes, Cable #5335 for 4831).
 These cables can be purchased from Aanderaa and provide power to the optode via USB.
