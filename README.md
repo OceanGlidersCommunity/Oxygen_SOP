@@ -6,6 +6,8 @@ This [GitHub repository](https://github.com/OceanGlidersCommunity/Oxygen_SOP) is
 
 Read the SOP [here](https://oceangliderscommunity.github.io/Oxygen_SOP/sections/authors_SOP_development_process.html). 
 
+Everyone is welcome to join the SOP at any time.
+
 ## Community review
 The community review is open from October 2021 to January 31 2022.
 
