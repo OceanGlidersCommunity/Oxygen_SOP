@@ -84,7 +84,7 @@ This sensor has recently been implemented in gliders, and little is known about 
 
 ### JFE Advantech RINKO
 AROD-FT sensor (RINKO JFE) is used for the SeaExplorer gliders (Alseamar) and for some Argo floats (small size and low power consumption) (see {numref}`ARODFT`). 
-This sensor is based on the optical (phosphorescence) principle which a remarkably fast response oxygen sensor (below 1 s) with a good accuracy (±2 μmol kg<sup>-1</sup>). 
+This sensor is based on the optical (phosphorescence) principle creating a remarkably fast response oxygen sensor (below 1 s) with a good accuracy (±2 μmol kg<sup>-1</sup>). 
 This sensor used a multi-points calibration (16 points with 4 temperatures and 4 DO concentrations). 
 The DO reference standards are produced by saturating the primary mixtures with DO concentrations of approximately 4%, 10%, 17% and 25% respectively (certified by the National Metrology Institute of Japan). 
 
