@@ -1,13 +1,6 @@
 title: "Oxygen SOP"
 copyright: ""
 logo: images/logo-ocean-gliders.png
-html:
-  extra_footer: |
-    <p>  By the OceanGliders community using
-      <a href="https://jupyterbook.org/intro.html"   target="_blank">Jupyter Book</a>. 
-      This work is licensed under a 
-      <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank"> Creative Commons Attribution 4.0 Generic License.</a> 
-    </p>
 
 execute:
   execute_notebooks: "off"
@@ -21,6 +14,13 @@ html:
   comments:
     utterances:
       repo: "OceanGlidersCommunity/Oxygen_SOP"
+  extra_footer: |
+    <p>  By the OceanGliders community using
+      <a href="https://jupyterbook.org/intro.html"   target="_blank">Jupyter Book</a>. 
+      This work is licensed under a 
+      <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank"> Creative Commons Attribution 4.0 Generic License.</a> 
+    </p>
+    
 bibtex_bibfiles:
     - oxygen.bib
 sphinx:
