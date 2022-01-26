@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>7. Post-recovery operations and calibrations &#8212; Oxygen SOP</title>
+    <title>12. Appendices &#8212; Oxygen SOP</title>
     
   <link href="../_static/css/theme.css" rel="stylesheet">
   <link href="../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -85,8 +85,7 @@ commentsRunWhenDOMLoaded(addUtterances);
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="8. Delayed Mode Quality Control" href="oxygen_dmqc.html" />
-    <link rel="prev" title="6. Required Metadata, Real Time Data Processing &amp; Quality Control" href="oxygen_rtqc.html" />
+    <link rel="prev" title="11. Acknowledgement" href="acknowledgement.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -161,8 +160,8 @@ commentsRunWhenDOMLoaded(addUtterances);
    6. Required Metadata, Real Time Data Processing &amp; Quality Control
   </a>
  </li>
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
+ <li class="toctree-l1">
+  <a class="reference internal" href="oxygen_post_recovery.html">
    7. Post-recovery operations and calibrations
   </a>
  </li>
@@ -186,8 +185,8 @@ commentsRunWhenDOMLoaded(addUtterances);
    11. Acknowledgement
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="oxygen_appendix.html">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
    12. Appendices
   </a>
  </li>
@@ -232,7 +231,7 @@ commentsRunWhenDOMLoaded(addUtterances);
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../_sources/sections/oxygen_post_recovery.md"><button type="button"
+        <a class="dropdown-buttons" href="../_sources/sections/oxygen_appendix.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -252,10 +251,10 @@ commentsRunWhenDOMLoaded(addUtterances);
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/OceanGlidersCommunity/Oxygen_SOP/issues/new?title=Issue%20on%20page%20%2Fsections/oxygen_post_recovery.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/OceanGlidersCommunity/Oxygen_SOP/issues/new?title=Issue%20on%20page%20%2Fsections/oxygen_appendix.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
-        <a class="edit-button" href="https://github.com/OceanGlidersCommunity/Oxygen_SOP/edit/main/sections/oxygen_post_recovery.md"><button
+        <a class="edit-button" href="https://github.com/OceanGlidersCommunity/Oxygen_SOP/edit/main/sections/oxygen_appendix.md"><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
     </div>
@@ -281,24 +280,26 @@ commentsRunWhenDOMLoaded(addUtterances);
             <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#biofouling-assessment">
-   7.1. Biofouling assessment
+  <a class="reference internal nav-link" href="#optodes-commands">
+   12.1. Optodes commands
   </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#sensor-storage">
-   7.2. Sensor storage
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#lab-calibration">
-   7.3. Lab calibration
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#field-calibration">
-   7.4. Field calibration
-  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#framework-3-since-2013">
+     12.1.1. Framework 3 (since 2013)
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#older-type-4835-and-4330-pre-2013">
+     12.1.2. Older type 4835 and 4330 (pre 2013)
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#type-3830-and-3835">
+     12.1.3. Type 3830 and 3835
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -310,7 +311,7 @@ commentsRunWhenDOMLoaded(addUtterances);
         <div class="col-12 col-md-9 pl-md-3 pr-md-0">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Post-recovery operations and calibrations</h1>
+                <h1>Appendices</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
@@ -321,24 +322,26 @@ commentsRunWhenDOMLoaded(addUtterances);
                         <nav aria-label="Page">
                             <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#biofouling-assessment">
-   7.1. Biofouling assessment
+  <a class="reference internal nav-link" href="#optodes-commands">
+   12.1. Optodes commands
   </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#sensor-storage">
-   7.2. Sensor storage
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#lab-calibration">
-   7.3. Lab calibration
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#field-calibration">
-   7.4. Field calibration
-  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#framework-3-since-2013">
+     12.1.1. Framework 3 (since 2013)
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#older-type-4835-and-4330-pre-2013">
+     12.1.2. Older type 4835 and 4330 (pre 2013)
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#type-3830-and-3835">
+     12.1.3. Type 3830 and 3835
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -349,28 +352,86 @@ commentsRunWhenDOMLoaded(addUtterances);
             
               <div>
                 
-  <div class="tex2jax_ignore mathjax_ignore section" id="post-recovery-operations-and-calibrations">
-<h1><span class="section-number">7. </span>Post-recovery operations and calibrations<a class="headerlink" href="#post-recovery-operations-and-calibrations" title="Permalink to this headline">¶</a></h1>
-<p>At first users should report that their mission is over to support(at)<a class="reference external" href="http://oceanobs.org">oceanobs.org</a></p>
-<div class="section" id="biofouling-assessment">
-<h2><span class="section-number">7.1. </span>Biofouling assessment<a class="headerlink" href="#biofouling-assessment" title="Permalink to this headline">¶</a></h2>
-<p>Pictures should be taken for biofuiling assessment.</p>
-<div class="figure align-default" id="biofouling-examples">
-<a class="bg-primary mb-1 reference internal image-reference" href="../_images/biofouling_combined_Mario_Mueller.png"><img alt="Examples of biofouling." class="bg-primary mb-1" src="../_images/biofouling_combined_Mario_Mueller.png" style="width: 400px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 7.1 </span><span class="caption-text">Examples of biofouling. A gooseneck barnacle is growing on the optode foil (left). Algae growth on the foil (right).</span><a class="headerlink" href="#biofouling-examples" title="Permalink to this image">¶</a></p>
+  <div class="tex2jax_ignore mathjax_ignore section" id="appendices">
+<h1><span class="section-number">12. </span>Appendices<a class="headerlink" href="#appendices" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="optodes-commands">
+<span id="optode-calibration-commands"></span><h2><span class="section-number">12.1. </span>Optodes commands<a class="headerlink" href="#optodes-commands" title="Permalink to this headline">¶</a></h2>
+<p>As discussed in section <a class="reference internal" href="oxygen_pre_deployment.html#comm-sensor-terminal-cable"><span class="std std-numref">Section 4.5.1.2</span></a> the commands required to calibrate an optode varies depending on optode firmware version.
+Here we present the key commands needed to perform a 0-100 calibration for all known optode variants.</p>
+<p>The framework 3 firmware saw many changes to the output and commands from the optodes which are summarised in the optode manual Appendix 11.
+For optode calibration the key changes are:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">do</span> <span class="pre">stop</span></code> and <code class="docutils literal notranslate"><span class="pre">do</span> <span class="pre">start</span></code> are now simply <code class="docutils literal notranslate"><span class="pre">stop</span></code> and <code class="docutils literal notranslate"><span class="pre">start</span></code>.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">set</span> <span class="pre">interval(0)</span></code> does not switch the optode to polled mode, <code class="docutils literal notranslate"><span class="pre">enable</span> <span class="pre">polled</span> <span class="pre">mode</span></code> is now used.</p></li>
+</ul>
+<p>Certain settings within an optode are protected, such that an unlocking command needs to be entered before the setting can be changed, these are <code class="docutils literal notranslate"><span class="pre">passkey</span></code> or <code class="docutils literal notranslate"><span class="pre">protect</span></code> depending on firmware.</p>
+<div class="section" id="framework-3-since-2013">
+<h3><span class="section-number">12.1.1. </span>Framework 3 (since 2013)<a class="headerlink" href="#framework-3-since-2013" title="Permalink to this headline">¶</a></h3>
+<p>4835 optodes with a serial number greater than 300, 4330 optodes with a serial number greater than 1000 and all 4831 optodes are using the Framework 3 command set.</p>
+<ol class="simple">
+<li><p>immerse the optode in the 100 % solution</p></li>
+<li><p>connect to the optode and open a terminal session</p></li>
+<li><p>configure your terminal to log output to a file</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">get</span> <span class="pre">all</span></code> - to see the current optode configuration</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">set</span> <span class="pre">passkey(1000)</span></code> - to allow protected settings to be modified</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">set</span> <span class="pre">interval(30)</span></code> - to set the optode to collect data every 30 seconds</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">start</span></code> - to start measuring data</p></li>
+<li><p>wait for the temperature and oxygen measurements to stabilise. Variance between samples should be less than ±0.05 °C and ±0.1 µmol L<sup>-1</sup>.</p></li>
+<li><p>record the local atmospheric air pressure in hPa</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">do</span> <span class="pre">collectcaldatasat</span></code> - to collect data for the 100 % data point and update the optode settings</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">set</span> <span class="pre">caldataapress(XXXX.X)</span></code> - to update the local air pressure where XXXX.X is the pressure in hPa</p></li>
+<li><p>immerse the optode in the 0 % solution</p></li>
+<li><p>wait for the temperature and oxygen measurements have stabilised (several minutes)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">do</span> <span class="pre">collectcaldatazero</span></code> - to collect data for the 0 % data point and update the optode settings</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">do</span> <span class="pre">calibrate</span></code> - to finalise the calibration and update the optode settings</p></li>
+<li><p>rinse the optode very thoroughly and return it to the 100 % solution and confirm the optode is reading correctly after 10 minutes of stabilisation</p></li>
+</ol>
 </div>
+<div class="section" id="older-type-4835-and-4330-pre-2013">
+<h3><span class="section-number">12.1.2. </span>Older type 4835 and 4330 (pre 2013)<a class="headerlink" href="#older-type-4835-and-4330-pre-2013" title="Permalink to this headline">¶</a></h3>
+<p>4835 optodes with a serial number less than 300 and 4330 optodes with a serial number less than 1000 use the following command set.
+These optodes can use two different levels of passkey (1 and 1000) depending on which setting needs to be changed   .</p>
+<ol class="simple">
+<li><p>immerse the optode in the 100 % solution</p></li>
+<li><p>connect to the optode and open a terminal session</p></li>
+<li><p>configure your terminal to log output to a file</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">get</span> <span class="pre">all</span></code> - to see the current optode configuration</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">set</span> <span class="pre">protect(1000)</span></code> - to allow protected settings to be modified</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">set</span> <span class="pre">interval(30)</span></code> - to set the optode to collect data every 30 seconds</p></li>
+<li><p>Wait for the temperature and oxygen measurements to stabilise. Variance between samples should be less than ±0.05 °C and ±0.1 µmol L<sup>-1</sup> (or ±0.5 for µmol L<sup>-1</sup> 4330F)</p></li>
+<li><p>record the local atmospheric air pressure in hPa</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">do</span> <span class="pre">collectcaldatasat</span></code> - to collect data for the 100 % data point and update the optode settings</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">do</span> <span class="pre">caldataapress(XXXX.X)</span></code> - to update the local air pressure where XXXX.X is the pressure in hPa</p></li>
+<li><p>immerse the optode in the 0 % solution</p></li>
+<li><p>wait for the temperature and oxygen measurements have stabilised (several minutes)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">set</span> <span class="pre">collectcaldatazero</span></code> - to collect data for the 0 % data point and update the optode settings</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">do</span> <span class="pre">calibrate</span></code> - to finalise the calibration and update the optode settings</p></li>
+<li><p>rinse the optode very thoroughly and return it to the 100 % solution and confirm the optode is reading correctly after 10 minutes of stabilisation</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">set</span> <span class="pre">interval(X)</span></code> to return the optodes back the sampling interval required by your glider. With <code class="docutils literal notranslate"><span class="pre">X</span></code> set to 0 being polled mode.</p></li>
+</ol>
 </div>
-<div class="section" id="sensor-storage">
-<h2><span class="section-number">7.2. </span>Sensor storage<a class="headerlink" href="#sensor-storage" title="Permalink to this headline">¶</a></h2>
-<p>Foil must be kept wet and protected from light after recovery until validation in the lab.</p>
+<div class="section" id="type-3830-and-3835">
+<h3><span class="section-number">12.1.3. </span>Type 3830 and 3835<a class="headerlink" href="#type-3830-and-3835" title="Permalink to this headline">¶</a></h3>
+<ol class="simple">
+<li><p>immerse the optode in the 100 % solution</p></li>
+<li><p>connect to the optode and open a terminal session</p></li>
+<li><p>configure your terminal to log output to a file</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">get_all</span></code> - to see the current optode configuration</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">set_protect(1)</span></code> - to allow protected settings to be modified</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">set_interval(30)</span></code> - to set the optode to collect data every 30 seconds</p></li>
+<li><p>wait for the temperature and oxygen measurements to stabilise. Variance between samples should be less than ±0.1 °C and ±0.5 µmol L<sup>-1</sup>.</p></li>
+<li><p>record the local atmospheric air pressure in hPa</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">do_calair</span></code> - to collect data for the 100 % data point and update the optode settings</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">set_calairpressure(XXXX.X)</span></code> - to update the local air pressure where XXXX.X is the pressure in hPa</p></li>
+<li><p>immerse the optode in the 0 % solution</p></li>
+<li><p>wait for the temperature and oxygen measurements have stabilised (several minutes)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">do_calzero</span></code> - to collect data for the 0 % data point and update the optode settings</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">do_calibrate</span></code> - to finalise the calibration and update the optode settings</p></li>
+<li><p>rinse the optode very thoroughly and return it to the 100 % solution and confirm the optode is reading correctly after 10 minutes of stabilisation</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">set_protect(1)</span></code> - to allow protected settings to be modified</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">set_interval(X)</span></code> to return the optodes back the sampling interval required by your glider. With <code class="docutils literal notranslate"><span class="pre">X</span></code> set to 0 being polled mode.</p></li>
+</ol>
 </div>
-<div class="section" id="lab-calibration">
-<h2><span class="section-number">7.3. </span>Lab calibration<a class="headerlink" href="#lab-calibration" title="Permalink to this headline">¶</a></h2>
-<p>When the glider is recovered, a 0% and 100% calibration is recommended as outlined above at two different temperatures levels.</p>
-</div>
-<div class="section" id="field-calibration">
-<h2><span class="section-number">7.4. </span>Field calibration<a class="headerlink" href="#field-calibration" title="Permalink to this headline">¶</a></h2>
-<p>If you recover the glider from a small boat or a research vessel follow protocols described in <a class="reference internal" href="oxygen_mission_execution.html#deployment-small-boat"><span class="std std-numref">Section 5.3</span></a> and <a class="reference internal" href="oxygen_mission_execution.html#deployment-ship-ctd"><span class="std std-numref">Section 5.4</span></a> accordingly.</p>
 </div>
 </div>
 
@@ -399,19 +460,12 @@ commentsRunWhenDOMLoaded(addUtterances);
             
                 <!-- Previous / next buttons -->
 <div class='prev-next-area'> 
-    <a class='left-prev' id="prev-link" href="oxygen_rtqc.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="acknowledgement.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title"><span class="section-number">6. </span>Required Metadata, Real Time Data Processing &amp; Quality Control</p>
+            <p class="prev-next-title"><span class="section-number">11. </span>Acknowledgement</p>
         </div>
-    </a>
-    <a class='right-next' id="next-link" href="oxygen_dmqc.html" title="next page">
-    <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title"><span class="section-number">8. </span>Delayed Mode Quality Control</p>
-    </div>
-    <i class="fas fa-angle-right"></i>
     </a>
 </div>
             
