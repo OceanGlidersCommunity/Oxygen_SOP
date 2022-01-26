@@ -37,8 +37,7 @@ Certain settings within an optode are protected, such that an unlocking command 
 ### Older type 4835 and 4330 (pre 2013)
 
 4835 optodes with a serial number less than 300 and 4330 optodes with a serial number less than 1000 use the following command set.
-
-XXX note these optodes use two different levels of passkey (1 and 1000) depending on which setting needs to be changed.
+These optodes can use two different levels of passkey (1 and 1000) depending on which setting needs to be changed   .
 
 1. immerse the optode in the 100 % solution
 1. connect to the optode and open a terminal session
