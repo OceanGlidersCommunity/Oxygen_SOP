@@ -1,7 +1,7 @@
 # Details for attribution and permission for each of the images
 
 - `100-0-calibration.png` - Tania Morales
-- `ARODFTSensor.jpg`
+- `ARODFTSensor.jpg` - Voice of the Ocean Foundation, Bastien Queste
 - `biofouling_combined_Mario_Mueller.png` - Mario Mueller
 - `biofouling_01_Mario_Mueller.jpg` - Mario Mueller
 - `biofouling_02_Mario_Mueller.jpg` - Mario Mueller
@@ -22,7 +22,7 @@
 - `logo-ocean-gliders.png` - OceanGliders
 - `multiparametersonde.png`- Tania Morales
 - `OGIVE.png` - Tom Hull, Cefas
-- `Rinko.png`
+- `Rinko.png` - Voice of the Ocean Foundation, Bastien Queste
 - `RTQC_check_Doxy_combined.png` - Virgine Racape
 - `SAMBA.png` - Bastien Queste, University of Gothenburg
 - `slocum.jpg`

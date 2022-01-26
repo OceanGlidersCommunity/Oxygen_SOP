@@ -7,10 +7,6 @@ Sensors should be cleaned before storage and stored with black caps on, includin
 If sensors are stored dry the foil will dry out which could lead to 1-2 % lower readings. 
 The sensor then needs to be placed in water to hydrate at least 24 h prior to starting field measurements again.
 
-<!-- 
-![Keeping sensor in small beakers before and during calibration process. Only the membrane will need to be submerged in distilled water. \label{fig:storage}](/images/storage.jpg)
--->
-
 :::{figure-md} storage
 <img src="/images/storage.jpg" alt="Sensor storage" class="bg-primary mb-1" width="400px">
 
@@ -25,75 +21,13 @@ After recovery the sensor has to be cleaned to remove any biofouling. The follow
 *NOTE: Don’t change the foil unless it is physically damaged.* 
 
 ## Sensor configuration for deployment
-Salinity configuration: 0 PSU. For optode sensors: when there is a small variation in salinity (less than 1 g/kg), it can be set to the mid value avoiding the need of salinity compensation. However, even in that case, it is a good practice to set salinity to 0 for two reasons: 1) it is usually difficult to find the salinity value defined for old deployments and 2) in case the equations change, it would be easier to recalculate oxygen values from uncompensated values. 
-
-## Sensor integration with gliders
+Salinity configuration: 0 PSU. 
+For optode sensors: when there is a small variation in salinity (less than 1 g/kg), it can be set to the mid value avoiding the need of salinity compensation. 
+However, even in that case, it is a good practice to set salinity to 0 for two reasons: 1) it is usually difficult to find the salinity value defined for old deployments and 2) in case the equations change, it would be easier to recalculate oxygen values from uncompensated values. 
 Optodes should be configured to record the intermediate parameters (`calphase` and temperature), not just oxygen concentration or saturation.
 Accurate time-stamps, or offsets relative to CT measurements must be recorded for performing the lag correction.
 
-### Mounting location
-
-#### Spray
-- input from expert needed
-
-#### Seaglider
-On Seagliders the oxygen sensor is normally mounted externally behind the CT sensor (see {numref}`seagliders_standard`. Given this exposed location it is important to mount the optode with the sensing foil facing away from incident light to avoid unnecessary UV exposure.
-<!-- 
-![UEA OGIVE seaglider with 4330F optode, together with NOC LoC spectrophotometric pH, unpumped SBE CT and Fluidion potentiometric pH sensor. \label{fig:seagliders_standard}](/images/OGIVE.png)
--->
-
-:::{figure-md} seagliders_standard
-<img src="/images/OGIVE.png" alt="Seaglider sensor integration" class="bg-primary mb-1" width="400px">
-
-UEA OGIVE seaglider with 4330F optode, together with NOC LoC spectrophotometric pH, unpumped SBE CT and Fluidion potentiometric pH sensor.
-:::
-
-
-#### Slocum
-On slocum gliders the oxygen optode is typically installed aft close to the fin ({numref}`slocum_standard`.
-
-<!--
-![Standard Aanderaa optode 4831 mounting under the fin of the Slocum G2. \label{fig:slocum_standard}](/images/slocum.jpg)
--->
-
-:::{figure-md} slocum_standard
-<img src="/images/slocum.jpg" alt="Slocum sensor integration" class="bg-primary mb-1" width="400px">
-
-Standard Aanderaa optode 4831 mounting under the fin of the Slocum G2.
-:::
-
-However this positioning is not ideal for oxygen measurements due to the optode being within a region of laminar flow {cite}`Moat2016`, additionally the optode response time has been observed to be dependent on the sensor orientation relative to the direction of flow {cite}`Bittig2014`. 
-
-
-An alternative mounting of the Aanderaa optode in a more prominent location fore of the glider fin has been demonstrated as being much more suitable for measuring oxygen on gliders ({numref}`slocum_alternative_mounting`) {cite}`NicholsonFeen2017`. 
-This mounting location means that the sensor foil faces the flow directly and therefore the diffusive boundary layer thickness at the optode membrane is minimised, reducing the optode response time. 
-Furthermore, this mounting location also means that in-situ in-air calibrations can be performed during deployment (similar to those done with Argo floats) which are beneficial when processing the DM oxygen data (see ‘in-air calibration’ section).
-
-<!--
-![Slocum glider showing alternative mounting of an Aanderaa optode perpendicular to the fin. \label{fig:slocum_alternative_mounting}](/images/slocum_better_location.jpg)
--->
-
-:::{figure-md} slocum_alternative_mounting
-<img src="/images/slocum_better_location.jpg" alt="Slocum better O2 sensor location" class="bg-primary mb-1" width="400px">
-
-Slocum glider showing alternative mounting of an Aanderaa optode perpendicular to the fin.
-:::
-
-#### SeaExplorer
-On SeaExplorer gliders, all existing oxygen sensor integrations are installed in the forward wet payload section (the nose cone). External mounting is also feasible using external puck mounts on the dry payload, located approximately 1/3 of the way back, but is rare and generally only used for instrument trials. The Rinko AROD-FT is generally installed on the forward starboard connector, with the sensing foil and temperature probe 15 centimeters back from the tip of the nose and lightly sheltered to avoid damage when making contact with the nose. Both the foil and temperature probe are well exposed to flow. The new RBR Coda integration is also planned to present the foil and probe slightly set back from the tip of the nose, while remaining exposed to unmodified flow. The SBE43 is found only when accompanied with a Seabird pumped CT sensor; both of these sensors are placed in the nose where the RBR Legato CT sensor can be seen in {numref}`Rinko`.
-
-<!--
-![Rinko AROD-FT in the flooded nose cone payload bay of a SeaExplorer next to an RBR Legato sensor.](/images/Rinko.png)
--->
-
-:::{figure-md} Rinko
-<img src="/images/Rinko.png" alt="Rinko" class="bg-primary mb-1" width="400px">
-
-Rinko AROD-FT in the flooded nose cone payload bay of a SeaExplorer next to an RBR Legato sensor.
-:::
-
-
-### Antifouling
+## Antifouling
 Materials immersed in water experience a series of biological and chemical processes, resulting in the formation of complex layers with attached organisms. This biofouling can be divided into microfouling and macrofouling {cite}`Delgado2021`. 
 
 In optodes sensors, biofouling can be severe enough to block oxygen molecules from entering the sensing foil. Aanderaa has different solutions that have been successfully applied, some includes: 
@@ -109,7 +43,7 @@ Mechanical wipers or UV radiation based approaches are generally unsuitable for 
 
 Regardless of whether efforts to prevent fouling are made, it is vital that post-recovery photographs are taken of the optode so that the impact of biofouling can be assessed during DMQC.
 
-### Air saturation quality check
+## Air saturation quality check
 Based on in-air calibrations on Argo floats and gliders {cite}`BittigKoertzinger2015`, {cite}`Johnson2015`, {cite}`Bittig2015`, {cite}`NicholsonFeen2017` and {cite}`Bittig2018` a simpler method has been recommended by the manufacturer to do it before and after deployments (Aanderaa Best Practices for Maintaining High Data Quality). 
 This could be used during campaigns. 
 This won’t be useful if sensor foil is not wet or the temperature of the foil is different from that measured with the temperature sensor. 
@@ -133,9 +67,9 @@ In situ intercomparisons will be required to find the outset of the sensor in di
 
 *NOTE: A multipoint DO calibration is necessary to obtain new foil coefficients and that can be done at the manufacturer laboratories or in any fully equipped calibration lab. These values shouldn’t be changed otherwise.*
 
-The Winkler method is used to determine the concentration of dissolved oxygen in discrete water samples which is a highly accurate method for determination of dissolved oxygen (± 0.15 $\mu$mol/kg). We recommend to follow the GO-SHIP protocol described by {cite}`Langdon2010` and a well trained technician to do the sampling and analysis.
+The Winkler method is used to determine the concentration of dissolved oxygen in discrete water samples which is a highly accurate method for determination of dissolved oxygen (± 0.15 μmol kg<sup>-1</sup>). We recommend to follow the GO-SHIP protocol described by {cite}`Langdon2010` and a well trained technician to do the sampling and analysis.
 
-*NOTE: This procedure is suitable for the measurement of the full range of oceanic oxygen concentrations (0-400 $\mu$mol/kg) in uncontaminated seawater.*
+*NOTE: This procedure is suitable for the measurement of the full range of oceanic oxygen concentrations (0-400 μmol kg<sup>-1</sup>) in uncontaminated seawater.*
 
 :::{figure-md} 100-0-calibration
 <img src="/images/100-0-calibration.png" alt="100 0 % calibration" class="bg-primary mb-1" width="400px">
@@ -144,8 +78,8 @@ Setup for 100% and 0% calibration.
 :::
 
 There are various issues with Winkler at low oxygen concentrations that have been described in the bibliography: 
- -	In waters with concentrations below 5 $\mu$mol/kg, high concentration of nitrite may cause a positive oxygen bias {cite}`Langdon2010`. In more recent articles, scientists even avoid using Winkler at concentrations below 20 $\mu$mol/kg {cite}`Thomsen2016`. 
- -	Oxygen absorbed in the plastic of the Niskin bottles is transferred into the water sampled. This oxygen contamination increases the concentration obtained when follow Winkler method. It has been measured values of apparent concentration of 2 - 4 $\mu$mol/kg in the Pacific minimum zones, showing a significant positive bias {cite}`Garcia-Robledo2021`.
+ -	In waters with concentrations below 5 μmol kg<sup>-1</sup>, high concentration of nitrite may cause a positive oxygen bias {cite}`Langdon2010`. In more recent articles, scientists even avoid using Winkler at concentrations below 20 μmol kg<sup>-1</sup> {cite}`Thomsen2016`. 
+ -	Oxygen absorbed in the plastic of the Niskin bottles is transferred into the water sampled. This oxygen contamination increases the concentration obtained when follow Winkler method. It has been measured values of apparent concentration of 2 - 4 μmol kg<sup>-1</sup> in the Pacific minimum zones, showing a significant positive bias {cite}`Garcia-Robledo2021`.
  -	Presence of extremely low concentrations of oxygen concentrations (nmol levels) in areas like the core of the Peruvian oxygen minimum zones.
 
 Thus, when working in these areas, it is recomended to do:
@@ -179,12 +113,6 @@ To stop, type ‘Do Stop’.
 4. Once the sensor is measuring, continue with the procedure (see section Calibration Procedure).
 
 There is also a possibility of using a Data Logger while we are working with the sensors. 
-
-<!--
-| image file missing |
-|:--:|
-| *Figure X: Recording data using a terminal program (left image) and using a data logger (right image).* |
--->
 
 :::{figure-md} terminal_program
 <img src="/images/TerminalProgram.jpg" alt="Terminal program" class="bg-primary mb-1" width="400px">
@@ -266,10 +194,6 @@ Materials: Silicon tube for sampling, multiparameter sonde, BOD bottles, Winkler
 6. A multiparameter sonde with a DO sensor whose precision is less than 0.1 % can be measured in the tank near the glider’s sensors (record at least values for Temperature, Conductivity and DO). 
 *NOTE: Some DO sensors consume oxygen so, in this case, it’s recommended to move the sonde often to renew the water so the DO value does not decrease.*
 8. Check the outset of the sensor by comparing  values measured by the Optode sensor with winkler values after measuring the bottle samples in the lab.
-
-<!--
-![Taking samples for Winkler analysis during ballasting in the glider tank at PLOCAN facilities.](/images/winkler-ballasting.png)
--->
 
 :::{figure-md} winkler-ballasting
 <img src="/images/winkler-ballasting.png" alt="Winkler calibration during balasting" class="bg-primary mb-1" width="400px">

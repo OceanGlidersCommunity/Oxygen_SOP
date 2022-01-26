@@ -8,16 +8,24 @@ Following {cite}`Bittig2018`.
 Aanderaa describe the in-situ drift characteristics of the 4330 and 4831 series optodes as being < 0.5 % per year and they make no distinction between the standard or fast (“F"-type) foils {cite}`TengbergHovdenes2014`.
 Optodes made after 2016 undergo a “burning-in period” during manufacture and therefore have substantially less drift {cite}`TengbergHovdenes2014`.
 Drift is a function of UV exposure and sampling frequency. 
-The foil becomes less sensitive and therefore drift is always towards lower oxygen concentrations. 
+The foil becomes less sensitive and therefore drift is always towards lower oxygen concentrations.
 The drift is believed to be due to bleaching of the luminophore foil via ambient light; it is particularly sensitive to fluorescent lights. 
 The bleaching effect is partly counteracted by a destabilising effect on the luminophore. 
 Together this manifests as a positive factor on the oxygen concentration (slope > 1) and a positive offset at zero oxygen.
 
+<<<<<<< HEAD
 {cite}`Queste2018` recorded drifts of 0.0176 and 0.0109 $\mu$mol/kg/day for two Seagliders using inflections in the oxygen profiles as the glider penetrated to Arabian Sea Oxygen Minimum Zone and the sodium sulphite method, but no Winklers. 
 {cite}`BittigKoertzinger2015` report a 10 % drift over 3 years, but this is a combination of in situ and ex situ drift. 
 {cite}`Bittig2018` determined the drift to be typically 0.1-0.2 % per year in-situ. 
 A drift of 0.0004 % d-1 has been calculated based on UEA seagliders against Baltic deep water oxygen climatology {cite}`Possenti2021`.
 Tom Hull found values between 0.0004 and 0.0035 % d-1 across 16 vehicles in-situ (slocums and seagliders with 4330F (old foil formulation), 4835 and 4831 optodes (unpublished). 
+=======
+{cite}`Queste2018` recorded drifts of 0.0176 and 0.0109 μmol/kg/day for two Seagliders using inflections in the oxygen profiles as the glider penetrated to Arabian Sea Oxygen Minimum Zone and the sodium sulphite method, but no Winklers. 
+{cite}`BittigKoertzinger2015` report a 10 % drift over 3 years, but this is a combination of in-situ and ex-situ drift. 
+{cite}`Bittig2018` determined the drift to be typically 0.1-0.2 % per year in-situ. 
+A drift of 0.0004 % day<sup>-1</sup> has been calculated based on UEA seagliders against Baltic deep water oxygen climatology {cite}`Possenti2021`.
+Tom Hull found values between 0.0004 and 0.0035 % d-1 across 16 vehicles in-situ (slocums and seagliders with 4330F (old foil formulation), 4835 and 4831 optodes (unpublished?). 
+>>>>>>> main
 
 The drift correction should be applied to the oxygen concentration, not the measured phase {cite}`Bittig2018`.
 
@@ -26,10 +34,6 @@ The drift correction should be applied to the oxygen concentration, not the meas
 
 In all but the most homogeneous waters it is essential to correct for the slow time response of optodes {cite}`Bittig2014`, {cite}`Bittig2017` (see {numref}`kelvin_lag`).
 This is particularly critical for optodes using the “standard” black foils, and as previously mentioned Slocum gliders with the optode in the standard location near the tail of the glider {cite}`Moat2016`.
-
-<!--
-![Example uncorrected profiles from AlterEco AE5 “Kelvin” Slocum with a 4831 optode with standard foil demonstrating significant lag in both optode temperature and phase.](/images/kelvin_lag.png)
--->
 
 :::{figure-md} kelvin_lag
 <img src="../images/kelvin_lag.png" alt="Lag example" class="bg-primary mb-1" width="600px">
@@ -84,10 +88,6 @@ To determine the two time constants a number of steps are performed:
 1. Included into the optimization are only up-down pairs that were not influenced by obvious bio-fouling.
 1. Oxygen concentration is then calculated using the corrected phase and XXX? temperature following using the XXXX foil coefficients.
 
-<!--
-![Example of original Optode oxygen concentrations (red) and GEOMAR processed and calibrated (blue) oxygen concentratins. Shown is a up-down pair from a deployment off Angola. Solid lines are the up and dashed lines the down data. Also shown are calibrated oxygen concentrations from a nearby and contemporaneous CTD cast.](/images/geomar_ox_example.png)
--->
-
 :::{figure-md} geomar_ox_example
 <img src="../images/geomar_ox_example.png" alt="GEOMAR correction example" class="bg-primary mb-1" width="400px">
 
@@ -116,7 +116,7 @@ However, simply shifting the optode data relative to time will not remove some o
 The routine developed by Bastien Queste for the UEA Seaglider toolbox works as follows:
 
 1. The CTD temperature is aligned based on flight speed to the optode phase using a 1-D interpolation and a flight speed dependent time-shift.
-(the optode and seabird temperature are close together on a Seaglider so the time-shift is small).
+(the optode and Sea-Bird temperature are close together on a Seaglider so the time-shift is small).
 1. Oxygen partial pressure is calculated using the optode phase and time shifted optode temperature.
 1. Up and down profiles are compared (in pressure or density space depending on environmental conditions) and either:
     1. A shoelace algorithm is used to minimise the area between the curves or

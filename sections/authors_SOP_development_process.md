@@ -1,34 +1,37 @@
 # Authors, development process and contributions
 
 ## Authors
-  1. [Patricia López-García](https://github.com/patricialg), *Ocean Technology and Engineering Group, National Oceanography Centre, Southampton, UK*
-  1. [Tom Hull](https://github.com/tomhull), *Centre for Environment Fisheries and Aquaculture Science, Lowestoft, UK*
-  1. [Soeren Thomsen](https://github.com/soerenthomsen), *LOCEAN, ISPL, Sorbonne University, Paris, France*
-  1. [Johannes Hahn](https://github.com/hahn-johannes), *Federal Maritime and Hydrographic Agency (BSH), Hamburg, Germany*
-  1. [Bastien Y. Queste](https://github.com/bastienqueste), *Department of Marine Science, University of Gothenburg, Gothenburg, Sweden*
-  1. [Gerd Krahmann](https://github.com/gkrahmann), *GEOMAR Helmholtz Centre for Ocean Research Kiel, Germany* 
-  1. [Charlotte Williams](https://github.com/charlotte-aj-williams), *Marine Physics and Ocean Climate Group. National Oceanography Centre, Liverpool, UK*
+  1. [Patricia López-García](https://github.com/patricialg), *Ocean Technology and Engineering Group, National Oceanography Centre, Southampton, UK,* [0000-0002-4689-2775](https://orcid.org/0000-0002-4689-2775)
+  1. [Tom Hull](https://github.com/tomhull), *Centre for Environment Fisheries and Aquaculture Science, Lowestoft, UK,* [0000-0002-1714-9317](https://orcid.org/0000-0002-1714-9317)
+  1. [Soeren Thomsen](https://github.com/soerenthomsen), *LOCEAN, ISPL, Sorbonne University, Paris, France,* [0000-0002-0598-8340](https://orcid.org/0000-0002-0598-8340)
+  1. [Johannes Hahn](https://github.com/hahn-johannes), *Federal Maritime and Hydrographic Agency (BSH), Hamburg, Germany,* [0000-0002-5638-2031](https://orcid.org/0000-0002-5638-2031)
+  1. [Bastien Y. Queste](https://github.com/bastienqueste), *Department of Marine Science, University of Gothenburg, Gothenburg, Sweden,* [0000-0002-3786-2275](https://orcid.org/0000-0002-3786-2275)
+  1. [Gerd Krahmann](https://github.com/gkrahmann), *GEOMAR Helmholtz Centre for Ocean Research Kiel, Germany,* [0000-0003-0944-8795](https://orcid.org/0000-0003-0944-8795)
+  1. [Charlotte Williams](https://github.com/charlotte-aj-williams), *Marine Physics and Ocean Climate Group. National Oceanography Centre, Liverpool, UK,* [0000-0001-7964-4826](https://orcid.org/0000-0001-7964-4826) 
   1. Mun Woo, *IMOS Ocean Gliders, UWA Oceans Institute and Oceans Graduate School, The University of Western Australia, Perth, Australia*
   1. Charitha Pattiaratchi, *IMOS Ocean Gliders, UWA Oceans Institute and Oceans Graduate School, The University of Western Australia, Perth, Australia*
-  1. [Laurent Coppola](https://github.com/laurcopp), *Sorbonne Université, CNRS, Laboratoire d’Océanographie de Villefranche (LOV), 06230 Villefranche-sur-Mer, France*
-  1. Tania Morales, *Plataforma Oceánica de Canarias (PLOCAN), Canary Islands, Spain*
-  1. [Virginie Racapé](https://github.com/vracape), *Institut Universitaire Européen de la mer CNRS-UMS 3113, IFREMER-coriolis, Plouzané France*
+  1. [Laurent Coppola](https://github.com/laurcopp), *Sorbonne Université, CNRS, Laboratoire d’Océanographie de Villefranche (LOV), 06230 Villefranche-sur-Mer, France,* [0000-0003-0473-1129](https://orcid.org/0000-0003-0473-1129)
+  1. Tania Morales, *Plataforma Oceánica de Canarias (PLOCAN), Canary Islands, Spain,* [0000-0002-3585-8037](https://orcid.org/0000-0002-3585-8037)
+  1. [Virginie Racapé](https://github.com/vracape), *Institut Universitaire Européen de la mer CNRS-UMS 3113, IFREMER-coriolis, Plouzané France,* [0000-0003-0239-5125](https://orcid.org/0000-0003-0239-5125)
   1. [Claire Gourcuff](https://github.com/cgourcuf), *Euro-Argo ERIC, Brest, France*
-  1. John Allen, *SOCIB, Palma de Mallorca, Spain*
-  1. [Eva Alou-Font](https://github.com/ealou), *SOCIB, Palma de Mallorca, Spain*
-  1. [Nikolaos D. Zarokanellos](https://github.com/nizaroka), *SOCIB, Palma de Mallorca, Spain*
+  1. John Allen, *SOCIB, Palma de Mallorca, Spain,* [0000-0001-7357-6623](https://orcid.org/0000-0001-7357-6623)
+  1. [Eva Alou-Font](https://github.com/ealou), *SOCIB, Palma de Mallorca, Spain,* [0000-0003-2247-3629](https://orcid.org/0000-0003-2247-3629)
+  1. [Nikolaos D. Zarokanellos](https://github.com/nizaroka), *SOCIB, Palma de Mallorca, Spain,* [0000-0002-6235-6198](https://orcid.org/0000-0002-6235-6198)
   1. [Victor Turpin](https://github.com/vturpin), *OceanOps, Brest, France*
-  1. [Catherine Schmechtig](https://github.com/catsch), *CNRS, Sorbonne Université, Osu Ecce Terra, Paris, France*
-  1. [Pierre Testor](https://github.com/ptestor), *CNRS-Sorbonne Universités (UPMC Univ. Pierre et Marie Curie, Paris 06)-CNRS-IRD-MNHN, UMR 7159, Laboratoire d’Océanographie et de Climatologie (LOCEAN), Institut Pierre Simon Laplace (IPSL), Observatoire Ecce Terra, Paris, France*
-  1. [Julius Busecke](https://github.com/jbusecke), *Columbia University/Lamont-Doherty Earth Observatory, New York, USA*
-
+  1. [Catherine Schmechtig](https://github.com/catsch), *CNRS, Sorbonne Université, Osu Ecce Terra, Paris, France,* [0000-0002-1230-164X](https://orcid.org/0000-0002-1230-164X)
+  1. [Pierre Testor](https://github.com/ptestor), *CNRS-Sorbonne Universités (UPMC Univ. Pierre et Marie Curie, Paris 06)-CNRS-IRD-MNHN, UMR 7159, Laboratoire d’Océanographie et de Climatologie (LOCEAN), Institut Pierre Simon Laplace (IPSL), Observatoire Ecce Terra, Paris, France*, , [0000-0002-8038-9479](https://orcid.org/0000-0002-8038-9479)
+  1. [Julius Busecke](https://github.com/jbusecke), *Columbia University/Lamont-Doherty Earth Observatory, New York, USA,* [0000-0001-8571-865X](https://orcid.org/0000-0001-8571-865X)
+  2. [Evi Bourma](https://github.com/evibourma), *Hellenic Centre for Marine Research (HCMR)/Institute of Oceanography, Athens, Greece*
+  1. [Clark Richards](https://github.com/richardsc), *Fisheries and Oceans Canada, Bedford Institute of Oceanography, Halifax, Canada, * [0000-0002-7833-206X](https://orcid.org/0000-0002-7833-206X)
+  1. [Stuart Pearce](https://github.com/s-pearce), *Ocean Observatories Initiative, Endurance Array, Oregon State University, Oregon, USA,* [0000-0001-8373-7152](https://orcid.org/0000-0001-8373-7152)
+  1. [Filipa Carvalho](https://github.com/pipa85), *National Oceanography Centre, Southampton, UK,* [0000-0001-9546-4614](https://orcid.org/0000-0001-9546-4614)
+  1. [Isabelle Giddy](https://github.com/isgiddy), *Southern Ocean Carbon and Climate Observatory, CSIR | Department of Oceanography, University of Cape Town, South Africa | Department of Marine Science, University of Gothenburg, Sweden,* [0000-0002-8926-3311](https://orcid.org/0000-0002-8926-3311)
 
 ## SOP development process
-
 1) Initial SOP was drafted by [Patricia López-García](https://github.com/patricialg), [Tom Hull](https://github.com/tomhull), [Soeren Thomsen](https://github.com/soerenthomsen) and [Johannes Hahn](https://github.com/hahn-johannes).
 
 2) Two expert sessions during OceanGliders Best Practice Workshop, May 11 - 25 2021. 
-Additional authors joined: [Bastien Y. Queste](https://github.com/bastienqueste), [Gerd Krahmann](https://github.com/gkrahmann), [Charlotte Williams](https://github.com/charlotte-aj-williams), Mun Woo, Charitha Pattiaratchi, [Laurent Coppola](https://github.com/laurcopp), Tania Morales, [Virginie Racape](https://github.com/vracape), [Claire Gourcuff](https://github.com/cgourcuf), John Allen, Eva Alou, [Nikolaos D. Zarokanellos](https://github.com/nizaroka)
+Additional authors joined: [Bastien Y. Queste](https://github.com/bastienqueste), [Gerd Krahmann](https://github.com/gkrahmann), [Charlotte Williams](https://github.com/charlotte-aj-williams), Mun Woo, Charitha Pattiaratchi, [Laurent Coppola](https://github.com/laurcopp), Tania Morales, [Virginie Racape](https://github.com/vracape), [Claire Gourcuff](https://github.com/cgourcuf), John Allen, [Eva Alou-Font](https://github.com/ealou), [Nikolaos D. Zarokanellos](https://github.com/nizaroka)
 
 3) First community and user feedback was provided during the OceanGliders Best Practice Workshop, May 11 - 25 2021 by attendees. 
 
@@ -38,8 +41,9 @@ Additional authors joined: [Bastien Y. Queste](https://github.com/bastienqueste)
 
 6) At the moment: 4 months community review on GitHub until 31 January 2022.
 
-## Contributions 
+7) Additional authors joined on GitHub during the community review: [Evi Bourma](https://github.com/evibourma), [Clark Richards](https://github.com/richardsc), [Stuart Pearce](https://github.com/s-pearce), [Filipa Carvalho](https://github.com/pipa85), [Isabelle Giddy](https://github.com/isgiddy).
 
+## Contributions 
 [Patricia López-García](https://github.com/patricialg) drafted the initial document collating information from several SOPs, sensor manuals and articles. 
 Main contribution to: Introduction section (producing Table 1 from information gathered from glider users and completing information for Clark electrodes sensors SBE 43/63), Pre-deployment operations and calibrations section (subsections Storage and cleaning and Pre-deployment calibrations), Post-recovery operations and calibrations section. 
 She added some images to the document. 
@@ -110,4 +114,12 @@ He reviewed the overall document and provided feedback on the overall document.
 
 [Julius Busecke](https://github.com/jbusecke) supported the moving to GitHub and jupyter books. He helped to better facilitate the community review i.e. by implementing the commenting function via utterances-bot.
 
+[Evi Bourma](https://github.com/evibourma) provided input to the SBE43 sensor section.
 
+[Clark Richards](https://github.com/richardsc) provided input to the SBE43 sensor section.
+
+[Stuart Pearce](https://github.com/s-pearce) provided input to the Aanderaa optode section related to MK2 equation, SVU/Multipoint-calibration and firmwares. 
+
+[Filipa Carvalho](https://github.com/pipa85) provided feedback on overall document and helped to improve the overview schematic.
+
+[Isabelle Giddy](https://github.com/isgiddy) provided feedback on the pre-deployment section towards improving the procedure at very low-temperatures. Supports the technical maintanence of the SOP on GitHub.
