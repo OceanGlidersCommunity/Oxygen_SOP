@@ -23,9 +23,8 @@ Certain settings within an optode are protected, such that an unlocking command 
 1. `get all` - to see the current optode configuration
 1. `set passkey(1000)` - to allow protected settings to be modified
 1. `set interval(30)` - to set the optode to collect data every 30 seconds
-1. XXX `save`
-1. XXX `start` - to start collecting data
-1. wait for the temperature and oxygen measurements have stabilised
+1. `start` - to start measuring data
+1. wait for the temperature and oxygen measurements to stabilise. Variance between samples should be less than ±0.05 °C and ±0.1 µmol L<sup>-1</sup>.
 1. record the local atmospheric air pressure in hPa
 1. `do collectcaldatasat` - to collect data for the 100 % data point and update the optode settings
 1. `set caldataapress(XXXX.X)` - to update the local air pressure where XXXX.X is the pressure in hPa
@@ -45,14 +44,10 @@ XXX note these optodes use two different levels of passkey (1 and 1000) dependin
 1. connect to the optode and open a terminal session
 1. configure your terminal to log output to a file
 1. `get all` - to see the current optode configuration
-1. `set passkey(1)` - to allow protected settings to be modified
+1. `set protect(1000)` - to allow protected settings to be modified
 1. `set interval(30)` - to set the optode to collect data every 30 seconds
-1. XXX ?polled mode
-1. XXX `save`
-1. XXX `do start` - to start collecting data
-1. wait for the temperature and oxygen measurements have stabilised
+1. Wait for the temperature and oxygen measurements to stabilise. Variance between samples should be less than ±0.05 °C and ±0.1 µmol L<sup>-1</sup> (or ±0.5 for µmol L<sup>-1</sup> 4330F)
 1. record the local atmospheric air pressure in hPa
-1. `set passkey(1000)` - to allow protected settings to be modified
 1. `do collectcaldatasat` - to collect data for the 100 % data point and update the optode settings
 1. `do caldataapress(XXXX.X)` - to update the local air pressure where XXXX.X is the pressure in hPa
 1. immerse the optode in the 0 % solution
@@ -60,6 +55,7 @@ XXX note these optodes use two different levels of passkey (1 and 1000) dependin
 1. `set collectcaldatazero` - to collect data for the 0 % data point and update the optode settings
 1. `do calibrate` - to finalise the calibration and update the optode settings
 1. rinse the optode very thoroughly and return it to the 100 % solution and confirm the optode is reading correctly after 10 minutes of stabilisation
+1. `set interval(X)` to return the optodes back the sampling interval required by your glider. With `X` set to 0 being polled mode.
 
 ### Type 3830 and 3835
 
@@ -69,7 +65,7 @@ XXX note these optodes use two different levels of passkey (1 and 1000) dependin
 1. `get_all` - to see the current optode configuration
 1. `set_protect(1)` - to allow protected settings to be modified
 1. `set_interval(30)` - to set the optode to collect data every 30 seconds
-1. wait for the temperature and oxygen measurements have stabilised
+1. wait for the temperature and oxygen measurements to stabilise. Variance between samples should be less than ±0.1 °C and ±0.5 µmol L<sup>-1</sup>.
 1. record the local atmospheric air pressure in hPa
 1. `do_calair` - to collect data for the 100 % data point and update the optode settings
 1. `set_calairpressure(XXXX.X)` - to update the local air pressure where XXXX.X is the pressure in hPa
