@@ -40,7 +40,6 @@ jobs:
       - name: Build the book as pdf
         run: |
           jupyter-book build . --builder pdfhtml
-          cp _build/pdf/book.pdf book.pdf
 
       # Zip the site (so it can be handed to the preview action)
       - name: Zip the site
@@ -55,6 +54,10 @@ jobs:
         with:
           name: site-zip
           path: ./site.zip
+      - uses: actions/upload-artifact@v2
+        with:
+          name: book-pdf
+          path: _build/pdf/book.pdf
 
       # Push the site's HTML to github-pages (only if on main, previews are sent to netlify)
       - name: Deploy to GitHub pages
