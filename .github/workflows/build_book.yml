@@ -1,6 +1,6 @@
 name: deploy-site
 
-# Only run this when the master branch changes
+# Only run this when the main branch changes
 on:
   push:
     branches:
@@ -8,7 +8,7 @@ on:
   pull_request:
   workflow_dispatch:
 
-# This job installs dependencies, builds the book, and pushes it to `gh-pages`
+# This job installs dependencies, builds the book (+pdf), and pushes it to `gh-pages`
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -33,10 +33,13 @@ jobs:
         run: |
           pip install -r requirements.txt
 
-      # Build the book
       - name: Build the book
         run: |
           jupyter-book build .
+      
+      - name: Build the book as pdf
+        run: |
+          jupyter-book build . --builder pdfhtml
 
       # Zip the site (so it can be handed to the preview action)
       - name: Zip the site
