@@ -39,9 +39,11 @@ Additional authors joined: [Bastien Y. Queste](https://github.com/bastienqueste)
 
 5) Additional authors joined on GitHub prior to the community review: [Victor Turpin](https://github.com/vturpin), [Catherine Schmechtig](https://github.com/catsch), [Pierre Testor](https://github.com/ptestor), [Julius Busecke](https://github.com/jbusecke).
 
-6) At the moment: 4 months community review on GitHub until 31 January 2022.
+6) 4 months community review on GitHub from October 2021 until January 31 2022
 
 7) Additional authors joined on GitHub during the community review: [Evi Bourma](https://github.com/evibourma), [Clark Richards](https://github.com/richardsc), [Stuart Pearce](https://github.com/s-pearce), [Filipa Carvalho](https://github.com/pipa85), [Isabelle Giddy](https://github.com/isgiddy).
+
+8) At the moment: Preparation of submission to OBPS
 
 ## Contributions 
 [Patricia López-García](https://github.com/patricialg) drafted the initial document collating information from several SOPs, sensor manuals and articles. 
