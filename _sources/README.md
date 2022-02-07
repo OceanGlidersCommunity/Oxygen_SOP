@@ -7,8 +7,8 @@ This [GitHub repository](https://github.com/OceanGlidersCommunity/Oxygen_SOP) is
 Read the SOP [here](https://oceangliderscommunity.github.io/Oxygen_SOP/sections/authors_SOP_development_process.html). 
 
 ## Continous community review
-Feedback by the global glider community is welcome at any time. 
-Everyone is welcome to join the SOP at any time.
+Feedback by the global glider community is possible at any time. 
+Everyone is welcome to join the SOP.
 
 ### Who is invited to review?
 Constructive feedback by anyone is welcome. 
