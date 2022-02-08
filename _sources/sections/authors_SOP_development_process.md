@@ -13,7 +13,7 @@
   1. [Laurent Coppola](https://github.com/laurcopp), *Sorbonne Université, CNRS, Laboratoire d’Océanographie de Villefranche (LOV), 06230 Villefranche-sur-Mer, France,* [0000-0003-0473-1129](https://orcid.org/0000-0003-0473-1129)
   1. Tania Morales, *Plataforma Oceánica de Canarias (PLOCAN), Canary Islands, Spain,* [0000-0002-3585-8037](https://orcid.org/0000-0002-3585-8037)
   1. [Virginie Racapé](https://github.com/vracape), *Institut Universitaire Européen de la mer CNRS-UMS 3113, IFREMER-coriolis, Plouzané France,* [0000-0003-0239-5125](https://orcid.org/0000-0003-0239-5125)
-  1. [Claire Gourcuff](https://github.com/cgourcuf), *Euro-Argo ERIC, Brest, France*
+  1. [Claire Gourcuff](https://github.com/cgourcuf), *Euro-Argo ERIC, Brest, France* [0000-0001-6071-8389](https://orcid.org/0000-0001-6071-8389)
   1. John Allen, *SOCIB, Palma de Mallorca, Spain,* [0000-0001-7357-6623](https://orcid.org/0000-0001-7357-6623)
   1. [Eva Alou-Font](https://github.com/ealou), *SOCIB, Palma de Mallorca, Spain,* [0000-0003-2247-3629](https://orcid.org/0000-0003-2247-3629)
   1. [Nikolaos D. Zarokanellos](https://github.com/nizaroka), *SOCIB, Palma de Mallorca, Spain,* [0000-0002-6235-6198](https://orcid.org/0000-0002-6235-6198)
