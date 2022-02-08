@@ -7,4 +7,10 @@ Mandatory fields are indicated with ** but we strongly recommend that you provid
 
 |  |  |
 |---|---|
-|  |   |
+| Practice  type **
+Choose up to 2 entries from the list (delete the rest) to indicate what BP type you consider your document is. Separate two entries with a semicolon (;)
+·      Best Practice: a best practice is defined as a methodology that has repeatedly produced superior results relative to other methodologies with the same objective; to be fully elevated to a best practice, a promising method will have been adopted and employed by multiple organizations
+·     Manual (incl. handbook; guide, cookbook): a document giving instructions or information
+·     Standard: something set up or established by a recognized standards authority as a rule for the measure of quantity, weight, extent, value, or quality.
+·     Standard Operating Procedure: established or prescribed methods to be followed routinely for the performance of designated operations or in designated situations
+·     Training and educational material: an item, document, video etc intended to be used for instruction or training purposes | Best Practice; Standard Operating Procedure; |
