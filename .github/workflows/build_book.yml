@@ -1,6 +1,6 @@
 name: deploy-site
 
-# Only run this when the master branch changes
+# Only run this when the main branch changes
 on:
   push:
     branches:
@@ -60,3 +60,12 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_build/html
           enable_jekyll: false
+               
+      - name: Build the book as pdf #This needs to happen after the site is zipped, since this builds different html that we dont want on the website
+        run: |
+           jupyter-book build . --builder pdfhtml
+      
+      - uses: actions/upload-artifact@v2
+        with:
+           name: book-pdf
+           path: _build/pdf/book.pdf
