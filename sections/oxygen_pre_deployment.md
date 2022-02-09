@@ -1,5 +1,6 @@
 # Pre-deployment operations and calibrations
 
+(storage_and_cleaning)=
 ## Storage and cleaning
 Optode foils typically drift more while in storage than while in use, the reasons for this are thought to be due to exposure to UV radiation and dry air {cite}`Bittig2018`, {cite}`Aanderaa2018`. 
 We recommend that all optodes should be stored away from the light (especially fluorescent lights), keep the foil humid and use the plastic caps provided with the sensor. Two-point calibration prior to deployment is always recommended.
