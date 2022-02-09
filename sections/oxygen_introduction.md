@@ -26,7 +26,7 @@ The most important steps described in this SOP can be summarised in this simple 
 2. Mount the sensor(s) ({numref}`sensors_integration`). 
 3. Configure sensor for deployment ({numref}`sensor_configuration`). Make sure your glider is configured to record phase with correct timings.
 4. Keep sensor foil wet at least 8 hours before deployment. If it cannot be kept submerged in water, have a wet sponge covering the foil ({numref}`storage_and_cleaning`).
-5. Do two-point calibration shortly before deployment ({numref}`Two_point_calibration_procedure,_optode_example`).
+5. Do two-point calibration shortly before deployment ({numref}`two_point_calibration`).
 6. In-situ reference measurements recommended to do, using hierarchy of decreasing quality:
     • BEST: Optodes attached to a CTD ({numref}`deployment_ship_CTD`).
     • BEST: multiple co-located CTD casts in well mixed waters (including Winkler samples at different depths) and in-air drift correction.
