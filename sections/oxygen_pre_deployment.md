@@ -21,6 +21,7 @@ After recovery the sensor has to be cleaned to remove any biofouling. The follow
 
 *NOTE: Don’t change the foil unless it is physically damaged.* 
 
+(sensor_configuration)=
 ## Sensor configuration for deployment
 Salinity configuration: 0 PSU. 
 For optode sensors: when there is a small variation in salinity (less than 1 g/kg), it can be set to the mid value avoiding the need of salinity compensation. 
