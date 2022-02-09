@@ -31,7 +31,7 @@ The most important steps described in this SOP can be summarised in this simple 
     • BEST: Optodes attached to a CTD (see section {numref}`Calibration_during_deployment/recovery_from_a ship_with_a_CTD_rosette_equipped_with_a_calibrated_oxygen_sensor`).
     • BEST: multiple co-located CTD casts in well mixed waters (including Winkler samples at different depths) and in-air drift correction.
     • GOOD: single point Winkler sample and CTD from nearby and no drift correction (see section {numref}`In_situ_intercomparison_during_deployment/recovery_from_a_small_boat`).
-    • OK: in-air calibration only (see section {numref}`In-air_calibration`).
+    • OK: in-air calibration only (see section {numref}`in-air-calibration`).
 
 **Recovery** (Section {numref}`post-recovery`).
 7. Keep sensor foil wet until finish in-situ reference mesurements (Point 9).
