@@ -28,7 +28,7 @@ The most important steps described in this SOP can be summarised in this simple 
 4. Keep sensor foil wet at least 8 hours before deployment. If it cannot be kept submerged in water, have a wet sponge covering the foil (see section {numref}`Storage_and_cleaning`).
 5. Do two-point calibration shortly before deployment (see section {numref}`Two_point_calibration_procedure,_optode_example`).
 6. In-situ reference measurements recommended to do, using hierarchy of decreasing quality:
-    • BEST: Optodes attached to a CTD (see section {numref}`Calibration_during_deployment/recovery_from_a ship_with_a_CTD_rosette_equipped_with_a_calibrated_oxygen_sensor`).
+    • BEST: Optodes attached to a CTD (see section {numref}`deployment_ship_CTD`).
     • BEST: multiple co-located CTD casts in well mixed waters (including Winkler samples at different depths) and in-air drift correction.
     • GOOD: single point Winkler sample and CTD from nearby and no drift correction (see section {numref}`In_situ_intercomparison_during_deployment/recovery_from_a_small_boat`).
     • OK: in-air calibration only (see {numref}`in-air-calibration`).
