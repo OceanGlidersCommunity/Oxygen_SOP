@@ -21,16 +21,19 @@ We recommend to read each chapter in detail to ensure best quality data.
   - GOOD: single point Winkler sample and CTD from nearby and no drift correction (see section {numref}`deployment_small_boat`).
   - OK: in-air calibration only ({numref}`in-air-calibration`).
 
+**Mission** ({numref}`mission-execution`)  
+(7) Ensure data stream is set up and relevant metadata is sent to allow real time data corrections.
+
 **Recovery** ({numref}`post-recovery`)  
-(7) Keep sensor foil wet until finish in-situ reference mesurements (Point 9).  
-(8) Download data.  
-(9) In-situ reference measurements recommended to do, using hierarchy of decreasing quality as mentioned in Point 6.  
-(10) Clean and store the sensor.  
+(8) Keep sensor foil wet until finish in-situ reference mesurements (Point 9).  
+(9) Download data.  
+(10) In-situ reference measurements recommended to do, using hierarchy of decreasing quality as mentioned in Point 6.  
+(11) Clean and store the sensor.  
 
 **DMQC** ({numref}`dmqc`)  
-(11) Determine and correct optode lag. 
+(12) Determine and correct optode lag. 
 
-## Overivew sensor glider combinations
+## Overview sensor glider combinations
 
 *Table 1: List of the known sensor/glider combinations. We aim to cover all combinations in this document.*
 
