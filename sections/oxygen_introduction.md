@@ -21,8 +21,8 @@ We recommend to read each chapter in detail to ensure best quality data.
   - GOOD: single point Winkler sample and CTD from nearby and no drift correction (see section {numref}`deployment_small_boat`).
   - OK: in-air calibration only ({numref}`in-air-calibration`).
 
-**Mission** ({numref}`mission-execution`)  
-(7) Ensure data stream is set up and relevant metadata is sent to allow real time data corrections.
+**Mission and Real Time data flow** ({numref}`mission-execution`)  
+(7) Ensure data stream is set up correctly including relevant metadata is sent to allow real time data corrections ({numref}`rtqc`).
 
 **Recovery** ({numref}`post-recovery`)  
 (8) Keep sensor foil wet until finish in-situ reference mesurements (Point 9).  
