@@ -22,16 +22,16 @@ The most important steps described in this SOP can be summarised in this simple 
 
 **Pre-deployment/Deployment**
 1. Check that sensors are in good condition and you have selected the best option for the planned mission.
-    • BEST: Do two-point calibration ({numref}`two_point_calibration`).
+- BEST: Do two-point calibration ({numref}`two_point_calibration`).
 2. Mount the sensor(s) ({numref}`sensors_integration`). 
 3. Configure sensor for deployment ({numref}`sensor_configuration`). Make sure your glider is configured to record phase with correct timings.
 4. Keep sensor foil wet at least 8 hours before deployment. If it cannot be kept submerged in water, have a wet sponge covering the foil ({numref}`storage_and_cleaning`).
 5. Do two-point calibration shortly before deployment ({numref}`two_point_calibration`).
 6. In-situ reference measurements recommended to do, using hierarchy of decreasing quality:
-    • BEST: Optodes attached to a CTD ({numref}`deployment_ship_CTD`).
-    • BEST: multiple co-located CTD casts in well mixed waters (including Winkler samples at different depths) and in-air drift correction.
-    • GOOD: single point Winkler sample and CTD from nearby and no drift correction (see section {numref}`In_situ_intercomparison_during_deployment/recovery_from_a_small_boat`).
-    • OK: in-air calibration only ({numref}`in-air-calibration`).
+- BEST: Optodes attached to a CTD ({numref}`deployment_ship_CTD`).
+- BEST: multiple co-located CTD casts in well mixed waters (including Winkler samples at different depths) and in-air drift correction.
+- GOOD: single point Winkler sample and CTD from nearby and no drift correction (see section {numref}`deployment_small_boat`).
+- OK: in-air calibration only ({numref}`in-air-calibration`).
 
 **Recovery** ({numref}`post-recovery`)
 7. Keep sensor foil wet until finish in-situ reference mesurements (Point 9).
