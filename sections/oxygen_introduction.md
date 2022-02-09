@@ -33,7 +33,7 @@ The most important steps described in this SOP can be summarised in this simple 
     • GOOD: single point Winkler sample and CTD from nearby and no drift correction (see section {numref}`In_situ_intercomparison_during_deployment/recovery_from_a_small_boat`).
     • OK: in-air calibration only ({numref}`in-air-calibration`).
 
-**Recovery** ({numref}`post-recovery`).
+**Recovery** ({numref}`post-recovery`)
 7. Keep sensor foil wet until finish in-situ reference mesurements (Point 9).
 8. Download data.
 9. In-situ reference measurements recommended to do, using hierarchy of decreasing quality as mentioned in Point 6.
