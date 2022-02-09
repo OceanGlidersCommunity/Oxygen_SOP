@@ -39,5 +39,5 @@ The most important steps described in this SOP can be summarised in this simple 
 9. In-situ reference measurements recommended to do, using hierarchy of decreasing quality as mentioned in Point 6.
 10. Clean and store the sensor.
 
-**DMQC** (Section {numref}`Delayed_Mode_Quality_Control`).
+**DMQC** (Section {numref}`dmqc`).
 11. Determine and correct optode lag
