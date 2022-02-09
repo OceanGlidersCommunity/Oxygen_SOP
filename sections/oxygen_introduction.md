@@ -33,6 +33,9 @@ We recommend to read each chapter in detail to ensure best quality data.
 **DMQC** ({numref}`dmqc`)  
 (12) Determine and correct optode lag. 
 
+**Data sharing** ({numref}`data-sharing`)  
+(13) Share high quality data in public open access archives.
+
 ## Overview sensor glider combinations
 
 *Table 1: List of the known sensor/glider combinations. We aim to cover all combinations in this document.*
