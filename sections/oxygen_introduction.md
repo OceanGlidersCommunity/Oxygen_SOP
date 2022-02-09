@@ -25,7 +25,7 @@ We recommend to read each chapter in detail to ensure best quality data.
 (7) Ensure data stream is set up correctly including relevant metadata is sent to allow real time data corrections ({numref}`rtqc`).
 
 **Recovery** ({numref}`post-recovery`)  
-(8) Keep sensor foil wet until finish in-situ reference mesurements.  
+(8) Keep sensor foil wet until finish post deployment in-situ reference measurements.  
 (9) Download data.  
 (10) In-situ reference measurements recommended to do, using hierarchy of decreasing quality as mentioned above.  
 (11) Clean and store the sensor.  
