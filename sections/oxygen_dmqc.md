@@ -1,3 +1,4 @@
+(dmqc)=
 # Delayed Mode Quality Control
 
 ## Calculation of oxygen variables
