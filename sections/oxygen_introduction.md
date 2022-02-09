@@ -16,9 +16,11 @@ This standard operating procedure (SOP) document for dissolved oxygen (DO) aims 
 
 (1)The advanced, optical sensor is based on the principle of fluorescence quenching. Contros are no longer in operation, the sensors cannot be calibrated so they are likely to become obsolete in the future. 
 
-## Summary of all steps recommended in this SOP.
+## Overview cheat sheet
 
-The most important steps described in this SOP can be summarised in this simple To-Do list:  
+The most important actions to be taken are summarised in this simple cheat sheet below.
+This short summary allows the reader check under time pressure whether key points are taken into account prior to deployment.
+We recommend to read each chapter in detail to ensure best quality data.
 
 **Pre-deployment/Deployment**
 1. Check that sensors are in good condition and you have selected the best option for the planned mission.
