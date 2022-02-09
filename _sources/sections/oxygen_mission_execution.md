@@ -1,3 +1,4 @@
+(mission-execution)=
 # Missions execution
 
 This section covers the activities of those deploying and recovering the gliders in the field in addition to best practices for glider pilots.
@@ -120,6 +121,7 @@ In regions with known oxygen concentrations i.e. within the core of the Peruvian
 For this glider can be parked at this depth to get a 0 calibration at the beginning and at the end of the deployment. 
 This can also be done by adding different depth/temperature levels if the anoxic layer is thick enough to cover different temperatures. i.e. further offshore where the OMZ is several 100 m thick.
 
+(in-air-calibration)=
 #### In-air calibration
 In-air calibration can be carried out if optodes are attached in a way that they reach out of the water when the glider is surfacing {cite}`NicholsonFeen2017` as done also for long float deployments {cite}`Bittig2018` 
 This can be valuable in particular if no 0 / 100 % lab calibration or CTD intercomparison is available as well as for long deployments. 

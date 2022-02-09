@@ -1,5 +1,6 @@
 # Pre-deployment operations and calibrations
 
+(storage_and_cleaning)=
 ## Storage and cleaning
 Optode foils typically drift more while in storage than while in use, the reasons for this are thought to be due to exposure to UV radiation and dry air {cite}`Bittig2018`, {cite}`Aanderaa2018`. 
 We recommend that all optodes should be stored away from the light (especially fluorescent lights), keep the foil humid and use the plastic caps provided with the sensor. Two-point calibration prior to deployment is always recommended.
@@ -20,6 +21,7 @@ After recovery the sensor has to be cleaned to remove any biofouling. The follow
 
 *NOTE: Don’t change the foil unless it is physically damaged.* 
 
+(sensor_configuration)=
 ## Sensor configuration for deployment
 Salinity configuration: 0 PSU. 
 For optode sensors: when there is a small variation in salinity (less than 1 g/kg), it can be set to the mid value avoiding the need of salinity compensation. 
@@ -56,6 +58,7 @@ You will need to leave the sensor logging outside in the free air for several ho
 ## Pre-deployment calibration
 Optodes and similar instruments generally drift more while in storage than in use. It is therefore essential that these instruments are recalibrated prior to glider deployment. This is necessary even if in-situ reference (Winkler) samples are taken during the deployment as they will not cover the full range of oxygen concentrations during the period of the mission. As the instrument drift manifests as an increasing offset from zero in addition to a reducing sensitivity, a two point calibration is required to rescale the optodes measuring range.
 
+(two_point_calibration)=
 ### Two point calibration procedure, optode example
 This protocol is recommended to do for at least two different temperatures, which cover the expected in-situ temperature range. 
 There are several possibilities in order to achieve this, some examples:
