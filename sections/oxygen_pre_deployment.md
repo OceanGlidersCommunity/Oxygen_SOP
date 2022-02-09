@@ -57,6 +57,7 @@ You will need to leave the sensor logging outside in the free air for several ho
 ## Pre-deployment calibration
 Optodes and similar instruments generally drift more while in storage than in use. It is therefore essential that these instruments are recalibrated prior to glider deployment. This is necessary even if in-situ reference (Winkler) samples are taken during the deployment as they will not cover the full range of oxygen concentrations during the period of the mission. As the instrument drift manifests as an increasing offset from zero in addition to a reducing sensitivity, a two point calibration is required to rescale the optodes measuring range.
 
+(two_point_calibration)=
 ### Two point calibration procedure, optode example
 This protocol is recommended to do for at least two different temperatures, which cover the expected in-situ temperature range. 
 There are several possibilities in order to achieve this, some examples:
