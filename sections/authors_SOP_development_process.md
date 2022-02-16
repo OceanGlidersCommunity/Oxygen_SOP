@@ -26,6 +26,7 @@
   1. [Stuart Pearce](https://github.com/s-pearce), *Ocean Observatories Initiative, Endurance Array, Oregon State University, Oregon, USA,* [0000-0001-8373-7152](https://orcid.org/0000-0001-8373-7152)
   1. [Filipa Carvalho](https://github.com/pipa85), *National Oceanography Centre, Southampton, UK,* [0000-0001-9546-4614](https://orcid.org/0000-0001-9546-4614)
   1. [Isabelle Giddy](https://github.com/isgiddy), *Southern Ocean Carbon and Climate Observatory, CSIR | Department of Oceanography, University of Cape Town, South Africa | Department of Marine Science, University of Gothenburg, Sweden,* [0000-0002-8926-3311](https://orcid.org/0000-0002-8926-3311)
+  2. Christian Begler, *GEOMAR Helmholtz Centre for Ocean Research Kiel, Germany,*
 
 ## SOP development process
 1) Initial SOP was drafted by [Patricia López-García](https://github.com/patricialg), [Tom Hull](https://github.com/tomhull), [Soeren Thomsen](https://github.com/soerenthomsen) and [Johannes Hahn](https://github.com/hahn-johannes).
@@ -41,7 +42,7 @@ Additional authors joined: [Bastien Y. Queste](https://github.com/bastienqueste)
 
 6) 4 months community review on GitHub from October 2021 until January 31 2022
 
-7) Additional authors joined on GitHub during the community review: [Evi Bourma](https://github.com/evibourma), [Clark Richards](https://github.com/richardsc), [Stuart Pearce](https://github.com/s-pearce), [Filipa Carvalho](https://github.com/pipa85), [Isabelle Giddy](https://github.com/isgiddy).
+7) Additional authors joined on GitHub during the community review: [Evi Bourma](https://github.com/evibourma), [Clark Richards](https://github.com/richardsc), [Stuart Pearce](https://github.com/s-pearce), [Filipa Carvalho](https://github.com/pipa85), [Isabelle Giddy](https://github.com/isgiddy) and Christian Begler.
 
 8) At the moment: Preparation of submission to OBPS
 
@@ -125,3 +126,5 @@ He reviewed the overall document and provided feedback on the overall document.
 [Filipa Carvalho](https://github.com/pipa85) provided feedback on overall document and helped to improve the overview schematic.
 
 [Isabelle Giddy](https://github.com/isgiddy) provided feedback on the pre-deployment section towards improving the procedure at very low-temperatures. Supports the technical maintanence of the SOP on GitHub.
+
+Christian Begler provided images of an Aanderaa optode integrated on a Slocum glider.
