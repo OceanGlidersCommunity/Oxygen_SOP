@@ -153,14 +153,10 @@ UEA OGIVE seaglider with 4330F optode, together with NOC LoC spectrophotometric 
 #### Slocum
 On slocum gliders the oxygen optode is typically installed aft close to the fin ({numref}`slocum_standard`.
 
-<!--
-![Standard Aanderaa optode 4831 mounting under the fin of the Slocum G2. \label{fig:slocum_standard}](/images/slocum.jpg)
--->
-
 :::{figure-md} slocum_standard
-<img src="/images/slocum.jpg" alt="Slocum sensor integration" class="bg-primary mb-1" width="400px">
+<img src="/images/slocum_optode_christian_begler.png" alt="Slocum sensor integration" class="bg-primary mb-1" width="400px">
 
-Standard Aanderaa optode 4831 mounting under the fin of the Slocum G2.
+Standard Aanderaa optode 3830 mounting under the fin of the Slocum G2.
 :::
 
 However this positioning is not ideal for oxygen measurements due to the optode being within a region of laminar flow {cite}`Moat2016`, additionally the optode response time has been observed to be dependent on the sensor orientation relative to the direction of flow {cite}`Bittig2014`. 
