@@ -79,12 +79,11 @@ commentsRunWhenDOMLoaded(addUtterances);
 </script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
-    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
-    <script>
-        const thebe_selector = ".thebe"
-        const thebe_selector_input = "pre"
-        const thebe_selector_output = ".output"
-    </script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
@@ -418,7 +417,7 @@ commentsRunWhenDOMLoaded(addUtterances);
 RTQC applied on the temperature measured by the oxygen sensor should follow the RTQC procedure defined for the CTD temperature.</p>
 <div class="section" id="doxy-qc-initialisation">
 <h3><span class="section-number">6.2.1. </span>Doxy QC initialisation<a class="headerlink" href="#doxy-qc-initialisation" title="Permalink to this headline">¶</a></h3>
-<p>Several oxygen sensors suffer from predeployment storage drift that can reduce accuracy by up to 20% or more <span id="id1">[<a class="reference internal" href="oxygen_references.html#id27">Bittig <em>et al.</em>, 2019</a>]</span>. As a consequence and because this bias can be corrected, dissolved oxygen concentration measured in real time should be set to 3 “bad data that are potentially correctable”. To retrieve usable oxygen data, an adjustment in real time should be quickly performed.</p>
+<p>Several oxygen sensors suffer from predeployment storage drift that can reduce accuracy by up to 20% or more <span id="id1">[<a class="reference internal" href="oxygen_references.html#id27" title="Henry C. Bittig, Tanya L. Maurer, Joshua N. Plant, Catherine Schmechtig, Annie P. S. Wong, Hervé Claustre, Thomas W. Trull, T. V. S. Udaya Bhaskar, Emmanuel Boss, Giorgio Dall’Olmo, Emanuele Organelli, Antoine Poteau, Kenneth S. Johnson, Craig Hanstein, Edouard Leymarie, Serge Le Reste, Stephen C. Riser, A. Rick Rupan, Vincent Taillandier, Virginie Thierry, and Xiaogang Xing. A bgc-argo guide: planning, deployment, data handling and usage. Frontiers in Marine Science, 6:502, 2019. URL: https://www.frontiersin.org/article/10.3389/fmars.2019.00502, doi:10.3389/fmars.2019.00502.">Bittig <em>et al.</em>, 2019</a>]</span>. As a consequence and because this bias can be corrected, dissolved oxygen concentration measured in real time should be set to 3 “bad data that are potentially correctable”. To retrieve usable oxygen data, an adjustment in real time should be quickly performed.</p>
 </div>
 <div class="section" id="global-range-check">
 <h3><span class="section-number">6.2.2. </span>Global range check<a class="headerlink" href="#global-range-check" title="Permalink to this headline">¶</a></h3>

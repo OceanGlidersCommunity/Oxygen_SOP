@@ -6,8 +6,14 @@
 ### Aanderaa Optodes
 Aanderaa optodes are the most widely used oxygen sensor on ocean gliders and a large body of work has now been dedicated to their characterisation (e.g. {cite}`Bittig2018`).
 These sensors are based on the oxygen luminescence quenching of a platinum porphyrin complex (fluorescent indicator) that is immobilized in a sensing foil. 
-These offer low power consumption, good long-term stability, low fouling sensitivity while not being sensitive to H2S or freezing.
-Aanderaa optodes have seen several important developments since they were introduced in 2002, with various hardware and firmware revisions which we outline below (shown in {numref}`optodes`).
+This offers low power consumption, good long-term stability, low fouling sensitivity while not being sensitive to H<sub>2</sub>S or freezing.
+Aanderaa optodes have seen several important developments since they were introduced in 2002, with various hardware and firmware revisions which we outline below (see also {numref}`optodes`).
+
+:::{figure-md} optodes
+<img src="/images/AaanderaasensorsAll1.png" alt="Aandera Optodes" class="bg-primary mb-1" width="400px">
+
+Suit of Aanderaa smart sensors. Oxygen optodes are indicated by red arrows.
+:::
 
 #### Hardware design: blue or black
 While mostly cosmetic, the colour of the optode is a useful short-hand for the two main optode designs.
@@ -18,7 +24,7 @@ with an increase in accuracy to 0.03 °C from 0.05 °C, and time-response reduct
 All optodes other than the 4831 use a 10 pin Lemo connector, these connectors can’t be connected when wet and are prone to crevice corrosion. 
 The 4831 is therefore recommended for all applications with it’s Subconn wet-pluggable connector.
 Older optode versions (3830) have a titanium housing in the same form factor as the 3835. 
-Some early Slocum gliders were delivered with optodes of type 5013, these are identical to the 3830.
+Some early Slocum gliders include a 5013 optode which is identical to the 3830.
 
 #### Foil type: F or standard
 Most optodes use the PreSens PSt3 foil (PreSens - Precision Sensing GmbH), these have as standard a black opaque protective layer protecting the pink sensing layer.
@@ -64,28 +70,22 @@ However following {cite:t}`Bittig2015`, this should be ideally be done using the
 
 Regardless of the optode version, oxygen can be recalculated from calphase using the approach of {cite}`Uchida2008`.
 During the initial months of storage/use a Foil maturation process occurs resulting in lower readings by several %. 
-The maximum observed maturation induced drift on more than 1000 sensor has been 8 % for sensors with non-factory pre-matured WTW foils (model: 4835, 4531 and 5730 Steinsvik) and 6 % for sensors with factory pre-matured PSt3 foils (model: 4330, 4831, 5331 hadal). 
+On more than 1000 sensors, the maximum observed maturation induced drift has been 8 % for sensors with non-factory pre-matured WTW foils (model: 4835, 4531 and 5730 Steinsvik) and 6 % for sensors with factory pre-matured PSt3 foils (model: 4330, 4831, 5331 hadal). 
 During/between field deployments there are possibilities for end users to post-adjust the sensors either by a one-point air-saturation adjustment or by taking reference samples (e.g. water samples and Winkler titration) and/or using a well-calibrated sensor in parallel. 
-If done correctly such an adjustment should result in an absolute accuracy of around 1 % for multipoint calibrated sensors (model: 4330, 4831, 5331 and 5730) and 3 % for two-point calibrated (model: 4835, 4531), see below for more information about factory calibrations. 
-The drift will decrease over time so that during the second year it is not likely to be more than 1-2 %. 
-After this it should be less than 0.5 % per year, unless the foil is mechanically damaged (Aanderaa).
-
-:::{figure-md} optodes
-<img src="/images/AaanderaasensorsAll1.png" alt="Aandera Optodes" class="bg-primary mb-1" width="400px">
-
-Suit of Aanderaa smart sensors. Oxygen optodes are indicated by red arrows.
-:::
+If done correctly such adjustment should result in an absolute accuracy of around 1 % for multipoint calibrated sensors (models: 4330, 4831, 5331 and 5730) and 3 % for two-point calibrated sensors (models: 4835 and 4531), see below for more information about factory calibrations. 
+The drift will decrease over time so during the second year it is not likely to be higher than 1-2 %. 
+After this time, it should be less than 0.5 % per year, unless the foil is mechanically damaged {cite}`Aanderaa2018`.
 
 ### RBR coda T.ODO
-The RBRcoda T.ODO uses the same foils and methods as the 4831 and 4831F so everything above specified for the 4831 will also apply to those instruments as well.
-RBR refers to the standard optode (~30 s τ) foil as “slow” and the fast (~8 s) as the standard.
-They also use further foil design (~1 s response) which they call “fast” . 
+The RBRcoda T.ODO uses the same foils and methods as optodes 4831 and 4831F so everything specified for the 4831 will also apply to this sensor.
+RBR refers to the standard optode (~30 s τ) foil as “slow” and the fast (~8 s) as “standard”.
+Newer sensor foil design (~1 s response) is called “fast” . 
 The RBR sensor has a smaller form factor than the Aandera optodes, but is overall similar to a 4831 with the temperature sensor very closely located to the sensing foil. 
-This sensor has recently been implemented in gliders, and little is known about their performance.
+This sensor has recently been implemented in gliders, and little is known about their long-term performance.
 
 ### JFE Advantech RINKO
 AROD-FT sensor (RINKO JFE) is used for the SeaExplorer gliders (Alseamar) and for some Argo floats (small size and low power consumption) (see {numref}`ARODFT`). 
-These sensors use the same dynamic quenching principles as the other optical oxygen sensors (Aanderaa and RBRcoda) but use different materials.
+These sensors use the same dynamic quenching principles as the other optical oxygen sensors (Aanderaa and RBRcoda) but made from different materials.
 The luminophore is coated onto the optical window rather than being embedded in a foil.
 They have a much faster response time (less than 1 s to 63 %) compared to foil based optical oxygen sensors while maining good accuracy (±2 μmol kg<sup>-1</sup>). 
 These sensors are individually multi-point calibrated by the manufactuer (16 points with 4 temperatures and 4 DO concentrations). 
@@ -113,11 +113,11 @@ This is similar to procedures used on other optodes.
 :::{figure-md} samba
 <img src="/images/SAMBA.png" alt="Oxygen saturation from a Rinko AROD-FT on a SeaExplorer glider in the Bornholm Basin" class="bg-primary mb-1" width="500px">
 
-Oxygen saturation from a Rinko AROD-FT on a SeaExplorer glider in the Bornholm Basin (credit: Voice of the Ocean Foundation and University of Gothenburg).
+Oxygen saturation from a Rinko AROD-FT on a SeaExplorer glider in the Bornholm Basin (credit: Voice of the Ocean Foundation and University of Gothenburg). Note that this sensor was a recent acquisition and had little opportunity to drift in storage.
 :::
 
 Recent deployments of a SeaExplorer glider equipped with an AROD-FT sensor have shown long-term stability (low drift over time) but with a significant offset observed during sections in the Ligurian Sea (on average 10-15 $\mu$mol/kg). 
-Deployments in the Bornholm Basin have shown good agreement across a wide range of oxygen concentrations with a nearby BOOS monitoring station (see {numref}`samba`. This sensor was a recent acquisition and had little opportunity to drift in storage.
+Deployments in the Bornholm Basin have shown good agreement across a wide range of oxygen concentrations with a nearby BOOS monitoring station (see {numref}`samba`.)
 
 ### Clark electrode polarographic sensor (SBE 43, SBE 43F and SBE 63)
 The SBE 43, SBE 43F and SBE 63 are individually calibrated with a calibration drift rates of less than 0.5% over 1000 h of operation. 
@@ -138,7 +138,7 @@ For this task, Winkler samples or a clean, calibrated reference sensor will be r
 - input from expert needed
 
 #### Seaglider
-On Seagliders the oxygen sensor is normally mounted externally behind the CT sensor (see {numref}`seagliders_standard`. Given this exposed location it is important to mount the optode with the sensing foil facing away from incident light to avoid unnecessary UV exposure.
+On Seagliders the oxygen sensor is normally mounted externally behind the CT sensor (see {numref}`seagliders_standard`). Given this exposed location it is important to mount the optode with the sensing foil facing away from incident light to avoid unnecessary UV exposure.
 <!-- 
 ![UEA OGIVE seaglider with 4330F optode, together with NOC LoC spectrophotometric pH, unpumped SBE CT and Fluidion potentiometric pH sensor. \label{fig:seagliders_standard}](/images/OGIVE.png)
 -->
@@ -151,7 +151,7 @@ UEA OGIVE seaglider with 4330F optode, together with NOC LoC spectrophotometric 
 
 
 #### Slocum
-On slocum gliders the oxygen optode is typically installed aft close to the fin ({numref}`slocum_standard`.
+On slocum gliders the oxygen optode is typically installed aft close to the fin ({numref}`slocum_standard`).
 
 :::{figure-md} slocum_standard
 <img src="/images/slocum_optode_christian_begler.png" alt="Slocum sensor integration" class="bg-primary mb-1" width="400px">
@@ -177,11 +177,11 @@ Slocum glider showing alternative mounting of an Aanderaa optode perpendicular t
 :::
 
 #### SeaExplorer
-On SeaExplorer gliders, all existing oxygen sensor integrations are installed in the forward wet payload section (the nose cone). External mounting is also feasible using external puck mounts on the dry payload, located approximately 1/3 of the way back, but is rare and generally only used for instrument trials. The Rinko AROD-FT is generally installed on the forward starboard connector, with the sensing foil and temperature probe 15 centimeters back from the tip of the nose and lightly sheltered to avoid damage when making contact with the nose. Both the foil and temperature probe are well exposed to flow. The new RBR Coda integration is also planned to present the foil and probe slightly set back from the tip of the nose, while remaining exposed to unmodified flow. The SBE43 is found only when accompanied with a Seabird pumped CT sensor; both of these sensors are placed in the nose where the RBR Legato CT sensor can be seen in {numref}`Rinko`.
+On SeaExplorer gliders, all existing oxygen sensors are installed in the front wet payload section (called the nose cone). External mounting is also feasible using external puck mounts on the dry payload which located approximately 1/3 of the way back, but this configuration is rare and generally only used during instrument trials. The Rinko AROD-FT is generally installed on the forward starboard connector, with the sensing foil and temperature probe 15 centimeters back from the tip of the nose and lightly sheltered to avoid damage when making contact with the nose. Both the foil and temperature probe are well exposed to flow. The new RBR Coda integration is also planned to present the foil and probe slightly set back from the tip of the nose, while remaining exposed to unmodified flow. The SBE43 is found only when accompanied with a Seabird pumped CT sensor; both of these sensors are placed in the nose where the RBR Legato CT sensor can be seen in {numref}`Rinko`.
 
 <!--
-![Rinko AROD-FT in the flooded nose cone payload bay of a SeaExplorer next to an RBR Legato sensor.](/images/Rinko.png)
--->
+![Rinko AROD-FT (silver sensor) in the flooded nose cone payload bay of a SeaExplorer next to an RBR Legato sensor (red sensor).](/images/Rinko.png)
+--> 
 
 :::{figure-md} Rinko
 <img src="/images/Rinko.png" alt="Rinko" class="bg-primary mb-1" width="400px">
