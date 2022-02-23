@@ -24,7 +24,7 @@ After recovery the sensor has to be cleaned to remove any biofouling. The follow
 (sensor_configuration)=
 ## Sensor configuration for deployment
 Salinity configuration: 0 PSU. 
-For optode sensors: when there is a small variation in salinity (less than 1 g/kg), it can be set to the mid value avoiding the need of salinity compensation. 
+For optode sensors: when there is a small variation in salinity (less than 1 g/kg), it can be set to the mid-value avoiding the need of salinity compensation. 
 However, even in that case, it is a good practice to set salinity to 0 for two reasons: 1) it is usually difficult to find the salinity value defined for old deployments and 2) in case the equations change, it would be easier to recalculate oxygen values from uncompensated values. 
 Optodes should be configured to record the intermediate parameters (`calphase` and temperature), not just oxygen concentration or saturation.
 Accurate time-stamps, or offsets relative to CT measurements must be recorded for performing the lag correction.
@@ -118,7 +118,7 @@ The following terminal configuration works for all optode types:
 - Local echo
 - CR+LF receive and transmit
 
-There is also a possibility of using a Data Logger while we are working with the sensors. 
+There is also a possibility of using a Data Logger while working with the sensors. 
 
 :::{figure-md} terminal_program
 <img src="/images/TerminalProgram.jpg" alt="Terminal program" class="bg-primary mb-1" width="400px">
@@ -126,67 +126,27 @@ There is also a possibility of using a Data Logger while we are working with the
 Recording data using a terminal program.
 :::
 
+(calibration_procedure)=
 #### Calibration procedure
+
 Materials: Distilled water, aquarium pump, 1L and small volume beakers, stirrer and magnetic stirrer, BOD bottles, Winkler reagents, sodium sulfite solution, pipettes and tips, barometer, termometer.
 
 Type *Get All* command for saving the initial sensor configuration to be able to restore old values in case something goes wrong.
 
-1. With the sensor submerged in  the 100 % water, connect to it and start measuring.  Set the Interval property to 30 seconds. (This interval is recommended during the calibration to reduce the risk of self heating in the small Set).
-             
-            container Passkey(1000)
-            
-            Set Interval(30)
-            
-            Save
-2. Wait until both the temperature and the phase measurements are stabilized.
+The commands and steps needed to calibrate an oxygen sensor vary, see {numref}`optode_calibration_commands` for specific details. Here we outline the general procedure.
 
-3. Store calibration values by typing:
-           
-           Set Passkey(1000)
-            
-           Do CollectCalDataSat
-The Save command is automatically performed.
-
-4. Set the CalDataAPress property to the actual air pressure in hPa at the site:
-           
-           Set Passkey(1000)
-           
-           Set CalDataAPress (..)
-          
-           Save
-5. Take 2 samples for Winkler measurement.
-
-6. Dry the sensor carefully (make sure that the sensing foil is free from air bubbles) and immerse it in 0 % bath (0 % almost always reads correctly and is part of the calibration process). 
-Wait until both the temperature and the phase measurements have stabilized (approx. 3 min).
-
-7. To store calibration values for 0 %:
-           
-           Set Passkey(1000)
-           
-           Do CollectCalDataZero
-The Save command is automatically performed.
-
-8. To accept the new calibration and store the new coefficients in the sensor:
-          
-           Set Passkey(1000)
-           
-           Do Calibrate
-The  Save command is automatically performed.
-
-9. Rinse well with distilled water and dry the sensor foil carefully and check how it works at air. 
-Save the data to check the sensor performance through time (a barometer is needed). 
-Value of oxygen saturation should be 100 % or higher.
-
-10. Put the sensor back into the 0 % water, the reading should drop to zero.
-
-11. Set back the Interval property to 1 second (or the desired sampling frequency).
-            
-            Set Passkey(1000)
-            
-            Set Interval(1)
-            
-            Save
-12. Type Get All command for saving the final sensor configuration for reference.
+1. Using an aquarium pump create a 100 % saturation water solution in a 1 L container. Avoid submerging the air-stones as this can supersaturate the solution. Use a magnetic stirrer to homogenise the water.
+1. Immerse the sensor(s) and ensure the sensing foils have been kept moist, if not leave the sensor in the solution for 24 hours.
+2. Prepare the 0 % solution using sodium sulfite in another container. Aim for a concentration of XXX. A high level of precision is not required and excess sodium sulfite is not an issue.
+1. Connect to and power on your sensor, it is good practice to log the output from the terminal session to a file for reference.
+1. Observe the local air-pressure and update the instrument if needed.
+3. Begin taking measurements with the sensor, once temperature and oxygen concentration readings have stabilised these values are used as the saturation concentration data point.
+4. Move the sensor to the 0 % solution and wait for the readings to stabilise, use these readings as the zero value.
+5. Self calibrating sensors, such as optodes, can now be told to calibrate themselves, otherwise use these two data points to determine the slope and intercept needed for the sensor.
+5. Rinse the sensor thoroughly to remove any sodium sulfite solution, and return the sensor back to the 100 % saturated solution to verify the calibration.
+The optode should read close to 100 % saturation.
+7. Take paired winkler samples from the 100 % solution to confirm it is 100 % saturated.
+8. Return the sensor to the configuration required for your glider.
 
 ### In situ intercomparison in the tank during ballasting
 This is an extra in situ intercomparison to carry out if  access to the tank while ballasting the glider is possible and the ballasting is close in time to the deployment (no more than 1-2 days before) (reference PLOCAN).
