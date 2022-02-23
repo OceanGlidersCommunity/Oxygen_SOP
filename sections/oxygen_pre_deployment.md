@@ -42,6 +42,7 @@ When applying the tape, be sure that it is not in contact with any other metal p
 4) Ongoing trials: Aanderaa is focusing on non-toxic methods like fiber/hair cloth and “shark skin” film.
 
 Mechanical wipers or UV radiation based approaches are generally unsuitable for gliders due to their increased power requirements and drag.
+Where optodes are mounted in such a way as to allow in-air sampling biofouling is likely reduced.
 
 Regardless of whether efforts to prevent fouling are made, it is vital that post-recovery photographs are taken of the optode so that the impact of biofouling can be assessed during DMQC.
 
