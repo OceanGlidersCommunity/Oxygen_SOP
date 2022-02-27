@@ -74,6 +74,7 @@ There is also an option of removing the oxygen from the water bubbling nitrogen 
 - Always check saturation values: an outset of ± 5 % is adequate, so a value between 95 to 105 % is correct. See {numref}(air_pressure_effects).
 - While calibrating, changing air pressure and water temperature will affect the partial pressure (and apparent saturation concentration) which makes calibration difficult. Accurate air pressure readings for the room and a stable room temperature is ideal.
 When onboard a ship or in a lab external meterological sensors will not represent those conditions inside and should only be used if the calibration is to be done outside. A portable barometer and air thermometer is highly recommended.
+- The Winkler method can be used to determine the concentration of 100 % solution (± 0.15 μmol kg<sup>-1</sup>). We recommend following the GO-SHIP protocol described by {cite}`Langdon2010` and a well-trained technician to do the sampling and analysis.
 
 It is recommended to perform the calibration at at least two different temperatures which cover the expected in-situ temperature range.
 There are several possibilities in order to achieve this, some examples:
@@ -84,8 +85,6 @@ There are several possibilities in order to achieve this, some examples:
 In situ intercomparisons will be required to find the offset of the sensor in different seawater conditions.
 Therefore, samples should be taken in the tank during the ballasting (if this is 1-2 days before deployment, no more) and at the deployment/recovery site (ideally at different depths).
 
-The Winkler method is used to determine the concentration of dissolved oxygen in discrete water samples which is a highly accurate method for determination of dissolved oxygen (± 0.15 μmol kg<sup>-1</sup>).
- We recommend to follow the GO-SHIP protocol described by {cite}`Langdon2010` and a well-trained technician to do the sampling and analysis.
 
 There are various issues with Winkler at low oxygen concentrations that have been described in the bibliography: 
  -	In waters with concentrations below 5 μmol kg<sup>-1</sup>, high concentration of nitrite may cause a positive oxygen bias {cite}`Langdon2010`. In more recent articles, scientists even avoid using Winkler at concentrations below 20 μmol kg<sup>-1</sup> {cite}`Thomsen2016`. 
