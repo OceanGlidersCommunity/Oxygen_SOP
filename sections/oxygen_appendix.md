@@ -1,10 +1,11 @@
 # Appendices
 
-(optode_calibration_commands)=
+(sensor_calibration_commands)=
 ## Optodes commands
 
 As discussed in {numref}`calibration_procedure` the commands required to calibrate an optode varies depending on optode firmware version.
 Here we present the key commands needed to perform a 0-100 calibration for all known optode variants. 
+*NOTE: A multipoint DO calibration is necessary to obtain new foil coefficients and that can be done at the manufacturer laboratories or in any fully equipped calibration lab. These values shouldn’t be changed otherwise.*
 
 The framework 3 firmware saw many changes to the output and commands from the optodes which are summarised in the optode manual Appendix 11.
 For optode calibration the key changes are:
@@ -14,6 +15,21 @@ For optode calibration the key changes are:
 Certain settings within an optode are protected, such that an unlocking command needs to be entered before the setting can be changed, these are `passkey` or `protect` depending on firmware.
 
 It is recommended not to set the sampling rate of the optode too high during calibration to avoid self heating. We suggest a 30-second interval is appropriate.
+
+(comm_sensor_terminal_cable)=
+### Communicating with the sensor using a terminal program and a cable
+When the DO sensor is disconnected from the glider connect the sensor to a PC by using the cable (Cable #3855 for 4330/4835 optodes, Cable #5335 for 4831).
+These cables can be purchased from Aanderaa and provide power to the optode via USB.
+
+The following terminal configuration works for all optode types:
+
+- 9600 baud rate
+- 8 data bits
+- 1 stop bit
+- No parity
+- Xon/Xoff flow control on
+- Local echo
+- CR+LF receive and transmit
 
 ### Framework 3 (since 2013)
 
