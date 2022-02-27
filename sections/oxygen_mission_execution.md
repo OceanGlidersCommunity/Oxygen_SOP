@@ -89,17 +89,22 @@ GEOMAR oxygen data loggers (Aanderaa Optode mounted on data logger) attached to 
 :::
 
 ## Deploying gliders in Oxygen Minimum Zones (OMZ)
-Note that the classical Winkler titration method is not reliable at oxygen concentrations in OMZ core {cite}`Thomsen2016` since the method has some limitations (see discussion in Two point calibration procedure, optode example section). 
+Note that the classical Winkler titration method is not reliable at oxygen concentrations in OMZ core {cite}`Thomsen2016` since the method has some limitations.
+There are various issues with Winkler at low oxygen concentrations that have been described in the bibliography: 
+ -	In waters with concentrations below 5 μmol kg<sup>-1</sup>, high concentration of nitrite may cause a positive oxygen bias {cite}`Langdon2010`. In more recent articles, scientists even avoid using Winkler at concentrations below 20 μmol kg<sup>-1</sup> {cite}`Thomsen2016`.  
+ -	Oxygen absorbed in the plastic of the Niskin bottles is transferred into the water sampled. This oxygen contamination increases the concentration obtained when follow Winkler method. It has been measured values of apparent concentration of 2 - 4 μmol kg<sup>-1</sup> in the Pacific minimum zones, showing a significant positive bias {cite}`Garcia-Robledo2021`.
+ -	Presence of extremely low concentrations of oxygen concentrations (nmol levels) in areas like the core of the Peruvian oxygen minimum zones.
 
-Steps recommended in these regions: 
-1) Do a 0/100 % calibration in the lab before deployment and after recovery.
+Thus, when working in these areas, it is recommended to do:
+- In-situ approaches for 0 % calibration suggested by {cite}`Thomsen2016`.
+- Additionally Intercomparisons with STOX sensors attached to a shipboard CTD {cite}`Revsbech2009` or new use the low-oxygen sensing foils (0-10% saturation) from Aanderaa.
 
-2) Measure Winkler in samples with concentration higher than 20 μmol kg<sup>-1</sup>, typically in the mixed layer during the deployment and/or recovery. 
+- Do a 0/100 % calibration in the lab before deployment and after recovery.
+- Measure Winkler in samples with concentration higher than 20 μmol kg<sup>-1</sup>, typically in the mixed layer during the deployment and/or recovery. 
 The Winkler method is also a problem when there is a strong vertical gradient, typically found in OMZ regions. 
 Thus calibration points below the mixed layer are often not suitable. 
 Look for regions with weak vertical gradients.
-
-3) Park the glider for a few hours in the OMZ core at different temperatures to get an in-situ zero calibration points.
+-  Park the glider for a few hours in the OMZ core at different temperatures to get an in-situ zero calibration points.
 
 ## Piloting
 In this section, specific piloting requirements during the mission execution which are needed to allow quality control are mentioned.
