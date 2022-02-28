@@ -39,8 +39,8 @@ Test value = | V2 - (V3 + V1)/2 | - | (V3 - V1) / 2 |
 Where V2 is the measurement being tested as a spike, V1 and V3 are the values above and below. 
 
 V2  value should be flagged as 4 “bad data”, when:
-Test value > 50 µmol/kg for pressure < 500 dbar
-Test value > 25 µmol/kg for pressure >= 500 dbar
+Test value > 50 µmol kg<sup>-1</sup> for pressure < 500 dbar
+Test value > 25 µmol kg<sup>-1</sup> for pressure >= 500 dbar
 
 ### Stuck value test
 This test looks for EGO oxygen data in the same phase (ascending or descending for example) being identical. Stuck values should be flagged as 4 “bad data”.
@@ -63,6 +63,6 @@ Left: Rapidly decreasing reported oxygen concentrations caused by the growth of 
 At the end of the deployment the barnacle prevented all exchange of oxygen between water and foil. 
 Right: Slow effects of algae growth on the foil. 
 Towards the end of the deployment a diurnal cycle in the reported near-surface oxygen concentrations becomes visible. 
-Elevated reported oxygen concentrations coincide with local daylight times and the glider being in the euphotic zone. See also {numref}`biofouling_examples`.
+Elevated reported oxygen concentrations coincide with local daylight times and the glider being in the euphotic zone.
 :::
 
