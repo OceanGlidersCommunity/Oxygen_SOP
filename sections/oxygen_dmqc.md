@@ -14,18 +14,17 @@ The drift is believed to be due to bleaching of the luminophore foil via ambient
 The bleaching effect is partly counteracted by a destabilising effect on the luminophore. 
 Together this manifests as a positive factor on the oxygen concentration (slope > 1) and a positive offset at zero oxygen.
 
-{cite}`Queste2018` recorded drifts of 0.0176 and 0.0109 μmol/kg/day for two Seagliders using inflections in the oxygen profiles as the glider penetrated to Arabian Sea Oxygen Minimum Zone and the sodium sulphite method, but no Winklers. 
+{cite}`Queste2018` recorded drifts of 0.0176 and 0.0109 μmol kg<sup>-1</sup> day<sup>-1</sup> for two Seagliders using inflections in the oxygen profiles as the glider penetrated to Arabian Sea Oxygen Minimum Zone and the sodium sulphite method, but no Winklers. 
 {cite}`BittigKoertzinger2015` report a 10 % drift over 3 years, but this is a combination of in-situ and ex-situ drift. 
 {cite}`Bittig2018` determined the drift to be typically 0.1-0.2 % per year in-situ. 
-A drift of 0.0004 % day<sup>-1</sup> has been calculated based on UEA seagliders against Baltic deep water oxygen climatology {cite}`Possenti2021`.
-Tom Hull found values between 0.0004 and 0.0035 % d-1 across 16 vehicles in-situ (slocums and seagliders with 4330F (old foil formulation), 4835 and 4831 optodes (unpublished?). 
+A drift of 0.0004 % day<sup>-1</sup> has been calculated based on UEA seagliders against Baltic deep water oxygen climatology {cite}`Possenti2021`. Values between 0.0004 and 0.0035 % d<sub>-1</sub>  have been found across 16 vehicles in-situ: slocums and seagliders with 4330F (old foil formulation), 4835 and 4831 optodes (Tom Hull personal communication). 
 
 The drift correction should be applied to the oxygen concentration, not the measured phase {cite}`Bittig2018`.
 
 (dmqc_time_response)=
 ## Sensor time response correction
 
-In all but the most homogeneous waters it is essential to correct for the slow time response of optodes {cite}`Bittig2014`, {cite}`Bittig2017` (see {numref}`kelvin_lag`).
+In all but more important in the most homogeneous waters it is essential to correct for the slow time response of optodes {cite}`Bittig2014`, {cite}`Bittig2017` (see {numref}`kelvin_lag`).
 This is particularly critical for optodes using the “standard” black foils, and as previously mentioned Slocum gliders with the optode in the standard location near the tail of the glider {cite}`Moat2016`.
 
 :::{figure-md} kelvin_lag
@@ -36,7 +35,7 @@ Example uncorrected profiles from AlterEco AE5 “Kelvin” Slocum with a 4831 o
 
 Correction requires the collection of optode phase, temperature and time.
 Therefore the instruments and gliders should be configured to collect these variables and not just oxygen concentration or saturation. 
-If only optode temperature and concentration are recorded, routines exist to recalculate phase, but this can introduce some inaccuracy and is best avoided.
+If only optode temperature and concentration are recorded, routines exist to recalculate phase, but this can introduce some inaccuracy and best to avoid it.
 Accurate time-stamps for these data are required to be able to perform this correction.
 Many data processing routines may remove these timestamps, such as to place the oxygen data on the same time-axis as the CTD,
 but for best results the oxygen sensor time should be used for the time response correction before interpolating to match the CTD.
@@ -70,15 +69,15 @@ Implementing and correcting such a lag should however be fairly simple.
 To determine the two time constants a number of steps are performed:
 
 1. Linearly interpolate optode phase, optode temp, CTD temp, pressure and salinity variables onto 1 sec grid to avoid issues from different measurement times.
-1. A set of foil temperatures is estimated by applying an exponential filter to the CTD temperature with time scales from 10 to 50 seconds (in steps of 5 sec), thereby creating different ‘virtual’ foil temperatures.
-1. With this set of virtual foil temperatures oxygen concentrations are calculated using either the Aanderaa supplied or the own-calibration derived set of optode coefficients.
-1. For each of the resulting oxygen concentrations a reverse exponential filter with time scales of 0 to 200 seconds (in steps of 20 sec) is applied to create sets of oxygen concentration profiles.
-1. These sets of concentration profiles are then filtered with a forward-backward filter (MATLAB `filtfilt`) to remove the noise introduced by the reverse filtering. Currently a fixed time constant of 40 seconds is used for this filter. Depending on whether fast or slow foils are used, other values might deliver better results.
+1. A set of foil temperatures is estimated by applying an exponential filter to the CTD temperature with time scales from 10 to 50 s (in steps of 5 s), thereby creating different ‘virtual’ foil temperatures.
+1. With this set of virtual foil temperatures, oxygen concentrations are calculated using either the Aanderaa supplied or the own-calibration derived set of optode coefficients.
+1. For each of the resulting oxygen concentrations a reverse exponential filter with time scales of 0 to 200 s (in steps of 20 s) is applied to create sets of oxygen concentration profiles.
+1. These sets of concentration profiles are then filtered with a forward-backward filter (MATLAB `filtfilt`) to remove the noise introduced by the reverse filtering. Currently a fixed time constant of 40 s is used for this filter. Depending on whether fast or slow foils are used, other values might deliver better results.
 1. All concentrations are gridded to a 1 dbar grid (first binned and then linearly interpolated to the full dbar).
 1. Differences between all up-down pairs are calculated and summed up for each of the concentration sets.
 1. The one delay pair (CTD-temp delay for virtual foil temperature & Optode response delay) with the smallest difference sum is chosen and applied to the whole deployment.
-1. Typically the ‘best’ delays are CTD-temp: 30-100 seconds, optode response : 20-50 seconds.
-1. Included into the optimization are only up-down pairs that were not influenced by obvious bio-fouling.
+1. Typically the ‘best’ delays are CTD-temp: 30-100 s, optode response : 20-50 s.
+1. Include into the optimization only up-down pairs that were not influenced by obvious bio-fouling.
 
 :::{figure-md} geomar_ox_example
 <img src="../images/geomar_ox_example.png" alt="GEOMAR correction example" class="bg-primary mb-1" width="400px">
