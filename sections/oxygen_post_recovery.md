@@ -12,11 +12,16 @@ Pictures should be taken for biofuiling assessment.
 Examples of biofouling. A gooseneck barnacle is growing on the optode foil (left). Algae growth on the foil (right).
 :::
 
-## Sensor storage
-Foil must be kept wet and protected from light after recovery until validation in the lab.
+## Storage and cleaning
+Foil must be kept wet and protected from light after recovery until all calibrations are done. After recovery and once all caibrations are done, clean the sensor and remove any biofouling. The following protocol is recommended by the manufacturer:
+1. If the sensor has been for too long exposed to the air, leave it overnight in a vinegar solution.
+2. Next day, place the sensor in soapy water and use a brush gently if it is necessary to remove all material adhered to the surface.
+3. Rinse very well with clean water and dry carefully. 
+
+*NOTE: Don’t change the foil unless it is physically damaged.*
 
 ## Lab calibration
-When the glider is recovered, a 0% and 100% calibration is recommended as outlined above at two different temperatures levels.
+When the glider is recovered, a 0% and 100% calibration at two different temperatures levels is recommended (See {numref}`two_point_calibration`).
 
 ## Field calibration
-If you recover the glider from a small boat or a research vessel follow protocols described in {numref}`deployment_small_boat` and {numref}`deployment_ship_CTD` accordingly.
+If you recover the glider from a small boat or a research vessel follow protocols described in {numref}`deployment_small_boat` and {numref}`deployment_ship_CTD`, respectively.
