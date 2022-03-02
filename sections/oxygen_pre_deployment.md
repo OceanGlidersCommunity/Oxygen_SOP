@@ -53,7 +53,7 @@ It is recommended to take in-air measurements both before and after deployments.
 This won’t be useful if sensor foil is not wet or the temperature of the foil is different from that measured with the temperature sensor. It therefore is best performed with 4330 and similar sensors where the temperature probe is next to the foil.
 You will need to leave the sensor logging outside in the free air for several hours before and after deployment. Remember to record the local air pressure. 
 
-*NOTE: At sea level at standard air pressure (101.3 kPa = 1 Atm = 14.69 psi) the sensors should show 100 % if wet and 102 % if completely dry; at air pressure 100 kPa it should show (1.3/101.3)100 = 1.3 % lower. See also {numref}`air-pressure-effects`.*
+*NOTE: At sea level at standard air pressure (101.3 kPa = 1 Atm = 14.69 psi) the sensors should show 100 % if wet and 102 % if completely dry; at air pressure 100 kPa it should show (1.3/101.3)100 = 1.3 % lower. See also {numref}`air_pressure_effects`.*
 
 *NOTE: It is highly recommended to do this protocol at night when humidity is higher and the temperature is lower and more stable.* 
 
@@ -71,7 +71,7 @@ This procedure is suitable for the measurement of the full range of oceanic oxyg
 
 Some information to read before we proceed with the calibration:
 - For a 100 % bubbled bath, connect an aquarium pump to a tube which has been fitted with a porous stone (bubble dispenser) at the end. This will create small air bubbles that are sufficient to equilibrate the water rapidly. 
-NOTE: It is important that the aquarium pump takes in air from an open atmosphere outside, not from inside the room/laboratory where O2 levels will be affected by the ongoing activities and/or the ventilation. To verify that optodes are in saturated water you can take them up from the water and hold them just above the surface for a few minutes. There should then be no change in the saturation readings (Aanderaa Best Practices). Avoid submerging the air-stones as this can supersaturate the solution. Use a magnetic stirrer to homogenise the water.
+ To verify that optodes are in saturated water you can take them up from the water and hold them just above the surface for a few minutes. There should then be no change in the saturation readings (Aanderaa Best Practices). Avoid submerging the air-stones as this can supersaturate the solution. Use a magnetic stirrer to homogenise the water. It is important that the aquarium pump takes in air from an open atmosphere outside, not from inside the room/laboratory where O2 levels will be affected by the ongoing activities and/or the ventilation.
 - For 0 % saturation solution, add 20 g sodium sulphite to approx. 1 L. A high level of precision is not required, and excess sodium sulphite is not an issue. Sodium sulphite rapidly removes the oxygen and, as long as crystals of the compound can be seen, the oxygen level in the water will stay at 0. Sodium sulphite also has the advantage of being inexpensive and the level of toxicity is low. This solution is considered irritating and wearing appropriate PPE (gloves, goggles and lab coat) is recommended.
 There is also an option of removing the oxygen from the water bubbling nitrogen all time. In this case you have to be sure all oxygen is removed from the solution, this will happen after 3-5 minutes bubbling (maximum volume of 100 mL approx., for bigger volume you will have to increase the time). You have to keep injecting N2 during all time of the zero calibration.
 - If any residue of the sodium sulphite solution remains on the sensing surface, the 100 % measurement will be inaccurate. Therefore, 100 % DO saturation calibration should be performed first. To avoid contamination, always rinse well with distilled water.
@@ -128,10 +128,9 @@ This is an extra in situ intercomparison to carry out if access to the tank whil
 
 Materials: Silicon tube for sampling, multiparameter sonde, BOD bottles, Winkler reagents, pipettes and tips (or a bottle-top dispenser for reagent bottles), titration material (buretes or titrator).
 
-1. The sensor should be submerged overnight in water to ensure the foil is wet. If the sensor is already mounted in the glider, use a wet sponge or rubber lens cap. 
-*NOTE: Keep the sensor in the dark.*
+1. The sensor should be submerged overnight in water to ensure the foil is wet. If the sensor is already mounted in the glider, use a wet sponge or rubber lens cap. Keep the sensor in the dark.
 4. Once the glider is in the ballasting tanks, place the silicon tube for sampling near the sensor.
-5. Once the sensor measurements are stable (variations in the measurements are not higher than the precision/resolution of the sensor), start sampling water for Winkler analysis. Take samples every 5-10 minutes, in total 4-6 samples will be required. *NOTE: Record the time we collect a sample for Winkler titration.*
+5. Once the sensor measurements are stable (variations in the measurements are not higher than the precision/resolution of the sensor), start sampling water for Winkler analysis. Take paired samples every 5-10 minutes and record the time taken. 4 to 6 samples should be taken in total.
 6. A multiparameter sonde with a oxygen sensor whose precision is less than 0.1 % can be measured in the tank near the glider’s sensors (record at least values for Temperature, Conductivity and DO). 
 *NOTE: Some DO sensors consume oxygen so, in this case, it’s recommended to move the sonde often to renew the water so the DO value does not decrease.*
 8. Check the outset of the sensor by comparing values measured by the Optode sensor with winkler values after measuring the bottle samples in the lab.

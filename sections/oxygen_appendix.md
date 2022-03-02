@@ -5,6 +5,7 @@
 
 As discussed in {numref}`calibration_procedure` the commands required to calibrate an optode varies depending on optode firmware version.
 Here we present the key commands needed to perform a 0-100 calibration for all known optode variants. 
+
 *NOTE: A multipoint DO calibration is necessary to obtain new foil coefficients and that can be done at the manufacturer laboratories or in any fully equipped calibration lab. These values shouldn’t be changed otherwise.*
 
 The framework 3 firmware saw many changes to the output and commands from the optodes which are summarised in the optode manual Appendix 11.
