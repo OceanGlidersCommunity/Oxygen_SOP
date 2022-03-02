@@ -45,15 +45,16 @@ Where `TCphase` is the temperature compensated phase and `T` is the measured opt
 A and B are temperature dependent coefficients which allow for temperature compensation of the phase measurement. 
 However for most 4330, 4831 and 4835 optodes these are not used, such that `A(T)` = 0 and `B(T)` = 1. 
 This can be confirmed by communicating with an optode and inspecting the `PTC0Coef` and `PTC1Coef` properties. 
-For older optodes (4330 serial numbers < 1000) the temperature compensated phase is then used to calculate `calphase` (calibrated phase). 
-For newer optodes `TCphase` = `calphase`.
 Similarly older optodes have their calibration (and recalibration) applied though the modification of the `PhaseCoef` coefficients. 
 On later optodes the calibration is not applied in phase space, but on the oxygen concentration though the use of the `ConcCoef0` and `ConcCoef1` coefficents (`PhaseCoef0` and `PhaseCoef1` are set to zero and 1 respectively). 
 Consult your optode calibration sheet and confirm which terms are being used.
+For older 4xxx series optodes (4330 serial numbers < 1000) the temperature compensated phase is then used to calculate `calphase` (calibrated phase). 
+With newer optodes `TCphase` = `calphase`.
+For the 3830, 3835 and 5730 series optodes the calibrated phase is known as `DPhase`.
 
-There are three different calibration equations used to convert the measured phase to oxygen equations:
+There are three different calibration equations used to convert the phase (`calphase` or `dphase`) to oxygen:
 The “Mk1” equation used by the older 3835 optodes uses a 5 x 4 matrix of coefficients. 
-The “Mk2” equation is used by non-multipoint calibrated 4330(F) and 4835 optodes, and uses a 2x14 matrix (FoilCoefA and FoilCoefB) together with a 2 x 27 matrix for the polynomial degree, this second matrix is the same across all of these type optodes. 
+The “Mk2” equation is used by non-multipoint calibrated 4330(F) and 4835 optodes, and uses a 2x14 matrix (`FoilCoefA` and `FoilCoefB`) together with a 2 x 27 matrix for the polynomial degree, this second matrix is the same across all of these type optodes. 
 Newer multipoint calibrated optodes use the Stern-Volmer (SVU) equation proposed by {cite}`Uchida2008` which has 6 terms.
 The SVU equation was introduced with firmware version 4.4.8.
 As of 2019 all new Aanderaa optodes are multipoint calibrated as standard.
@@ -68,7 +69,7 @@ We recommend to never change this from the default value of zero and to always a
 Aanderaa currently use the "combined" fit from {cite:t}`GarciaGordon1992` for this correction in their documentation.
 However following {cite:t}`Bittig2015`, this should be ideally be done using the {cite:t}`BensonKrause1984` data.
 
-Regardless of the optode version, oxygen can be recalculated from calphase using the approach of {cite}`Uchida2008`.
+Regardless of the optode version, oxygen can be recalculated from the calibrated phase (`calphase` or `dphase`) using the approach of {cite}`Uchida2008`.
 During the initial months of storage/use a Foil maturation process occurs resulting in lower readings by several %. 
 On more than 1000 sensors, the maximum observed maturation induced drift has been 8 % for sensors with non-factory pre-matured WTW foils (model: 4835, 4531 and 5730 Steinsvik) and 6 % for sensors with factory pre-matured PSt3 foils (model: 4330, 4831, 5331 hadal). 
 During/between field deployments there are possibilities for end users to post-adjust the sensors either by a one-point air-saturation adjustment or by taking reference samples (e.g. water samples and Winkler titration) and/or using a well-calibrated sensor in parallel. 
@@ -80,15 +81,15 @@ After this time, it should be less than 0.5 % per year, unless the foil is mecha
 The RBRcoda T.ODO uses the same foils and methods as optodes 4831 and 4831F so everything specified for the 4831 will also apply to this sensor.
 RBR refers to the standard optode (~30 s τ) foil as “slow” and the fast (~8 s) as “standard”.
 Newer sensor foil design (~1 s response) is called “fast” . 
-The RBR sensor has a smaller form factor than the Aandera optodes, but is overall similar to a 4831 with the temperature sensor very closely located to the sensing foil. 
+The RBR sensor has a smaller form factor than the Aanderaa optodes, but is overall similar to a 4831 with the temperature sensor very closely located to the sensing foil. 
 This sensor has recently been implemented in gliders, and little is known about their long-term performance.
 
 ### JFE Advantech RINKO
 AROD-FT sensor (RINKO JFE) is used for the SeaExplorer gliders (Alseamar) and for some Argo floats (small size and low power consumption) (see {numref}`ARODFT`). 
 These sensors use the same dynamic quenching principles as the other optical oxygen sensors (Aanderaa and RBRcoda) but made from different materials.
 The luminophore is coated onto the optical window rather than being embedded in a foil.
-They have a much faster response time (less than 1 s to 63 %) compared to foil based optical oxygen sensors while maining good accuracy (±2 μmol kg<sup>-1</sup>). 
-These sensors are individually multi-point calibrated by the manufactuer (16 points with 4 temperatures and 4 DO concentrations). 
+They have a much faster response time (less than 1 s to 63 %) compared to foil based optical oxygen sensors while maintaining good accuracy (±2 μmol kg<sup>-1</sup>). 
+These sensors are individually multi-point calibrated by the manufacturer (16 points with 4 temperatures and 4 DO concentrations). 
 The DO reference standards used for these calibrations are produced by saturating the primary mixtures with DO concentrations of approximately 4 %, 10 %, 17 % and 25 % respectively (certified by the National Metrology Institute of Japan).
 
 <!--
@@ -121,7 +122,7 @@ Deployments in the Bornholm Basin have shown good agreement across a wide range 
 
 ### Clark electrode polarographic sensor (SBE 43, SBE 43F and SBE 63)
 The SBE 43, SBE 43F and SBE 63 are individually calibrated with a calibration drift rates of less than 0.5% over 1000 h of operation. 
-These sensors have been used in Seagliders and Spray and also in morrings and Argo floats. 
+These sensors have been used in Seagliders and Spray and also in moorings and Argo floats. 
 Sensors are designed for use in a CTD’s pumped flow path, providing optimal correlation with CTD measurements. 
 Elapsed time between the CTD and associated oxygen measurement is easily quantified, and corrected for, in post-processing. 
 The black plenum and plumbing’s black tubing blocks light, reducing in-situ algal growth. 
