@@ -76,7 +76,8 @@ The combined data collected following these (CTD and lab calibration) steps will
 
 *NOTE: This calibration should be done before the deployment and after the recovery. It’s important that the membrane is kept wet.*
 
-*NOTE: Save all data from the profiles and calibrations before deploying the glider. Always record Dphase {cite}`Coppola2013`.*
+
+*NOTE: Save all data from the profiles and calibrations before deploying the glider. As noted in {refnum}`sensor_configuration` Always record the phase readings {cite}`Coppola2013`.*
 
 <!--
 ![GEOMAR oxygen data loggers (Aanderaa Optode mounted on data logger) attached to a CTD frame and prepared for in-situ calibration during a CTD cast. Panels in the upper row show fixation with straps and zip ties. Panel in the lower row shows fixation with scaffolding clamps and tape in the interior lower part of the CTD frame.](/images/Datalogger.png)
