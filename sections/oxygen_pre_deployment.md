@@ -126,13 +126,11 @@ Recording data using a terminal program.
 ### In situ intercomparison in the tank during ballasting
 This is an extra in situ intercomparison to carry out if access to the tank while ballasting the glider is possible and the ballasting is close in time to the deployment (no more than 1-2 days before) (reference PLOCAN).
 
-Materials: Silicon tube for sampling, multiparameter sonde, BOD bottles, Winkler reagents, pipettes and tips (or a bottle-top dispenser for reagent bottles), titration material (buretes or titrator).
+Materials: Silicon tube for sampling, Winkler bottles, Winkler reagents, pipettes and tips (or a bottle-top dispenser for reagent bottles), titration material (buretes or titrator).
 
 1. The sensor should be submerged overnight in water to ensure the foil is wet. If the sensor is already mounted in the glider, use a wet sponge or rubber lens cap. Keep the sensor in the dark.
 4. Once the glider is in the ballasting tanks, place the silicon tube for sampling near the sensor.
 5. Once the sensor measurements are stable (variations in the measurements are not higher than the precision/resolution of the sensor), start sampling water for Winkler analysis. Take paired samples every 5-10 minutes and record the time taken. 4 to 6 samples should be taken in total.
-6. A multiparameter sonde with a oxygen sensor whose precision is less than 0.1 % can be measured in the tank near the glider’s sensors (record at least values for Temperature, Conductivity and DO). 
-*NOTE: Some DO sensors consume oxygen so, in this case, it’s recommended to move the sonde often to renew the water so the DO value does not decrease.*
 8. Check the outset of the sensor by comparing values measured by the Optode sensor with winkler values after measuring the bottle samples in the lab.
 
 :::{figure-md} winkler-ballasting
