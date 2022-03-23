@@ -124,7 +124,7 @@ Recording data using a terminal program.
 :::
 
 ### In situ intercomparison in the tank during ballasting
-This is an extra in situ intercomparison to carry out if access to the tank while ballasting the glider is possible and the ballasting is close in time to the deployment (no more than 1-2 days before) (reference PLOCAN).
+This is an extra in situ intercomparison to carry out if access to the tank while ballasting the glider is possible and the ballasting is close in time to the deployment (no more than 1-2 days before).
 
 Materials: Silicon tube for sampling, Winkler bottles, Winkler reagents, pipettes and tips (or a bottle-top dispenser for reagent bottles), titration material (buretes or titrator).
 
