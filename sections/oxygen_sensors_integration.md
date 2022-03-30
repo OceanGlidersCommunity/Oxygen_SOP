@@ -80,9 +80,13 @@ After this time, it should be less than 0.5 % per year, unless the foil is mecha
 ### RBR coda T.ODO
 The RBRcoda T.ODO uses the same foils and methods as optodes 4831 and 4831F so everything specified for the 4831 will also apply to this sensor.
 RBR refers to the standard optode (~30 s τ) foil as “slow” and the fast (~8 s) as “standard”.
-Newer sensor foil design (~1 s response) is called “fast” . 
+Newer sensor foil design (~1 s response) is called “fast”. 
 The RBR sensor has a smaller form factor than the Aanderaa optodes, but is overall similar to a 4831 with the temperature sensor very closely located to the sensing foil. 
 This sensor has recently been implemented in gliders, and little is known about their long-term performance.
+These sensors use report calibrated phase (`opt_05`), uncorrected (`doxy24`) concentration and oxygen concentration corrected for both salinity and pressure (`doxy21`).
+`doxy24` is calculated using a 5 x 4 matrix of coefficients (`c4` to `c23`) with optional offset and factor coefficients which are normally set to 0 and 1.
+Calculation of oxygen solubility uses the {cite:t}`GarciaGordon1992` with the {cite:t}`BensonKrause1984` data, such that the same salinity correction routines used for Aanderaa optodes can also be used for RBRcoda T.ODO.
+Note, unlike Aanderaa, RBR often supply the T.ODO with the internal salinity value set to 35 rather than 0.
 
 ### JFE Advantech RINKO
 AROD-FT sensor (RINKO JFE) is used for the SeaExplorer gliders (Alseamar) and for some Argo floats (small size and low power consumption) (see {numref}`ARODFT`). 
