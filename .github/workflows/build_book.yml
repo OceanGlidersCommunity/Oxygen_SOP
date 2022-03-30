@@ -37,7 +37,7 @@ jobs:
           channels: conda-forge
           mamba-version: '*'
           channel-priority: strict
-          activate-environment: test_env_xgcm # Defined in ci/environment.yml
+          activate-environment: oxygen_sop
           auto-update-conda: false
           python-version: 3.9
           environment-file: environment.yml
