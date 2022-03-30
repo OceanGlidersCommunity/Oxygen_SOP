@@ -76,3 +76,15 @@ These optodes can use two different levels of passkey (1 and 1000) depending on 
 1. `set_protect(1)` - to allow protected settings to be modified
 1. `set_interval(X)` to return the optodes back the sampling interval required by your glider. With `X` set to 0 being polled mode.
 
+## RBRcoda ODO
+
+The RBRcoda will start streaming displaying data immediately upon power on.
+`doxy24` is the raw uncorrected oxygen concentration, while `doxy21` has been corrected both for salinity and any other coefficents.
+An offset (`C0`) and factor (`C1`) coefficents can be added to the `doxy21` channel to apply a two point calibration.
+These sensors are typically shipped with the internal salinity setting to 35.5, not zero.
+
+1. immerse the sensor in the 100 % solution
+1. connect to the sensor and open a terminal session
+1. configure your terminal to log output to a file
+2. `stream state off` to stop automatic data collection
+3. `getall` - to see the current configuration
