@@ -27,11 +27,11 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v1
         with:
-           python-version: 3.9
+          python-version: 3.9
 
       - name: Install dependencies
         run: |
-           pip install -r requirements.txt
+          pip install -r requirements.txt
 
       # Build the book
       - name: Build the book
