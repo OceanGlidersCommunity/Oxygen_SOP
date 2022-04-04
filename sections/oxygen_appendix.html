@@ -287,18 +287,23 @@ const thebe_selector_output = ".output, .cell_output"
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#communicating-with-the-sensor-using-a-terminal-program-and-a-cable">
+     12.1.1. Communicating with the sensor using a terminal program and a cable
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#framework-3-since-2013">
-     12.1.1. Framework 3 (since 2013)
+     12.1.2. Framework 3 (since 2013)
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#older-type-4835-and-4330-pre-2013">
-     12.1.2. Older type 4835 and 4330 (pre 2013)
+     12.1.3. Older type 4835 and 4330 (pre 2013)
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#type-3830-and-3835">
-     12.1.3. Type 3830 and 3835
+     12.1.4. Type 3830 and 3835
     </a>
    </li>
   </ul>
@@ -329,18 +334,23 @@ const thebe_selector_output = ".output, .cell_output"
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#communicating-with-the-sensor-using-a-terminal-program-and-a-cable">
+     12.1.1. Communicating with the sensor using a terminal program and a cable
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#framework-3-since-2013">
-     12.1.1. Framework 3 (since 2013)
+     12.1.2. Framework 3 (since 2013)
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#older-type-4835-and-4330-pre-2013">
-     12.1.2. Older type 4835 and 4330 (pre 2013)
+     12.1.3. Older type 4835 and 4330 (pre 2013)
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#type-3830-and-3835">
-     12.1.3. Type 3830 and 3835
+     12.1.4. Type 3830 and 3835
     </a>
    </li>
   </ul>
@@ -357,9 +367,10 @@ const thebe_selector_output = ".output, .cell_output"
   <div class="tex2jax_ignore mathjax_ignore section" id="appendices">
 <h1><span class="section-number">12. </span>Appendices<a class="headerlink" href="#appendices" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="optodes-commands">
-<span id="optode-calibration-commands"></span><h2><span class="section-number">12.1. </span>Optodes commands<a class="headerlink" href="#optodes-commands" title="Permalink to this headline">¶</a></h2>
-<p>As discussed in section <a class="reference internal" href="oxygen_pre_deployment.html#comm-sensor-terminal-cable"><span class="std std-numref">Section 4.5.1.2</span></a> the commands required to calibrate an optode varies depending on optode firmware version.
+<span id="sensor-calibration-commands"></span><h2><span class="section-number">12.1. </span>Optodes commands<a class="headerlink" href="#optodes-commands" title="Permalink to this headline">¶</a></h2>
+<p>As discussed in <a class="reference internal" href="oxygen_pre_deployment.html#calibration-procedure"><span class="std std-numref">Section 4.5.1.1</span></a> the commands required to calibrate an optode varies depending on optode firmware version.
 Here we present the key commands needed to perform a 0-100 calibration for all known optode variants.</p>
+<p><em>NOTE: A multipoint DO calibration is necessary to obtain new foil coefficients and that can be done at the manufacturer laboratories or in any fully equipped calibration lab. These values shouldn’t be changed otherwise.</em></p>
 <p>The framework 3 firmware saw many changes to the output and commands from the optodes which are summarised in the optode manual Appendix 11.
 For optode calibration the key changes are:</p>
 <ul class="simple">
@@ -367,8 +378,24 @@ For optode calibration the key changes are:</p>
 <li><p><code class="docutils literal notranslate"><span class="pre">set</span> <span class="pre">interval(0)</span></code> does not switch the optode to polled mode, <code class="docutils literal notranslate"><span class="pre">enable</span> <span class="pre">polled</span> <span class="pre">mode</span></code> is now used.</p></li>
 </ul>
 <p>Certain settings within an optode are protected, such that an unlocking command needs to be entered before the setting can be changed, these are <code class="docutils literal notranslate"><span class="pre">passkey</span></code> or <code class="docutils literal notranslate"><span class="pre">protect</span></code> depending on firmware.</p>
+<p>It is recommended not to set the sampling rate of the optode too high during calibration to avoid self heating. We suggest a 30-second interval is appropriate.</p>
+<div class="section" id="communicating-with-the-sensor-using-a-terminal-program-and-a-cable">
+<span id="comm-sensor-terminal-cable"></span><h3><span class="section-number">12.1.1. </span>Communicating with the sensor using a terminal program and a cable<a class="headerlink" href="#communicating-with-the-sensor-using-a-terminal-program-and-a-cable" title="Permalink to this headline">¶</a></h3>
+<p>When the DO sensor is disconnected from the glider connect the sensor to a PC by using the cable (Cable #3855 for 4330/4835 optodes, Cable #5335 for 4831).
+These cables can be purchased from Aanderaa and provide power to the optode via USB.</p>
+<p>The following terminal configuration works for all optode types:</p>
+<ul class="simple">
+<li><p>9600 baud rate</p></li>
+<li><p>8 data bits</p></li>
+<li><p>1 stop bit</p></li>
+<li><p>No parity</p></li>
+<li><p>Xon/Xoff flow control on</p></li>
+<li><p>Local echo</p></li>
+<li><p>CR+LF receive and transmit</p></li>
+</ul>
+</div>
 <div class="section" id="framework-3-since-2013">
-<h3><span class="section-number">12.1.1. </span>Framework 3 (since 2013)<a class="headerlink" href="#framework-3-since-2013" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">12.1.2. </span>Framework 3 (since 2013)<a class="headerlink" href="#framework-3-since-2013" title="Permalink to this headline">¶</a></h3>
 <p>4835 optodes with a serial number greater than 300, 4330 optodes with a serial number greater than 1000 and all 4831 optodes are using the Framework 3 command set.</p>
 <ol class="simple">
 <li><p>immerse the optode in the 100 % solution</p></li>
@@ -376,6 +403,7 @@ For optode calibration the key changes are:</p>
 <li><p>configure your terminal to log output to a file</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">get</span> <span class="pre">all</span></code> - to see the current optode configuration</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">set</span> <span class="pre">passkey(1000)</span></code> - to allow protected settings to be modified</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">set</span> <span class="pre">enable</span> <span class="pre">polled</span> <span class="pre">mode(no)</span></code> - if the optode is set to polled mode for your glider</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">set</span> <span class="pre">interval(30)</span></code> - to set the optode to collect data every 30 seconds</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">start</span></code> - to start measuring data</p></li>
 <li><p>wait for the temperature and oxygen measurements to stabilise. Variance between samples should be less than ±0.05 °C and ±0.1 µmol L<sup>-1</sup>.</p></li>
@@ -387,10 +415,11 @@ For optode calibration the key changes are:</p>
 <li><p><code class="docutils literal notranslate"><span class="pre">do</span> <span class="pre">collectcaldatazero</span></code> - to collect data for the 0 % data point and update the optode settings</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">do</span> <span class="pre">calibrate</span></code> - to finalise the calibration and update the optode settings</p></li>
 <li><p>rinse the optode very thoroughly and return it to the 100 % solution and confirm the optode is reading correctly after 10 minutes of stabilisation</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">set</span> <span class="pre">interval(X)</span></code> and <code class="docutils literal notranslate"><span class="pre">set</span> <span class="pre">enable</span> <span class="pre">polled</span> <span class="pre">mode(X)</span></code> to return the optodes back the sampling interval and mode required by your glider.</p></li>
 </ol>
 </div>
 <div class="section" id="older-type-4835-and-4330-pre-2013">
-<h3><span class="section-number">12.1.2. </span>Older type 4835 and 4330 (pre 2013)<a class="headerlink" href="#older-type-4835-and-4330-pre-2013" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">12.1.3. </span>Older type 4835 and 4330 (pre 2013)<a class="headerlink" href="#older-type-4835-and-4330-pre-2013" title="Permalink to this headline">¶</a></h3>
 <p>4835 optodes with a serial number less than 300 and 4330 optodes with a serial number less than 1000 use the following command set.
 These optodes can use two different levels of passkey (1 and 1000) depending on which setting needs to be changed   .</p>
 <ol class="simple">
@@ -400,6 +429,7 @@ These optodes can use two different levels of passkey (1 and 1000) depending on 
 <li><p><code class="docutils literal notranslate"><span class="pre">get</span> <span class="pre">all</span></code> - to see the current optode configuration</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">set</span> <span class="pre">protect(1000)</span></code> - to allow protected settings to be modified</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">set</span> <span class="pre">interval(30)</span></code> - to set the optode to collect data every 30 seconds</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">set</span> <span class="pre">enable</span> <span class="pre">polled</span> <span class="pre">mode(no)</span></code> - if the optode is set to polled mode for your glider</p></li>
 <li><p>Wait for the temperature and oxygen measurements to stabilise. Variance between samples should be less than ±0.05 °C and ±0.1 µmol L<sup>-1</sup> (or ±0.5 for µmol L<sup>-1</sup> 4330F)</p></li>
 <li><p>record the local atmospheric air pressure in hPa</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">do</span> <span class="pre">collectcaldatasat</span></code> - to collect data for the 100 % data point and update the optode settings</p></li>
@@ -409,11 +439,11 @@ These optodes can use two different levels of passkey (1 and 1000) depending on 
 <li><p><code class="docutils literal notranslate"><span class="pre">set</span> <span class="pre">collectcaldatazero</span></code> - to collect data for the 0 % data point and update the optode settings</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">do</span> <span class="pre">calibrate</span></code> - to finalise the calibration and update the optode settings</p></li>
 <li><p>rinse the optode very thoroughly and return it to the 100 % solution and confirm the optode is reading correctly after 10 minutes of stabilisation</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">set</span> <span class="pre">interval(X)</span></code> to return the optodes back the sampling interval required by your glider. With <code class="docutils literal notranslate"><span class="pre">X</span></code> set to 0 being polled mode.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">set</span> <span class="pre">interval(X)</span></code> and <code class="docutils literal notranslate"><span class="pre">set</span> <span class="pre">enable</span> <span class="pre">polled</span> <span class="pre">mode(X)</span></code> to return the optodes back the sampling interval and mode required by your glider.</p></li>
 </ol>
 </div>
 <div class="section" id="type-3830-and-3835">
-<h3><span class="section-number">12.1.3. </span>Type 3830 and 3835<a class="headerlink" href="#type-3830-and-3835" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">12.1.4. </span>Type 3830 and 3835<a class="headerlink" href="#type-3830-and-3835" title="Permalink to this headline">¶</a></h3>
 <ol class="simple">
 <li><p>immerse the optode in the 100 % solution</p></li>
 <li><p>connect to the optode and open a terminal session</p></li>
