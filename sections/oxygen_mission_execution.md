@@ -4,7 +4,7 @@
 This section covers the activities of those deploying and recovering the gliders in the field in addition to best practices for glider pilots.
 
 ## Deployment
-While keeping the oxygen sensor protected from sunlight and kept moist, any lens cover must be removed prior to deployment. The use of highly visible material, such as a red flag, can aid in ensuring it’s removal in addition to the pre-deployment checklist.
+While keeping the oxygen sensor protected from sunlight and kept moist, any lens cover must be removed prior to deployment. The use of highly visible material, such as a red flag, can aid in ensuring its removal in addition to the pre-deployment checklist.
 
 In-air measurements prior to deployment can and should be carried out together with the in-situ air pressure and relative humidity measurements to provide an additional reference for calibration. Details of this procedure can be found in the in-air-carlibration section.
 
@@ -58,7 +58,7 @@ Using a multiparameter sonde for in-situ intercomparison during deployments from
 If the glider is deployed/recovered from a research vessel equipped with a CTD and a calibrated O2 sensor, the glider optode can either be connected directly to the CTD profiler if able to receive the digital (RS232) output from the Optode {cite}`Uchida2010`, or attached via a data logger. 
 Record down- and upcast data to allow hysteresis correction. The Optode data obtained during the bottle-firing stop for collection of water samples can be used for in situ calibration, since the difference between the downcast and upcast oxygen profiles is relatively small (1 μmol kg<sup>-1</sup> approx., {cite}`Uchida2008`). 
 The error in the Optode can be reduced by allowing sufficient time for the sensor equilibration after the stop (minimum 2 min as recommended by {cite}`Hahn2014`. 
-*NOTE: For Oxygen Minimum Zone regions follow recommendations in the section below.*
+*NOTE: For Oxygen Minimum Zone regions follow recommendations in {numref}`deploying_in_omz`*
 
 To summarize, the steps we recommend to follow to calibrate oxygen sensors during regular CTD/O<sub>2</sub> casts before deployment and after recovery, are:
 
@@ -89,18 +89,24 @@ The combined data collected following these (CTD and lab calibration) steps will
 GEOMAR oxygen data loggers (Aanderaa Optode mounted on data logger) attached to a CTD frame and prepared for in-situ calibration during a CTD cast. Panels in the upper row show fixation with straps and zip ties. Panel in the lower row shows fixation with scaffolding clamps and tape in the interior lower part of the CTD frame.
 :::
 
+(deploying_in_omz)=
 ## Deploying gliders in Oxygen Minimum Zones (OMZ)
-Note that the classical Winkler titration method is not reliable at oxygen concentrations in OMZ core {cite}`Thomsen2016` since the method has some limitations (see discussion in Two point calibration procedure, optode example section). 
+Note that the classical Winkler titration method is not reliable at oxygen concentrations in OMZ core {cite}`Thomsen2016` since the method has some limitations.
+There are various issues with Winkler at low oxygen concentrations that have been described in the bibliography: 
+ -	In waters with concentrations below 5 μmol kg<sup>-1</sup>, high concentration of nitrite may cause a positive oxygen bias {cite}`Langdon2010`. In more recent articles, scientists even avoid using Winkler at concentrations below 20 μmol kg<sup>-1</sup> {cite}`Thomsen2016`.  
+ -	Oxygen absorbed in the plastic of the Niskin bottles is transferred into the water sampled. This oxygen contamination increases the concentration obtained when follow Winkler method. It has been measured values of apparent concentration of 2 - 4 μmol kg<sup>-1</sup> in the Pacific minimum zones, showing a significant positive bias {cite}`Garcia-Robledo2021`.
+ -	Presence of extremely low concentrations of oxygen concentrations (nmol levels) in areas like the core of the Peruvian oxygen minimum zones.
 
-Steps recommended in these regions: 
-1) Do a 0/100 % calibration in the lab before deployment and after recovery.
+Thus, when working in these areas, it is recommended to do:
+- In-situ approaches for 0 % calibration suggested by {cite}`Thomsen2016`.
+- Additionally Intercomparisons with STOX sensors attached to a shipboard CTD {cite}`Revsbech2009` or new use the low-oxygen sensing foils (0-10% saturation) from Aanderaa.
 
-2) Measure Winkler in samples with concentration higher than 20 μmol kg<sup>-1</sup>, typically in the mixed layer during the deployment and/or recovery. 
+- Do a 0/100 % calibration in the lab before deployment and after recovery.
+- Measure Winkler in samples with concentration higher than 20 μmol kg<sup>-1</sup>, typically in the mixed layer during the deployment and/or recovery. 
 The Winkler method is also a problem when there is a strong vertical gradient, typically found in OMZ regions. 
 Thus calibration points below the mixed layer are often not suitable. 
 Look for regions with weak vertical gradients.
-
-3) Park the glider for a few hours in the OMZ core at different temperatures to get an in-situ zero calibration points.
+-  Park the glider for a few hours in the OMZ core at different temperatures to get an in-situ zero calibration points.
 
 ## Piloting
 In this section, specific piloting requirements during the mission execution which are needed to allow quality control are mentioned.
