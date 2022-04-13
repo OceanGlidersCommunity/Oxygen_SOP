@@ -31,7 +31,7 @@ This requires coordination between the deployment team and the glider pilot and 
 ## In situ intercomparison during deployment/recovery from a small boat.
 Materials: Silicon tube for sampling, Niskin bottles, multiparameter sonde, BOD bottles, Winkler reagents, pipettes and tips, cooling box.
 It is very important that the sensor has been kept wet before the deployment and after recovery. 
-This can be done by placing a wet sponge in the sensor membrane at least 8 hours before the deployment (ensure that it doesn’t get dry).
+This can be done by placing a wet sponge in the sensor membrane at least 24 hours before the deployment (ensure that it doesn’t get dry).
 
 Samples should be collected with the Niskin bottle(s) for Winkler analysis during the deployment (following {cite}`Langdon2010` protocol). 
 It’s recommended to take between 4-6 samples on the surface (approx. 5m) (ideally samples will be taken at different depths). 
