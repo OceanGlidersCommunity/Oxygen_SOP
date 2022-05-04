@@ -27,6 +27,7 @@
 - `SAMBA.png` - Bastien Queste, University of Gothenburg
 - `slocum.jpg`
 - `slocum_better_location.jpg` - Matthew Palmer, NOC
+- `slocum_optode_christian_begler.png` - Christian Begler
 - `storage.jpg`- Patricia Lopez-Garcia
 - `TerminalProgram.jpg`- Patricia Lopez-Garcia
 - `winkler-ballasting.png`- Tania Morales

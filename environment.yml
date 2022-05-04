@@ -1,0 +1,5 @@
+name: oxygen_sop
+dependencies:
+  - pip
+  - pip:
+    - -r requirements.txt

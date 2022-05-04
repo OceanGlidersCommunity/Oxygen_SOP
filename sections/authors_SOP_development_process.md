@@ -13,19 +13,20 @@
   1. [Laurent Coppola](https://github.com/laurcopp), *Sorbonne Université, CNRS, Laboratoire d’Océanographie de Villefranche (LOV), 06230 Villefranche-sur-Mer, France,* [0000-0003-0473-1129](https://orcid.org/0000-0003-0473-1129)
   1. Tania Morales, *Plataforma Oceánica de Canarias (PLOCAN), Canary Islands, Spain,* [0000-0002-3585-8037](https://orcid.org/0000-0002-3585-8037)
   1. [Virginie Racapé](https://github.com/vracape), *Institut Universitaire Européen de la mer CNRS-UMS 3113, IFREMER-coriolis, Plouzané France,* [0000-0003-0239-5125](https://orcid.org/0000-0003-0239-5125)
-  1. [Claire Gourcuff](https://github.com/cgourcuf), *Euro-Argo ERIC, Brest, France*
+  1. [Claire Gourcuff](https://github.com/cgourcuf), *Euro-Argo ERIC, Brest, France* [0000-0001-6071-8389](https://orcid.org/0000-0001-6071-8389)
   1. John Allen, *SOCIB, Palma de Mallorca, Spain,* [0000-0001-7357-6623](https://orcid.org/0000-0001-7357-6623)
   1. [Eva Alou-Font](https://github.com/ealou), *SOCIB, Palma de Mallorca, Spain,* [0000-0003-2247-3629](https://orcid.org/0000-0003-2247-3629)
   1. [Nikolaos D. Zarokanellos](https://github.com/nizaroka), *SOCIB, Palma de Mallorca, Spain,* [0000-0002-6235-6198](https://orcid.org/0000-0002-6235-6198)
-  1. [Victor Turpin](https://github.com/vturpin), *OceanOps, Brest, France*
+  1. [Victor Turpin](https://github.com/vturpin), *OceanOps, Brest, France*, [0000-0002-1662-4358](https://orcid.org/0000-0002-1662-4358)
   1. [Catherine Schmechtig](https://github.com/catsch), *CNRS, Sorbonne Université, Osu Ecce Terra, Paris, France,* [0000-0002-1230-164X](https://orcid.org/0000-0002-1230-164X)
-  1. [Pierre Testor](https://github.com/ptestor), *CNRS-Sorbonne Universités (UPMC Univ. Pierre et Marie Curie, Paris 06)-CNRS-IRD-MNHN, UMR 7159, Laboratoire d’Océanographie et de Climatologie (LOCEAN), Institut Pierre Simon Laplace (IPSL), Observatoire Ecce Terra, Paris, France*, , [0000-0002-8038-9479](https://orcid.org/0000-0002-8038-9479)
+  1. [Pierre Testor](https://github.com/ptestor), *CNRS-Sorbonne Universités (UPMC Univ. Pierre et Marie Curie, Paris 06)-CNRS-IRD-MNHN, UMR 7159, Laboratoire d’Océanographie et de Climatologie (LOCEAN), Institut Pierre Simon Laplace (IPSL), Observatoire Ecce Terra, Paris, France,* [0000-0002-8038-9479](https://orcid.org/0000-0002-8038-9479)
   1. [Julius Busecke](https://github.com/jbusecke), *Columbia University/Lamont-Doherty Earth Observatory, New York, USA,* [0000-0001-8571-865X](https://orcid.org/0000-0001-8571-865X)
-  2. [Evi Bourma](https://github.com/evibourma), *Hellenic Centre for Marine Research (HCMR)/Institute of Oceanography, Athens, Greece*
-  1. [Clark Richards](https://github.com/richardsc), *Fisheries and Oceans Canada, Bedford Institute of Oceanography, Halifax, Canada, * [0000-0002-7833-206X](https://orcid.org/0000-0002-7833-206X)
+  2. [Evi Bourma](https://github.com/evibourma), *Hellenic Centre for Marine Research (HCMR)/Institute of Oceanography, Athens, Greece* [0000-0001-7196-9714](https://orcid.org/0000-0001-7196-9714)
+  1. [Clark Richards](https://github.com/richardsc), *Fisheries and Oceans Canada, Bedford Institute of Oceanography, Halifax, Canada,* [0000-0002-7833-206X](https://orcid.org/0000-0002-7833-206X)
   1. [Stuart Pearce](https://github.com/s-pearce), *Ocean Observatories Initiative, Endurance Array, Oregon State University, Oregon, USA,* [0000-0001-8373-7152](https://orcid.org/0000-0001-8373-7152)
   1. [Filipa Carvalho](https://github.com/pipa85), *National Oceanography Centre, Southampton, UK,* [0000-0001-9546-4614](https://orcid.org/0000-0001-9546-4614)
   1. [Isabelle Giddy](https://github.com/isgiddy), *Southern Ocean Carbon and Climate Observatory, CSIR | Department of Oceanography, University of Cape Town, South Africa | Department of Marine Science, University of Gothenburg, Sweden,* [0000-0002-8926-3311](https://orcid.org/0000-0002-8926-3311)
+  1. Christian Begler, *GEOMAR Helmholtz Centre for Ocean Research Kiel, Germany,* [0000-0002-1674-0404](https://orcid.org/0000-0002-1674-0404)
 
 ## SOP development process
 1) Initial SOP was drafted by [Patricia López-García](https://github.com/patricialg), [Tom Hull](https://github.com/tomhull), [Soeren Thomsen](https://github.com/soerenthomsen) and [Johannes Hahn](https://github.com/hahn-johannes).
@@ -39,9 +40,11 @@ Additional authors joined: [Bastien Y. Queste](https://github.com/bastienqueste)
 
 5) Additional authors joined on GitHub prior to the community review: [Victor Turpin](https://github.com/vturpin), [Catherine Schmechtig](https://github.com/catsch), [Pierre Testor](https://github.com/ptestor), [Julius Busecke](https://github.com/jbusecke).
 
-6) At the moment: 4 months community review on GitHub until 31 January 2022.
+6) 4 months community review on GitHub from October 2021 until January 31 2022
 
-7) Additional authors joined on GitHub during the community review: [Evi Bourma](https://github.com/evibourma), [Clark Richards](https://github.com/richardsc), [Stuart Pearce](https://github.com/s-pearce), [Filipa Carvalho](https://github.com/pipa85), [Isabelle Giddy](https://github.com/isgiddy).
+7) Additional authors joined on GitHub during the community review: [Evi Bourma](https://github.com/evibourma), [Clark Richards](https://github.com/richardsc), [Stuart Pearce](https://github.com/s-pearce), [Filipa Carvalho](https://github.com/pipa85), [Isabelle Giddy](https://github.com/isgiddy) and Christian Begler.
+
+8) At the moment: Preparation of submission to OBPS
 
 ## Contributions 
 [Patricia López-García](https://github.com/patricialg) drafted the initial document collating information from several SOPs, sensor manuals and articles. 
@@ -123,3 +126,5 @@ He reviewed the overall document and provided feedback on the overall document.
 [Filipa Carvalho](https://github.com/pipa85) provided feedback on overall document and helped to improve the overview schematic.
 
 [Isabelle Giddy](https://github.com/isgiddy) provided feedback on the pre-deployment section towards improving the procedure at very low-temperatures. Supports the technical maintanence of the SOP on GitHub.
+
+Christian Begler provided images of an Aanderaa optode integrated on a Slocum glider.
