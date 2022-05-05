@@ -447,7 +447,7 @@ We suggest users try each of these procedures and assess how well they work for 
 <div class="section" id="time-response-correction-1-geomar">
 <h3><span class="section-number">8.3.1. </span>Time response correction 1 - GEOMAR<a class="headerlink" href="#time-response-correction-1-geomar" title="Permalink to this headline">¶</a></h3>
 <p>Optode calibration and processing methods were developed by Johannes Hahn in collaboration with Henry Bittig for use on moored and glider-attached Aanderaa optodes.
-A set of routines were adapted to the particuliarities of optodes on gliders and to the typical conditions of GEOMAR glider deployments. This processing has now
+A set of routines were adapted to the particularities of optodes on gliders and to the typical conditions of GEOMAR glider deployments. This processing has now
 been used on nearly 100 glider deployments mostly in the Tropical Atlantic and Pacific Oceans <span id="id12">(<a class="reference internal" href="oxygen_references.html#id29" title="Gerd Krahmann, Damian L. Arévalo-Martínez, Andrew W. Dale, Marcus Dengler, Anja Engel, Nicolaas Glock, Patricia Grasse, Johannes Hahn, Helena Hauss, Mark J. Hopwood, Rainer Kiko, Alexandra N. Loginova, Carolin R. Löscher, Marie Maßmig, Alexandra-Sophie Roy, Renato Salvatteci, Stefan Sommer, Toste Tanhua, and Hela Mehrtens. Climate-biogeochemistry interactions in the tropical ocean: data collection and legacy. Frontiers in Marine Science, 8:1270, 2021. URL: https://www.frontiersin.org/article/10.3389/fmars.2021.723304, doi:10.3389/fmars.2021.723304.">Krahmann <em>et al.</em>, 2021</a>)</span>.
 The processing determines two delay time constants. One <span class="math notranslate nohighlight">\(\tau_{CTD}\)</span> describes the time constant of an exponential filter which, when applied to the glider’s CTD temperature,
 gives an estimate of the temperature of the optode foil. And the other describes the optode response time to changing oxygen concentrations.
@@ -474,11 +474,22 @@ Implementing and correcting such a lag should however be fairly simple.</p>
 </div>
 <div class="section" id="time-response-correction-2-imos">
 <h3><span class="section-number">8.3.2. </span>Time response correction 2 - IMOS<a class="headerlink" href="#time-response-correction-2-imos" title="Permalink to this headline">¶</a></h3>
-<p>The routine developed by Mun Woo for the IMOS glider toolbox compares up and down casts in pressure space, but applies a time-shift rather than an exponential filter <span id="id13">(<a class="reference internal" href="oxygen_references.html#id28" title="L.M. Woo and C. Gourcuff. Ocean glider delayed mode qa/qc best practice manual, version 3.0. Hobart, Australia, Integrated Marine Observing System, ():60pp, 2021. URL: http://hdl.handle.net/11329/1543, doi:DOI:10.26198/5c997b5fdc9bd.">Woo and Gourcuff, 2021</a>)</span>.
+<p>The routine developed by Mun Woo for the IMOS (Slocum) glider toolbox compares up and down casts in pressure space, but applies a time-shift rather than an exponential filter <span id="id13">(<a class="reference internal" href="oxygen_references.html#id28" title="L.M. Woo and C. Gourcuff. Ocean glider delayed mode qa/qc best practice manual, version 3.0. Hobart, Australia, Integrated Marine Observing System, ():60pp, 2021. URL: http://hdl.handle.net/11329/1543, doi:DOI:10.26198/5c997b5fdc9bd.">Woo and Gourcuff, 2021</a>)</span>.
 These time-shift values are determined per dive, but a rolling median is calculated to exclude dives with very high or low lag values.</p>
 <!-- **NOTE** presumably those dives should be flagged as bad? - TH -->
 <p>The advantage of this method is that it does not amplify noise which the filter will tend to do.
 However, simply shifting the optode data relative to time will not remove some of the second order effects.</p>
+<ol class="simple">
+<li><p>A <span class="math notranslate nohighlight">\(\tau\)</span> for the geometric component of the lag is determined from the average pitch and average vertical speed for each cast .</p></li>
+<li><p>These values are filtered to avoid extreme values.</p></li>
+</ol>
+<!-- ?typical filter value, looks like rolling 3 day median - TH -->
+<ol class="simple">
+<li><p>A linear time shift using the filtered <span class="math notranslate nohighlight">\(\tau\)</span> is then applied to align the optode phase and CTD parameters (typically 4 seconds).</p></li>
+<li><p>Then, for the diffusive lag, the median RMS difference and bias between up and down cast is calculated over a range of possible <span class="math notranslate nohighlight">\(\tau\)</span> values (0 to 40 seconds) for each dive.</p></li>
+<li><p>A time shift is then applied to the optode phase with the <span class="math notranslate nohighlight">\(\tau\)</span> which minimised the median RMS difference.</p></li>
+<li><p>Oxygen concentration is then calculated using the corrected phase and CTD temperature following using the factory foil coefficients.</p></li>
+</ol>
 </div>
 <div class="section" id="time-response-correction-3-uea">
 <h3><span class="section-number">8.3.3. </span>Time response correction 3 - UEA<a class="headerlink" href="#time-response-correction-3-uea" title="Permalink to this headline">¶</a></h3>
@@ -496,15 +507,18 @@ However, simply shifting the optode data relative to time will not remove some o
 <li><p>A minimisation algorithm (<code class="docutils literal notranslate"><span class="pre">fminsearch</span></code> from MATLAB) is used to fit two lag coefficients: <span class="math notranslate nohighlight">\(\tau = \tau_0 + \tau_1 (T-20)\)</span> as per &#64;Hahn2014.</p></li>
 <li><p>This <span class="math notranslate nohighlight">\(\tau\)</span> is then used with an exponential inverse-filter, typically against optode phase (and oxygen recalculated) but partial pressure or concentration as per <span id="id14">(<a class="reference internal" href="oxygen_references.html#id7" title="H. C. Bittig, A. Koertzinger, C. Neill, Eikbert van Ooijen, Joshua N. Plant, Johannes Hahn, Kenneth S. Johnson, Bo Yang, and Steven R. Emerson. Oxygen Optode Sensors: Principle, Characterization, Calibration, and Application in the Ocean. Frontiers in Marine Science, 4(January):1–25, 2018. doi:10.3389/fmars.2017.00429.">Bittig <em>et al.</em>, 2018</a>)</span> has also been tested.
 The correction is applied on a per-dive basis.</p></li>
+<li><p>Oxygen concentration is then calculated using the corrected phase and CTD temperature following using the factory foil coefficients.</p></li>
 </ol>
 </div>
 <div class="section" id="time-response-correction-4-altereco">
 <h3><span class="section-number">8.3.4. </span>Time response correction 4 - AlterEco<a class="headerlink" href="#time-response-correction-4-altereco" title="Permalink to this headline">¶</a></h3>
-<p>For AlterEco many gliders were not collecting data on both up and down casts which precludes the use of the above routines.</p>
+<p>For AlterEco, many gliders were not collecting data on both up and down casts which precludes the use of the above routines.
+The routine implemented by Tom Hull was as follows:</p>
 <ol class="simple">
 <li><p>A <span class="math notranslate nohighlight">\(\tau\)</span> was calculated for the geometric and boundary layer diffusive lag by minimising the difference between the CTD and optode temperatures.</p></li>
 <li><p>This <span class="math notranslate nohighlight">\(\tau\)</span> was used to then inverse-filter the optode phase and temperature.</p></li>
 <li><p>A secondary lag correction based on the temperature as per the UEA toolbox and <span id="id15">(<a class="reference internal" href="oxygen_references.html#id4" title="J. Hahn, P. Brandt, R. J. Greatbatch, G. Krahmann, and A Körtzinger. Oxygen variance and meridional oxygen supply in the tropical north east atlantic oxygen minimum zone. Clim. Dyn., 43(11):2999– 3024, 2014.">Hahn <em>et al.</em>, 2014</a>)</span>.</p></li>
+<li><p>Oxygen concentration is then calculated using the corrected phase and optode temperature following using the factory foil coefficients.</p></li>
 </ol>
 </div>
 </div>
