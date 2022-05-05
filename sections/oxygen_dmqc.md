@@ -58,7 +58,7 @@ We suggest users try each of these procedures and assess how well they work for 
 ### Time response correction 1 - GEOMAR
 
 Optode calibration and processing methods were developed by Johannes Hahn in collaboration with Henry Bittig for use on moored and glider-attached Aanderaa optodes. 
-A set of routines were adapted to the particuliarities of optodes on gliders and to the typical conditions of GEOMAR glider deployments. This processing has now
+A set of routines were adapted to the particularities of optodes on gliders and to the typical conditions of GEOMAR glider deployments. This processing has now
 been used on nearly 100 glider deployments mostly in the Tropical Atlantic and Pacific Oceans {cite}`Krahmann2021`.
 The processing determines two delay time constants. One $\tau_{CTD}$ describes the time constant of an exponential filter which, when applied to the glider's CTD temperature, 
 gives an estimate of the temperature of the optode foil. And the other describes the optode response time to changing oxygen concentrations.
@@ -87,12 +87,20 @@ Example of original Optode oxygen concentrations (red) and GEOMAR processed and 
 
 ### Time response correction 2 - IMOS
 
-The routine developed by Mun Woo for the IMOS glider toolbox compares up and down casts in pressure space, but applies a time-shift rather than an exponential filter {cite}`WooGourcuff2021`.
+The routine developed by Mun Woo for the IMOS (Slocum) glider toolbox compares up and down casts in pressure space, but applies a time-shift rather than an exponential filter {cite}`WooGourcuff2021`.
 These time-shift values are determined per dive, but a rolling median is calculated to exclude dives with very high or low lag values.
 <!-- **NOTE** presumably those dives should be flagged as bad? - TH -->
 
 The advantage of this method is that it does not amplify noise which the filter will tend to do.
 However, simply shifting the optode data relative to time will not remove some of the second order effects.
+
+1. A $\tau$ for the geometric component of the lag is determined from the average pitch and average vertical speed for each cast .
+1. These values are filtered to avoid extreme values.
+<!-- ?typical filter value, looks like rolling 3 day median - TH -->
+1. A linear time shift using the filtered $\tau$ is then applied to align the optode phase and CTD parameters (typically 4 seconds).
+1. Then, for the diffusive lag, the median RMS difference and bias between up and down cast is calculated over a range of possible $\tau$ values (0 to 40 seconds) for each dive.
+1. A time shift is then applied to the optode phase with the $\tau$ which minimised the median RMS difference.
+1. Oxygen concentration is then calculated using the corrected phase and CTD temperature following using the factory foil coefficients.
 
 ### Time response correction 3 - UEA
 
@@ -107,15 +115,20 @@ The routine developed by Bastien Queste for the UEA Seaglider toolbox works as f
 1. A minimisation algorithm (`fminsearch` from MATLAB) is used to fit two lag coefficients: $\tau = \tau_0 + \tau_1 (T-20)$ as per @Hahn2014.
 1. This $\tau$ is then used with an exponential inverse-filter, typically against optode phase (and oxygen recalculated) but partial pressure or concentration as per {cite}`Bittig2018` has also been tested.
 The correction is applied on a per-dive basis.
+1. Oxygen concentration is then calculated using the corrected phase and CTD temperature following using the factory foil coefficients.
 
 ### Time response correction 4 - AlterEco
 
-For AlterEco many gliders were not collecting data on both up and down casts which precludes the use of the above routines.
+For AlterEco, many gliders were not collecting data on both up and down casts which precludes the use of the above routines.
+The routine implemented by Tom Hull was as follows:
+
 1. A $\tau$ was calculated for the geometric and boundary layer diffusive lag by minimising the difference between the CTD and optode temperatures.
 1. This $\tau$ was used to then inverse-filter the optode phase and temperature.
 1. A secondary lag correction based on the temperature as per the UEA toolbox and {cite}`Hahn2014`.
+1. Oxygen concentration is then calculated using the corrected phase and optode temperature following using the factory foil coefficients.
 
 ## Light intrusion
+
 Optodes can be sensitive to light intrusion if the foil is damaged. 
 These instruments will typically still provide good data in the absence of light. 
 A check should be made for increased sensor noise near the surface during daylight hours and contrast this with night-time observations.
