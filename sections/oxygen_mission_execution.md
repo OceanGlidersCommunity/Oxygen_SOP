@@ -64,7 +64,7 @@ To summarize, the steps we recommend to follow to calibrate oxygen sensors durin
 
 3) Collect calibration points against measurements with the CTD rosette oxygen sensor, which itself is calibrated against Winkler titrated water samples {cite}`Langdon2010`. 
 
-4) Reference points for calibration are the same as the calibration stops. As for salinity, samples for Winkler titration will be collected during the upcast. When reached the selected depth, wait at least 2 min to ensure an equilibrated oxygen sensor {cite}`Hahn2014`. Fire the bottles after this time. 
+4) Reference points for calibration are the same as the calibration stops. As for salinity, samples for Winkler titration will be collected during the upcast. When reached the selected depth, wait at least 2 min (see {numref}`CTD_calibration_stop`) to ensure an equilibrated oxygen sensor {cite}`Hahn2014`. Fire the bottles after this time. 
 
 5) Do 0 % and 100 % calibration after recovering the sensor at two different temperatures (warm and cold lab). If 100 % is not possible, 0 % should be done to ensure that the central temperature range at zero oxygen is covered within the calibration {cite}`Hahn2014`. 
 
