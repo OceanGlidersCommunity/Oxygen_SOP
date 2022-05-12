@@ -82,8 +82,7 @@ GEOMAR oxygen data loggers (Aanderaa Optode mounted on data logger) attached to 
 :::
 
 :::{figure-md} CTD_calibration_stop
-<img src="../images/CTD_calibration_01.png" alt="CTD calibration stop full cast" class="bg-primary mb-1" width="600px">
-<img src="../images/CTD_calibration_02.png" alt="CTD calibration stop zoom" class="bg-primary mb-1" width="600px">
+<img src="../images/CTD_calibration_01_03.png" alt="CTD calibration stop full cast" class="bg-primary mb-1" width="600px">
 
 Example oxygen time series for an in situ calibration of an optode at a CTD rosette. "deconv." means, that an inverse low pass filter was applied to the optode oxygen time series in order the correct for the response time effect.
 :::
