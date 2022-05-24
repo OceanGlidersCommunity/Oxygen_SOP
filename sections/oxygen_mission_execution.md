@@ -78,7 +78,7 @@ The combined data collected following these (CTD and lab calibration) steps will
 :::{figure-md} datalogger
 <img src="../images/Datalogger.png" alt="Data logger on CTD" class="bg-primary mb-1" width="600px">
 
-GEOMAR oxygen data loggers (Aanderaa Optode mounted on data logger) attached to a CTD frame and prepared for in-situ calibration during a CTD cast. Panels in the upper row show fixation with straps and zip ties. Panel in the lower row shows fixation with scaffolding clamps and tape in the interior lower part of the CTD frame.
+GEOMAR oxygen data loggers (Aanderaa Optode mounted on data logger) attached to a CTD frame and prepared for in-situ calibration during a CTD cast. Panels in the upper row show fixation with straps and zip ties. Panel in the lower row shows fixation with scaffolding clamps and tape in the interior lower part of the CTD frame. 
 :::
 
 :::{figure-md} CTD_calibration_stop
