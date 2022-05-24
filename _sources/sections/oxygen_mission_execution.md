@@ -10,10 +10,6 @@ In-air measurements prior to deployment can and should be carried out together w
 
 *NOTE: Remember to remove the sponge and any other material used to keep the sensor wet.*
 
-<!--
-![Effect of dry foil, first dives show elevated oxygen concentrations and slow foil response times. taken from AlterEco AE2 Slocum “Stella” using a 4330 optode (standard foil).](/images/dryfoil.png)
--->
-
 :::{figure-md} dryfoil
 <img src="../images/dryfoil.png" alt="Effect of dry foil" class="bg-primary mb-1" width="400px">
 
@@ -68,7 +64,7 @@ To summarize, the steps we recommend to follow to calibrate oxygen sensors durin
 
 3) Collect calibration points against measurements with the CTD rosette oxygen sensor, which itself is calibrated against Winkler titrated water samples {cite}`Langdon2010`. 
 
-4) Reference points for calibration are the same as the calibration stops. As for salinity, samples for Winkler titration will be collected during the upcast. When reached the selected depth, wait at least 2 min to ensure an equilibrated oxygen sensor {cite}`Hahn2014`. Fire the bottles after this time. 
+4) Reference points for calibration are the same as the calibration stops. As for salinity, samples for Winkler titration will be collected during the upcast. When reached the selected depth, wait at least 2 min (see {numref}`CTD_calibration_stop`) to ensure an equilibrated oxygen sensor {cite}`Hahn2014`. Fire the bottles after this time. 
 
 5) Do 0 % and 100 % calibration after recovering the sensor at two different temperatures (warm and cold lab). If 100 % is not possible, 0 % should be done to ensure that the central temperature range at zero oxygen is covered within the calibration {cite}`Hahn2014`. 
 
@@ -79,14 +75,16 @@ The combined data collected following these (CTD and lab calibration) steps will
 
 *NOTE: Save all data from the profiles and calibrations before deploying the glider. As noted in {refnum}`sensor_configuration` Always record the phase readings {cite}`Coppola2013`.*
 
-<!--
-![GEOMAR oxygen data loggers (Aanderaa Optode mounted on data logger) attached to a CTD frame and prepared for in-situ calibration during a CTD cast. Panels in the upper row show fixation with straps and zip ties. Panel in the lower row shows fixation with scaffolding clamps and tape in the interior lower part of the CTD frame.](/images/Datalogger.png)
--->
-
 :::{figure-md} datalogger
 <img src="../images/Datalogger.png" alt="Data logger on CTD" class="bg-primary mb-1" width="600px">
 
-GEOMAR oxygen data loggers (Aanderaa Optode mounted on data logger) attached to a CTD frame and prepared for in-situ calibration during a CTD cast. Panels in the upper row show fixation with straps and zip ties. Panel in the lower row shows fixation with scaffolding clamps and tape in the interior lower part of the CTD frame.
+GEOMAR oxygen data loggers (Aanderaa Optode mounted on data logger) attached to a CTD frame and prepared for in-situ calibration during a CTD cast. Panels in the upper row show fixation with straps and zip ties. Panel in the lower row shows fixation with scaffolding clamps and tape in the interior lower part of the CTD frame. 
+:::
+
+:::{figure-md} CTD_calibration_stop
+<img src="../images/CTD_calibration_01_03.png" alt="CTD calibration stop full cast" class="bg-primary mb-1" width="600px">
+
+Example oxygen time series for an in situ calibration of an optode at a CTD rosette. "deconv." means, that an inverse low pass filter was applied to the optode oxygen time series in order the correct for the response time effect.
 :::
 
 (deploying_in_omz)=
