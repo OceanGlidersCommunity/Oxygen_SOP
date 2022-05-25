@@ -1,6 +1,7 @@
 # Authors, development process and contributions
 
 ## Authors
+
   1. [Patricia López-García](https://github.com/patricialg), *Ocean Technology and Engineering Group, National Oceanography Centre, Southampton, UK,* [0000-0002-4689-2775](https://orcid.org/0000-0002-4689-2775)
   1. [Tom Hull](https://github.com/tomhull), *Centre for Environment Fisheries and Aquaculture Science, Lowestoft, UK,* [0000-0002-1714-9317](https://orcid.org/0000-0002-1714-9317)
   1. [Soeren Thomsen](https://github.com/soerenthomsen), *LOCEAN, ISPL, Sorbonne University, Paris, France,* [0000-0002-0598-8340](https://orcid.org/0000-0002-0598-8340)
@@ -29,6 +30,7 @@
   1. Christian Begler, *GEOMAR Helmholtz Centre for Ocean Research Kiel, Germany,* [0000-0002-1674-0404](https://orcid.org/0000-0002-1674-0404)
 
 ## SOP development process
+
 1) Initial SOP was drafted by [Patricia López-García](https://github.com/patricialg), [Tom Hull](https://github.com/tomhull), [Soeren Thomsen](https://github.com/soerenthomsen) and [Johannes Hahn](https://github.com/hahn-johannes).
 
 2) Two expert sessions during OceanGliders Best Practice Workshop, May 11 - 25 2021. 
@@ -64,7 +66,7 @@ He helps to maintain the SOP on GitHub.
 
 [Soeren Thomsen](https://github.com/soerenthomsen) initiated the development of the oxygen SOP in February 2021. 
 Drafted the initial document. 
-Coordinated the whole development process including organising multiple meetings, e.g. two expert sessions during the OceanGliders Best Practice Workshop. 
+Coordinated the whole development process including organizing multiple meetings, e.g. two expert sessions during the OceanGliders Best Practice Workshop. 
 He gave specific content input on the two point 0 / 100 % and Oxygen Minimum Zone calibration procedure. 
 He reviewed and edited all parts of the SOP. 
 He helps to maintain the SOP on GitHub.
