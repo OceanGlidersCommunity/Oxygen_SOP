@@ -405,17 +405,17 @@ const thebe_selector_output = ".output, .cell_output"
 </div>
 <div class="section" id="sensor-drift-correction">
 <h2><span class="section-number">8.2. </span>Sensor drift correction<a class="headerlink" href="#sensor-drift-correction" title="Permalink to this headline">¶</a></h2>
-<p>Aanderaa describe the in-situ drift characteristics of the 4330 and 4831 series optodes as being &lt; 0.5 % per year and they make no distinction between the standard or fast (“F”-type) foils <span id="id2">(<a class="reference internal" href="oxygen_references.html#id21" title="Tengberg, A. and J. Hovdenes. Information on long-term stability and accuracy of aanderaa oxygen optodes and information about multipoint calibration system and sensor option overview. Aanderaa Data Instruments AS, 2014. URL: https://www.aanderaa.com/media/pdfs/2014-04-O2-optode-and-calibration.pdf.">Tengberg and Hovdenes, 2014</a>)</span>.
+<p>Aanderaa describe the in-situ drift characteristics of the 4330 and 4831 series optodes as being &lt; 0.5 % per year, and they make no distinction between the standard or fast (“F”-type) foils <span id="id2">(<a class="reference internal" href="oxygen_references.html#id21" title="Tengberg, A. and J. Hovdenes. Information on long-term stability and accuracy of aanderaa oxygen optodes and information about multipoint calibration system and sensor option overview. Aanderaa Data Instruments AS, 2014. URL: https://www.aanderaa.com/media/pdfs/2014-04-O2-optode-and-calibration.pdf.">Tengberg and Hovdenes, 2014</a>)</span>.
 Optodes made after 2016 undergo a “burning-in period” during manufacture and therefore have substantially less drift <span id="id3">(<a class="reference internal" href="oxygen_references.html#id21" title="Tengberg, A. and J. Hovdenes. Information on long-term stability and accuracy of aanderaa oxygen optodes and information about multipoint calibration system and sensor option overview. Aanderaa Data Instruments AS, 2014. URL: https://www.aanderaa.com/media/pdfs/2014-04-O2-optode-and-calibration.pdf.">Tengberg and Hovdenes, 2014</a>)</span>.
 Drift is a function of UV exposure and sampling frequency.
 The foil becomes less sensitive and therefore drift is always towards lower oxygen concentrations.
 The drift is believed to be due to bleaching of the luminophore foil via ambient light; it is particularly sensitive to fluorescent lights.
-The bleaching effect is partly counteracted by a destabilising effect on the luminophore.
+The bleaching effect is partly counteracted by a destabilizing effect on the luminophore.
 Together this manifests as a positive factor on the oxygen concentration (slope &gt; 1) and a positive offset at zero oxygen.</p>
 <p><span id="id4">(<a class="reference internal" href="oxygen_references.html#id6" title="Bastien Y. Queste, Clément Vic, Karen J. Heywood, and Sergey A. Piontkovski. Physical controls on oxygen distribution and denitrification potential in the north west arabian sea. Geophysical Research Letters, 45(9):4143-4152, 2018. URL: https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2017GL076666, arXiv:https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2017GL076666, doi:https://doi.org/10.1029/2017GL076666.">Queste <em>et al.</em>, 2018</a>)</span> recorded drifts of 0.0176 and 0.0109 μmol kg<sup>-1</sup> day<sup>-1</sup> for two Seagliders using inflections in the oxygen profiles as the glider penetrated to Arabian Sea Oxygen Minimum Zone and the sodium sulphite method, but no Winklers.
 <span id="id5">(<a class="reference internal" href="oxygen_references.html#id5" title="Henry C. Bittig and Arne Körtzinger. Tackling oxygen optode drift: near-surface and in-air oxygen optode measurements on a float provide an accurate in situ reference. Journal of Atmospheric and Oceanic Technology, 32(8):1536 - 1543, 2015. URL: https://journals.ametsoc.org/view/journals/atot/32/8/jtech-d-14-00162_1.xml, doi:10.1175/JTECH-D-14-00162.1.">Bittig and Körtzinger, 2015</a>)</span> report a 10 % drift over 3 years, but this is a combination of in-situ and ex-situ drift.
 <span id="id6">(<a class="reference internal" href="oxygen_references.html#id7" title="H. C. Bittig, A. Koertzinger, C. Neill, Eikbert van Ooijen, Joshua N. Plant, Johannes Hahn, Kenneth S. Johnson, Bo Yang, and Steven R. Emerson. Oxygen Optode Sensors: Principle, Characterization, Calibration, and Application in the Ocean. Frontiers in Marine Science, 4(January):1–25, 2018. doi:10.3389/fmars.2017.00429.">Bittig <em>et al.</em>, 2018</a>)</span> determined the drift to be typically 0.1-0.2 % per year in-situ.
-A drift of 0.0004 % day<sup>-1</sup> has been calculated based on UEA seagliders against Baltic deep water oxygen climatology <span id="id7">(<a class="reference internal" href="oxygen_references.html#id24" title="L. Possenti, I. Skjelvan, D. Atamanchuk, A. Tengberg, M. P. Humphreys, S. Loucaides, L. Fernand, and J. Kaiser. Norwegian sea net community production estimated from o$_2$ and prototype co$_2$ optode measurements on a seaglider. Ocean Science, 17(2):593–614, 2021. URL: https://os.copernicus.org/articles/17/593/2021/, doi:10.5194/os-17-593-2021.">Possenti <em>et al.</em>, 2021</a>)</span>. Values between 0.0004 and 0.0035 % d<sub>-1</sub>  have been found across 16 vehicles in-situ: slocums and seagliders with 4330F (old foil formulation), 4835 and 4831 optodes (Tom Hull personal communication).</p>
+A drift of 0.0004 % day<sup>-1</sup> has been calculated based on UEA seagliders against Baltic deep water oxygen climatology <span id="id7">(<a class="reference internal" href="oxygen_references.html#id24" title="L. Possenti, I. Skjelvan, D. Atamanchuk, A. Tengberg, M. P. Humphreys, S. Loucaides, L. Fernand, and J. Kaiser. Norwegian sea net community production estimated from o$_2$ and prototype co$_2$ optode measurements on a seaglider. Ocean Science, 17(2):593–614, 2021. URL: https://os.copernicus.org/articles/17/593/2021/, doi:10.5194/os-17-593-2021.">Possenti <em>et al.</em>, 2021</a>)</span>. Values between 0.0004 and 0.0035 % d<sub>-1</sub> have been found across 16 vehicles in-situ: slocums and seagliders with 4330F (old foil formulation), 4835 and 4831 optodes (Tom Hull personal communication).</p>
 <p>The drift correction should be applied to the oxygen concentration, not the measured phase <span id="id8">(<a class="reference internal" href="oxygen_references.html#id7" title="H. C. Bittig, A. Koertzinger, C. Neill, Eikbert van Ooijen, Joshua N. Plant, Johannes Hahn, Kenneth S. Johnson, Bo Yang, and Steven R. Emerson. Oxygen Optode Sensors: Principle, Characterization, Calibration, and Application in the Ocean. Frontiers in Marine Science, 4(January):1–25, 2018. doi:10.3389/fmars.2017.00429.">Bittig <em>et al.</em>, 2018</a>)</span>.</p>
 </div>
 <div class="section" id="sensor-time-response-correction">
@@ -427,7 +427,7 @@ This is particularly critical for optodes using the “standard” black foils, 
 <p class="caption"><span class="caption-number">Fig. 8.1 </span><span class="caption-text">Example uncorrected profiles from AlterEco AE5 “Kelvin” Slocum with a 4831 optode with standard foil demonstrating significant lag in both optode temperature and phase.</span><a class="headerlink" href="#kelvin-lag" title="Permalink to this image">¶</a></p>
 </div>
 <p>Correction requires the collection of optode phase, temperature and time.
-Therefore the instruments and gliders should be configured to collect these variables and not just oxygen concentration or saturation.
+Therefore, the instruments and gliders should be configured to collect these variables and not just oxygen concentration or saturation.
 If only optode temperature and concentration are recorded, routines exist to recalculate phase, but this can introduce some inaccuracy and best to avoid it.
 Accurate time-stamps for these data are required to be able to perform this correction.
 Many data processing routines may remove these timestamps, such as to place the oxygen data on the same time-axis as the CTD,
@@ -441,7 +441,7 @@ Diffusion across the boundary layer above the membrane is also temperature depen
 but also influenced by the flow of water, which is determined by the position of the sensor and the glider speed and/or angle of attack.
 Lastly geometric lag is caused by a delay in water reaching the sensor due to glider geometry and the flow path of the surrounding water.</p>
 <p>The boundary layer diffusion lag and the geometric lag will also affect the optode temperature response, which itself may have a time response due to the type of PRT used.
-As noted above, the type 3835 optodes have particularly slow responding temperature sensors and it is typical for users to use the CTD temperature in these instances.</p>
+As noted above, the type 3835 optodes have particularly slow responding temperature sensors. It is typical for users to use the CTD temperature in these instances.</p>
 <p>The ideal correction method is still a point of discussion.
 We suggest users try each of these procedures and assess how well they work for their own use case.</p>
 <div class="section" id="time-response-correction-1-geomar">
@@ -460,16 +460,16 @@ Implementing and correcting such a lag should however be fairly simple.</p>
 <li><p>A set of foil temperatures is estimated by applying an exponential filter to the CTD temperature with time scales from 10 to 50 s (in steps of 5 s), thereby creating different ‘virtual’ foil temperatures.</p></li>
 <li><p>With this set of virtual foil temperatures, oxygen concentrations are calculated using either the Aanderaa supplied or the own-calibration derived set of optode coefficients.</p></li>
 <li><p>For each of the resulting oxygen concentrations a reverse exponential filter with time scales of 0 to 200 s (in steps of 20 s) is applied to create sets of oxygen concentration profiles.</p></li>
-<li><p>These sets of concentration profiles are then filtered with a forward-backward filter (MATLAB <code class="docutils literal notranslate"><span class="pre">filtfilt</span></code>) to remove the noise introduced by the reverse filtering. Currently a fixed time constant of 40 s is used for this filter. Depending on whether fast or slow foils are used, other values might deliver better results.</p></li>
+<li><p>These sets of concentration profiles are then filtered with a forward-backward filter (MATLAB <code class="docutils literal notranslate"><span class="pre">filtfilt</span></code>) to remove the noise introduced by the reverse filtering. Currently, a fixed time constant of 40 s is used for this filter. Depending on whether fast or slow foils are used, other values might deliver better results.</p></li>
 <li><p>All concentrations are gridded to a 1 dbar grid (first binned and then linearly interpolated to the full dbar).</p></li>
 <li><p>Differences between all up-down pairs are calculated and summed up for each of the concentration sets.</p></li>
 <li><p>The one delay pair (CTD-temp delay for virtual foil temperature &amp; Optode response delay) with the smallest difference sum is chosen and applied to the whole deployment.</p></li>
-<li><p>Typically the ‘best’ delays are CTD-temp: 30-100 s, optode response : 20-50 s.</p></li>
+<li><p>Typically, the ‘best’ delays are CTD-temp: 30-100 s, optode response : 20-50 s.</p></li>
 <li><p>Include into the optimization only up-down pairs that were not influenced by obvious bio-fouling.</p></li>
 </ol>
 <div class="figure align-default" id="geomar-ox-example">
 <a class="bg-primary mb-1 reference internal image-reference" href="../_images/geomar_ox_example.png"><img alt="GEOMAR correction example" class="bg-primary mb-1" src="../_images/geomar_ox_example.png" style="width: 400px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 8.2 </span><span class="caption-text">Example of original Optode oxygen concentrations (red) and GEOMAR processed and calibrated (blue) oxygen concentratins. Shown is a up-down pair from a deployment off Angola. Solid lines are the up and dashed lines the down data. Also shown are calibrated oxygen concentrations from a nearby and contemporaneous CTD cast.</span><a class="headerlink" href="#geomar-ox-example" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 8.2 </span><span class="caption-text">Example of original Optode oxygen concentrations (red) and GEOMAR processed and calibrated (blue) oxygen concentrations. Shown is an up-down pair from a deployment off Angola. Solid lines are the up and dashed lines the down data. Also shown are calibrated oxygen concentrations from a nearby and contemporaneous CTD cast.</span><a class="headerlink" href="#geomar-ox-example" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 <div class="section" id="time-response-correction-2-imos">
@@ -478,16 +478,16 @@ Implementing and correcting such a lag should however be fairly simple.</p>
 These time-shift values are determined per dive, but a rolling median is calculated to exclude dives with very high or low lag values.</p>
 <!-- **NOTE** presumably those dives should be flagged as bad? - TH -->
 <p>The advantage of this method is that it does not amplify noise which the filter will tend to do.
-However, simply shifting the optode data relative to time will not remove some of the second order effects.</p>
+However, simply shifting the optode data relative to time will not remove some second order effects.</p>
 <ol class="simple">
-<li><p>A <span class="math notranslate nohighlight">\(\tau\)</span> for the geometric component of the lag is determined from the average pitch and average vertical speed for each cast .</p></li>
+<li><p>A <span class="math notranslate nohighlight">\(\tau\)</span> for the geometric component of the lag is determined from the average pitch and average vertical speed for each cast.</p></li>
 <li><p>These values are filtered to avoid extreme values.</p></li>
 </ol>
 <!-- ?typical filter value, looks like rolling 3 day median - TH -->
 <ol class="simple">
 <li><p>A linear time shift using the filtered <span class="math notranslate nohighlight">\(\tau\)</span> is then applied to align the optode phase and CTD parameters (typically 4 seconds).</p></li>
 <li><p>Then, for the diffusive lag, the median RMS difference and bias between up and down cast is calculated over a range of possible <span class="math notranslate nohighlight">\(\tau\)</span> values (0 to 40 seconds) for each dive.</p></li>
-<li><p>A time shift is then applied to the optode phase with the <span class="math notranslate nohighlight">\(\tau\)</span> which minimised the median RMS difference.</p></li>
+<li><p>A time shift is then applied to the optode phase with the <span class="math notranslate nohighlight">\(\tau\)</span> which minimized the median RMS difference.</p></li>
 <li><p>Oxygen concentration is then calculated using the corrected phase and CTD temperature following using the factory foil coefficients.</p></li>
 </ol>
 </div>
@@ -500,11 +500,11 @@ However, simply shifting the optode data relative to time will not remove some o
 <li><p>Oxygen partial pressure is calculated using the optode phase and time shifted optode temperature.</p></li>
 <li><p>Up and down profiles are compared (in pressure or density space depending on environmental conditions) and either:</p>
 <ol class="simple">
-<li><p>A shoelace algorithm is used to minimise the area between the curves or</p></li>
+<li><p>A shoelace algorithm is used to minimize the area between the curves or</p></li>
 <li><p>The RMSD from vertically binned data is calculated</p></li>
 </ol>
 </li>
-<li><p>A minimisation algorithm (<code class="docutils literal notranslate"><span class="pre">fminsearch</span></code> from MATLAB) is used to fit two lag coefficients: <span class="math notranslate nohighlight">\(\tau = \tau_0 + \tau_1 (T-20)\)</span> as per &#64;Hahn2014.</p></li>
+<li><p>A minimization algorithm (<code class="docutils literal notranslate"><span class="pre">fminsearch</span></code> from MATLAB) is used to fit two lag coefficients: <span class="math notranslate nohighlight">\(\tau = \tau_0 + \tau_1 (T-20)\)</span> as per &#64;Hahn2014.</p></li>
 <li><p>This <span class="math notranslate nohighlight">\(\tau\)</span> is then used with an exponential inverse-filter, typically against optode phase (and oxygen recalculated) but partial pressure or concentration as per <span id="id14">(<a class="reference internal" href="oxygen_references.html#id7" title="H. C. Bittig, A. Koertzinger, C. Neill, Eikbert van Ooijen, Joshua N. Plant, Johannes Hahn, Kenneth S. Johnson, Bo Yang, and Steven R. Emerson. Oxygen Optode Sensors: Principle, Characterization, Calibration, and Application in the Ocean. Frontiers in Marine Science, 4(January):1–25, 2018. doi:10.3389/fmars.2017.00429.">Bittig <em>et al.</em>, 2018</a>)</span> has also been tested.
 The correction is applied on a per-dive basis.</p></li>
 <li><p>Oxygen concentration is then calculated using the corrected phase and CTD temperature following using the factory foil coefficients.</p></li>
@@ -515,7 +515,7 @@ The correction is applied on a per-dive basis.</p></li>
 <p>For AlterEco, many gliders were not collecting data on both up and down casts which precludes the use of the above routines.
 The routine implemented by Tom Hull was as follows:</p>
 <ol class="simple">
-<li><p>A <span class="math notranslate nohighlight">\(\tau\)</span> was calculated for the geometric and boundary layer diffusive lag by minimising the difference between the CTD and optode temperatures.</p></li>
+<li><p>A <span class="math notranslate nohighlight">\(\tau\)</span> was calculated for the geometric and boundary layer diffusive lag by minimizing the difference between the CTD and optode temperatures.</p></li>
 <li><p>This <span class="math notranslate nohighlight">\(\tau\)</span> was used to then inverse-filter the optode phase and temperature.</p></li>
 <li><p>A secondary lag correction based on the temperature as per the UEA toolbox and <span id="id15">(<a class="reference internal" href="oxygen_references.html#id4" title="J. Hahn, P. Brandt, R. J. Greatbatch, G. Krahmann, and A Körtzinger. Oxygen variance and meridional oxygen supply in the tropical north east atlantic oxygen minimum zone. Clim. Dyn., 43(11):2999– 3024, 2014.">Hahn <em>et al.</em>, 2014</a>)</span>.</p></li>
 <li><p>Oxygen concentration is then calculated using the corrected phase and optode temperature following using the factory foil coefficients.</p></li>
@@ -526,7 +526,7 @@ The routine implemented by Tom Hull was as follows:</p>
 <h2><span class="section-number">8.4. </span>Light intrusion<a class="headerlink" href="#light-intrusion" title="Permalink to this headline">¶</a></h2>
 <p>Optodes can be sensitive to light intrusion if the foil is damaged.
 These instruments will typically still provide good data in the absence of light.
-A check should be made for increased sensor noise near the surface during daylight hours and contrast this with night-time observations.</p>
+A check should be made for increased sensor noise near the surface during daylight hours and contrast this with nighttime observations.</p>
 </div>
 </div>
 

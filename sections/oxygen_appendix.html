@@ -298,7 +298,7 @@ const thebe_selector_output = ".output, .cell_output"
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#older-type-4835-and-4330-pre-2013">
-     12.1.3. Older type 4835 and 4330 (pre 2013)
+     12.1.3. Older type 4835 and 4330 (pre-2013)
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
@@ -345,7 +345,7 @@ const thebe_selector_output = ".output, .cell_output"
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#older-type-4835-and-4330-pre-2013">
-     12.1.3. Older type 4835 and 4330 (pre 2013)
+     12.1.3. Older type 4835 and 4330 (pre-2013)
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
@@ -371,7 +371,7 @@ const thebe_selector_output = ".output, .cell_output"
 <p>As discussed in <a class="reference internal" href="oxygen_pre_deployment.html#calibration-procedure"><span class="std std-numref">Section 4.5.1.1</span></a> the commands required to calibrate an optode varies depending on optode firmware version.
 Here we present the key commands needed to perform a 0-100 calibration for all known optode variants.</p>
 <p><em>NOTE: A multipoint DO calibration is necessary to obtain new foil coefficients and that can be done at the manufacturer laboratories or in any fully equipped calibration lab. These values shouldn’t be changed otherwise.</em></p>
-<p>The framework 3 firmware saw many changes to the output and commands from the optodes which are summarised in the optode manual Appendix 11.
+<p>The framework 3 firmware saw many changes to the output and commands from the optodes which are summarized in the optode manual Appendix 11.
 For optode calibration the key changes are:</p>
 <ul class="simple">
 <li><p><code class="docutils literal notranslate"><span class="pre">do</span> <span class="pre">stop</span></code> and <code class="docutils literal notranslate"><span class="pre">do</span> <span class="pre">start</span></code> are now simply <code class="docutils literal notranslate"><span class="pre">stop</span></code> and <code class="docutils literal notranslate"><span class="pre">start</span></code>.</p></li>
@@ -398,7 +398,7 @@ These cables can be purchased from Aanderaa and provide power to the optode via 
 <h3><span class="section-number">12.1.2. </span>Framework 3 (since 2013)<a class="headerlink" href="#framework-3-since-2013" title="Permalink to this headline">¶</a></h3>
 <p>4835 optodes with a serial number greater than 300, 4330 optodes with a serial number greater than 1000 and all 4831 optodes are using the Framework 3 command set.</p>
 <ol class="simple">
-<li><p>immerse the optode in the 100 % solution</p></li>
+<li><p>Immerse the optode in the 100 % solution</p></li>
 <li><p>connect to the optode and open a terminal session</p></li>
 <li><p>configure your terminal to log output to a file</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">get</span> <span class="pre">all</span></code> - to see the current optode configuration</p></li>
@@ -406,60 +406,60 @@ These cables can be purchased from Aanderaa and provide power to the optode via 
 <li><p><code class="docutils literal notranslate"><span class="pre">set</span> <span class="pre">enable</span> <span class="pre">polled</span> <span class="pre">mode(no)</span></code> - if the optode is set to polled mode for your glider</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">set</span> <span class="pre">interval(30)</span></code> - to set the optode to collect data every 30 seconds</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">start</span></code> - to start measuring data</p></li>
-<li><p>wait for the temperature and oxygen measurements to stabilise. Variance between samples should be less than ±0.05 °C and ±0.1 µmol L<sup>-1</sup>.</p></li>
-<li><p>record the local atmospheric air pressure in hPa</p></li>
+<li><p>wait for the temperature and oxygen measurements to stabilize. Variance between samples should be less than ±0.05 °C and ±0.1 µmol L<sup>-1</sup>.</p></li>
+<li><p>Record the local atmospheric air pressure in hPa</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">do</span> <span class="pre">collectcaldatasat</span></code> - to collect data for the 100 % data point and update the optode settings</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">set</span> <span class="pre">caldataapress(XXXX.X)</span></code> - to update the local air pressure where XXXX.X is the pressure in hPa</p></li>
 <li><p>immerse the optode in the 0 % solution</p></li>
-<li><p>wait for the temperature and oxygen measurements have stabilised (several minutes)</p></li>
+<li><p>wait for the temperature and oxygen measurements have stabilized (several minutes)</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">do</span> <span class="pre">collectcaldatazero</span></code> - to collect data for the 0 % data point and update the optode settings</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">do</span> <span class="pre">calibrate</span></code> - to finalise the calibration and update the optode settings</p></li>
-<li><p>rinse the optode very thoroughly and return it to the 100 % solution and confirm the optode is reading correctly after 10 minutes of stabilisation</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">do</span> <span class="pre">calibrate</span></code> - to finalize the calibration and update the optode settings</p></li>
+<li><p>rinse the optode very thoroughly and return it to the 100 % solution and confirm the optode is reading correctly after 10 minutes of stabilization</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">set</span> <span class="pre">interval(X)</span></code> and <code class="docutils literal notranslate"><span class="pre">set</span> <span class="pre">enable</span> <span class="pre">polled</span> <span class="pre">mode(X)</span></code> to return the optodes back the sampling interval and mode required by your glider.</p></li>
 </ol>
 </div>
 <div class="section" id="older-type-4835-and-4330-pre-2013">
-<h3><span class="section-number">12.1.3. </span>Older type 4835 and 4330 (pre 2013)<a class="headerlink" href="#older-type-4835-and-4330-pre-2013" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">12.1.3. </span>Older type 4835 and 4330 (pre-2013)<a class="headerlink" href="#older-type-4835-and-4330-pre-2013" title="Permalink to this headline">¶</a></h3>
 <p>4835 optodes with a serial number less than 300 and 4330 optodes with a serial number less than 1000 use the following command set.
-These optodes can use two different levels of passkey (1 and 1000) depending on which setting needs to be changed   .</p>
+These optodes can use two different levels of passkey (1 and 1000) depending on which setting needs to be changed.</p>
 <ol class="simple">
-<li><p>immerse the optode in the 100 % solution</p></li>
+<li><p>Immerse the optode in the 100 % solution</p></li>
 <li><p>connect to the optode and open a terminal session</p></li>
 <li><p>configure your terminal to log output to a file</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">get</span> <span class="pre">all</span></code> - to see the current optode configuration</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">set</span> <span class="pre">protect(1000)</span></code> - to allow protected settings to be modified</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">set</span> <span class="pre">interval(30)</span></code> - to set the optode to collect data every 30 seconds</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">set</span> <span class="pre">enable</span> <span class="pre">polled</span> <span class="pre">mode(no)</span></code> - if the optode is set to polled mode for your glider</p></li>
-<li><p>Wait for the temperature and oxygen measurements to stabilise. Variance between samples should be less than ±0.05 °C and ±0.1 µmol L<sup>-1</sup> (or ±0.5 for µmol L<sup>-1</sup> 4330F)</p></li>
+<li><p>Wait for the temperature and oxygen measurements to stabilize. Variance between samples should be less than ±0.05 °C and ±0.1 µmol L<sup>-1</sup> (or ±0.5 for µmol L<sup>-1</sup> 4330F)</p></li>
 <li><p>record the local atmospheric air pressure in hPa</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">do</span> <span class="pre">collectcaldatasat</span></code> - to collect data for the 100 % data point and update the optode settings</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">do</span> <span class="pre">caldataapress(XXXX.X)</span></code> - to update the local air pressure where XXXX.X is the pressure in hPa</p></li>
 <li><p>immerse the optode in the 0 % solution</p></li>
-<li><p>wait for the temperature and oxygen measurements have stabilised (several minutes)</p></li>
+<li><p>wait for the temperature and oxygen measurements have stabilized (several minutes)</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">set</span> <span class="pre">collectcaldatazero</span></code> - to collect data for the 0 % data point and update the optode settings</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">do</span> <span class="pre">calibrate</span></code> - to finalise the calibration and update the optode settings</p></li>
-<li><p>rinse the optode very thoroughly and return it to the 100 % solution and confirm the optode is reading correctly after 10 minutes of stabilisation</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">do</span> <span class="pre">calibrate</span></code> - to finalize the calibration and update the optode settings</p></li>
+<li><p>rinse the optode very thoroughly and return it to the 100 % solution and confirm the optode is reading correctly after 10 minutes of stabilization</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">set</span> <span class="pre">interval(X)</span></code> and <code class="docutils literal notranslate"><span class="pre">set</span> <span class="pre">enable</span> <span class="pre">polled</span> <span class="pre">mode(X)</span></code> to return the optodes back the sampling interval and mode required by your glider.</p></li>
 </ol>
 </div>
 <div class="section" id="type-3830-and-3835">
 <h3><span class="section-number">12.1.4. </span>Type 3830 and 3835<a class="headerlink" href="#type-3830-and-3835" title="Permalink to this headline">¶</a></h3>
 <ol class="simple">
-<li><p>immerse the optode in the 100 % solution</p></li>
+<li><p>Immerse the optode in the 100 % solution</p></li>
 <li><p>connect to the optode and open a terminal session</p></li>
 <li><p>configure your terminal to log output to a file</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">get_all</span></code> - to see the current optode configuration</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">set_protect(1)</span></code> - to allow protected settings to be modified</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">set_interval(30)</span></code> - to set the optode to collect data every 30 seconds</p></li>
-<li><p>wait for the temperature and oxygen measurements to stabilise. Variance between samples should be less than ±0.1 °C and ±0.5 µmol L<sup>-1</sup>.</p></li>
-<li><p>record the local atmospheric air pressure in hPa</p></li>
+<li><p>wait for the temperature and oxygen measurements to stabilize. Variance between samples should be less than ±0.1 °C and ±0.5 µmol L<sup>-1</sup>.</p></li>
+<li><p>Record the local atmospheric air pressure in hPa</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">do_calair</span></code> - to collect data for the 100 % data point and update the optode settings</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">set_calairpressure(XXXX.X)</span></code> - to update the local air pressure where XXXX.X is the pressure in hPa</p></li>
 <li><p>immerse the optode in the 0 % solution</p></li>
-<li><p>wait for the temperature and oxygen measurements have stabilised (several minutes)</p></li>
+<li><p>wait for the temperature and oxygen measurements have stabilized (several minutes)</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">do_calzero</span></code> - to collect data for the 0 % data point and update the optode settings</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">do_calibrate</span></code> - to finalise the calibration and update the optode settings</p></li>
-<li><p>rinse the optode very thoroughly and return it to the 100 % solution and confirm the optode is reading correctly after 10 minutes of stabilisation</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">do_calibrate</span></code> - to finalize the calibration and update the optode settings</p></li>
+<li><p>rinse the optode very thoroughly and return it to the 100 % solution and confirm the optode is reading correctly after 10 minutes of stabilization</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">set_protect(1)</span></code> - to allow protected settings to be modified</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">set_interval(X)</span></code> to return the optodes back the sampling interval required by your glider. With <code class="docutils literal notranslate"><span class="pre">X</span></code> set to 0 being polled mode.</p></li>
 </ol>
