@@ -39,7 +39,7 @@ When applying the tape, be sure that it is not in contact with any other metal p
 
 2) Paints / coatings - optical sensors, so these can only reduce growth nearby but not on the actual sensing foil.
 
-4) Ongoing trials: Aanderaa is focusing on non-toxic methods like fiber/haircloth and “shark skin” film.
+4) Ongoing trials: Aanderaa is focusing on non-toxic methods like fibre/haircloth and “shark skin” film.
 
 Mechanical wipers or UV radiation based approaches are generally unsuitable for gliders due to their increased power requirements and drag.
 Where optodes are mounted in such a way as to allow in-air sampling biofouling is likely reduced.
@@ -71,7 +71,7 @@ This procedure is suitable for the measurement of the full range of oceanic oxyg
 
 Some information to read before we proceed with the calibration:
 - For a 100 % bubbled bath, connect an aquarium pump to a tube which has been fitted with a porous stone (bubble dispenser) at the end. This will create small air bubbles that are sufficient to equilibrate the water rapidly. 
- To verify that optodes are in saturated water you can take them up from the water and hold them just above the surface for a few minutes. There should then be no change in the saturation readings (Aanderaa Best Practices). Avoid submerging the air-stones as this can supersaturate the solution. Use a magnetic stirrer to homogenise the water. It is important that the aquarium pump takes in air from an open atmosphere outside, not from inside the room/laboratory where O2 levels will be affected by the ongoing activities and/or the ventilation.
+ To verify that optodes are in saturated water you can take them up from the water and hold them just above the surface for a few minutes. There should then be no change in the saturation readings (Aanderaa Best Practices). Avoid submerging the air-stones as this can supersaturate the solution. Use a magnetic stirrer to homogenize the water. It is important that the aquarium pump takes in air from an open atmosphere outside, not from inside the room/laboratory where O2 levels will be affected by the ongoing activities and/or the ventilation.
 - For 0 % saturation solution, add 20 g sodium sulphite to approx. 1 L. A high level of precision is not required, and excess sodium sulphite is not an issue. Sodium sulphite rapidly removes the oxygen and, as long as crystals of the compound can be seen, the oxygen level in the water will stay at 0. Sodium sulphite also has the advantage of being inexpensive and the level of toxicity is low. This solution is considered irritating and wearing appropriate PPE (gloves, goggles and lab coat) is recommended.
 There is also an option of removing the oxygen from the water bubbling nitrogen all time. In this case you have to be sure all oxygen is removed from the solution, this will happen after 3-5 minutes bubbling (maximum volume of 100 mL approx., for bigger volume you will have to increase the time). You have to keep injecting N2 during all time of the zero calibration.
 - If any residue of the sodium sulphite solution remains on the sensing surface, the 100 % measurement will be inaccurate. Therefore, 100 % DO saturation calibration should be performed first. To avoid contamination, always rinse well with distilled water.
@@ -92,7 +92,6 @@ The preferred method is with a thermostatic bath.
 In situ intercomparison will be required to find the offset of the sensor in different seawater conditions.
 Therefore, samples should be taken in the tank during the ballasting (if this is 1-2 days before deployment, no more) and at the deployment/recovery site (ideally at different depths).
 
-
 :::{figure-md} 100-0-calibration
 <img src="/images/100-0-calibration.png" alt="100 0 % calibration" class="bg-primary mb-1" width="400px">
 
@@ -109,8 +108,8 @@ The commands and steps needed to calibrate an oxygen sensor vary, see {numref}`s
 4. Prepare the 0 % solution in another container. 
 5. Connect to and power on your sensor, it is good practice to log the output from the terminal session to a file for reference.
 6. Observe the local air-pressure and update the instrument if needed.
-7. Begin taking measurements with the sensor, once temperature and oxygen concentration readings have stabilised these values are used as the saturation concentration data point.
-8. Move the sensor to the 0 % solution and wait for the readings to stabilise, use these readings as the zero value.
+7. Begin taking measurements with the sensor, once temperature and oxygen concentration readings have stabilized these values are used as the saturation concentration data point.
+8. Move the sensor to the 0 % solution and wait for the readings to stabilize, use these readings as the zero value.
 9. Self calibrating sensors, such as optodes, can now be told to calibrate themselves, otherwise use these two data points to determine the slope and intercept needed for the sensor.
 10. Rinse the sensor thoroughly to remove any sodium sulphite solution, and return the sensor back to the 100 % saturated solution to verify the calibration.
 The optode should read close to 100 % saturation.
@@ -143,7 +142,7 @@ Taking samples for Winkler analysis during ballasting in the glider tank at PLOC
 ## Effects of atmospheric pressure during calibration
 
 During the above procedures it is important to note that the equilibrium saturation oxygen concentration (C<sub>sat</sub> i.e. {cite:t}`GarciaGordon1992`) is expressed relative to 1 atmosphere.
-This solubility parametrisation is described as having an RMS error of 0.3 \% (± 1.01 μmol kg<sup>-1</sup>).
+This solubility parametrization is described as having an RMS error of 0.3 \% (± 1.01 μmol kg<sup>-1</sup>).
 The pressure effects can be significant, at 10 <sup>o</sup>C a change in local air pressure between 990 and 1010 hPa changes the equilibrium concentration by 5.4 μmol kg<sup>-1</sup>.
 The quality of the local air pressure measurements during calibration is worth considering.
 {cite:t}`Ponte2003` estimated the overall uncertainty for ECMWF products to be typically less than 3 hPa over most of the ocean.
