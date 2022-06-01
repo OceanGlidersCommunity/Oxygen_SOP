@@ -61,12 +61,18 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_build/html
           enable_jekyll: false
+          
+      - name: Install Tex
+        run: | 
+          sudo apt-get install texlive-latex-recommended texlive-latex-extra \
+                     texlive-fonts-recommended texlive-fonts-extra \
+                     texlive-xetex latexmk
                
       - name: Build the book as pdf #This needs to happen after the site is zipped, since this builds different html that we dont want on the website
         run: |
-           jupyter-book build . --builder pdfhtml
+           jupyter-book build . --builder pdflatex
       
       - uses: actions/upload-artifact@v2
         with:
            name: book-pdf
-           path: _build/pdf/book.pdf
+           path: _build/latex/python.pdf
