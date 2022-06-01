@@ -64,7 +64,7 @@ jobs:
                
       - name: Build the book as pdf #This needs to happen after the site is zipped, since this builds different html that we dont want on the website
         run: |
-           jupyter-book build . --builder pdfhtml
+           jupyter-book build . --builder pdflatex
       
       - uses: actions/upload-artifact@v2
         with:
