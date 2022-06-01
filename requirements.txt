@@ -1,3 +1,4 @@
 jupyter-book
 pyppeteer
 pybtex-apa-style
+texlive-core
