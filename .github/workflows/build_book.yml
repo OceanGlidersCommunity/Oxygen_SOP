@@ -78,5 +78,5 @@ jobs:
       - uses: actions/upload-artifact@v2
         with:
            name: book-pdf
-           path: _build/latex/book.pdf
+           path: _build/latex/*.pdf
 #            path: _build/pdf/book.pdf
