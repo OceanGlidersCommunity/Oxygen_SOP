@@ -48,7 +48,7 @@ Additional authors joined: [Bastien Y. Queste](https://github.com/bastienqueste)
 
 8) April 29 2022: Official endorsement by the OceanGliders Steering Team
 
-9) June 1 2022: Submission of v1.0.0 to [OBPS](https://www.oceanbestpractices.org) supported [Patricia López-García](https://github.com/patricialg), [Tom Hull](https://github.com/tomhull), [Soeren Thomsen](https://github.com/soerenthomsen) and [Julius Busecke](https://github.com/jbusecke)
+9) June 1 2022: Release of [v1.0.0](https://github.com/OceanGlidersCommunity/Oxygen_SOP/releases/tag/v1.0.0) and submission to [OBPS](https://www.oceanbestpractices.org) supported [Patricia López-García](https://github.com/patricialg), [Tom Hull](https://github.com/tomhull), [Soeren Thomsen](https://github.com/soerenthomsen) and [Julius Busecke](https://github.com/jbusecke)
 
 10) Preparation of Frontiers article.
 
