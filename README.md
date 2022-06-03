@@ -1,3 +1,5 @@
+[![DOI]([https://zenodo.org/badge/215606850.svg](https://img.shields.io/badge/DOI-10.25607%2FOBP--1756-blue))]([https://zenodo.org/badge/latestdoi/215606850](http://dx.doi.org/10.25607/OBP-1756))
+
 ![oceangliders](images/logo-ocean-gliders.png)
 
 # OceanGliders Oxygen SOP
