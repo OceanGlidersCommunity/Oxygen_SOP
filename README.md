@@ -7,6 +7,12 @@ This [GitHub repository](https://github.com/OceanGlidersCommunity/Oxygen_SOP) is
 Read the SOP [here](https://oceangliderscommunity.github.io/Oxygen_SOP/sections/authors_SOP_development_process.html). 
 If you are reading a pdf or other offline version of this SOP, please click on this [link](https://oceangliderscommunity.github.io/Oxygen_SOP/sections/authors_SOP_development_process.html) to read the most recent online version.
 
+## How to cite the SOP
+López-García,, P., Hull, T., Thomsen, S., Hahn, J., Queste, B.Y, et al (2022) 
+OceanGliders Oxygen SOP, Version 1.0.0. OceanGliders, 55pp. DOI: http://dx.doi.org/10.25607/OBP-1756. 
+(GitHub Repository, OceanGliders Oxygen SOP. 
+Available: https://oceangliderscommunity.github.io/Oxygen_SOP/sections/authors_SOP_development_process.html.)
+
 ## Continous community review
 Feedback by the global glider community is possible at any time. 
 Everyone is welcome to join the SOP.
@@ -23,8 +29,7 @@ See contributer guideline [here](https://github.com/OceanGlidersCommunity/Oxygen
 
 ## Next steps
 1) Preparation of [GOOS](https://www.goosocean.org) endorsement as outline in [Hermes 2020](http://dx.doi.org/10.25607/OBP-926)
-2) Depositing of first major SOP release at the [Ocean Best Practice System (OBPS)](https://www.oceanbestpractices.org) + doi by OBPS.
-3) Submission of shorter version to [Frontiers: Research Topic Best Practices in Ocean Observing](https://www.frontiersin.org/research-topics/7173/best-practices-in-ocean-observing) for peer-review in spring 2022.
+2) Submission of shorter version to [Frontiers: Research Topic Best Practices in Ocean Observing](https://www.frontiersin.org/research-topics/7173/best-practices-in-ocean-observing) for peer-review in summer 2022.
 
 The main SOP document will always reside in this GitHub repository to allow updates within the OceanGliders community at any time. 
 After major revisions regular updates are planned.
