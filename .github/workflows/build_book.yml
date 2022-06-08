@@ -61,7 +61,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_build/html
           enable_jekyll: false
-    build_pdf:
+  build_pdf:
     runs-on: ubuntu-latest
     if: github.event_name == 'release'
     needs: build
