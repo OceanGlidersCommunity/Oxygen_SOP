@@ -69,7 +69,7 @@ jobs:
       run:
         shell: bash -l {0}
     steps:
-          # Install dependencies
+      - uses: actions/checkout@v3
       - name: Set up Python
         uses: actions/setup-python@v1
         with:
