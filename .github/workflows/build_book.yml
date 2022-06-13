@@ -61,7 +61,14 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_build/html
           enable_jekyll: false
-          
+  build_pdf:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'release'
+    needs: build
+    defaults:
+      run:
+        shell: bash -l {0}
+    steps:
       - name: Install Tex
         run: | 
           sudo apt-get install texlive-latex-recommended texlive-latex-extra \
