@@ -46,7 +46,7 @@ Additional authors joined: [Bastien Y. Queste](https://github.com/bastienqueste)
 
 7) Additional authors joined on GitHub during the community review: [Evi Bourma](https://github.com/evibourma), [Clark Richards](https://github.com/richardsc), [Stuart Pearce](https://github.com/s-pearce), [Filipa Carvalho](https://github.com/pipa85), [Isabelle Giddy](https://github.com/isgiddy) and Christian Begler.
 
-8) April 29 2022: Official endorsement by the OceanGliders Steering Team
+8) April 29 2022: Official endorsement by the OceanGliders Steering Team, [GOOS](https://www.goosocean.org) endorsement as outline in [Hermes 2020](http://dx.doi.org/10.25607/OBP-926)
 
 9) June 1 2022: Release of [v1.0.0](https://github.com/OceanGlidersCommunity/Oxygen_SOP/releases/tag/v1.0.0) and submission to [OBPS](https://www.oceanbestpractices.org) supported [Patricia López-García](https://github.com/patricialg), [Tom Hull](https://github.com/tomhull), [Soeren Thomsen](https://github.com/soerenthomsen) and [Julius Busecke](https://github.com/jbusecke)
 
