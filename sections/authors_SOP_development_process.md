@@ -28,6 +28,7 @@
   1. [Filipa Carvalho](https://github.com/pipa85), *National Oceanography Centre, Southampton, UK,* [0000-0001-9546-4614](https://orcid.org/0000-0001-9546-4614)
   1. [Isabelle Giddy](https://github.com/isgiddy), *Southern Ocean Carbon and Climate Observatory, CSIR | Department of Oceanography, University of Cape Town, South Africa | Department of Marine Science, University of Gothenburg, Sweden,* [0000-0002-8926-3311](https://orcid.org/0000-0002-8926-3311)
   1. Christian Begler, *GEOMAR Helmholtz Centre for Ocean Research Kiel, Germany,* [0000-0002-1674-0404](https://orcid.org/0000-0002-1674-0404)
+  1. [Callum Rollo](https://github.com/callumrollo), *Voice of the Ocean Foundation, Göteborg, Sweden,* [0000-0002-5134-7886](https://orcid.org/0000-0002-5134-7886)
 
 ## SOP development process
 
@@ -50,7 +51,7 @@ Additional authors joined: [Bastien Y. Queste](https://github.com/bastienqueste)
 
 9) June 1 2022: Release of [v1.0.0](https://github.com/OceanGlidersCommunity/Oxygen_SOP/releases/tag/v1.0.0) and submission to [OBPS](https://www.oceanbestpractices.org) supported [Patricia López-García](https://github.com/patricialg), [Tom Hull](https://github.com/tomhull), [Soeren Thomsen](https://github.com/soerenthomsen) and [Julius Busecke](https://github.com/jbusecke)
 
-10) Virtual meeting to collect Real Time QC Oxygen issues by users on June 23 2022 organized by Victor Turpin. Chaired by Soeren Thomsen. [Agenda](https://github.com/OceanGlidersCommunity/Oxygen_SOP/blob/main/meeting_notes/2022_06_23_RTQC_O2_session.md)
+10) Virtual meeting to collect Real Time QC Oxygen issues by users on June 23 2022 organized by Victor Turpin. Chaired by Soeren Thomsen. [Agenda](https://github.com/OceanGlidersCommunity/Oxygen_SOP/blob/main/meeting_notes/2022_06_23_RTQC_O2_session.md). Additional authors: [Callum Rollo](https://github.com/callumrollo).
 
 11) Preparation of Frontiers article.
 
@@ -136,3 +137,5 @@ He reviewed the overall document and provided feedback on the overall document.
 [Isabelle Giddy](https://github.com/isgiddy) provided feedback on the pre-deployment section towards improving the procedure at very low-temperatures. Supports the technical maintanence of the SOP on GitHub.
 
 Christian Begler provided images of an Aanderaa optode integrated on a Slocum glider.
+
+[Callum Rollo](https://github.com/callumrollo) provided technical support related to the jupyter book deployment and helps to maintain the repo. 
