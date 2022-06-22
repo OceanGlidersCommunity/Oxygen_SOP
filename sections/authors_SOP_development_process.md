@@ -50,7 +50,9 @@ Additional authors joined: [Bastien Y. Queste](https://github.com/bastienqueste)
 
 9) June 1 2022: Release of [v1.0.0](https://github.com/OceanGlidersCommunity/Oxygen_SOP/releases/tag/v1.0.0) and submission to [OBPS](https://www.oceanbestpractices.org) supported [Patricia López-García](https://github.com/patricialg), [Tom Hull](https://github.com/tomhull), [Soeren Thomsen](https://github.com/soerenthomsen) and [Julius Busecke](https://github.com/jbusecke)
 
-10) Preparation of Frontiers article.
+10) Virtual meeting to collect Real Time QC Oxygen issues by users on June 23 2022 organized by Victor Turpin. Chaired by Soeren Thomsen. [Agenda](https://github.com/OceanGlidersCommunity/Oxygen_SOP/blob/main/meeting_notes/2022_06_23_RTQC_O2_session.md)
+
+11) Preparation of Frontiers article.
 
 ## Contributions 
 [Patricia López-García](https://github.com/patricialg) drafted the initial document collating information from several SOPs, sensor manuals and articles. 
