@@ -19,7 +19,7 @@ Justin Buck (BODC, UK), Victor Turpin (OceanOPS, France), Soeren Thomsen (LOCEAN
     - Oxygen time respond correction in real time: the example of Argo
 4) Wrap up
 
-View presentation [here](https://github.com/OceanGlidersCommunity/meeting_notes/blob/main/WS6%20-%20Focus%20on%20Real%20Time%20data%20management%20of%20Oxygen%20Data%20V5.pdf)
+View presentation [here](https://github.com/OceanGlidersCommunity/Oxygen_SOP/blob/main/meeting_notes/WS6%20-%20Focus%20on%20Real%20Time%20data%20management%20of%20Oxygen%20Data%20V5.pdf)
 
 # Meeting notes
 Victor: Presents intro slides
