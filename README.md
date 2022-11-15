@@ -5,7 +5,8 @@
 This [GitHub repository](https://github.com/OceanGlidersCommunity/Oxygen_SOP) is for the [OceanGliders](https://www.oceangliders.org) Oxygen Standard Operating Procedure (SOP).
 
 Read the SOP [here](https://oceangliderscommunity.github.io/Oxygen_SOP/sections/authors_SOP_development_process.html). 
-If you are reading a pdf or other offline version of this SOP, please click on this [link](https://oceangliderscommunity.github.io/Oxygen_SOP/sections/authors_SOP_development_process.html) to read the most recent online version.
+If you are reading a pdf or other offline version of this SOP, 
+please click on this [link](https://oceangliderscommunity.github.io/Oxygen_SOP/sections/authors_SOP_development_process.html) to read the most recent online version.
 
 ## How to cite the SOP
 López-García,, P., Hull, T., Thomsen, S., Hahn, J., Queste, B.Y, et al (2022) 
