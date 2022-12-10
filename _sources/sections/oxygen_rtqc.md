@@ -3,7 +3,7 @@
 
 ## Required Metadata and Real Time Data Processing
 
-Configurations for the calculation of DOXY are function of the sensor model, sensor serial number, set of calibration coefficients and intermediate parameters. The recommended configurations (e.g. salinity compensation of MOLAR_DOXY, pressure correction for pressure effect on quenching, temperature compensation) and thus the required metadata are available in the Processing Argo oxygen data at the DAC level (<https://archimer.ifremer.fr/doc/00287/39795>).
+Corrections for the estimation of DOXY are function of the sensor model, sensor serial number, set of calibration coefficients and intermediate parameters. The recommended corrections (e.g. salinity compensation of MOLAR_DOXY, pressure correction for pressure effect on quenching, temperature compensation) and thus the required metadata are available in the Processing Argo oxygen data at the DAC level (<https://archimer.ifremer.fr/doc/00287/39795>).
 
 Prior to deployment, all the required metadata should be sent ahead of the mission to the Data Assembly Center. It is important that the glider is well configured, intermediate parameters (phase measurements) should be sent in real time (RT) as well. This will allow first to check if dissolved oxygen values computed inside the glider are appropriate {numref}`RTQC_check_Doxy` and then this adds the possibility to recompute the dissolved oxygen concentration using the up to date method associated with the sensor model, intermediate parameters and calibration coefficients. 
 
