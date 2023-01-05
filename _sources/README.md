@@ -43,5 +43,5 @@ Just raise a question [here](https://github.com/OceanGlidersCommunity/Oxygen_SOP
 This work is licensed under a [Creative Commons Attribution 4.0 Generic License](https://creativecommons.org/licenses/by/4.0/).
 
 ## Code of Conduct
-Please read and follow our [Code of Conduct](https://github.com/OceanGlidersCommunity/OceanGliders/blob/main/CODE_OF_CONDUCT.md).
+Please read and follow our [Code of Conduct](https://github.com/OceanGlidersCommunity/Oxygen_SOP/CODE_OF_CONDUCT.md).
 
