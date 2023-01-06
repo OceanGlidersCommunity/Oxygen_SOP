@@ -28,7 +28,7 @@ Please [let us know that you use the SOP](https://github.com/OceanGlidersCommuni
 See contributer guideline [here](https://github.com/OceanGlidersCommunity/Oxygen_SOP/blob/main/CONTRIBUTING.md)
 
 ## Next steps
-1) Submission of shorter version to [Frontiers: Research Topic Best Practices in Ocean Observing](https://www.frontiersin.org/research-topics/7173/best-practices-in-ocean-observing) for peer-review in summer/authum 2022.
+1) Submission of shorter version to [Frontiers: Research Topic Best Practices in Ocean Observing](https://www.frontiersin.org/research-topics/7173/best-practices-in-ocean-observing) for peer-review in summer/authum 2022. 
 2) Release of v2.0.0 after publication of Frontiers paper and update pdf at OBPS.
 
 The main SOP document will always reside in this GitHub repository to allow updates within the OceanGliders community at any time. 
